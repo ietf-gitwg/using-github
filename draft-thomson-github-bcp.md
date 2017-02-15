@@ -67,8 +67,8 @@ repository and share revisions between copies of repositories.
 
 ## What is Github?
 
-Github is a service operated at [https://github.com/](https://github.com/).  Github provides a
-centralized store for git repositories.
+Github is a service operated at [https://github.com/](https://github.com/).
+Github provides a centralized store for git repositories.
 
 The primary function of Github is to provide a simplified interface to the
 underlying revision control system.  In addition, Github provides basic user
@@ -413,4 +413,5 @@ This document has no IANA actions.
 
 # Acknowledgments
 
-Mark Nottingham has done a lot to pioneer the use of github at the IETF.
+This work wouldn't have been possible without the hard work of those people who
+have trialed use of Github at the IETF.
