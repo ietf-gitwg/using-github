@@ -1,6 +1,6 @@
 ---
 title: Using Github at the IETF
-abbrev: Github Usage
+abbrev: IETF Github Usage
 docname: draft-thomson-github-bcp-latest
 category: bcp
 area: General
@@ -114,21 +114,21 @@ what can be used.
 ## Communicating Policies
 
 Working group chairs that decide to use Github MUST inform their working groups
-of their decision using the working group mailing list .  An email outlining how
-the working group intends to use Github is sufficient, though it might be
-helpful to occasionally remind new contributors of these guidelines.
+of their decision on the working group mailing list.  An email detailing how the
+working group intends to use Github is sufficient, though it might be helpful to
+occasionally remind new contributors of these guidelines.
 
 Working group chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
 
-Updating the README file with details of the process ensures that the process is
-recorded in a stable location other than the mailing list archive.  This also
-makes any working group policies available to casual contributors who might only
-interact with the Github repository.
+Updating the README or CONTRIBUTING file in the repository with details of the
+process ensures that the process is recorded in a stable location other than the
+mailing list archive.  This also makes any working group policies available to
+casual contributors who might only interact with the Github repository.
 
-Github also provides a feature whereby a file named CONTRIBUTING is linked to
-prominently on certain pages.  This file can also be used to inform new
-contributors of any policies.
+Github prominently links to the CONTRIBUTING on certain pages.  This file SHOULD
+be used in preference to the README for information that new contributors need.
+A link to the CONTRIBUTING file from the README is advised.
 
 
 ## Note Well
@@ -137,7 +137,6 @@ One important policy is the IETF IPR policy (see {{!RFC5378}}, {{!RFC3979}}, and
 {{!RFC4879}}).  Part of this policy requires making contributors aware of the
 policy.  The following text MUST be included prominently in any document
 repository:
-{:br }
 
 > This repository relates to activities in the Internet Engineering Task
   Force(IETF). All material in this repository is considered Contributions to
@@ -156,25 +155,35 @@ repository:
   including, BCP 78, 79, the TLP, and the TLP rules regarding code components
   (e.g. being subject to a Simplified BSD License) in Contributions.
 
-This boilerplate text represents what is minimally included, but in many cases
-there is a benefit to including pointers to other working groups material, the
-datatracker, specific drafts, or websites.  Adding such text is at the
-discretion of the working group chairs.
+Including this information in the CONTRIBUTING file is sufficient.
 
-Including this information in the CONTRIBUTING file is sufficient.  A link to
-this text from the README file ensures that new contributors are most likely to
-see the message.
+In addition to the above boilerplate text there is a benefit to including
+pointers to other working group materials, the IETF datatracker, specific
+drafts, or websites.  Adding such text is at the discretion of the working group
+chairs.
 
 
 # Management and Structure
 
 Working groups that choose to use Github SHOULD create a new organization for
-the working group.  Managing a single IETF- or Area-wide organization creates
-too much overhead for general management tasks.
+the working group.  A single organization SHOULD NOT be used for all IETF
+activity, or all activity within an area. Large organizations create too much
+overhead for general management tasks, particularly when there is a need to
+maintain and is discouraged.
 
-Working group chairs and area directors MUST be assigned administrator or owner
-privileges for the organization.  Administrator privileges are preferred, since
-this does not also include the ability to push to all repositories.
+
+## Organization Administration
+
+Working group chairs and responsible area directors MUST be assigned
+administrator or owner privileges for the organization.  The other area director
+for an area SHOULD be made an administrator.  Administrator access is
+preferable, since this does not also include the ability to push to all
+repositories and ownership does not grant any other significant privileges.
+
+When area directors or chairs change, the incoming individual should first be
+added to the organization and granted privileges.  The outgoing party can then
+leave, or reduce their own privilege, as appropriate.
+
 
 ## Repositories
 
@@ -209,7 +218,7 @@ editors all have write access to the repository, managing the set of people with
 write access to a larger repository is more difficult.
 
 
-## Access Controls
+## Editors and Contributors
 
 Working group chairs MUST give document editors write access to document
 repositories.  This can be done by creating teams with write access and
@@ -222,6 +231,12 @@ group chairs, as administrators or owners of the organization might also have
 write access to repositories.  Users other than document editors, including
 chairs, SHOULD NOT write to working group documents unless with prior
 coordination with document editors.
+
+Working groups MAY create a team for regular contributors that is only given
+read access to a repository. This does not confer additional privileges on these
+contributors, it instead allows for issues and pull requests to be assigned to
+those people.  This can be used to manage the assignment of editorial or review
+tasks to individuals outside of the editor team.
 
 
 ## Document Formats
@@ -254,16 +269,24 @@ the issue tracker could be limited to recording the existence of issues, or it
 might be used as the venue for substantial technical discussion between
 contributors.
 
-Working groups have found that a system of labelling issues can be effective in
-managing issues.  For instance, marking substantive issues separately from
-editorial can be helpful.  Using labels can also be helpful in identifying
-issues for which consensus has been achieved, but that require editors to
-integrate the changes into a document.  Labels might also be used to identify
-particular categories of issues.
+
+### Issue Labelling
+
+A system of labelling issues can be effective in managing issues.  For instance,
+marking substantive issues separately from editorial can be helpful at guiding
+discussion.  Using labels can also be helpful in identifying issues for which
+consensus has been achieved, but that require editors to integrate the changes
+into a document.
+
+Labels can be used to identify particular categories of issues or to mark
+specific issues for discussion at an upcoming session.
 
 If labels are a core part of working group process, chairs MUST communicate any
 process to the working group.  This includes the semantics of labels, and who
 can apply and remove these labels.
+
+
+### Closing Issues
 
 Editors have write access to repositories, which also allows them to close
 issues.  The user that opens an issue is also able to close the issue.  Chairs
@@ -282,13 +305,35 @@ of changes from a fork (or any branch) into their copy.
 Editors SHOULD make pull requests for all substantial changes rather than
 commiting directly to the "master" branch of the repository.
 
-As with issues, using pull requests creates a record of actions taken.  For
-significant changes, leaving the pull request open allows for a period of
-discussion within the working group.
+Pull requests have many of the same properties as issues, including the ability
+to host discussion and bear labels.  Critically, using pull requests creates a
+record of actions taken.
+
+For significant changes, leaving a pull request open until discussion of the
+issue within the working group concludes allows the pull request to track the
+discussion and properly capture the outcome of discussions.
 
 Groups of editors could adopt a practice of having one editor create a pull
 request and another merge it.  This ensures that changes are reviewed by
 editors.  Editors are given discretion in how they manage changes.
+
+
+### Discussion on Pull Requests
+
+In addition to the features that pull requests share with issues, users can also
+review the changes in a pull request.  This is a valuable feature, but it has
+some issues.
+
+Comments in a review other than a summary are attached to specific lines of the
+proposed change.  Such comments can be hard or impossible to find if changes are
+subsequently made to the pull request.  This is problematic for contributors who
+don't track discussion closely.
+
+For this reason, working group chairs SHOULD discourage the use of inline
+comments for substantial technical discussion of issues.
+
+
+### Merging Pull Requests
 
 Working groups MUST determine who is permitted to merge pull requests.  Document
 editors SHOULD be permitted to merge pull requests at their discretion.  This
@@ -310,6 +355,36 @@ can be useful.
 
 A working group that uses Github SHOULD provide this facility.  However, setting
 up this mailing list can be onerous and better solutions are still being sought.
+
+
+# Advice to Editors
+
+Document editors are primarily responsible for maintaining documents.  Taking on
+a few additional tasks can greatly improve the process for the working group.
+
+Using Github means that it is more likely that a contribution is made by users
+who aren't very familiar with the work.  If a duplicate issue is raised, point
+the user to the existing issue before closing the issue.  If a contributor seems
+rude in a comment, be courteous in response.
+
+Pull requests from new contributors can contain errors or omissions.  Some
+contributors won't natively speak English, so changes might have grammatical
+errors.  If a change is generally sound, rather than rejecting the pull request
+or requesting changes, accept the change and then make any minor corrections
+yourself.
+
+Never close a pull request or issue without first understanding why it was made
+and then explaining why you aren't accepting it.  If you are uncertain, ask a
+chair for guidance.
+
+If a contributor makes a comment that raises what you believe to be a new issue,
+create an issue for them.  If the issue has an obvious solution, consider
+creating a pull request.  It doesn't matter what venue the issue was raised in,
+email, issue discussion, a pull request review, capturing issues quickly ensures
+that problems become visible and can be tracked.
+
+This takes a little more effort, but these simple steps can help encourage
+contributions, which will ultimately improve the quality of your document.
 
 
 # Internet-Drafts
