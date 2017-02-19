@@ -34,7 +34,7 @@ their work.
 
 Discussion of this document takes place on the GitHub@ietf mailing list
 (ietf-and-github@ietf.org), which is archived at
-<https://mailarchive.ietf.org/arch/search/?email_list=ietf-and-GitHub>.
+<https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github>.
 
 
 --- middle
