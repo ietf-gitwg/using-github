@@ -90,7 +90,7 @@ available.
 
 ## GitHub: Community Outreach
 
-GitHub is a service operated at [https://GitHub.com/](https://GitHub.com/).
+GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides a centralized store for git repositories.  GitHub is freely
 accessible on the open Internet, albeit currently only via IPv4.
 
@@ -142,7 +142,7 @@ the organization's ownership team.  This can be done by the continuing AD, the
 outgoing AD or the WG Chairs.  The incoming Area Director and/or delegate MUST
 be added to the organization's ownership team.  When a WG Chair changes, the
 responsible Area Director or a delegate MUST remove the previous WG Chair from
-the organization's ownersip or administrative team and SHOULD add the new WG
+the organization's ownership or administrative team and SHOULD add the new WG
 Chair to that team.
 
 When a Working Group is closed, the responsible Area Director is responsible for
@@ -173,7 +173,7 @@ policy.
 
 The wording and details of how to do so are specified at
 https://trustee.ietf.org/license-for-open-source-repositories.html.  The details
-are copied below, but the IETF web-site is authorative.
+are copied below, but the IETF web-site is authoritative.
 
 The [IETF Trust license file for open source
 repositories](https://trustee.ietf.org/license-for-open-source-repositories.html)
@@ -195,7 +195,7 @@ accustomed to IETF tools be able to determine this and easily find the policy
 and GitHub or GitLab organization.
 
 A simple example of how to do this is to include a link to the GitHub organization
-on the WG Charter page in the Datatracker under More Info.  Similarly, if there are
+on the WG Charter page in the datatracker under More Info.  Similarly, if there are
 multiple mailing list options, links to those mailing lists should be given.  An
 example of this is at https://datatracker.ietf.org/wg/quic/charter/.
 
@@ -211,7 +211,7 @@ more than managing of edits.
 
 While a document editor can still use GitHub independently for documents that
 they edit, even if the working group does not expressly choose to use GitHub,
-any such public respository MUST follow the guidelines in {{note-well}}.  This
+any such public repository MUST follow the guidelines in {{note-well}}.  This
 recognizes that editors have traditionally chosen their own methods for managing
 the documents they edit but preserves the need for transparent contributions
 with awareness of IPR considerations.
@@ -337,7 +337,7 @@ contributors.
 
 ### Issue Labelling
 
-A system of labelling issues can be effective in managing issues.  For instance,
+A system of labeling issues can be effective in managing issues.  For instance,
 marking substantive issues separately from editorial can be helpful at guiding
 discussion.  Using labels can also be helpful in identifying issues for which
 consensus has been achieved, but that require editors to integrate the changes
@@ -368,7 +368,7 @@ changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
 Editors SHOULD make pull requests for all substantial changes rather than
-commiting directly to the "master" branch of the repository.
+committing directly to the "master" branch of the repository.
 
 Pull requests have many of the same properties as issues, including the ability
 to host discussion and bear labels.  Critically, using pull requests creates a
@@ -459,7 +459,7 @@ built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
 audience.
 
-Editors SHOULD endeavour to create a new Internet-Draft submission two weeks
+Editors SHOULD endeavor to create a new Internet-Draft submission two weeks
 prior to every session (see Section 7.1 of {{?RFC2418}}).  Participants in a
 session can't be expected to monitor changes to documents in real-time; an
 Internet-Draft ensures that there is a common, stable state that is known to all
@@ -515,7 +515,7 @@ correctness.
 
 # GitHub Limitations
 
-At the time of writing, GitHub.com is not reachable using IPv6.  This is an
+At the time of writing, github.com is not reachable using IPv6.  This is an
 affront to all that the IETF stands for and a slap in the face to all the people
 who worked so hard to design and deploy the latest version of the Internet
 Protocol.  While we can collectively be ashamed and disappointed that this is
@@ -562,20 +562,20 @@ the Trac/SVN combination offered by the Tools Team for its older
 drafts.
 Some newer drafts (including some drafts that are not yet WG drafts
 but could be considered candidates for that) are now being worked on
-in the `core-wg` github organization.
+in the `core-wg` GitHub organization.
 These drafts generally use Martin Thomson's template, except where the
 build process (examples, grammars) is much more complicated than can
 easily be supported by this template.
 
 We try to keep discussion on the mailing list (as opposed to getting
-them entirely in the github issues), but may not have been very
+them entirely in the GitHub issues), but may not have been very
 successful in that; it definitely requires constant vigilance.
 
 The [WG Wiki](https://trac.ietf.org/trac/core/wiki) says:
 
 > With respect to the mode of operation of the repository, the CoRE WG
 > follows the lead of the [HTTPBIS WG](http://httpwg.org/). Specifically
-> that means that github issues are welcome to record editorial issues
+> that means that GitHub issues are welcome to record editorial issues
 > as well as technical ones; as are "pull requests" (forks of the
 > repository with fixes for an issue). However, technical discussion
 > should not happen in the forums implicitly created by the issues,
@@ -673,7 +673,7 @@ we'd be interested to learn of a better way.
 # Acknowledgments
 
 This work wouldn't have been possible without the hard work of those people who
-have trialed use of GitHub at the IETF.
+have trialled use of GitHub at the IETF.
 
 The experiences of the CORE WG in {{core}} were contributed by Carsten Bormann.
 The experiences of the QUIC WG in {{quic}} were contributed by Lars Eggert.
