@@ -3,8 +3,8 @@
 This is the working area for the individual internet-draft, "Using Github at the IETF".
 
 * [Editor's copy](https://unicorn-wg.github.io/github-bcp/)
-* [Individual Draft] (https://tools.ietf.org/html/draft-thomson-github-bcp)
-* [Compare Individual Draft and Editor's copy] (https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/draft-thomson-github-bcp.txt&url2=https://unicorn-wg.github.io/github-bcp/draft-thomson-github-bcp.txt)
+* [Individual Draft](https://tools.ietf.org/html/draft-thomson-github-bcp)
+* [Compare Individual Draft and Editor's copy](https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/draft-thomson-github-bcp.txt&url2=https://unicorn-wg.github.io/github-bcp/draft-thomson-github-bcp.txt)
 
 
 ## Building the Draft
