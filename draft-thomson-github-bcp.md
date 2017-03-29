@@ -540,10 +540,10 @@ This includes issues and discussion on those issues, discussion and reviews of
 commits and pull requests, and any content hosted on the wiki.  Tools exist for
 extracting this information for backup.
 
-Malicious actions by compromised or malcontent editors, chairs and area
-directors are relevant in maintaining the integrity of the content that GitHub
-hosts.  Backups allow for recovery of content, and regular submissions as
-Internet-Drafts ensure that work is not lost completely.
+The potential for malicious actions by compromised or malcontent editors,
+chairs and area directors is relevant in maintaining the integrity of the
+content that GitHub hosts.  Backups allow for recovery of content, and regular
+submissions as Internet-Drafts ensure that work is not lost completely.
 
 
 # IANA Considerations
