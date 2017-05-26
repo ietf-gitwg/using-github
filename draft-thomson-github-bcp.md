@@ -595,9 +595,15 @@ These drafts generally use Martin Thomson's
 build process (examples, grammars) is much more complicated than can easily be
 supported by this template.
 
-We try to keep discussion on the mailing list (as opposed to getting
-them entirely in the GitHub issues), but may not have been very
-successful in that; it definitely requires constant vigilance.
+For most repos, a CI (continuous integration) process is set up that generates a
+readable editor's copy (in HTML form) as well as a diff from the most recent
+submitted version (tools TXT diff), linked from the README; both have turned out
+to be very valuable.  (Unfortunately, the travis-based CI process is somewhat
+brittle, so there is an appreciable failure rate.)
+
+We try to keep discussion on the mailing list (as opposed to getting them
+entirely in the GitHub issues), but may not have been very successful in that;
+it definitely requires constant vigilance.
 
 The [WG Wiki](https://trac.ietf.org/trac/core/wiki) says:
 
