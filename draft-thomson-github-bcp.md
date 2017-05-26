@@ -68,31 +68,26 @@ usage patterns between working groups and to avoid issues that have been
 encountered in the past.
 
 
-## Integrated Tools: GitLab and Git
+## Distributed Version Control Systems
 
 Different version control systems are a critical component of software
-engineering and are quite useful also for document editing.  The IETF
-datatracker can currently provide an subversion repository for each Working
-Group for its version control system, but git is also possible.
+engineering and are quite useful also for document editing.
 
-Git is a distributed version control system and both GitLab and GitHub are based
-around git.  Each instance of a repository contains a number of revisions.  Each
-revision stores the complete state of a set of files.  Users are able to create
-new revisions in their copy of a repository and share revisions between copies
-of repositories.
-
-GitLab provides a simplified and integrated interface to not only git, but also
-provides basic user management, an issue tracker, associated wiki, project
-hosting, and more.  GitLab is a commercial integrated software product that can
-be hosted and run by different organizations; a community version is also
-available.
+Git is a distributed version control system .  Each instance of a repository
+contains a number of revisions.  Each revision stores the complete state of a
+set of files.  Users are able to create new revisions in their copy of a
+repository and share revisions between copies of repositories.
 
 
 ## GitHub: Community Outreach
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides a centralized store for git repositories.  GitHub is freely
-accessible on the open Internet, albeit currently only via IPv4.
+accessible on the open Internet (see {{shame}}), albeit currently only via IPv4.
+
+GitHub provides a simplified and integrated interface to not only git, but also
+provides basic user management, an issue tracker, associated wiki, project
+hosting, and other features.
 
 There are a large number of projects at GitHub and associated a very large
 community of contributors.  One way in which some IETF Working Groups have seen
@@ -100,9 +95,42 @@ benefit is in the increased reviews and associated issues and improvements that
 come from broader participation by facilitating those in this community to
 participate.
 
-This document contains some content that is quite specific to GitHub.  A working
-group that decides to adopt one of the several different alternative services
-can still benefit from the general guidance in this document.
+
+## Other Services
+
+Git is not the only version control system available, nor is GitHub the only
+possible choice for hosting.  There are other services that host revision
+control repositories and provide similar additional features to GitHub.  For
+instance, [BitBucket](https://bitbucket.org/), or
+[GitLab](https://about.gitlab.com/) provide a similar feature set.  In
+additional to a hosted service, software for custom installations exists.
+
+This document concentrates primarily on GitHub.  As a result, some content might
+not be applicable to other similar services.  A working group that decides to
+adopt an alternative tool or service can still benefit from the general guidance
+in this document.
+
+
+## Document Goals
+
+This document aims to describe how a working group might best apply GitHub to
+their work.  The intent is to allow each working group considerable flexibility
+in how they use GitHub.
+
+This document does require that policies for use of GitHub are agreed and
+clearly communicated within the working group (see {{policy}}).  The remainder
+of the document contains guidelines and advice on how to construct a workable
+policy.
+
+The requirements here apply to the case where working groups decide to use
+GitHub as a primary means of interaction.  Individuals can set their own
+policies when using GitHub for managing their own drafts, or for managing drafts
+that they edit on behalf of a working group that has not explicitly adopted
+GitHub.
+
+For both sets of users, this document aims to provide some amount of advice on
+practices that have proven to be effective.
+
 
 
 ## Notational Conventions
@@ -112,82 +140,58 @@ It's not shouting; when they are capitalized, they have the special meaning
 defined in {{!RFC2119}}.
 
 
-# IETF Administrative Policies
+# Administrative Policies {#policy}
 
 The following administrative rules provide the necessary oversight and
-transparency.  They apply whether GitHub or a publicly-available GitLab instance
-is used by the Working Group.  Working Groups that do not decide to use GitHub
-or a publicly-available GitLab instance are not impacted.
+transparency.
 
 
-## Naming and Ownership of Organizations
+## Organizations
 
-Each Working Group SHOULD create a new organization for the working group.  It
-SHOULD be named consistently so that it can be found.  For instance, the name
-could be ietf-\<wgname> or ietf-\<wgname>-wg.  A single organization SHOULD NOT
-be used for all IETF activity, or all activity within an area. Large
-organizations create too much overhead for general management tasks,
-particularly when there is a need to maintain membership.
+Organizations are a way of forming groups of contributors on GitHub.  Each
+Working Group SHOULD create a new organization for the working group.
 
-Since an organization must have some owners, that should be done via a team that
-is given owner privileges.  This team MUST include the Area Directors and/or
-delegates of the Area Directors.  This team SHOULD include the Working Group
-Chairs.  A team with administrator access SHOULD be created and MAY include the
-Working Group Chairs and WG Secretary. Administrator access is preferable, since
-this does not also include the ability to push to all repositories and ownership
-does not grant any other significant privileges.
+A working group organization SHOULD be named consistently so that it can be
+found.  For instance, the name could be ietf-\<wgname> or ietf-\<wgname>-wg.
 
-When an Area Director changes, the outgoing Area Director MUST be removed from
-the organization's ownership team.  This can be done by the continuing AD, the
-outgoing AD or the WG Chairs.  The incoming Area Director and/or delegate MUST
-be added to the organization's ownership team.  When a WG Chair changes, the
-responsible Area Director or a delegate MUST remove the previous WG Chair from
-the organization's ownership or administrative team and SHOULD add the new WG
-Chair to that team.
+A single organization SHOULD NOT be used for all IETF activity, or all activity
+within an area. Large organizations create too much overhead for general
+management tasks, particularly when there is a need to maintain membership.
+
+Each organization requires owners.  The owner team for a working group
+repository MUST include the Area Directors.  Area Directors MAY also designate a
+delegate that becomes an owner and working group chairs MAY also be owners.
+
+A team with administrator access SHOULD be created for the Working Group Chairs
+and any Working Group Secretary.  Administrator access is preferable, since this
+does not also include the ability to push to all repositories and ownership does
+not grant any other significant privileges.
+
+When Area Directors or Working Group Chairs change, teams MUST be updated to
+reflect the new membership status.
 
 When a Working Group is closed, the responsible Area Director is responsible for
 removing existing members from teams in the organization.  Repositories MUST be
 updated along to indicate that they are no longer under development.
 
 
-## Backup and Archiving of Working Group's Organization and Repositories
+## Backup and Archive Requirements
 
-When an IETF Working Group is closed and even when the associated mailing lists
-are closed, the associated mail archives and datatracker information are backed
-up and accessible.  If a working group has used GitHub or GitLab, any
-repositories including issues and discussion SHOULD be backed up on IETF
+When an IETF Working Group is closed or when associated mailing lists
+are closed, mail archives and datatracker information from that work is backed
+up and accessible.  The same applies to GitHub repositories.
+
+Any repositories including issues and discussion SHOULD be backed up on IETF
 resources.  It is desirable for those to be accessible via the Working Group's
-data-tracker page.  For example, this might be via URLs listed in the More Info
-section on the WG Charter page.
+datatracker page.  For example, this might be via URLs listed in the More Info
+section on the Working Group Charter page.
 
 The IETF MAY decide to backup information associated with a Working Group's
 organization periodically.  This decision can be made differently per Working
 Group in consultation with the responsible Area Director.
 
 
-## Communicating IETF Policies in GitHub or GitLab {#note-well}
-
-One important policy is the IETF IPR policy (see {{!RFC5378}}, {{!RFC3979}}, and
-{{!RFC4879}}).  Part of this policy requires making contributors aware of the
-policy.
-
-The wording and details of how to do so are specified at
-https://trustee.ietf.org/license-for-open-source-repositories.html.  The details
-are copied below, but the IETF web-site is authoritative.
-
-The [IETF Trust license file for open source
-repositories](https://trustee.ietf.org/license-for-open-source-repositories.html)
-MUST be included prominently in any document repository.
-
-Including this information in the CONTRIBUTING file is sufficient.
-
-In addition to the above boilerplate text there is a benefit to including
-pointers to other working group materials, the IETF datatracker, specific
-drafts, or websites.  Adding such text is at the discretion of the working group
-chairs.
-
-
-## Communicating GitHub or GitLab Use inside IETF
+## Communicating Policies
 
 Each Working Group MAY set its own policy as to whether and how it uses GitHub
 or GitLab.  It is important that occasional participants in the WG and others
@@ -200,14 +204,32 @@ multiple mailing list options, links to those mailing lists should be given.  An
 example of this is at https://datatracker.ietf.org/wg/quic/charter/.
 
 
+### Contribution Policies on Repositories {#note-well}
+
+One important policy is the IETF IPR policy (see {{!RFC5378}}, {{!RFC3979}}, and
+{{!RFC4879}}).  Part of this policy requires making contributors aware of the
+policy.
+
+The [IETF Trust license file for open source
+repositories](https://trustee.ietf.org/license-for-open-source-repositories.html)
+MUST be included prominently in any document repository.
+
+Including this information in the CONTRIBUTING file is sufficient.
+
+In addition to the boilerplate text there can be a benefit to including pointers
+to other working group materials, the IETF datatracker, specific drafts, or
+websites.  Adding such text is at the discretion of the Working Group Chairs.
+
+
 # Deciding to Use GitHub
 
-A Working Group Chairs are responsible for determining how to best accomplish the
-Charter in an open and transparent fashion.  The WG Chairs are responsible for
-determining if there is interest in using GitHub or GitLab and making a consensus
-call to determine if a the proposed policy and use is acceptable.  Chairs SHOULD
-involve area directors in this decision if they intend to use GitHub for anything
-more than managing of edits.
+A Working Group Chairs are responsible for determining how to best accomplish
+the Charter in an open and transparent fashion.  The Working Group Chairs are
+responsible for determining if there is interest in using GitHub and making a
+consensus call to determine if a the proposed policy and use is acceptable.
+
+Chairs SHOULD involve Area Directors in this decision if they intend to use
+GitHub for anything more than managing of drafts.
 
 While a document editor can still use GitHub independently for documents that
 they edit, even if the working group does not expressly choose to use GitHub,
@@ -219,7 +241,7 @@ with awareness of IPR considerations.
 
 ## What to Use GitHub For {#usage}
 
-Working group chairs have to decide what GitHub features the working group will
+Working Group Chairs have to decide what GitHub features the working group will
 rely upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
 
@@ -232,12 +254,12 @@ what can be used.
 
 ## Working Group Policies
 
-Working group chairs that decide to use GitHub MUST inform their working groups
+Working Group Chairs that decide to use GitHub MUST inform their working groups
 of their decision on the working group mailing list.  An email detailing how the
 working group intends to use GitHub is sufficient, though it might be helpful to
 occasionally remind new contributors of these guidelines.
 
-Working group chairs are responsible for ensuring that any policy they adopt is
+Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
 
 Updating the README or CONTRIBUTING file in the repository with details of the
@@ -329,10 +351,10 @@ Issues can be given arbitrary labels, assigned to contributors, and assembled
 into milestones.  The issue tracker is integrated into the repository; an issue
 can be closed using a special marker in a commit message.
 
-Working group chairs MUST decide how the GitHub issue tracker are used.  Use of
-the issue tracker could be limited to recording the existence of issues, or it
-might be used as the venue for substantial technical discussion between
-contributors.
+When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
+issue tracker are used.  Use of the issue tracker could be limited to recording
+the existence of issues, or it might be used as the venue for substantial
+technical discussion between contributors.
 
 
 ### Issue Labelling
@@ -355,7 +377,8 @@ can apply and remove these labels.
 
 Editors have write access to repositories, which also allows them to close
 issues.  The user that opens an issue is also able to close the issue.  Chairs
-MUST determine who is permitted to close an issue and under what conditions.
+MUST provide guidance on who is permitted to close an issue and under what
+conditions.
 
 
 ## Pull Requests
@@ -422,6 +445,70 @@ A working group that uses GitHub SHOULD provide this facility.  However, setting
 up this mailing list can be onerous and better solutions are still being sought.
 
 
+# Internet-Draft Publication
+
+During the development of a document, individual revisions of a document can be
+built and formally submitted as an Internet-Draft.  This creates a stable
+snapshot and makes the content of the in-progress document available to a wider
+audience.
+
+Editors SHOULD endeavor to create a new Internet-Draft submission two weeks
+prior to every session (see Section 7.1 of {{?RFC2418}}).  Participants in a
+session can't be expected to monitor changes to documents in real-time; an
+Internet-Draft ensures that there is a common, stable state that is known to all
+participants.
+
+Working group chairs MAY request the creation of an Internet-Draft at any time,
+in consultation with document editors.
+
+
+# Assessing Consensus
+
+The work that occurs on GitHub could be part of the consensus process, but the
+ultimate decision on consensus regarding a document is made by the chairs
+{{!RFC2026}}.
+
+Monitoring activity on GitHub can require a greater time commitment than
+following a mailing list.  This is because there is an increased volume of
+activity to follow.  Participants who wish to limit this time commitment might
+follow GitHub activity selectively, either by following only specific issues or
+by occasionally reviewing the state of the document.  Chairs are reminded that
+assessing consensus based on GitHub content alone cannot be assumed to reach all
+interested participants.
+
+A working group chair SHOULD consult the working group mailing list for any
+issue that is potentially contentious.  Relying on input provided through GitHub
+alone might result in gaining input from a narrower set of participants.  This
+includes important milestones like Working Group Last-Call, where review from
+the widest possible audience ensures a higher quality document.  Managing input
+from multiple sources in assessing consensus is similar to what is needed when
+balancing mailing list discussion versus in-person meeting discussion.
+
+
+# Continuous Integration
+
+Various third-party services offer the ability to run tests and other work when
+changes are made to a document.
+
+One common practice is to use these continuous integration services to build a
+text or HTML version of a document.  This is then published to GitHub Pages,
+which allows users to view a version of the most recent revision of a document.
+Including prominent link to this version of the document (such as in the README)
+makes it easier for new contributors to find a readable copy of the most recent
+version of a draft.
+
+Continuous integration can also validate pull requests and other changes for
+errors.  The most basic check is whether the source file can be transformed
+successful into a valid Internet-Draft.  For example, this might include
+checking that XML source is syntactically correct.
+
+For documents that use formal languages a part of specifications, such as schema
+or source code, a continuous integration system might also be used to validate
+any formal language that the document contains.  Tests for any source code that
+the document contains might be run, or examples might be checked for
+correctness.
+
+
 # Advice to Editors
 
 Document editors are primarily responsible for maintaining documents.  Taking on
@@ -452,68 +539,7 @@ This takes a little more effort, but these simple steps can help encourage
 contributions, which will ultimately improve the quality of your document.
 
 
-# Internet-Drafts
-
-During the development of a document, individual revisions of a document can be
-built and formally submitted as an Internet-Draft.  This creates a stable
-snapshot and makes the content of the in-progress document available to a wider
-audience.
-
-Editors SHOULD endeavor to create a new Internet-Draft submission two weeks
-prior to every session (see Section 7.1 of {{?RFC2418}}).  Participants in a
-session can't be expected to monitor changes to documents in real-time; an
-Internet-Draft ensures that there is a common, stable state that is known to all
-participants.
-
-Working group chairs MAY request the creation of an Internet-Draft at any time,
-in consultation with document editors.
-
-
-# Assessing Consensus
-
-The work that occurs on GitHub could be part of the consensus process, but the
-ultimate decision on consensus regarding a document is made by the chairs
-{{!RFC2026}}.
-
-Monitoring activity on GitHub could require a greater time commitment than
-following a mailing list.  This is because there is an increased volume of
-activity to follow.  Participants who wish to limit this time commitment might
-follow GitHub activity selectively, either by following only specific issues or
-by occasionally reviewing the state of the document.  Chairs are reminded that
-assessing consensus based on GitHub content alone MUST NOT be assumed to reach all
-interested participants.
-
-A working group chair SHOULD consult the working group mailing list for any
-issue that is potentially contentious.  Relying on input provided through GitHub
-alone might result in gaining input from a narrower set of participants.  This
-includes important milestones like working group last-call, where review from
-the widest possible audience ensures a higher quality document.  Managing input
-from multiple sources in assessing consensus is similar to what is needed when
-balancing mailing list discussion versus in-person meeting discussion.
-
-
-# Continuous Integration
-
-Various third-party services offer the ability to run tests and other
-computation when changes are made to a document.
-
-One common practice is to use these continuous integration services to build a
-text or HTML version of a document.  This is then published to GitHub Pages,
-which allows users to view a version of the most recent revision of a document.
-
-Continuous integration can also validate pull requests and other changes for
-errors.  The most basic check is whether the source file can be transformed
-successful into a valid Internet-Draft.  For example, this might include
-checking that XML source is syntactically correct.
-
-For documents that use formal languages a part of specifications, such as schema
-or source code, a continuous integration system might also be used to validate
-any formal language that the document contains.  Tests for any source code that
-the document contains might be run, or examples might be checked for
-correctness.
-
-
-# GitHub Limitations
+# GitHub Limitations {#shame}
 
 At the time of writing, github.com is not reachable using IPv6.  This is an
 affront to all that the IETF stands for and a slap in the face to all the people
@@ -528,9 +554,9 @@ Continuity of operations is always a consideration when taking a dependency on
 an external service.  If GitHub were to fail in some way, anyone relying upon
 its services would be seriously affected.
 
-Consistent use of git reduces the exposure to a system failure because the
-primary repository is replicated in multiple locations.  This extends to web
-pages that are hosted because the content of the page is saved in the main
+Widespread use of git reduces the exposure to a system failure because the
+primary repository is replicated in multiple locations.  This includes hosted
+web pages; the content of web pages is maintained as a branch in the main
 repository.  Maintaining a mirror of a repository that is hosted on GitHub is
 relatively simple and might be considered as a way to provide a backup for the
 primary repository.
@@ -557,15 +583,17 @@ This document has no IANA actions.
 
 ## CORE {#core}
 
-The CoRE WG (Constrained RESTful Environments) has been actively using
-the Trac/SVN combination offered by the Tools Team for its older
-drafts.
-Some newer drafts (including some drafts that are not yet WG drafts
-but could be considered candidates for that) are now being worked on
-in the `core-wg` GitHub organization.
-These drafts generally use Martin Thomson's template, except where the
-build process (examples, grammars) is much more complicated than can
-easily be supported by this template.
+The CoRE WG (Constrained RESTful Environments) has been actively using the
+Trac/SVN combination offered by the Tools Team for its older drafts.
+
+Some newer drafts (including some drafts that are not yet WG drafts but could be
+considered candidates for that) are now being worked on in the `core-wg` GitHub
+organization.
+
+These drafts generally use Martin Thomson's
+[template](https://github.com/martinthomson/i-d-template), except where the
+build process (examples, grammars) is much more complicated than can easily be
+supported by this template.
 
 We try to keep discussion on the mailing list (as opposed to getting
 them entirely in the GitHub issues), but may not have been very
@@ -619,7 +647,7 @@ repo, while "cleaner" on first impression, actually complicates this workflow.
 When the WG adopts additional drafts, we will decide on a case-by-case basis
 whether they will be made part of the "base drafts" or if we create a new repo
 underneath the organization. Since Martin Thomson is an editor, we use his setup
-[I-D template](#ID-TEMPLATE) to rapidly publish HTML editor copies of the specs.
+[template](#ID-TEMPLATE) to rapidly publish HTML editor copies of the specs.
 
 The "base drafts" repo is configured to allow issues to be raised, and its wiki
 is enabled (but rarely used.) Editors (and chairs) have commit rights to this
