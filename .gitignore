@@ -10,4 +10,5 @@
 venv/
 issues.json
 lib
-draft-thomson-github-bcp.md
+draft-thomson-github-bcp.xml
+*.upload
