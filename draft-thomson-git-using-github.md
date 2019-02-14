@@ -1,7 +1,7 @@
 ---
 title: Using GitHub at the IETF
 abbrev: IETF GitHub Usage
-docname: draft-thomson-github-bcp-latest
+docname: draft-thomson-git-using-github-latest
 category: bcp
 area: General
 workgroup: Network
@@ -15,12 +15,6 @@ author:
    name: Martin Thomson
    org: Mozilla
    email: martin.thomson@gmail.com
-   role: editor
- -
-   ins: A. Atlas
-   name: Alia Atlas
-   org: Juniper Networks
-   email: akatlas@gmail.com
    role: editor
 
 informative:
@@ -47,14 +41,18 @@ Discussion of this document takes place on the GitHub@ietf mailing list
 
 # Introduction
 
-The IETF has an open and transparent process for developing standards; the use
-of GitHub, when used as part of this process as appropriate, can have several
-objectives.  For some technology areas, it can broaden the community that is
-reviewing and improving the specifications.  GitHub provides useful tools to
-speed up and manage a rapid iteration process for managing changes and tracking
-issues.  Using tools that reduce the friction in rapidly improving documents and
-getting more relevant reviews can help improve the speed at which a Working
-Group completes its specifications.
+The IETF has an open and transparent process for developing standards.  The use
+of GitHub or similar tools, when used as part of this process, can have several
+objectives.  GitHub provides tools that can be helpful in editing documents.
+Use of this service has proven to reduce the time that working groups need to
+produce documents and to improve the quality of the final result.
+
+The use of source control improves traceability and visibility of changes.
+Issue tracking can be used to manage open issues and provide a record of their
+resolution.  Pull requests allow for better engagement on technical and
+edditorial changes, and encourage contributions from a larger set of
+contributors.  Using GitHub can also broaden the community of contributors for a
+specification.
 
 This document describes how the IETF uses GitHub through the development of
 Internet-Drafts.  This concentrates on the work that occurs within IETF working
@@ -79,7 +77,7 @@ set of files.  Users are able to create new revisions in their copy of a
 repository and share revisions between copies of repositories.
 
 
-## GitHub: Community Outreach
+## GitHub
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides a centralized store for git repositories.  GitHub is freely
@@ -105,10 +103,10 @@ instance, [BitBucket](https://bitbucket.org/), or
 [GitLab](https://about.gitlab.com/) provide a similar feature set.  In
 additional to a hosted service, software for custom installations exists.
 
-This document concentrates primarily on GitHub.  As a result, some content might
-not be applicable to other similar services.  A working group that decides to
-adopt an alternative tool or service can still benefit from the general guidance
-in this document.
+This document concentrates primarily on GitHub as it has the most active
+community of contributors.  As a result, some content might not be applicable to
+other similar services.  A working group that decides to adopt an alternative
+tool or service can still benefit from the general guidance in this document.
 
 
 ## Document Goals
@@ -130,7 +128,6 @@ GitHub.
 
 For both sets of users, this document aims to provide some amount of advice on
 practices that have proven to be effective.
-
 
 
 ## Notational Conventions
