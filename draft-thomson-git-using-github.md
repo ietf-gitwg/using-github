@@ -14,8 +14,7 @@ author:
    ins: M. Thomson
    name: Martin Thomson
    org: Mozilla
-   email: martin.thomson@gmail.com
-   role: editor
+   email: mt@lowentropy.net
 
 informative:
     ID-TEMPLATE:
@@ -717,7 +716,8 @@ we'd be interested to learn of a better way.
 # Acknowledgments
 
 This work wouldn't have been possible without the hard work of those people who
-have trialled use of GitHub at the IETF.
+have trialled use of GitHub at the IETF.  Alia Atlas contributed significant
+text to an earlier version of this document.
 
 The experiences of the CORE WG in {{core}} were contributed by Carsten Bormann.
 The experiences of the QUIC WG in {{quic}} were contributed by Lars Eggert.
