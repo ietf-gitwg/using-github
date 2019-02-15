@@ -228,8 +228,8 @@ the Charter in an open and transparent fashion.  The Working Group Chairs are
 responsible for determining if there is interest in using GitHub and making a
 consensus call to determine if a the proposed policy and use is acceptable.
 
-Chairs SHOULD involve Area Directors in this decision if they intend to use
-GitHub for anything more than managing of drafts.
+Chairs SHOULD involve Area Directors any decision to use GitHub for anything
+more than managing of drafts.
 
 While a document editor can still use GitHub independently for documents that
 they edit, even if the working group does not expressly choose to use GitHub,
