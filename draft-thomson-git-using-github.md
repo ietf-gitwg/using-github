@@ -489,6 +489,12 @@ the widest possible audience ensures a higher quality document.  Managing input
 from multiple sources in assessing consensus is similar to what is needed when
 balancing mailing list discussion versus in-person meeting discussion.
 
+It is expected that technical decisions will be made based on discussion and
+interaction on GitHub.  This is especially the case during early stages of
+development of a document.  Any decisions are ultimately confirmed through
+review, and ultimately, through Working Group Last Call (see Section 7.4 of
+{{!RFC2418}}).
+
 The use of issues and labels has proven to be effective in managing contentious
 issues.  Explicitly labeling closed issues so that those with formal consensus
 means that there is no confusion about the status of issues.
