@@ -1,11 +1,10 @@
-# Best practices for using github at the IETF
+# Using GitHub at the IETF
 
-This is the working area for the individual internet-draft, "Using Github at the IETF".
+This is the working area for the individual Internet-Draft, "Using GitHub at the IETF".
 
-* [Editor's copy](https://unicorn-wg.github.io/github-bcp/)
-* [Individual Draft](https://tools.ietf.org/html/draft-thomson-github-bcp)
-* [Compare Individual Draft and Editor's copy](https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/draft-thomson-github-bcp.txt&url2=https://unicorn-wg.github.io/github-bcp/draft-thomson-github-bcp.txt)
-
+* [Editor's Copy](https://martinthomson.github.io/ietf-using-github/#go.draft-thomson-git-using-github.html)
+* [Individual Draft](https://tools.ietf.org/html/draft-thomson-git-using-github)
+* [Compare Editor's Copy to Individual Draft](https://martinthomson.github.io/ietf-using-github/#go.draft-thomson-git-using-github.diff)
 
 ## Building the Draft
 
@@ -22,4 +21,4 @@ This requires that you have the necessary software installed.  See
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/unicorn-wg/github-bcp/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/martinthomson/ietf-using-github/blob/master/CONTRIBUTING.md).
