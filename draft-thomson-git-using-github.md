@@ -59,11 +59,15 @@ Internet-Drafts.  This concentrates on the work that occurs within IETF working
 groups.  Recommendations for working groups and their chairs are made for
 integrating these tools with their processes.
 
-This document is meant as a companion to RFC 2418 {{?RFC2418}}.  It provides
+This document is meant as an enhancement to RFC 2418 {{?RFC2418}}.  It provides
 guidance to working group chairs and participants on how they can best use
 GitHub.  The small number of rules in this document are there to ensure common
 usage patterns between working groups and to avoid issues that have been
 encountered in the past.
+
+A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
+describes administrative processes that supports the practices described in this
+document.
 
 
 ## Distributed Version Control Systems
@@ -87,11 +91,10 @@ GitHub provides a simplified and integrated interface to not only git, but also
 provides basic user management, an issue tracker, associated wiki, project
 hosting, and other features.
 
-There are a large number of projects at GitHub and associated a very large
-community of contributors.  One way in which some IETF Working Groups have seen
-benefit is in the increased reviews and associated issues and improvements that
-come from broader participation by facilitating those in this community to
-participate.
+There are a large number of projects at GitHub and a very large community of
+contributors.  One way in which some IETF Working Groups have seen benefit is in
+the increased reviews and associated issues and improvements that come from
+broader participation by facilitating those in this community to participate.
 
 
 ## Other Services
@@ -103,7 +106,7 @@ instance, [BitBucket](https://bitbucket.org/), or
 [GitLab](https://about.gitlab.com/) provide a similar feature set.  In
 additional to a hosted service, software for custom installations exists.
 
-This document concentrates primarily on GitHub as it has the most active
+This document concentrates primarily on GitHub as it has a large and active
 community of contributors.  As a result, some content might not be applicable to
 other similar services.  A working group that decides to adopt an alternative
 tool or service can still benefit from the general guidance in this document.
@@ -156,8 +159,9 @@ within an area. Large organizations create too much overhead for general
 management tasks, particularly when there is a need to maintain membership.
 
 Each organization requires owners.  The owner team for a working group
-repository MUST include the Area Directors.  Area Directors MAY also designate a
-delegate that becomes an owner and working group chairs MAY also be owners.
+repository MUST include responsible Area Directors.  Area Directors MAY also
+designate a delegate that becomes an owner and working group chairs MAY also be
+owners.
 
 A team with administrator access SHOULD be created for the Working Group Chairs
 and any Working Group Secretary.  Administrator access is preferable, since this
@@ -438,8 +442,14 @@ activity notifications on repositories.  The volume of information on these
 lists can be too high to monitor actively, but access to an archive of actions
 can be useful.
 
-A working group that uses GitHub SHOULD provide this facility.  However, setting
-up this mailing list can be onerous and better solutions are still being sought.
+An alternative is to rely on periodic email summaries of activity, such as those
+produced by a notification tool like
+[github-notify-ml](https://github.com/dontcallmedom/github-notify-ml).  This
+tool has been used effectively in several working groups, though it requires
+server infrastructure.
+
+A working group that uses GitHub MAY provide either facility at the request of
+the chairs.
 
 
 # Internet-Draft Publication
@@ -449,11 +459,10 @@ built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
 audience.
 
-Editors SHOULD endeavor to create a new Internet-Draft submission two weeks
-prior to every session (see Section 7.1 of {{?RFC2418}}).  Participants in a
-session can't be expected to monitor changes to documents in real-time; an
-Internet-Draft ensures that there is a common, stable state that is known to all
-participants.
+Editors SHOULD create a new Internet-Draft submission two weeks prior to every
+session (see Section 7.1 of {{?RFC2418}}).  Participants in a session can't be
+expected to monitor changes to documents in real-time; an Internet-Draft ensures
+that there is a common, stable state that is known to all participants.
 
 Working group chairs MAY request the creation of an Internet-Draft at any time,
 in consultation with document editors.
@@ -480,6 +489,10 @@ includes important milestones like Working Group Last-Call, where review from
 the widest possible audience ensures a higher quality document.  Managing input
 from multiple sources in assessing consensus is similar to what is needed when
 balancing mailing list discussion versus in-person meeting discussion.
+
+The use of issues and labels has proven to be effective in managing contentious
+issues.  Explicitly labeling closed issues so that those with formal consensus
+means that there is no confusion about the status of issues.
 
 
 # Continuous Integration
