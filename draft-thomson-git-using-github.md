@@ -481,9 +481,9 @@ by occasionally reviewing the state of the document.  Chairs are reminded that
 assessing consensus based on GitHub content alone cannot be assumed to reach all
 interested participants.
 
-A working group chair SHOULD consult the working group mailing list for any
-issue that is potentially contentious.  Relying on input provided through GitHub
-alone might result in gaining input from a narrower set of participants.  This
+A working group chair MUST consult the working group mailing list for any issue
+that is potentially contentious.  Relying on input provided through GitHub alone
+might result in gaining input from a narrower set of participants.  This
 includes important milestones like Working Group Last-Call, where review from
 the widest possible audience ensures a higher quality document.  Managing input
 from multiple sources in assessing consensus is similar to what is needed when
