@@ -198,10 +198,11 @@ It is important that occasional participants in the WG and others accustomed to
 IETF tools be able to determine this and easily find the policy and GitHub
 organization.
 
-A simple example of how to do this is to include a link to the GitHub organization
-on the WG Charter page in the datatracker under More Info.  Similarly, if there are
-multiple mailing list options, links to those mailing lists should be given.  An
-example of this is at https://datatracker.ietf.org/wg/quic/charter/.
+A simple example of how to do this is to include a link to the GitHub
+organization on the WG Charter page in the datatracker under More Info.
+Similarly, if there are multiple mailing list options, links to those mailing
+lists should be given.  An example of this is at
+https://datatracker.ietf.org/wg/quic/charter/.
 
 
 ### Contribution Policies on Repositories {#note-well}
