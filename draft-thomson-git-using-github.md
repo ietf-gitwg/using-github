@@ -193,10 +193,10 @@ Group in consultation with the responsible Area Director.
 
 ## Communicating Policies
 
-Each Working Group MAY set its own policy as to whether and how it uses GitHub
-or GitLab.  It is important that occasional participants in the WG and others
-accustomed to IETF tools be able to determine this and easily find the policy
-and GitHub or GitLab organization.
+Each Working Group MAY set its own policy as to whether and how it uses GitHub.
+It is important that occasional participants in the WG and others accustomed to
+IETF tools be able to determine this and easily find the policy and GitHub
+organization.
 
 A simple example of how to do this is to include a link to the GitHub organization
 on the WG Charter page in the datatracker under More Info.  Similarly, if there are
