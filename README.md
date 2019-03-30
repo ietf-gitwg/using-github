@@ -1,10 +1,10 @@
 # Using GitHub at the IETF
 
-This is the working area for the individual Internet-Draft, "Using GitHub at the IETF".
+This is the working area for the IETF [GIT Working Group](https://datatracker.ietf.org/wg/git/documents/) Internet-Draft, "Using GitHub at the IETF".
 
-* [Editor's Copy](https://martinthomson.github.io/ietf-using-github/#go.draft-thomson-git-using-github.html)
-* [Individual Draft](https://tools.ietf.org/html/draft-thomson-git-using-github)
-* [Compare Editor's Copy to Individual Draft](https://martinthomson.github.io/ietf-using-github/#go.draft-thomson-git-using-github.diff)
+* [Editor's Copy](https://ietf-gitwg.github.io/using-github/#go.draft-ietf-git-using-github.html)
+* [Working Group Draft](https://tools.ietf.org/html/draft-ietf-git-using-github)
+* [Compare Editor's Copy to Working Group Draft](https://ietf-gitwg.github.io/using-github/#go.draft-ietf-git-using-github.diff)
 
 ## Building the Draft
 
@@ -21,4 +21,4 @@ This requires that you have the necessary software installed.  See
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/martinthomson/ietf-using-github/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-gitwg/using-github/blob/master/CONTRIBUTING.md).
