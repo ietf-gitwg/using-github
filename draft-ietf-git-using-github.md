@@ -1,7 +1,7 @@
 ---
 title: Using GitHub at the IETF
 abbrev: IETF GitHub Usage
-docname: draft-thomson-git-using-github-latest
+docname: draft-ietf-git-using-github-latest
 category: bcp
 area: General
 workgroup: Network
