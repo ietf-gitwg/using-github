@@ -147,9 +147,8 @@ transparency.
 
 ## Organizations
 
-Organizations are a way of forming groups of contributors on GitHub.  Each
-Working Group SHOULD create a new organization for the working group.
-
+Organizations are a way of forming groups of contributors on GitHub.
+Each Working Group SHOULD create a new organization for the working group.
 A working group organization SHOULD be named consistently so that it can be
 found.  For instance, the name could be ietf-\<wgname> or ietf-\<wgname>-wg.
 
@@ -167,29 +166,8 @@ and any Working Group Secretary.  Administrator access is preferable, since this
 does not also include the ability to push to all repositories and ownership does
 not grant any other significant privileges.
 
-When Area Directors or Working Group Chairs change, teams MUST be updated to
-reflect the new membership status.
-
-When a Working Group is closed, the responsible Area Director is responsible for
-removing existing members from teams in the organization.  Repositories MUST be
-updated along to indicate that they are no longer under development.
-
-
-## Backup and Archive Requirements
-
-When an IETF Working Group is closed or when associated mailing lists
-are closed, mail archives and datatracker information from that work is backed
-up and accessible.  The same applies to GitHub repositories.
-
-Any repositories including issues and discussion SHOULD be backed up on IETF
-resources.  It is desirable for those to be accessible via the Working Group's
-datatracker page.  For example, this might be via URLs listed in the More Info
-section on the Working Group Charter page.
-
-The IETF MAY decide to backup information associated with a Working Group's
-organization periodically.  This decision can be made differently per Working
-Group in consultation with the responsible Area Director.
-
+Details about creating organizations adhering to these guidelines can be found
+in {{!I-D.ietf-git-github-wg-configuration}}.
 
 ## Communicating Policies
 
@@ -203,23 +181,6 @@ organization on the WG Charter page in the datatracker under More Info.
 Similarly, if there are multiple mailing list options, links to those mailing
 lists should be given.  An example of this is at
 https://datatracker.ietf.org/wg/quic/charter/.
-
-
-### Contribution Policies on Repositories {#note-well}
-
-One important policy is the IETF IPR policy (see {{!RFC5378}}, {{!RFC3979}}, and
-{{!RFC4879}}).  Part of this policy requires making contributors aware of the
-policy.
-
-The [IETF Trust license file for open source
-repositories](https://trustee.ietf.org/license-for-open-source-repositories.html)
-MUST be included prominently in any document repository.
-
-Including this information in the CONTRIBUTING file is sufficient.
-
-In addition to the boilerplate text there can be a benefit to including pointers
-to other working group materials, the IETF datatracker, specific drafts, or
-websites.  Adding such text is at the discretion of the Working Group Chairs.
 
 
 # Deciding to Use GitHub
