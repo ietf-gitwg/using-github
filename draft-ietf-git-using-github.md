@@ -195,10 +195,11 @@ more than managing of drafts.
 
 While a document editor can still use GitHub independently for documents that
 they edit, even if the working group does not expressly choose to use GitHub,
-any such public repository MUST follow the guidelines in {{note-well}}.  This
-recognizes that editors have traditionally chosen their own methods for managing
-the documents they edit but preserves the need for transparent contributions
-with awareness of IPR considerations.
+  any such public repository MUST follow the guidelines in BCPs 78 and 79
+({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}).  This recognizes that editors have
+traditionally chosen their own methods for managing the documents they edit but
+preserves the need for transparent contributions with awareness of IPR
+considerations.
 
 
 ## What to Use GitHub For {#usage}
