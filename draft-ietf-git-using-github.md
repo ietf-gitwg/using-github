@@ -172,6 +172,7 @@ not grant any other significant privileges.
 Details about creating organizations adhering to these guidelines can be found
 in {{!GIT-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
+
 ## Communicating Policies
 
 Each Working Group MAY set its own policy as to whether and how it uses GitHub.
@@ -402,10 +403,11 @@ Document editors need some flexibility in how they manage a document.
 
 ## Monitoring Activity
 
-Several working groups have created read-only mailing lists that subscribe to
-activity notifications on repositories.  The volume of information on these
-lists can be too high to monitor actively, but access to an archive of actions
-can be useful.
+GitHub produces individualized email notifications of activity that each user
+can adjust to their preferences.  In addition to these, some Working Groups have
+created read-only mailing lists that receive notifications about activity on
+Working Group repositories.  The volume of information on these lists can be too
+high to monitor actively, but access to an archive of actions can be useful.
 
 An alternative is to rely on periodic email summaries of activity, such as those
 produced by a notification tool like
