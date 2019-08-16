@@ -310,8 +310,8 @@ commits.
 ## Issues
 
 The GitHub issue tracker can be an effective way of managing the set of open
-issues on a document.  The record of issues - both open and closed - can be a
-useful way of recording decisions made by a working group.
+issues on a document.  Issues - both open and closed - can be a useful way of
+recording decisions made by a working group.
 
 Issues can be given arbitrary labels, assigned to contributors, and assembled
 into milestones.  The issue tracker is integrated into the repository; an issue
@@ -323,7 +323,7 @@ the existence of issues, or it might be used as the venue for substantial
 technical discussion between contributors.
 
 
-### Issue Labelling
+### Issue Labels
 
 A system of labeling issues can be effective in managing issues.  For instance,
 marking substantive issues separately from editorial can be helpful at guiding
