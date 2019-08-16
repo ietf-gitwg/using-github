@@ -456,8 +456,8 @@ from multiple sources in assessing consensus is similar to what is needed when
 balancing mailing list discussion versus in-person meeting discussion.
 
 The use of issues and labels has proven to be effective in managing contentious
-issues.  Explicitly labeling closed issues so that those with formal consensus
-means that there is no confusion about the status of issues.
+issues.  Explicitly labeling closed issues to explicitly identify those with
+formal consensus means that there is no confusion about the status of issues.
 
 
 # Continuous Integration
