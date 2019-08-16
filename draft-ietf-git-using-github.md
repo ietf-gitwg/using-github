@@ -533,7 +533,7 @@ are not made without wider consultation.
 
 Chairs might choose to manage the process of deciding which issues are
 substantive.  For instance, chairs might reserve the ability to use the `design`
-label to new issues (see {{design}}) and to close issues marked as `design`.
+label to new issues (see {{label-design}}) and to close issues marked as `design`.
 Chairs should always allow document editors to identify and address editorial
 issues as they see fit.
 
