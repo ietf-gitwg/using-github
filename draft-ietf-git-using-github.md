@@ -296,7 +296,8 @@ tasks to individuals outside of the editor team.
 
 In addition to the canonical XML format {{?RFC7991}}, document editors might
 choose to use a different input form for editing documents, such as markdown.
-The choice of input format is left to document editors.
+Markdown-based formats have proven to be more accessible for new contributors,
+though ultimately decisions about format is left to document editors.
 
 
 # Contribution Methods {#features}
