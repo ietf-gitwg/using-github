@@ -327,7 +327,8 @@ can be closed using a special marker in a commit message.
 When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
 issue tracker is used.  Use of the issue tracker could be limited to recording
 the existence of issues, or it might be used as the venue for substantial
-technical discussion between contributors.
+technical discussion between contributors.  A Working Group policy MAY require
+that all substantive changes be tracked using issues.
 
 
 ### Issue Labels
@@ -364,7 +365,9 @@ changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
 Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository.
+committing directly to the "master" branch of the repository.  Pull requests
+that address substantive issues SHOULD mention the issue they address in
+the opening comment.
 
 Pull requests have many of the same properties as issues, including the ability
 to host discussion and bear labels.  Critically, using pull requests creates a
