@@ -56,16 +56,16 @@ edditorial changes, and encourage contributions from a larger set of
 contributors.  Using GitHub can also broaden the community of contributors for a
 specification.
 
-This document describes how the IETF uses GitHub through the development of
-Internet-Drafts.  This concentrates on the work that occurs within IETF working
-groups.  Recommendations for working groups and their chairs are made for
-integrating these tools with their processes.
+The main purpose of this document is providing guidelines for how Working Groups
+might integrate the capabilities provided by GitHub into their processes for
+developing Internet-Drafts.
 
-This document is meant as an enhancement to RFC 2418 {{?RFC2418}}.  It provides
-guidance to working group chairs and participants on how they can best use
-GitHub.  The small number of rules in this document are there to ensure common
-usage patterns between working groups and to avoid issues that have been
-encountered in the past.
+This document is meant as an supplement to existing Working Group practices.  It
+provides guidance to Working Group chairs and participants on how they can best
+use GitHub within the framework established RFC 2418 {{?RFC2418}}.  The small
+number of rules in this document are there to ensure common usage patterns
+between working groups and to avoid issues that have been encountered in the
+past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that supports the practices described in this
@@ -229,10 +229,12 @@ occasionally remind new contributors of these guidelines.
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
 
-Updating the README or CONTRIBUTING file in the repository with details of the
-process ensures that the process is recorded in a stable location other than the
-mailing list archive.  This also makes any working group policies available to
-casual contributors who might only interact with the GitHub repository.
+Repositories MUST include a copy or reference to the policy that applies to
+managing any documents they contain.  Updating the README or CONTRIBUTING file
+in the repository with details of the process ensures that the process is
+recorded in a stable location other than the mailing list archive.  This also
+makes any Working Group policies available to casual contributors who might only
+interact with the GitHub repository.
 
 GitHub prominently links to the CONTRIBUTING on certain pages.  This file SHOULD
 be used in preference to the README for information that new contributors need.
@@ -297,7 +299,11 @@ tasks to individuals outside of the editor team.
 
 In addition to the canonical XML format {{?RFC7991}}, document editors might
 choose to use a different input form for editing documents, such as markdown.
-The choice of input format is left to document editors.
+Markdown-based formats have proven to be more accessible for new contributors,
+though ultimately decisions about format is left to document editors.
+
+Formats that are not text-based, SHOULD NOT be used, as these are inimical to
+the sorts of interaction that revision control enables.
 
 
 # Contribution Methods {#features}
@@ -319,10 +325,13 @@ into milestones.  The issue tracker is integrated into the repository; an issue
 can be closed using a special marker in a commit message.
 
 When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
-issue tracker are used.  Use of the issue tracker could be limited to recording
+issue tracker is used.  Use of the issue tracker could be limited to recording
 the existence of issues, or it might be used as the venue for substantial
-technical discussion between contributors.  Guidance on how to make this choice
-is included in {{modes}}.
+technical discussion between contributors.
+
+A Working Group policy MAY require that all substantive changes be tracked using
+issues.  Suggested policies for the use of the GitHub issue tracker are the
+primary subject of {{modes}}.
 
 
 ### Issue Labels
@@ -375,7 +384,9 @@ changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
 Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository.
+committing directly to the "master" branch of the repository.  Pull requests
+that address substantive issues SHOULD mention the issue they address in
+the opening comment.
 
 Pull requests have many of the same properties as issues, including the ability
 to host discussion and bear labels.  Critically, using pull requests creates a
@@ -458,12 +469,14 @@ meetings, and other more traditional interactions.  The intent of this policy is
 to enable document and issue management using GitHub while minimizing the
 complexity of the process.
 
-The working group uses GitHub for tracking outstanding issues, but discussion of
-any substantial matters is always conducted on mailing lists.  Under this mode,
-issues and pull requests can be opened by anyone, but anything deemed
-substantive MUST resolved exclusively on the mailing list.  Discussion on GitHub
-is kept to a minimum.  Only editorial matters can be resolved using the issue
-tracker.
+The working group uses GitHub for tracking outstanding issues and all
+substantive issues require that an issue be opened to record the issue, but
+discussion of any substantial matters is always conducted on mailing lists.
+
+Under this mode, issues and pull requests can be opened by anyone, but anything
+deemed substantive MUST resolved exclusively on the mailing list.  Discussion on
+GitHub is kept to a minimum.  Only editorial matters can be resolved using the
+issue tracker.
 
 Chairs and editors are given discretion in determining what issues are
 substantive.  As documents mature, it is generally prudent to err more toward
