@@ -314,7 +314,7 @@ and pull requests, comments on issues and pull requests, and comments on
 commits.
 
 
-## Issues
+## Issue Tracker
 
 The GitHub issue tracker can be an effective way of managing the set of open
 issues on a document.  Issues - both open and closed - can be a useful way of
