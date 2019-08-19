@@ -194,7 +194,7 @@ the Charter in an open and transparent fashion.  The Working Group Chairs are
 responsible for determining if there is interest in using GitHub and making a
 consensus call to determine if a the proposed policy and use is acceptable.
 
-Chairs SHOULD involve Area Directors any decision to use GitHub for anything
+Chairs MUST involve Area Directors any decision to use GitHub for anything
 more than managing of drafts.
 
 While a document editor can still use GitHub independently for documents that
@@ -369,6 +369,12 @@ committing directly to the "master" branch of the repository.  Pull requests
 that address substantive issues SHOULD mention the issue they address in
 the opening comment.
 
+Note:
+
+: This document assumes that there is a unified effort on a document, all
+  concentrated on a git "master" branch.  More advanced usage of git is not in
+  the scope of this document.
+
 Pull requests have many of the same properties as issues, including the ability
 to host discussion and bear labels.  Critically, using pull requests creates a
 record of actions taken.
@@ -433,12 +439,18 @@ the chairs.
 During the development of a document, individual revisions of a document can be
 built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
-audience.
+audience.  Documents submitted as Internet-Drafts are not expected to address
+all open issues or merge outstanding pull requests.
 
 Editors SHOULD create a new Internet-Draft submission two weeks prior to every
-session (see Section 7.1 of {{?RFC2418}}).  Participants in a session can't be
-expected to monitor changes to documents in real-time; an Internet-Draft ensures
-that there is a common, stable state that is known to all participants.
+session (see Section 7.1 of {{?RFC2418}}).  Though discussion could use the
+current version of a document from version control, participants in a session
+can't be expected to monitor changes to documents in real-time; a published
+Internet-Draft ensures that there is a common, stable state that is known to all
+participants.
+
+Revisions used to generate documents that are submitted as Internet-Drafts
+SHOULD be tagged in repositories to provide a record of submissions.
 
 Working group chairs MAY request the creation of an Internet-Draft at any time,
 in consultation with document editors.
