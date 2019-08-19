@@ -453,13 +453,16 @@ managed.  Most of the advice in this document applies equally to both models.
 
 In a "light" mode of interaction, GitHub repositories are used to manage changes
 to documents, but the bulk of the work is conducted using email, face-to-face
-meetings, and other more traditional interactions.
+meetings, and other more traditional interactions.  The intent of this policy is
+to enable document and issue management using GitHub while minimizing the
+complexity of the process.
 
 The working group uses GitHub for tracking outstanding issues, but discussion of
-any substantial matters is always conducted on mailing lists.  Issues and pull
-requests can be opened by anyone, but anything deemed substantive is resolved
-exclusively on the mailing list.  Discussion on GitHub is kept to a minimum.
-Only editorial matters can be resolved using the issue tracker.
+any substantial matters is always conducted on mailing lists.  Under this mode,
+issues and pull requests can be opened by anyone, but anything deemed
+substantive MUST resolved exclusively on the mailing list.  Discussion on GitHub
+is kept to a minimum.  Only editorial matters can be resolved using the issue
+tracker.
 
 Chairs and editors are given discretion in determining what issues are
 substantive.  As documents mature, it is generally prudent to err more toward
@@ -486,20 +489,39 @@ resolved.
 ## Heavy GitHub Usage
 
 The "heavy" interaction mode differs from the "light" mode in that discussion
-relating to decisions is permitted to occur on GitHub issues.  As a result,
-participants are permitted to contribute to discussion on the issue tracker.
+relating to substantive technical matters is allowed to occur on GitHub issues.
+As a result, participants are permitted to contribute to discussion on the issue
+tracker.  In some cases, this can include making some decisions without
+involving the Working Group mailing list.
 
 A Working Group mailing list remains a critical venue for decision making, even
 where issue discussion occurs elsewhere.  Working Group mailing lists generally
 include a wider audience than those who follow issue discussion, so difficult
-issues always benefit from list discussion.  Decisions about Working Group
-consensus MUST always be confirmed using the Working Group mailing list, though
-this might be a more lightweight interaction.
+issues always benefit from list discussion.
+
+Decisions about Working Group consensus MUST always be confirmed using the
+Working Group mailing list.  However, depending on the maturity of documents,
+this might be a more lightweight interaction, such as sending an email
+confirmation for a set of resolutions made using GitHub.
 
 Using the mailing list to resolve difficult or controversial issues is strongly
 encouraged.  In those cases, the issue tracker might be used to more fully
-develop an understanding of problems before taking them, along lines similar to
-the design team process (see Section 6.5 of {{RFC2418}}).
+develop an understanding of problems before initiating a discussion on the
+mailing list, along lines similar to the design team process (see Section 6.5 of
+{{RFC2418}}).
+
+As a more involved process, adopting this mode can require changes in policies
+as documents become more mature.  It is possible to use a different process for
+each active document in the same Working Group.  Working Group chairs MUST
+ensure that the process that applies to different documents is clear, which
+includes both maintaining clear documentation about policies that relate to each
+document and providing suitable advance notice of changes to policies on the
+Working Group mailing list.
+
+Working Group chairs SHOULD confirm that the Working Group has consensus to
+adopt any process.  In particular, the introduction of a more tightly-controlled
+process can have the effect of privileging positions already captured in
+documents, which might disadvantage alternative viewpoints.
 
 
 ### Early Design Phases
@@ -509,19 +531,22 @@ manage all aspects of issues.  Editors are permitted to make decisions about how
 to both identify and resolve technical issues, including making any changes that
 editors feel necessary.
 
-Chairs need to explicitl decide that this sort of process is needed.  In many
-cases, documents that are adopted by a Working Group are already sufficiently
-mature that a looser process is not beneficial.  The primary reason to grant
-editors more discretionary power is to improve the speed with which changes can
-be made.  The risk is that design changes might not always reflect the consensus
-of the Working Group.
+Chairs need to explicitly decide that this sort of process is needed and
+announce the decision to the Working Group.  In many cases, documents that are
+adopted by a Working Group are already sufficiently mature that a looser process
+is not beneficial.  The primary reason to grant editors more discretionary power
+is to improve the speed with which changes can be made.  The risk is that design
+changes might not always reflect the consensus of the Working Group.
 
-Changes made by editors are not completely lacking oversight.  GitHub provide
-good tools for ensuring that changes are tracked and visible.  And for a Working
-Group, reviews of Internet-Drafts and process checkpoints like Working Group
-Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provide some safeguards against
-outright abuse.  Working Groups are advised against following this process for
-the entirety of a document lifecycle.  Once a document is more stable and
+Changes made by editors under this process do not completely lack oversight.
+GitHub and git provide tools for ensuring that changes are tracked and can be
+audited.  Within the usual Working Group process it is expected that
+Internet-Drafts will receive regular review. Finally, process checkpoints like
+Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provides additional
+safeguards against abuse.
+
+Working Groups are advised against allowing editors this degree of flexibility
+for the entirety of a document lifecycle.  Once a document is more stable and
 mature, it is likely appropriate to move to a more tightly controlled process.
 
 
@@ -547,21 +572,15 @@ as they see fit.
 More mature documents require not only consensus, but consensus about specific
 text.  All substantive changes to documents that have passed WGLC MUST be
 proposed as pull requests, discussed on the mailing list, and have chairs
-explicitly confirm consensus.  Chairs MAY institute this process prior to WGLC.
+explicitly confirm consensus.  Chairs MAY institute this stricter process prior
+to WGLC.
 
 Note:
 
-: It is generally sufficient to rely on auditing and trust in editors to manage
-  adherence with these policies.  There are tools that can be used to more
-  tightly control access to repositories, but they can be overly constraining.
-
-Working Group chairs MUST announce any change that results in tighter controls
-over documents to the Working Group.
-
-Working Group chairs SHOULD confirm that the Working Group has consensus to move
-to a stricter process.  The introduction of a more tightly-controlled process
-can have the effect of privileging positions already captured in documents,
-which might not represent consensus.
+: It is generally sufficient to trust editors to manage adherence with these
+  policies, aided by the transparency provided by the version control system.
+  There are tools that can be used to more tightly control access to
+  repositories, but they can be overly constraining.
 
 
 ## Issue Labelling Schemes {#labels}
@@ -572,6 +591,12 @@ section outlines these strategies and how they might be applied.
 This document suggests that only a design/editorial split is useful in all
 cases.  Working Groups that adopt the "light" usage model might not need
 additional rules around the use of labels.
+
+Working Groups or editors might use additional labels as they choose.  Any label
+that is used as part of a process requires that the process be documented and
+announced by Working Group chairs.  Editors SHOULD be permitted to use labels to
+manage issues without any formal process significance being attached to those
+issues.
 
 
 ### Design/Editorial Labelling {#label-design}
