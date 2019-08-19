@@ -325,7 +325,7 @@ into milestones.  The issue tracker is integrated into the repository; an issue
 can be closed using a special marker in a commit message.
 
 When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
-issue tracker are used.  Use of the issue tracker could be limited to recording
+issue tracker is used.  Use of the issue tracker could be limited to recording
 the existence of issues, or it might be used as the venue for substantial
 technical discussion between contributors.
 
