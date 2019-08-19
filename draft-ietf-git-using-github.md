@@ -504,7 +504,8 @@ resolved.
 
 The "heavy" interaction mode differs from the "light" mode in that discussion
 relating to substantive technical matters is allowed to occur on GitHub issues.
-As a result, participants are permitted to contribute to discussion on the issue
+Though decisions are always subject to confirmation on the mailing list,
+participants are permitted to conduct substantive discussions on the issue
 tracker.  In some cases, this can include making some decisions without
 involving the Working Group mailing list.
 
