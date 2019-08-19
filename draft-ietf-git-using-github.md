@@ -308,7 +308,7 @@ and pull requests, comments on issues and pull requests, and comments on
 commits.
 
 
-## Issues
+## Issue Tracker
 
 The GitHub issue tracker can be an effective way of managing the set of open
 issues on a document.  Issues - both open and closed - can be a useful way of
@@ -321,7 +321,8 @@ can be closed using a special marker in a commit message.
 When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
 issue tracker are used.  Use of the issue tracker could be limited to recording
 the existence of issues, or it might be used as the venue for substantial
-technical discussion between contributors.
+technical discussion between contributors.  Guidance on how to make this choice
+is included in {{modes}}.
 
 
 ### Issue Labels
@@ -435,7 +436,7 @@ A working group that uses GitHub MAY provide either facility at the request of
 the chairs.
 
 
-# Typical Working Group Policies
+# Typical Working Group Policies {#modes}
 
 Current experience with use of GitHub suggests two different approaches to
 greater use of the tool in Working Groups.
