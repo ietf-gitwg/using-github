@@ -56,16 +56,16 @@ edditorial changes, and encourage contributions from a larger set of
 contributors.  Using GitHub can also broaden the community of contributors for a
 specification.
 
-This document describes how the IETF uses GitHub through the development of
-Internet-Drafts.  This concentrates on the work that occurs within IETF working
-groups.  Recommendations for working groups and their chairs are made for
-integrating these tools with their processes.
+The main purpose of this document is providing guidelines for how Working Groups
+might integrate the capabilities provided by GitHub into their processes for
+developing Internet-Drafts.
 
-This document is meant as an enhancement to RFC 2418 {{?RFC2418}}.  It provides
-guidance to working group chairs and participants on how they can best use
-GitHub.  The small number of rules in this document are there to ensure common
-usage patterns between working groups and to avoid issues that have been
-encountered in the past.
+This document is meant as an supplement to existing Working Group practices.  It
+provides guidance to Working Group chairs and participants on how they can best
+use GitHub within the framework established RFC 2418 {{?RFC2418}}.  The small
+number of rules in this document are there to ensure common usage patterns
+between working groups and to avoid issues that have been encountered in the
+past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that supports the practices described in this
@@ -229,10 +229,12 @@ occasionally remind new contributors of these guidelines.
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
 
-Updating the README or CONTRIBUTING file in the repository with details of the
-process ensures that the process is recorded in a stable location other than the
-mailing list archive.  This also makes any working group policies available to
-casual contributors who might only interact with the GitHub repository.
+Repositories MUST include a copy or reference to the policy that applies to
+managing any documents they contain.  Updating the README or CONTRIBUTING file
+in the repository with details of the process ensures that the process is
+recorded in a stable location other than the mailing list archive.  This also
+makes any Working Group policies available to casual contributors who might only
+interact with the GitHub repository.
 
 GitHub prominently links to the CONTRIBUTING on certain pages.  This file SHOULD
 be used in preference to the README for information that new contributors need.
