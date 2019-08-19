@@ -302,6 +302,9 @@ choose to use a different input form for editing documents, such as markdown.
 Markdown-based formats have proven to be more accessible for new contributors,
 though ultimately decisions about format is left to document editors.
 
+Formats that are not text-based, SHOULD NOT be used, as these are inimical to
+the sorts of interaction that revision control enables.
+
 
 # Contribution Methods {#features}
 
