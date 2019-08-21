@@ -52,7 +52,7 @@ produce documents and to improve the quality of the final result.
 The use of source control improves traceability and visibility of changes.
 Issue tracking can be used to manage open issues and provide a record of their
 resolution.  Pull requests allow for better engagement on technical and
-edditorial changes, and encourage contributions from a larger set of
+editorial changes, and encourage contributions from a larger set of
 contributors.  Using GitHub can also broaden the community of contributors for a
 specification.
 
@@ -60,15 +60,15 @@ The main purpose of this document is providing guidelines for how Working Groups
 might integrate the capabilities provided by GitHub into their processes for
 developing Internet-Drafts.
 
-This document is meant as an supplement to existing Working Group practices.  It
+This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
-use GitHub within the framework established RFC 2418 {{?RFC2418}}.  The small
+use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  The small
 number of rules in this document are there to ensure common usage patterns
 between working groups and to avoid issues that have been encountered in the
 past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
-describes administrative processes that supports the practices described in this
+describes administrative processes that support the practices described in this
 document.
 
 
@@ -106,7 +106,7 @@ possible choice for hosting.  There are other services that host revision
 control repositories and provide similar additional features to GitHub.  For
 instance, [BitBucket](https://bitbucket.org/), or
 [GitLab](https://about.gitlab.com/) provide a similar feature set.  In
-additional to a hosted service, software for custom installations exists.
+addition to a hosted service, software for custom installations exists.
 
 This document concentrates primarily on GitHub as it has a large and active
 community of contributors.  As a result, some content might not be applicable to
@@ -189,13 +189,13 @@ https://datatracker.ietf.org/wg/quic/charter/.
 
 # Deciding to Use GitHub
 
-A Working Group Chairs are responsible for determining how to best accomplish
+Working Group Chairs are responsible for determining how to best accomplish
 the Charter in an open and transparent fashion.  The Working Group Chairs are
 responsible for determining if there is interest in using GitHub and making a
-consensus call to determine if a the proposed policy and use is acceptable.
+consensus call to determine if the proposed policy and use is acceptable.
 
-Chairs MUST involve Area Directors any decision to use GitHub for anything
-more than managing of drafts.
+Chairs MUST involve Area Directors in any decision to use GitHub for anything
+more than managing drafts.
 
 While a document editor can still use GitHub independently for documents that
 they edit, even if the working group does not expressly choose to use GitHub,
@@ -267,8 +267,8 @@ Closely related documents, such as those that together address a single
 milestone, might be placed in a single repository.  This allows editors to more
 easily manage changes and issues that affect multiple documents.
 
-Maintaining multiple documents in the same repository can add overheads that
-negatively affect individual documents.  For instance, issues might require
+Maintaining multiple documents in the same repository can add overhead that
+negatively affects individual documents.  For instance, issues might require
 additional markings to identify the document that they affect.  Also, because
 editors all have write access to the repository, managing the set of people with
 write access to a larger repository is more difficult.
@@ -491,16 +491,16 @@ changes are made to a document.
 One common practice is to use these continuous integration services to build a
 text or HTML version of a document.  This is then published to GitHub Pages,
 which allows users to view a version of the most recent revision of a document.
-Including prominent link to this version of the document (such as in the README)
+Including a prominent link to this version of the document (such as in the README)
 makes it easier for new contributors to find a readable copy of the most recent
 version of a draft.
 
 Continuous integration can also validate pull requests and other changes for
 errors.  The most basic check is whether the source file can be transformed
-successful into a valid Internet-Draft.  For example, this might include
+successfully into a valid Internet-Draft.  For example, this might include
 checking that XML source is syntactically correct.
 
-For documents that use formal languages a part of specifications, such as schema
+For a document that use formal languages as part of the specification, such as schema
 or source code, a continuous integration system might also be used to validate
 any formal language that the document contains.  Tests for any source code that
 the document contains might be run, or examples might be checked for
@@ -529,8 +529,8 @@ chair for guidance.
 
 If a contributor makes a comment that raises what you believe to be a new issue,
 create an issue for them.  If the issue has an obvious solution, consider
-creating a pull request.  It doesn't matter what venue the issue was raised in,
-email, issue discussion, a pull request review, capturing issues quickly ensures
+creating a pull request.  It doesn't matter what venue the issue was raised in
+(e.g., email, issue discussion, a pull request review); capturing issues quickly ensures
 that problems become visible and can be tracked.
 
 This takes a little more effort, but these simple steps can help encourage
@@ -624,7 +624,7 @@ The [QUIC WG](https://datatracker.ietf.org/wg/quic/charter/) was chartered in
 October 2016, and has been using GitHub very intensively.
 
 We created a GitHub organization called ["quicwg"](https://github.com/quicwg),
-which the WG chairs administer. Under than organization, we set up two teams,
+which the WG chairs administer. Under that organization, we set up two teams,
 one for [WG document editors](https://github.com/orgs/quicwg/teams/editors) and
 one for [regular
 contributors](https://github.com/orgs/quicwg/teams/contributors). Membership in
@@ -671,8 +671,8 @@ WG meeting, and the mailing list needs to confirm this consensus. (It is not
 clear if two separate labels actually make all that much sense here.) Once WG
 consensus has been established, an issue is labeled "editor-ready".
 
-Although the QUIC WG has only been chartered for a few months, we have already
-had ~250 issues raised, many of which have attracted dozens of comments. Good
+Within only a few months of being chartered, QUIG WG
+had ~250 issues raised, many of which attracted dozens of comments. Good
 issue topics and actively searching for prior issues before opening new ones is
 essential to manage the workflow.
 
