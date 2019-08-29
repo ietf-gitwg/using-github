@@ -731,7 +731,7 @@ and has effectively been abandoned.
 
 The main authors of the other two drafts decided not to use the repositories
 created for them, but wanted a new repository for one of the drafts. The
-authors have collaborated on github in this new repository, but the WG has
+authors have collaborated on GitHub in this new repository, but the WG has
 not been invited to look, comment, or contribute there. This is probably for
 the best, since the draft pointed to by the README.md is the version in the
 gh-pages of the old repository for the same draft.
