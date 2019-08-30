@@ -474,7 +474,7 @@ substantive issues require that an issue be opened to record the issue, but
 discussion of any substantial matters is always conducted on mailing lists.
 
 Under this mode, issues and pull requests can be opened by anyone, but anything
-deemed substantive MUST resolved exclusively on the mailing list.  Discussion on
+deemed substantive MUST be resolved exclusively on the mailing list.  Discussion on
 GitHub is kept to a minimum.  Only editorial matters can be resolved using the
 issue tracker.
 
