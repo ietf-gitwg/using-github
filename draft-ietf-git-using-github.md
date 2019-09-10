@@ -630,9 +630,7 @@ labels of `design` and `editorial` are used to represent this distinction.
 
 An issue labeled as `design` has or might have a substantive effect on a
 document.  For protocol specifications, a `design` issue is one that might
-affect implementations or interoperability requirements.  A document that is
-intended to be informational might use the `design` label to discuss issues that
-could substantiually affect the meaning of the document.  Addressing a `design`
+affect implementations or interoperability requirements.  Addressing a `design`
 issue ultimately requires Working Group consensus, even if the resolution is to
 make no change.
 
@@ -643,7 +641,7 @@ discretion of editors.
 
 This distinction can be applied to all types of document.  For instance, a
 `design` issue for an Informational document might be raised to discuss
-important concepts.
+possible changes to important concepts in the document.
 
 
 ### Decision Labelling {#label-decision}
