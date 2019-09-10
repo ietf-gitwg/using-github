@@ -452,16 +452,19 @@ the chairs.
 Current experience with use of GitHub suggests a few different approaches to
 greater use of the tool in Working Groups.
 
-This section describes the general approach taken in each case and discusses the
-consequences of a decision to adopt that particular model.  Working Groups can
-adjust these policies to suit their needs, but are advised to avoid gratuitous
-changes for the sake of consistency across the IETF as a whole.
+This section describes some basic modes for interacting with GitHub, each
+progressively more involved. This starts with a very lightweight interaction
+where document management is the only feature that is formally used, then
+progressively more intensive use of the GitHub issue tracking capabilities are
+described.  These approaches differ primarily in how discussion of substantive
+matters is managed.  Most of the advice in this document applies equally to all
+models.
 
-These approaches differ primarily in how discussion of substantive matters is
-managed.  Most of the advice in this document applies equally to all models.
+Working Groups can adjust these policies to suit their needs, but are advised to
+avoid gratuitous changes for the sake of consistency across the IETF as a whole.
 
 
-## Document Management Only
+## Document Management Mode
 
 In this mode of interaction, GitHub repositories are used to manage changes to
 documents, but the bulk of the work is conducted using email, face-to-face
@@ -474,7 +477,8 @@ document repository is created and that is used by editors.  Editors might
 manage issues for their own benefit, or they might choose to just use the
 respository to manage document revisions.
 
-## Issue Tracking
+
+## Issue Tracking Mode
 
 In addition to managing documents, the working group might choose to use GitHub
 for tracking outstanding issues.  In this mode of interaction, all substantive
@@ -508,7 +512,7 @@ or editors record details of decisions in issue comments when closing issues as
 resolved.
 
 
-## Issue Discussion on GitHub
+## Issue Discussion Mode
 
 This GitHub interaction mode differs from the other modes in that discussion
 relating to substantive technical matters is allowed to occur on GitHub issues.
@@ -604,12 +608,13 @@ Note:
 
 ## Issue Labelling Schemes {#labels}
 
-Several schemes for use of issue labels in managing issues have been used.  This
-section outlines these strategies and how they might be applied.
+Several schemes for use of issue labels in managing issues have been used
+successfully.  This section outlines these strategies and how they might be
+applied.
 
-This document suggests that only a design/editorial split is useful in all
-cases.  Working Groups that adopt the models of interaction with less reliance
-on GitHub might not need additional rules around the use of labels.
+A design/editorial split (see {{label-design}}) is useful in all cases that the
+issue tracking capability is used.  Working Groups that only use GitHub for
+issue tracking might find that distinction sufficient for their needs.
 
 Working Groups or editors might use additional labels as they choose.  Any label
 that is used as part of a process requires that the process be documented and
