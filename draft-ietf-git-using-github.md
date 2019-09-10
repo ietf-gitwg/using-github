@@ -449,7 +449,7 @@ the chairs.
 
 # Typical Working Group Policies {#modes}
 
-Current experience with use of GitHub suggests two different approaches to
+Current experience with use of GitHub suggests a few different approaches to
 greater use of the tool in Working Groups.
 
 This section describes the general approach taken in each case and discusses the
@@ -458,19 +458,27 @@ adjust these policies to suit their needs, but are advised to avoid gratuitous
 changes for the sake of consistency across the IETF as a whole.
 
 These approaches differ primarily in how discussion of substantive matters is
-managed.  Most of the advice in this document applies equally to both models.
+managed.  Most of the advice in this document applies equally to all models.
 
 
-## Light GitHub Usage
+## Document Management Only
 
-In a "light" mode of interaction, GitHub repositories are used to manage changes
-to documents, but the bulk of the work is conducted using email, face-to-face
+In this mode of interaction, GitHub repositories are used to manage changes to
+documents, but the bulk of the work is conducted using email, face-to-face
 meetings, and other more traditional interactions.  The intent of this policy is
 to enable document and issue management using GitHub while minimizing the
 complexity of the process.
 
-The working group uses GitHub for tracking outstanding issues and all
-substantive issues require that an issue be opened to record the issue, but
+In the version of this mode with the least interaction with GitHub, only the
+document repository is created and that is used by editors.  Editors might
+manage issues for their own benefit, or they might choose to just use the
+respository to manage document revisions.
+
+## Issue Tracking
+
+In addition to managing documents, the working group might choose to use GitHub
+for tracking outstanding issues.  In this mode of interaction, all substantive
+technical discussions are tracked as issues in the issue tracker.  However,
 discussion of any substantial matters is always conducted on mailing lists.
 
 Under this mode, issues and pull requests can be opened by anyone, but anything
@@ -488,11 +496,11 @@ discussions to spontaneously develop in the issue tracker.  This requires a
 degree of discipline from chairs and editors to ensure that any substantive
 matters are taken to the mailing list.
 
-As the Working Group mailing list remains the primary venue for discussion, this
-mode remains most compatible with existing work modes.  Participants in a
-Working Group that operates under this model can reasonably be expected to
-receive all relevant communication about the work of the group from the mailing
-list.
+As mailing lists remain the primary venue for discussion of substantive matters,
+this mode and the document management only modes remain those most compatible
+with existing work practices for Working Groups.  Participants in a Working
+Group that operates under either model can reasonably be expected to receive all
+relevant communication about the work of the group from the mailing list.
 
 Though the mailing list is used for making decisions, the issue tracker can
 still be a useful record of the state of issues.  It is often useful if chairs
@@ -500,9 +508,9 @@ or editors record details of decisions in issue comments when closing issues as
 resolved.
 
 
-## Heavy GitHub Usage
+## Issue Discussion on GitHub
 
-The "heavy" interaction mode differs from the "light" mode in that discussion
+This GitHub interaction mode differs from the other modes in that discussion
 relating to substantive technical matters is allowed to occur on GitHub issues.
 Though decisions are always subject to confirmation on the mailing list,
 participants are permitted to conduct substantive discussions on the issue
@@ -526,12 +534,8 @@ mailing list, along lines similar to the design team process (see Section 6.5 of
 {{RFC2418}}).
 
 As a more involved process, adopting this mode can require changes in policies
-as documents become more mature.  It is possible to use a different process for
-each active document in the same Working Group.  Working Group chairs MUST
-ensure that the process that applies to different documents is clear, which
-includes both maintaining clear documentation about policies that relate to each
-document and providing suitable advance notice of changes to policies on the
-Working Group mailing list.
+as documents become more mature.  It is possible to use different processes for
+different documents in the Working Group.
 
 Working Group chairs SHOULD confirm that the Working Group has consensus to
 adopt any process.  In particular, the introduction of a more tightly-controlled
@@ -585,10 +589,10 @@ the abstract, with editors being permitted to capture the outcome of discussions
 as they see fit.
 
 More mature documents require not only consensus, but consensus about specific
-text.  All substantive changes to documents that have passed WGLC MUST be
-proposed as pull requests, discussed on the mailing list, and have chairs
-explicitly confirm consensus.  Chairs MAY institute this stricter process prior
-to WGLC.
+text.  All substantive changes to documents that have passed WGLC SHOULD be
+proposed as pull requests, and MUST be discussed on the mailing list, and MUST
+have chairs explicitly confirm consensus.  Chairs MAY institute this stricter
+process prior to WGLC.
 
 Note:
 
@@ -604,8 +608,8 @@ Several schemes for use of issue labels in managing issues have been used.  This
 section outlines these strategies and how they might be applied.
 
 This document suggests that only a design/editorial split is useful in all
-cases.  Working Groups that adopt the "light" usage model might not need
-additional rules around the use of labels.
+cases.  Working Groups that adopt the models of interaction with less reliance
+on GitHub might not need additional rules around the use of labels.
 
 Working Groups or editors might use additional labels as they choose.  Any label
 that is used as part of a process requires that the process be documented and
@@ -620,10 +624,12 @@ The most important distinction about an issue is whether it is substantive.  The
 labels of `design` and `editorial` are used to represent this distinction.
 
 An issue labeled as `design` has or might have a substantive effect on a
-document.  For protocol specifications, a `design` issue usually affects
-implementations or interoperability requirements.  Addressing a `design` issue
-ultimately requires Working Group consensus, even if the resolution is to make
-no change.
+document.  For protocol specifications, a `design` issue is one that might
+affect implementations or interoperability requirements.  A document that is
+intended to be informational might use the `design` label to discuss issues that
+could substantiually affect the meaning of the document.  Addressing a `design`
+issue ultimately requires Working Group consensus, even if the resolution is to
+make no change.
 
 An issue labeled as `editorial` has no substantive effect on a document, except
 to the extent that addressing the issue might make understanding the
