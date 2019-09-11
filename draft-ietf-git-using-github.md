@@ -15,6 +15,11 @@ author:
    name: Martin Thomson
    org: Mozilla
    email: mt@lowentropy.net
+ -
+   ins: B. Stark
+   name: Barbara Stark
+   org: AT&T
+   email: barbara.stark@att.com
 
 informative:
     ID-TEMPLATE:
@@ -700,6 +705,77 @@ address of notification emails, which requires regular whitelisting in mailman.
 It also means that these users are allowed to otherwise email the issues list;
 we trust they don't. This email integration is rather dissatisfyingly complex;
 we'd be interested to learn of a better way.
+
+
+## HOMENET {#homenet}
+
+After Martin Thomson's presentation on using GitHub (presented at the WG Chairs
+lunch), the homenet chairs (one of the chairs to be precise) set up
+https://github.com/ietf-homenet-wg. WG draft authors were asked if they
+wanted to use it. All draft authors agreed to try, so copies of the current
+drafts were converted to Markdown (which seemed to be the recommended format)
+and separate repositories created for each draft. GitHub teams (comprised of
+authors) were created for the drafts, as per available instructions.
+
+The repositories were created using instructions from Martin Thomson’s
+[template](https://github.com/martinthomson/i-d-template). But since
+instructions for gh-pages proved too confusing, the gh-pages were created
+by manually uploading (using the GitHub UI) the .html and .txt files output
+by "make gh-pages" to the gh-pages branch. README.md was then edited to
+point to the uploaded .html file.
+However, one of the authors decided it was easier to use Google docs to
+receive comments and maintain an Editor's copy of the draft (in Markdown).
+He is able to give permission (on request) to other WG group members to
+comment directly on Google docs. Therefore the copy on GitHub is out-dated
+and has effectively been abandoned.
+
+The main authors of the other two drafts decided not to use the repositories
+created for them, but wanted a new repository for one of the drafts. The
+authors have collaborated on GitHub in this new repository, but the WG has
+not been invited to look, comment, or contribute there. This is probably for
+the best, since the draft pointed to by the README.md is the version in the
+gh-pages of the old repository for the same draft.
+
+In short, the use of GitHub has been highly experimental, and no formal WG
+activities have taken place there. The GitHub organization has effectively
+been a playground area for the chairs and authors to stumble around to figure
+out how to use this tool.
+
+
+## BABEL {#babel}
+
+After Martin Thomson's presentation on using GitHub (presented at the WG Chairs
+lunch), one of the authors of a draft in the babel WG asked the chairs if they
+might consider setting up a GitHub organization. In the absence of a response
+(and the absence of follow-up to the absent response), the draft was put in a
+personal GitHub repository. The repository was created using instructions
+(as best as they could be understood) from Martin Thomson’s
+[template](https://github.com/martinthomson/i-d-template). The gh-pages,
+continuous integration (CI), and such proved beyond comprehension to someone
+who had only rudimentary (almost non-existent) experience with makefiles, CI,
+and the inner workings of any of the tools involved; but who, fortunately,
+did have a laptop running Linux, experience with vi, and had formed a very
+basic understanding of git (mostly in the context of Bitbucket) over the past
+year.
+
+Carsten Bormann was kind enough to convert the existing XML to Markdown (since
+the recommendation was to use markdown). This turned out to be an excellent
+recommendation. Writing drafts using Markdown is likely to be significantly
+easier for many people. The rules are easier and it's so much simpler to
+figure out what's wrong.
+
+The repository was used by the two draft authors to have discussions using
+Issues. These were useful to track agreements between the authors and to
+create to-do lists.
+
+The repository has also been used to ask WG members to look at the Editor's
+draft (manually pushed to gh-pages) and see if comments had been handled to
+their liking. WG members were not asked to use Issues to make comments.
+Comments from WG members were all discussed on the WG list.
+
+Updates to the draft have been pushed directly to the master branch. There
+was one attempt to first create a separate branch and then a pull request to
+the master. This proved to be too much effort in the context of this draft.
 
 
 # Acknowledgments
