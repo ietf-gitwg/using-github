@@ -15,6 +15,11 @@ author:
    name: Martin Thomson
    org: Mozilla
    email: mt@lowentropy.net
+ -
+   ins: B. Stark
+   name: Barbara Stark
+   org: AT&T
+   email: barbara.stark@att.com
 
 informative:
     ID-TEMPLATE:
@@ -52,23 +57,23 @@ produce documents and to improve the quality of the final result.
 The use of source control improves traceability and visibility of changes.
 Issue tracking can be used to manage open issues and provide a record of their
 resolution.  Pull requests allow for better engagement on technical and
-edditorial changes, and encourage contributions from a larger set of
+editorial changes, and encourage contributions from a larger set of
 contributors.  Using GitHub can also broaden the community of contributors for a
 specification.
 
-This document describes how the IETF uses GitHub through the development of
-Internet-Drafts.  This concentrates on the work that occurs within IETF working
-groups.  Recommendations for working groups and their chairs are made for
-integrating these tools with their processes.
+The main purpose of this document is providing guidelines for how Working Groups
+might integrate the capabilities provided by GitHub into their processes for
+developing Internet-Drafts.
 
-This document is meant as an enhancement to RFC 2418 {{?RFC2418}}.  It provides
-guidance to working group chairs and participants on how they can best use
-GitHub.  The small number of rules in this document are there to ensure common
-usage patterns between working groups and to avoid issues that have been
-encountered in the past.
+This document is meant as a supplement to existing Working Group practices.  It
+provides guidance to Working Group chairs and participants on how they can best
+use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  The small
+number of rules in this document are there to ensure common usage patterns
+between working groups and to avoid issues that have been encountered in the
+past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
-describes administrative processes that supports the practices described in this
+describes administrative processes that support the practices described in this
 document.
 
 
@@ -106,7 +111,7 @@ possible choice for hosting.  There are other services that host revision
 control repositories and provide similar additional features to GitHub.  For
 instance, [BitBucket](https://bitbucket.org/), or
 [GitLab](https://about.gitlab.com/) provide a similar feature set.  In
-additional to a hosted service, software for custom installations exists.
+addition to a hosted service, software for custom installations exists.
 
 This document concentrates primarily on GitHub as it has a large and active
 community of contributors.  As a result, some content might not be applicable to
@@ -172,6 +177,7 @@ not grant any other significant privileges.
 Details about creating organizations adhering to these guidelines can be found
 in {{!GIT-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
+
 ## Communicating Policies
 
 Each Working Group MAY set its own policy as to whether and how it uses GitHub.
@@ -188,13 +194,13 @@ https://datatracker.ietf.org/wg/quic/charter/.
 
 # Deciding to Use GitHub
 
-A Working Group Chairs are responsible for determining how to best accomplish
+Working Group Chairs are responsible for determining how to best accomplish
 the Charter in an open and transparent fashion.  The Working Group Chairs are
 responsible for determining if there is interest in using GitHub and making a
-consensus call to determine if a the proposed policy and use is acceptable.
+consensus call to determine if the proposed policy and use is acceptable.
 
-Chairs SHOULD involve Area Directors any decision to use GitHub for anything
-more than managing of drafts.
+Chairs MUST involve Area Directors in any decision to use GitHub for anything
+more than managing drafts.
 
 While a document editor can still use GitHub independently for documents that
 they edit, even if the working group does not expressly choose to use GitHub,
@@ -228,10 +234,12 @@ occasionally remind new contributors of these guidelines.
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
 
-Updating the README or CONTRIBUTING file in the repository with details of the
-process ensures that the process is recorded in a stable location other than the
-mailing list archive.  This also makes any working group policies available to
-casual contributors who might only interact with the GitHub repository.
+Repositories MUST include a copy or reference to the policy that applies to
+managing any documents they contain.  Updating the README or CONTRIBUTING file
+in the repository with details of the process ensures that the process is
+recorded in a stable location other than the mailing list archive.  This also
+makes any Working Group policies available to casual contributors who might only
+interact with the GitHub repository.
 
 GitHub prominently links to the CONTRIBUTING on certain pages.  This file SHOULD
 be used in preference to the README for information that new contributors need.
@@ -264,8 +272,8 @@ Closely related documents, such as those that together address a single
 milestone, might be placed in a single repository.  This allows editors to more
 easily manage changes and issues that affect multiple documents.
 
-Maintaining multiple documents in the same repository can add overheads that
-negatively affect individual documents.  For instance, issues might require
+Maintaining multiple documents in the same repository can add overhead that
+negatively affects individual documents.  For instance, issues might require
 additional markings to identify the document that they affect.  Also, because
 editors all have write access to the repository, managing the set of people with
 write access to a larger repository is more difficult.
@@ -299,6 +307,9 @@ choose to use a different input form for editing documents, such as markdown.
 Markdown-based formats have proven to be more accessible for new contributors,
 though ultimately decisions about format is left to document editors.
 
+Formats that are not text-based, SHOULD NOT be used, as these are inimical to
+the sorts of interaction that revision control enables.
+
 
 # Contribution Methods {#features}
 
@@ -308,23 +319,24 @@ and pull requests, comments on issues and pull requests, and comments on
 commits.
 
 
-## Issues
+## Issue Tracker
 
 The GitHub issue tracker can be an effective way of managing the set of open
-issues on a document.  The record of issues - both open and closed - can be a
-useful way of recording decisions made by a working group.
+issues on a document.  Issues - both open and closed - can be a useful way of
+recording decisions made by a working group.
 
 Issues can be given arbitrary labels, assigned to contributors, and assembled
 into milestones.  The issue tracker is integrated into the repository; an issue
 can be closed using a special marker in a commit message.
 
 When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
-issue tracker are used.  Use of the issue tracker could be limited to recording
+issue tracker is used.  Use of the issue tracker could be limited to recording
 the existence of issues, or it might be used as the venue for substantial
-technical discussion between contributors.
+technical discussion between contributors.  A Working Group policy MAY require
+that all substantive changes be tracked using issues.
 
 
-### Issue Labelling
+### Issue Labels
 
 A system of labeling issues can be effective in managing issues.  For instance,
 marking substantive issues separately from editorial can be helpful at guiding
@@ -358,7 +370,15 @@ changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
 Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository.
+committing directly to the "master" branch of the repository.  Pull requests
+that address substantive issues SHOULD mention the issue they address in
+the opening comment.
+
+Note:
+
+: This document assumes that there is a unified effort on a document, all
+  concentrated on a git "master" branch.  More advanced usage of git is not in
+  the scope of this document.
 
 Pull requests have many of the same properties as issues, including the ability
 to host discussion and bear labels.  Critically, using pull requests creates a
@@ -403,10 +423,11 @@ Document editors need some flexibility in how they manage a document.
 
 ## Monitoring Activity
 
-Several working groups have created read-only mailing lists that subscribe to
-activity notifications on repositories.  The volume of information on these
-lists can be too high to monitor actively, but access to an archive of actions
-can be useful.
+GitHub produces individualized email notifications of activity that each user
+can adjust to their preferences.  In addition to these, some Working Groups have
+created read-only mailing lists that receive notifications about activity on
+Working Group repositories.  The volume of information on these lists can be too
+high to monitor actively, but access to an archive of actions can be useful.
 
 An alternative is to rely on periodic email summaries of activity, such as those
 produced by a notification tool like
@@ -423,12 +444,18 @@ the chairs.
 During the development of a document, individual revisions of a document can be
 built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
-audience.
+audience.  Documents submitted as Internet-Drafts are not expected to address
+all open issues or merge outstanding pull requests.
 
 Editors SHOULD create a new Internet-Draft submission two weeks prior to every
-session (see Section 7.1 of {{?RFC2418}}).  Participants in a session can't be
-expected to monitor changes to documents in real-time; an Internet-Draft ensures
-that there is a common, stable state that is known to all participants.
+session (see Section 7.1 of {{?RFC2418}}).  Though discussion could use the
+current version of a document from version control, participants in a session
+can't be expected to monitor changes to documents in real-time; a published
+Internet-Draft ensures that there is a common, stable state that is known to all
+participants.
+
+Revisions used to generate documents that are submitted as Internet-Drafts
+SHOULD be tagged in repositories to provide a record of submissions.
 
 Working group chairs MAY request the creation of an Internet-Draft at any time,
 in consultation with document editors.
@@ -457,8 +484,8 @@ from multiple sources in assessing consensus is similar to what is needed when
 balancing mailing list discussion versus in-person meeting discussion.
 
 The use of issues and labels has proven to be effective in managing contentious
-issues.  Explicitly labeling closed issues so that those with formal consensus
-means that there is no confusion about the status of issues.
+issues.  Explicitly labeling closed issues to explicitly identify those with
+formal consensus means that there is no confusion about the status of issues.
 
 
 # Continuous Integration
@@ -469,16 +496,16 @@ changes are made to a document.
 One common practice is to use these continuous integration services to build a
 text or HTML version of a document.  This is then published to GitHub Pages,
 which allows users to view a version of the most recent revision of a document.
-Including prominent link to this version of the document (such as in the README)
+Including a prominent link to this version of the document (such as in the README)
 makes it easier for new contributors to find a readable copy of the most recent
 version of a draft.
 
 Continuous integration can also validate pull requests and other changes for
 errors.  The most basic check is whether the source file can be transformed
-successful into a valid Internet-Draft.  For example, this might include
+successfully into a valid Internet-Draft.  For example, this might include
 checking that XML source is syntactically correct.
 
-For documents that use formal languages a part of specifications, such as schema
+For a document that use formal languages as part of the specification, such as schema
 or source code, a continuous integration system might also be used to validate
 any formal language that the document contains.  Tests for any source code that
 the document contains might be run, or examples might be checked for
@@ -507,8 +534,8 @@ chair for guidance.
 
 If a contributor makes a comment that raises what you believe to be a new issue,
 create an issue for them.  If the issue has an obvious solution, consider
-creating a pull request.  It doesn't matter what venue the issue was raised in,
-email, issue discussion, a pull request review, capturing issues quickly ensures
+creating a pull request.  It doesn't matter what venue the issue was raised in
+(e.g., email, issue discussion, a pull request review); capturing issues quickly ensures
 that problems become visible and can be tracked.
 
 This takes a little more effort, but these simple steps can help encourage
@@ -602,7 +629,7 @@ The [QUIC WG](https://datatracker.ietf.org/wg/quic/charter/) was chartered in
 October 2016, and has been using GitHub very intensively.
 
 We created a GitHub organization called ["quicwg"](https://github.com/quicwg),
-which the WG chairs administer. Under than organization, we set up two teams,
+which the WG chairs administer. Under that organization, we set up two teams,
 one for [WG document editors](https://github.com/orgs/quicwg/teams/editors) and
 one for [regular
 contributors](https://github.com/orgs/quicwg/teams/contributors). Membership in
@@ -649,8 +676,8 @@ WG meeting, and the mailing list needs to confirm this consensus. (It is not
 clear if two separate labels actually make all that much sense here.) Once WG
 consensus has been established, an issue is labeled "editor-ready".
 
-Although the QUIC WG has only been chartered for a few months, we have already
-had ~250 issues raised, many of which have attracted dozens of comments. Good
+Within only a few months of being chartered, QUIG WG
+had ~250 issues raised, many of which attracted dozens of comments. Good
 issue topics and actively searching for prior issues before opening new ones is
 essential to manage the workflow.
 
@@ -678,6 +705,77 @@ address of notification emails, which requires regular whitelisting in mailman.
 It also means that these users are allowed to otherwise email the issues list;
 we trust they don't. This email integration is rather dissatisfyingly complex;
 we'd be interested to learn of a better way.
+
+
+## HOMENET {#homenet}
+
+After Martin Thomson's presentation on using GitHub (presented at the WG Chairs
+lunch), the homenet chairs (one of the chairs to be precise) set up
+https://github.com/ietf-homenet-wg. WG draft authors were asked if they
+wanted to use it. All draft authors agreed to try, so copies of the current
+drafts were converted to Markdown (which seemed to be the recommended format)
+and separate repositories created for each draft. GitHub teams (comprised of
+authors) were created for the drafts, as per available instructions.
+
+The repositories were created using instructions from Martin Thomson’s
+[template](https://github.com/martinthomson/i-d-template). But since
+instructions for gh-pages proved too confusing, the gh-pages were created
+by manually uploading (using the GitHub UI) the .html and .txt files output
+by "make gh-pages" to the gh-pages branch. README.md was then edited to
+point to the uploaded .html file.
+However, one of the authors decided it was easier to use Google docs to
+receive comments and maintain an Editor's copy of the draft (in Markdown).
+He is able to give permission (on request) to other WG group members to
+comment directly on Google docs. Therefore the copy on GitHub is out-dated
+and has effectively been abandoned.
+
+The main authors of the other two drafts decided not to use the repositories
+created for them, but wanted a new repository for one of the drafts. The
+authors have collaborated on GitHub in this new repository, but the WG has
+not been invited to look, comment, or contribute there. This is probably for
+the best, since the draft pointed to by the README.md is the version in the
+gh-pages of the old repository for the same draft.
+
+In short, the use of GitHub has been highly experimental, and no formal WG
+activities have taken place there. The GitHub organization has effectively
+been a playground area for the chairs and authors to stumble around to figure
+out how to use this tool.
+
+
+## BABEL {#babel}
+
+After Martin Thomson's presentation on using GitHub (presented at the WG Chairs
+lunch), one of the authors of a draft in the babel WG asked the chairs if they
+might consider setting up a GitHub organization. In the absence of a response
+(and the absence of follow-up to the absent response), the draft was put in a
+personal GitHub repository. The repository was created using instructions
+(as best as they could be understood) from Martin Thomson’s
+[template](https://github.com/martinthomson/i-d-template). The gh-pages,
+continuous integration (CI), and such proved beyond comprehension to someone
+who had only rudimentary (almost non-existent) experience with makefiles, CI,
+and the inner workings of any of the tools involved; but who, fortunately,
+did have a laptop running Linux, experience with vi, and had formed a very
+basic understanding of git (mostly in the context of Bitbucket) over the past
+year.
+
+Carsten Bormann was kind enough to convert the existing XML to Markdown (since
+the recommendation was to use markdown). This turned out to be an excellent
+recommendation. Writing drafts using Markdown is likely to be significantly
+easier for many people. The rules are easier and it's so much simpler to
+figure out what's wrong.
+
+The repository was used by the two draft authors to have discussions using
+Issues. These were useful to track agreements between the authors and to
+create to-do lists.
+
+The repository has also been used to ask WG members to look at the Editor's
+draft (manually pushed to gh-pages) and see if comments had been handled to
+their liking. WG members were not asked to use Issues to make comments.
+Comments from WG members were all discussed on the WG list.
+
+Updates to the draft have been pushed directly to the master branch. There
+was one attempt to first create a separate branch and then a pull request to
+the master. This proved to be too much effort in the context of this draft.
 
 
 # Acknowledgments
