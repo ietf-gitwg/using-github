@@ -332,8 +332,11 @@ can be closed using a special marker in a commit message.
 When deciding to use GitHub, Working Group Chairs MUST decide how the GitHub
 issue tracker is used.  Use of the issue tracker could be limited to recording
 the existence of issues, or it might be used as the venue for substantial
-technical discussion between contributors.  A Working Group policy MAY require
-that all substantive changes be tracked using issues.
+technical discussion between contributors.
+
+A Working Group policy MAY require that all substantive changes be tracked using
+issues.  Suggested policies for the use of the GitHub issue tracker are the
+primary subject of {{modes}}.
 
 
 ### Issue Labels
@@ -349,7 +352,8 @@ specific issues for discussion at an upcoming session.
 
 If labels are a core part of working group process, chairs MUST communicate any
 process to the working group.  This includes the semantics of labels, and who
-can apply and remove these labels.
+can apply and remove these labels.  {{labels}} describes some basic strategies
+that might be adopted to manage decision-making processes.
 
 
 ### Closing Issues
@@ -358,6 +362,21 @@ Editors have write access to repositories, which also allows them to close
 issues.  The user that opens an issue is also able to close the issue.  Chairs
 MUST provide guidance on who is permitted to close an issue and under what
 conditions.
+
+Restrictions on closing issues are generally not advisable until a document has
+reached a certain degree of maturity.
+
+
+### Reopening Issues
+
+Issues that have reached a resolution that has Working Group consensus MUST NOT
+be reopened unless new information is presented.
+
+For long-running work items, new contributors often raise issues that have
+already been resolved. Chairs need to assess whether the arguments offered
+represent new information or not.  This can require some discussion to determine
+accurately.  Resolved issues MUST remain closed unless there is consensus to
+reopen an issue.
 
 
 ## Pull Requests
@@ -437,6 +456,251 @@ server infrastructure.
 
 A working group that uses GitHub MAY provide either facility at the request of
 the chairs.
+
+
+# Typical Working Group Policies {#modes}
+
+Current experience with use of GitHub suggests a few different approaches to
+greater use of the tool in Working Groups.
+
+This section describes some basic modes for interacting with GitHub, each
+progressively more involved. This starts with a very lightweight interaction
+where document management is the only feature that is formally used, then
+progressively more intensive use of the GitHub issue tracking capabilities are
+described.  These approaches differ primarily in how discussion of substantive
+matters is managed.  Most of the advice in this document applies equally to all
+models.
+
+Working Groups can adjust these policies to suit their needs, but are advised to
+avoid gratuitous changes for the sake of consistency across the IETF as a whole.
+
+
+## Document Management Mode
+
+In this mode of interaction, GitHub repositories are used to manage changes to
+documents, but the bulk of the work is conducted using email, face-to-face
+meetings, and other more traditional interactions.  The intent of this policy is
+to enable document and issue management using GitHub while minimizing the
+complexity of the process.
+
+In the version of this mode with the least interaction with GitHub, only the
+document repository is created and that is used by editors.  Editors might
+manage issues for their own benefit, or they might choose to just use the
+respository to manage document revisions.
+
+
+## Issue Tracking Mode
+
+In addition to managing documents, the working group might choose to use GitHub
+for tracking outstanding issues.  In this mode of interaction, all substantive
+technical discussions are tracked as issues in the issue tracker.  However,
+discussion of any substantial matters is always conducted on mailing lists.
+
+Under this mode, issues and pull requests can be opened by anyone, but anything
+deemed substantive MUST be resolved exclusively on the mailing list.  Discussion on
+GitHub is kept to a minimum.  Only editorial matters can be resolved using the
+issue tracker.
+
+Chairs and editors are given discretion in determining what issues are
+substantive.  As documents mature, it is generally prudent to err more toward
+consulting the mailing list where there is doubt.  As with other Working Group
+decisions, chairs are the arbiters in case of dispute.
+
+A recurrent problem with this mode of interaction is the tendency for
+discussions to spontaneously develop in the issue tracker.  This requires a
+degree of discipline from chairs and editors to ensure that any substantive
+matters are taken to the mailing list.
+
+As mailing lists remain the primary venue for discussion of substantive matters,
+this mode and the document management only modes remain those most compatible
+with existing work practices for Working Groups.  Participants in a Working
+Group that operates under either model can reasonably be expected to receive all
+relevant communication about the work of the group from the mailing list.
+
+Though the mailing list is used for making decisions, the issue tracker can
+still be a useful record of the state of issues.  It is often useful if chairs
+or editors record details of decisions in issue comments when closing issues as
+resolved.
+
+
+## Issue Discussion Mode
+
+This GitHub interaction mode differs from the other modes in that discussion
+relating to substantive technical matters is allowed to occur on GitHub issues.
+Though decisions are always subject to confirmation on the mailing list,
+participants are permitted to conduct substantive discussions on the issue
+tracker.  In some cases, this can include making some decisions without
+involving the Working Group mailing list.
+
+A Working Group mailing list remains a critical venue for decision making, even
+where issue discussion occurs elsewhere.  Working Group mailing lists generally
+include a wider audience than those who follow issue discussion, so difficult
+issues always benefit from list discussion.
+
+Decisions about Working Group consensus MUST always be confirmed using the
+Working Group mailing list.  However, depending on the maturity of documents,
+this might be a more lightweight interaction, such as sending an email
+confirmation for a set of resolutions made using GitHub.
+
+Using the mailing list to resolve difficult or controversial issues is strongly
+encouraged.  In those cases, the issue tracker might be used to more fully
+develop an understanding of problems before initiating a discussion on the
+mailing list, along lines similar to the design team process (see Section 6.5 of
+{{RFC2418}}).
+
+As a more involved process, adopting this mode can require changes in policies
+as documents become more mature.  It is possible to use different processes for
+different documents in the Working Group.
+
+Working Group chairs SHOULD confirm that the Working Group has consensus to
+adopt any process.  In particular, the introduction of a more tightly-controlled
+process can have the effect of privileging positions already captured in
+documents, which might disadvantage alternative viewpoints.
+
+
+### Early Design Phases
+
+During early phases of the design of a protocol, chairs MAY allow editors to
+manage all aspects of issues.  Editors are permitted to make decisions about how
+to both identify and resolve technical issues, including making any changes that
+editors feel necessary.
+
+Chairs need to explicitly decide that this sort of process is needed and
+announce the decision to the Working Group.  In many cases, documents that are
+adopted by a Working Group are already sufficiently mature that a looser process
+is not beneficial.  The primary reason to grant editors more discretionary power
+is to improve the speed with which changes can be made.  The risk is that design
+changes might not always reflect the consensus of the Working Group.
+
+Changes made by editors under this process do not completely lack oversight.
+GitHub and git provide tools for ensuring that changes are tracked and can be
+audited.  Within the usual Working Group process it is expected that
+Internet-Drafts will receive regular review. Finally, process checkpoints like
+Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provides additional
+safeguards against abuse.
+
+Working Groups are advised against allowing editors this degree of flexibility
+for the entirety of a document lifecycle.  Once a document is more stable and
+mature, it is likely appropriate to move to a more tightly controlled process.
+
+
+### Managing Mature Documents
+
+As a document matures, it becomes more important to understand not just that the
+document as a whole retains the support of the working group, but that changes
+are not made without wider consultation.
+
+Chairs might choose to manage the process of deciding which issues are
+substantive.  For instance, chairs might reserve the ability to use the `design`
+label to new issues (see {{label-design}}) and to close issues marked as `design`.
+Chairs should always allow document editors to identify and address editorial
+issues as they see fit.
+
+As documents mature further, explicit confirmation of technical decisions with
+the Working Group mailing list becomes more important.
+
+Gaining Working Group consensus about the resolution of issues can be done in
+the abstract, with editors being permitted to capture the outcome of discussions
+as they see fit.
+
+More mature documents require not only consensus, but consensus about specific
+text.  All substantive changes to documents that have passed WGLC SHOULD be
+proposed as pull requests, and MUST be discussed on the mailing list, and MUST
+have chairs explicitly confirm consensus.  Chairs MAY institute this stricter
+process prior to WGLC.
+
+Note:
+
+: It is generally sufficient to trust editors to manage adherence with these
+  policies, aided by the transparency provided by the version control system.
+  There are tools that can be used to more tightly control access to
+  repositories, but they can be overly constraining.
+
+
+## Issue Labelling Schemes {#labels}
+
+Several schemes for use of issue labels in managing issues have been used
+successfully.  This section outlines these strategies and how they might be
+applied.
+
+A design/editorial split (see {{label-design}}) is useful in all cases that the
+issue tracking capability is used.  Working Groups that only use GitHub for
+issue tracking might find that distinction sufficient for their needs.
+
+Working Groups or editors might use additional labels as they choose.  Any label
+that is used as part of a process requires that the process be documented and
+announced by Working Group chairs.  Editors SHOULD be permitted to use labels to
+manage issues without any formal process significance being attached to those
+issues.
+
+
+### Design/Editorial Labelling {#label-design}
+
+The most important distinction about an issue is whether it is substantive.  The
+labels of `design` and `editorial` are used to represent this distinction.
+
+An issue labeled as `design` has or might have a substantive effect on a
+document.  For protocol specifications, a `design` issue is one that might
+affect implementations or interoperability requirements.  Addressing a `design`
+issue ultimately requires Working Group consensus, even if the resolution is to
+make no change.
+
+An issue labeled as `editorial` has no substantive effect on a document, except
+to the extent that addressing the issue might make understanding the
+specification easier.  Resolution of `editorial` issues can be left to the
+discretion of editors.
+
+This distinction can be applied to all types of document.  For instance, a
+`design` issue for an Informational document might be raised to discuss
+possible changes to important concepts in the document.
+
+
+### Decision Labelling {#label-decision}
+
+Labels can be used to manage processes.  As documents mature and issues become
+more numerous, labels can be used to clearly mark the status of issues.  In
+particular, labelling of issues can be used to help in managing Working Group
+decisions.
+
+For documents that are less mature, issues with resolutions but no specific
+proposals for changes to text might be marked `editor-ready` as a way of
+signaling that there is consensus about an approach, but no specific proposal.
+Chairs might use this to signal that discussion is complete and that editors are
+to be given discretion in the construction of text.
+
+In contrast, if specific text is a prerequisite for resolving issues, as might
+be the case for more mature documents, a `proposal-ready` label might be used by
+editors to mark issues that they believe to have acceptable resolutions.
+
+For resolved issues, a `has-consensus` label might be used by chairs to mark
+issues for which formal Working Group decisions have been made (Section 6.1 of
+{{!RFC2418}}).
+
+A `v2` or `next-version` label might be used to mark and thereby save issues for
+a future version of or extension to a protocol, particularly where a resolution
+is made to take no action.
+
+
+### Component Labelling
+
+Repositories with multiple interrelated documents or a complex document with
+multiple logical components might benefit from labels that identify different
+aspects of the work.  The choice of appropriate labels for components will
+depend on the structure of specific documents.
+
+
+### Other Labels
+
+Other labels can be used depending on the needs of editors and Working Group
+processes.  For example,
+
+* An `invalid` label might be used for issues that were raised in error.
+
+* A `blocked` label might indicate an issue is awaiting resolution of an
+  external process or related issue.
+
+* A `parked` label might be used to indicate issues that do not require
+  immediate working group attention.
 
 
 # Internet-Draft Publication
