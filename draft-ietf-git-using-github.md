@@ -30,7 +30,7 @@ informative:
 
 --- abstract
 
-This document describes best practices for working groups that use GitHub for
+This document describes best practices for Working Groups that use GitHub for
 their work.
 
 
@@ -51,7 +51,7 @@ Source for this draft and an issue tracker can be found at
 The IETF has an open and transparent process for developing standards.  The use
 of GitHub or similar tools, when used as part of this process, can have several
 objectives.  GitHub provides tools that can be helpful in editing documents.
-Use of this service has proven to reduce the time that working groups need to
+Use of this service has proven to reduce the time that Working Groups need to
 produce documents and to improve the quality of the final result.
 
 The use of source control improves traceability and visibility of changes.
@@ -69,7 +69,7 @@ This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
 use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  The small
 number of rules in this document are there to ensure common usage patterns
-between working groups and to avoid issues that have been encountered in the
+between Working Groups and to avoid issues that have been encountered in the
 past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
@@ -79,10 +79,10 @@ document.
 
 ## Distributed Version Control Systems
 
-Different version control systems are a critical component of software
+Version control systems are a critical component of software
 engineering and are quite useful also for document editing.
 
-Git is a distributed version control system .  Each instance of a repository
+Git is a distributed version control system.  Each instance of a repository
 contains a number of revisions.  Each revision stores the complete state of a
 set of files.  Users are able to create new revisions in their copy of a
 repository and share revisions between copies of repositories.
@@ -91,18 +91,18 @@ repository and share revisions between copies of repositories.
 ## GitHub
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
-GitHub provides a centralized store for git repositories.  GitHub is freely
+GitHub provides centralized storage for git repositories.  GitHub is freely
 accessible on the open Internet (see {{shame}}), albeit currently only via IPv4.
 
 GitHub provides a simplified and integrated interface to not only git, but also
-provides basic user management, an issue tracker, associated wiki, project
+provides basic user management, an issue tracker, associated wikis, project
 hosting, and other features.
 
 There are a large number of projects at GitHub and a very large community of
-contributors.  One way in which some IETF Working Groups have seen benefit is in
-the increased reviews and associated issues and improvements that come from
-broader participation by facilitating those in this community to participate.
-
+contributors.  One way in which some IETF Working Groups have benefited is
+through increased numbers of reviews and associated issues, along with other
+improvements that come from broader participation by facilitating those
+in the community to participate.
 
 ## Other Services
 
@@ -115,25 +115,25 @@ addition to a hosted service, software for custom installations exists.
 
 This document concentrates primarily on GitHub as it has a large and active
 community of contributors.  As a result, some content might not be applicable to
-other similar services.  A working group that decides to adopt an alternative
+other similar services.  A Working Group that decides to adopt an alternative
 tool or service can still benefit from the general guidance in this document.
 
 
 ## Document Goals
 
-This document aims to describe how a working group might best apply GitHub to
-their work.  The intent is to allow each working group considerable flexibility
+This document aims to describe how a Working Group might best apply GitHub to
+their work.  The intent is to allow each Working Group considerable flexibility
 in how they use GitHub.
 
 This document does require that policies for use of GitHub are agreed and
-clearly communicated within the working group (see {{policy}}).  The remainder
+clearly communicated within the Working Group (see {{policy}}).  The remainder
 of the document contains guidelines and advice on how to construct a workable
 policy.
 
-The requirements here apply to the case where working groups decide to use
+The requirements here apply to the case where Working Groups decide to use
 GitHub as a primary means of interaction.  Individuals can set their own
 policies when using GitHub for managing their own drafts, or for managing drafts
-that they edit on behalf of a working group that has not explicitly adopted
+that they edit on behalf of a Working Group that has not explicitly adopted
 GitHub.
 
 For both sets of users, this document aims to provide some amount of advice on
@@ -142,9 +142,9 @@ practices that have proven to be effective.
 
 ## Notational Conventions
 
-The words "MUST", "MUST NOT", "SHOULD", and "MAY" are used in this document.
-It's not shouting; when they are capitalized, they have the special meaning
-defined in {{!RFC2119}}.
+The words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY"
+are used in this document. It's not shouting; when they are capitalized,
+they have the special meaning defined in BCP 14 {{!RFC2119}} {{!RFC8174}}.
 
 
 # Administrative Policies {#policy}
@@ -156,17 +156,17 @@ transparency.
 ## Organizations
 
 Organizations are a way of forming groups of contributors on GitHub.
-Each Working Group SHOULD create a new organization for the working group.
-A working group organization SHOULD be named consistently so that it can be
+Each Working Group SHOULD create a new organization for the Working Group.
+A Working Group organization SHOULD be named consistently so that it can be
 found.  For instance, the name could be ietf-\<wgname> or ietf-\<wgname>-wg.
 
 A single organization SHOULD NOT be used for all IETF activity, or all activity
 within an area. Large organizations create too much overhead for general
 management tasks, particularly when there is a need to maintain membership.
 
-Each organization requires owners.  The owner team for a working group
+Each organization requires owners.  The owner team for a Working Group
 repository MUST include responsible Area Directors.  Area Directors MAY also
-designate a delegate that becomes an owner and working group chairs MAY also be
+designate a delegate that becomes an owner and Working Group chairs MAY also be
 owners.
 
 A team with administrator access SHOULD be created for the Working Group Chairs
@@ -203,7 +203,7 @@ Chairs MUST involve Area Directors in any decision to use GitHub for anything
 more than managing drafts.
 
 While a document editor can still use GitHub independently for documents that
-they edit, even if the working group does not expressly choose to use GitHub,
+they edit, even if the Working Group does not expressly choose to use GitHub,
   any such public repository MUST follow the guidelines in BCPs 78 and 79
 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}).  This recognizes that editors have
 traditionally chosen their own methods for managing the documents they edit but
@@ -213,22 +213,22 @@ considerations.
 
 ## What to Use GitHub For {#usage}
 
-Working Group Chairs have to decide what GitHub features the working group will
+Working Group Chairs have to decide what GitHub features the Working Group will
 rely upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
 
 Once a document is published in a repository on GitHub, many features like pull
 requests, issue tracking or the wiki can be individually disabled.  If specific
-features are not used by the working group in the development of the document,
+features are not used by the Working Group in the development of the document,
 disabling those features avoids creating confusion in the wider community about
 what can be used.
 
 
 ## Working Group Policies
 
-Working Group Chairs that decide to use GitHub MUST inform their working groups
-of their decision on the working group mailing list.  An email detailing how the
-working group intends to use GitHub is sufficient, though it might be helpful to
+Working Group Chairs that decide to use GitHub MUST inform their Working Groups
+of their decision on the Working Group mailing list.  An email detailing how the
+Working Group intends to use GitHub is sufficient, though it might be helpful to
 occasionally remind new contributors of these guidelines.
 
 Working Group Chairs are responsible for ensuring that any policy they adopt is
@@ -238,26 +238,27 @@ Repositories MUST include a copy or reference to the policy that applies to
 managing any documents they contain.  Updating the README or CONTRIBUTING file
 in the repository with details of the process ensures that the process is
 recorded in a stable location other than the mailing list archive.  This also
-makes any Working Group policies available to casual contributors who might only
+makes Working Group policies available to casual contributors who might only
 interact with the GitHub repository.
 
-GitHub prominently links to the CONTRIBUTING on certain pages.  This file SHOULD
+GitHub prominently links to the CONTRIBUTING file on certain pages.  This file SHOULD
 be used in preference to the README for information that new contributors need.
 A link to the CONTRIBUTING file from the README is advised.
 
 
 ## Repositories
 
-New repositories can be created within the working group organization at the
+New repositories can be created within the Working Group organization at the
 discretion of the chairs.  Chairs could decide to only create new repositories
-for adopted working group items, or they might create repositories for
+for adopted Working Group items, or they might create repositories for
 individual documents on request.
 
-All repositories for working group documents MUST be public.  Repositories for
-private documents MAY be kept private, but only where there is a specific reason
-for doing so.  For instance, a document that details a security vulnerability
-might be kept private prior to its initial publication as an Internet-Draft.
-Once an Internet-Draft is published, repositories SHOULD be made public.
+All repositories for Working Group documents within the Working Group
+organization MUST be public.  Repositories for private documents MAY be
+kept private, but only where there is a specific reason for doing so.  For
+instance, a document that details a security vulnerability might be kept
+private prior to its initial publication as an Internet-Draft. Once an
+Internet-Draft is published, repositories SHOULD be made public.
 
 The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
@@ -276,10 +277,10 @@ Maintaining multiple documents in the same repository can add overhead that
 negatively affects individual documents.  For instance, issues might require
 additional markings to identify the document that they affect.  Also, because
 editors all have write access to the repository, managing the set of people with
-write access to a larger repository is more difficult.
+write access to a larger repository is more difficult ({{editors}}).
 
 
-## Editors and Contributors
+## Editors and Contributors {#editors}
 
 Working group chairs MUST give document editors write access to document
 repositories.  This can be done by creating teams with write access and
@@ -290,7 +291,7 @@ Working group chairs MAY also grant other individuals write access for other
 reasons, such as maintaining supporting code or build configurations.  Working
 group chairs, as administrators or owners of the organization might also have
 write access to repositories.  Users other than document editors, including
-chairs, SHOULD NOT write to working group documents unless with prior
+chairs, SHOULD NOT write to Working Group documents unless with prior
 coordination with document editors.
 
 Working groups MAY create a team for regular contributors that is only given
@@ -307,8 +308,8 @@ choose to use a different input form for editing documents, such as markdown.
 Markdown-based formats have proven to be more accessible for new contributors,
 though ultimately decisions about format is left to document editors.
 
-Formats that are not text-based, SHOULD NOT be used, as these are inimical to
-the sorts of interaction that revision control enables.
+Formats that are not text-based SHOULD NOT be used, as these are ill-disposed
+to the sorts of interaction that revision control enables.
 
 
 # Contribution Methods {#features}
@@ -323,7 +324,7 @@ commits.
 
 The GitHub issue tracker can be an effective way of managing the set of open
 issues on a document.  Issues - both open and closed - can be a useful way of
-recording decisions made by a working group.
+recording decisions made by a Working Group.
 
 Issues can be given arbitrary labels, assigned to contributors, and assembled
 into milestones.  The issue tracker is integrated into the repository; an issue
@@ -350,8 +351,8 @@ into a document.
 Labels can be used to identify particular categories of issues or to mark
 specific issues for discussion at an upcoming session.
 
-If labels are a core part of working group process, chairs MUST communicate any
-process to the working group.  This includes the semantics of labels, and who
+If labels are a core part of Working Group process, chairs MUST communicate any
+process to the Working Group.  This includes the semantics of labels, and who
 can apply and remove these labels.  {{labels}} describes some basic strategies
 that might be adopted to manage decision-making processes.
 
@@ -404,7 +405,7 @@ to host discussion and bear labels.  Critically, using pull requests creates a
 record of actions taken.
 
 For significant changes, leaving a pull request open until discussion of the
-issue within the working group concludes allows the pull request to track the
+issue within the Working Group concludes allows the pull request to track the
 discussion and properly capture the outcome of discussions.
 
 Groups of editors could adopt a practice of having one editor create a pull
@@ -423,7 +424,7 @@ proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
 don't track discussion closely.
 
-For this reason, working group chairs SHOULD discourage the use of inline
+For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.
 
 
@@ -433,10 +434,10 @@ Working groups MUST determine who is permitted to merge pull requests.  Document
 editors SHOULD be permitted to merge pull requests at their discretion.  This
 requires that editors exercise some judgment.  Working group chairs MAY
 occasionally identify a pull request and request that editors withhold merging
-until working group consensus has been assessed.
+until Working Group consensus has been assessed.
 
 Note that the copy of a document that is maintained on GitHub does not need to
-be a perfect reflection of working group consensus at every point in time.
+be a perfect reflection of Working Group consensus at every point in time.
 Document editors need some flexibility in how they manage a document.
 
 
@@ -451,10 +452,10 @@ high to monitor actively, but access to an archive of actions can be useful.
 An alternative is to rely on periodic email summaries of activity, such as those
 produced by a notification tool like
 [github-notify-ml](https://github.com/dontcallmedom/github-notify-ml).  This
-tool has been used effectively in several working groups, though it requires
+tool has been used effectively in several Working Groups, though it requires
 server infrastructure.
 
-A working group that uses GitHub MAY provide either facility at the request of
+A Working Group that uses GitHub MAY provide either facility at the request of
 the chairs.
 
 
@@ -491,7 +492,7 @@ respository to manage document revisions.
 
 ## Issue Tracking Mode
 
-In addition to managing documents, the working group might choose to use GitHub
+In addition to managing documents, the Working Group might choose to use GitHub
 for tracking outstanding issues.  In this mode of interaction, all substantive
 technical discussions are tracked as issues in the issue tracker.  However,
 discussion of any substantial matters is always conducted on mailing lists.
@@ -587,7 +588,7 @@ mature, it is likely appropriate to move to a more tightly controlled process.
 ### Managing Mature Documents
 
 As a document matures, it becomes more important to understand not just that the
-document as a whole retains the support of the working group, but that changes
+document as a whole retains the support of the Working Group, but that changes
 are not made without wider consultation.
 
 Chairs might choose to manage the process of deciding which issues are
@@ -700,7 +701,7 @@ processes.  For example,
   external process or related issue.
 
 * A `parked` label might be used to indicate issues that do not require
-  immediate working group attention.
+  immediate Working Group attention.
 
 
 # Internet-Draft Publication
@@ -739,7 +740,7 @@ by occasionally reviewing the state of the document.  Chairs are reminded that
 assessing consensus based on GitHub content alone cannot be assumed to reach all
 interested participants.
 
-A working group chair MUST consult the working group mailing list for any issue
+A Working Group chair MUST consult the Working Group mailing list for any issue
 that is potentially contentious.  Relying on input provided through GitHub alone
 might result in gaining input from a narrower set of participants.  This
 includes important milestones like Working Group Last-Call, where review from
@@ -779,7 +780,7 @@ correctness.
 # Advice to Editors
 
 Document editors are primarily responsible for maintaining documents.  Taking on
-a few additional tasks can greatly improve the process for the working group.
+a few additional tasks can greatly improve the process for the Working Group.
 
 Using GitHub means that it is more likely that a contribution is made by users
 who aren't very familiar with the work.  If a duplicate issue is raised, point
