@@ -304,7 +304,7 @@ tasks to individuals outside of the editor team.
 ## Document Formats
 
 In addition to the canonical XML format {{?RFC7991}}, document editors might
-choose to use a different input form for editing documents, such as markdown.
+choose to use a different input form for editing documents, such as Markdown.
 Markdown-based formats have proven to be more accessible for new contributors,
 though ultimately decisions about format is left to document editors.
 
@@ -1030,7 +1030,7 @@ basic understanding of git (mostly in the context of Bitbucket) over the past
 year.
 
 Carsten Bormann was kind enough to convert the existing XML to Markdown (since
-the recommendation was to use markdown). This turned out to be an excellent
+the recommendation was to use Markdown). This turned out to be an excellent
 recommendation. Writing drafts using Markdown is likely to be significantly
 easier for many people. The rules are easier and it's so much simpler to
 figure out what's wrong.
