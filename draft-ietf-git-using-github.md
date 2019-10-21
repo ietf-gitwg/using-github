@@ -713,11 +713,12 @@ audience.  Documents submitted as Internet-Drafts are not expected to address
 all open issues or merge outstanding pull requests.
 
 Editors SHOULD create a new Internet-Draft submission two weeks prior to every
-session (see Section 7.1 of {{?RFC2418}}).  Though discussion could use the
-current version of a document from version control, participants in a session
-can't be expected to monitor changes to documents in real-time; a published
-Internet-Draft ensures that there is a common, stable state that is known to all
-participants.
+session, which includes IETF meetings, other in-person meetings, and telephone
+or video conferences (see Section 7.1 of {{?RFC2418}}).  Though discussion could
+use the current version of a document from version control, participants in a
+session can't be expected to monitor changes to documents in real-time; a
+published Internet-Draft ensures that there is a common, stable state that is
+known to all participants.
 
 Revisions used to generate documents that are submitted as Internet-Drafts
 SHOULD be tagged in repositories to provide a record of submissions.
