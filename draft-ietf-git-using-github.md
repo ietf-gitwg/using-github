@@ -737,23 +737,24 @@ Monitoring activity on GitHub can require a greater time commitment than
 following a mailing list.  This is because there is an increased volume of
 activity to follow.  Participants who wish to limit this time commitment might
 follow GitHub activity selectively, either by following only specific issues or
-by occasionally reviewing the state of the document.  Chairs are reminded that
-assessing consensus based on GitHub content alone cannot be assumed to reach all
-interested participants.
+by occasionally reviewing the state of the document.  Other participants might
+not use GitHub at all.  Chairs are reminded that assessing consensus based on
+GitHub content alone cannot be assumed to reach all interested participants.
+
+Chairs MUST consider input from all discussion venues when assessing consensus
+including GitHub, mailing lists, and in-person meetings.  Each venue has
+different selection biases that might need to be considered.
 
 A Working Group chair MUST consult the Working Group mailing list for any issue
 that is potentially contentious.  Relying on input provided through GitHub alone
 might result in gaining input from a narrower set of participants.  This
 includes important milestones like Working Group Last-Call, where review from
-the widest possible audience ensures a higher quality document.  Managing input
-from multiple sources in assessing consensus is similar to what is needed when
-balancing mailing list discussion versus in-person meeting discussion.
+the widest possible audience ensures a higher quality document.
 
-It is expected that technical decisions will be made based on discussion and
-interaction on GitHub.  This is especially the case during early stages of
-development of a document.  Any decisions are ultimately confirmed through
-review, and ultimately, through Working Group Last Call (see Section 7.4 of
-{{!RFC2418}}).
+If permitted, GitHub will be used for technical discussion and decisions,
+especially during early stages of development of a document.  Any decisions are
+ultimately confirmed through review, and ultimately, through Working Group Last
+Call (see Section 7.4 of {{!RFC2418}}).
 
 The use of issues and labels has proven to be effective in managing contentious
 issues.  Explicitly labeling closed issues to explicitly identify those with
