@@ -486,10 +486,10 @@ meetings, and other more traditional interactions.  The intent of this policy is
 to enable document and issue management using GitHub while minimizing the
 complexity of the process.
 
-In the version of this mode with the least interaction with GitHub, only the
-document repository is created and that is used by editors.  Editors might
-manage issues for their own benefit, or they might choose to just use the
-respository to manage document revisions.
+In the version of this mode with the least interaction with GitHub, a repository
+is created for the purposes of document management by editors.  Editors might
+maintain issues and pull requests for their own benefit, but these have no
+formal standing in the Working Group process.
 
 
 ## Issue Tracking Mode
