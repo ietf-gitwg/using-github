@@ -390,9 +390,11 @@ changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
 Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository.  Pull requests
-that address substantive issues SHOULD mention the issue they address in
-the opening comment.
+committing directly to the "master" branch of the repository.  A pull request
+creates an artifact that records the reasons for changes and provides other
+contributors with an opportunity to review the change. Pull requests that
+address substantive issues SHOULD mention the issue they address in the opening
+comment.
 
 Note:
 
