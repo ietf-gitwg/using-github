@@ -217,12 +217,6 @@ Working Group Chairs have to decide what GitHub features the Working Group will
 rely upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
 
-Once a document is published in a repository on GitHub, many features like pull
-requests, issue tracking or the wiki can be individually disabled.  If specific
-features are not used by the Working Group in the development of the document,
-disabling those features avoids creating confusion in the wider community about
-what can be used.
-
 
 ## Working Group Policies
 
