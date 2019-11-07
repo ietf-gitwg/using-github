@@ -235,9 +235,26 @@ recorded in a stable location other than the mailing list archive.  This also
 makes Working Group policies available to casual contributors who might only
 interact with the GitHub repository.
 
-GitHub prominently links to the CONTRIBUTING file on certain pages.  This file SHOULD
-be used in preference to the README for information that new contributors need.
-A link to the CONTRIBUTING file from the README is advised.
+GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
+SHOULD be used in preference to the README for information that new contributors
+need.  A link to the CONTRIBUTING file from the README is advised.
+
+The set of GitHub features ({{features}}) that the Working Group relies upon
+need to be clearly documented in policies.  This document provides some guidance
+on potential policies and how those might be applied.
+
+Features that the Working Group does not rely upon SHOULD be made available to
+document editors.  Editors are then able to use these features for their own
+purposes.  For example, though the Working Group might not formally use issues
+to track items that require further discussion in order to reach consensus,
+keeping the issue tracker available to editors can be valuable.
+
+Working Group policies need to be set with the goal of improving transparency,
+participation, and ultimately the quality of the consensus behind documents.  At
+times, it might be appropriate to impose some limitations on what document
+editors are able to do in order to serve these goals.  Chairs SHOULD
+periodically consult with document editors to ensure that policies are effective
+and not unjustifiably constraining progress.
 
 
 ## Repositories
