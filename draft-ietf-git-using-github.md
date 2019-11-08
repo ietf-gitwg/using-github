@@ -67,10 +67,10 @@ developing Internet-Drafts.
 
 This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
-use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  The small
-number of rules in this document are there to ensure common usage patterns
-between Working Groups and to avoid issues that have been encountered in the
-past.
+use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  This
+document aims to establish norms that reduce the variation in usage patterns
+between different Working Groups and to avoid issues that have been encountered
+in the past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that support the practices described in this
@@ -79,8 +79,8 @@ document.
 
 ## Distributed Version Control Systems
 
-Version control systems are a critical component of software
-engineering and are quite useful also for document editing.
+Version control systems are a critical component of software engineering and are
+quite useful also for document editing.
 
 Git is a distributed version control system.  Each instance of a repository
 contains a number of revisions.  Each revision stores the complete state of a
@@ -138,6 +138,12 @@ GitHub.
 
 For both sets of users, this document aims to provide some amount of advice on
 practices that have proven to be effective.
+
+This document only aims to address use of GitHub in developing documents.
+Working Groups could choose to use the tool to aid in managing their charter or
+session materials such as agendas, minutes, and presentations.  Though the
+advice here might apply more broadly, using GitHub to manage other material is
+out of scope for this document.
 
 
 ## Notational Conventions
