@@ -213,12 +213,10 @@ considerations.
 
 ## What to Use GitHub For {#usage}
 
-Working Group Chairs have to decide what GitHub features the Working Group will
-rely upon.  {{features}} contains a more thorough discussion on the different
+Working Group Chairs decide what GitHub features the Working Group will rely
+upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
 
-
-## Working Group Policies
 
 Working Group Chairs that decide to use GitHub MUST inform their Working Groups
 of their decision on the Working Group mailing list.  An email detailing how the
@@ -977,7 +975,7 @@ traffic, Second, the issues list is configured as a read-only list, where all
 incoming email is rejected, except for some whitelisted senders. The intent is
 to keep all discussion on the regular WG mailing list, or on GitHub tickets.
 (While GitHub will correctly reflect email replies to issue notifications, they
-seem to loose sender information, which is useless.)
+seem to lose sender information, which is useless.)
 
 Getting GitHub notifications to go to this list was mildly painful, and involved
 creating a dummy ["IETF QUIC WG" GitHub user
