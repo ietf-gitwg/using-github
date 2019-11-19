@@ -733,6 +733,10 @@ session can't be expected to monitor changes to documents in real-time; a
 published Internet-Draft ensures that there is a common, stable state that is
 known to all participants.
 
+Internet-Drafts that use a GitHub repository SHOULD include a notice that
+includes a reference to the repository.  This notice might also include
+information about where to discuss the draft.
+
 Revisions used to generate documents that are submitted as Internet-Drafts
 SHOULD be tagged in repositories to provide a record of submissions.
 
