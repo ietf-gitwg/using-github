@@ -5,6 +5,7 @@ docname: draft-ietf-git-using-github-latest
 category: bcp
 area: General
 workgroup: Network
+ipr: trust200902
 
 stand_alone: yes
 pi: [toc, sortrefs, symrefs, docmapping]
@@ -22,11 +23,6 @@ author:
    email: barbara.stark@att.com
 
 informative:
-    ID-TEMPLATE:
-        title: martinthomson/i-d-template
-        author:
-            ins: M. Thomson
-        target: https://github.com/martinthomson/i-d-template
 
 --- abstract
 
@@ -788,7 +784,9 @@ text or HTML version of a document.  This is then published to GitHub Pages,
 which allows users to view a version of the most recent revision of a document.
 Including a prominent link to this version of the document (such as in the README)
 makes it easier for new contributors to find a readable copy of the most recent
-version of a draft.
+version of a draft.  In addition, including links to differences between this
+generated version and any published document helps contributors identify recent
+changes.
 
 Continuous integration can also validate pull requests and other changes for
 errors.  The most basic check is whether the source file can be transformed
@@ -946,7 +944,8 @@ repo, while "cleaner" on first impression, actually complicates this workflow.
 When the WG adopts additional drafts, we will decide on a case-by-case basis
 whether they will be made part of the "base drafts" or if we create a new repo
 underneath the organization. Since Martin Thomson is an editor, we use his setup
-[template](#ID-TEMPLATE) to rapidly publish HTML editor copies of the specs.
+[template](https://github.com/martinthomson/i-d-template) to rapidly publish
+HTML editor copies of the specs.
 
 The "base drafts" repo is configured to allow issues to be raised, and its wiki
 is enabled (but rarely used.) Editors (and chairs) have commit rights to this
