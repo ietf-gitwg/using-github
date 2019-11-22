@@ -1,6 +1,6 @@
 ---
-title: Using GitHub at the IETF
-abbrev: IETF GitHub Usage
+title: Working Group GitHub Usage Guidance
+abbrev: GitHub Usage Guidance
 docname: draft-ietf-git-using-github-latest
 category: bcp
 area: General
