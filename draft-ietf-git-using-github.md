@@ -188,10 +188,24 @@ IETF tools be able to determine this and easily find the policy and GitHub
 organization.
 
 A simple example of how to do this is to include a link to the GitHub
-organization on the WG Charter page in the datatracker under More Info.
-Similarly, if there are multiple mailing list options, links to those mailing
-lists should be given.  An example of this is at
-https://datatracker.ietf.org/wg/quic/charter/.
+organization on the WG Charter page in the datatracker.  Similarly, if there are
+multiple mailing list options, links to those mailing lists should be given.
+
+Repositories MUST include a copy or reference to the policy that applies to
+managing any documents they contain.  Updating the README or CONTRIBUTING file
+in the repository with details of the process ensures that the process is
+recorded in a stable location other than the mailing list archive.  This also
+makes Working Group policies available to casual contributors who might only
+interact with the GitHub repository.
+
+GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
+SHOULD be used in preference to the README for information that new contributors
+need.  A link to the CONTRIBUTING file from the README is advised.
+
+In addition to Working Group policies, notices on repositories MUST include
+citations for BCPs 78 and 79 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and
+other IETF contribution policies.  A copy or reference to the [IETF Note
+Well](https://www.ietf.org/about/note-well/) is appropriate.
 
 
 # Deciding to Use GitHub
@@ -204,21 +218,12 @@ consensus call to determine if the proposed policy and use is acceptable.
 Chairs MUST involve Area Directors in any decision to use GitHub for anything
 more than managing drafts.
 
-While a document editor can still use GitHub independently for documents that
-they edit, even if the Working Group does not expressly choose to use GitHub,
-  any such public repository MUST follow the guidelines in BCPs 78 and 79
-({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}).  This recognizes that editors have
-traditionally chosen their own methods for managing the documents they edit but
-preserves the need for transparent contributions with awareness of IPR
-considerations.
-
 
 ## What to Use GitHub For {#usage}
 
 Working Group Chairs decide what GitHub features the Working Group will rely
 upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
-
 
 Working Group Chairs that decide to use GitHub MUST inform their Working Groups
 of their decision on the Working Group mailing list.  An email detailing how the
@@ -227,17 +232,6 @@ occasionally remind new contributors of these guidelines.
 
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
-
-Repositories MUST include a copy or reference to the policy that applies to
-managing any documents they contain.  Updating the README or CONTRIBUTING file
-in the repository with details of the process ensures that the process is
-recorded in a stable location other than the mailing list archive.  This also
-makes Working Group policies available to casual contributors who might only
-interact with the GitHub repository.
-
-GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
-SHOULD be used in preference to the README for information that new contributors
-need.  A link to the CONTRIBUTING file from the README is advised.
 
 The set of GitHub features ({{features}}) that the Working Group relies upon
 need to be clearly documented in policies.  This document provides some guidance
@@ -255,6 +249,14 @@ times, it might be appropriate to impose some limitations on what document
 editors are able to do in order to serve these goals.  Chairs SHOULD
 periodically consult with document editors to ensure that policies are effective
 and not unjustifiably constraining progress.
+
+A document editor can still use GitHub independently for documents that they
+edit, even if the Working Group does not expressly choose to use GitHub.  Any
+such public repository MUST follow the guidelines in BCPs 78 and 79
+({{!COPYRIGHT}}, {{!IPR}}) and bear notices to that effect.  This recognizes
+that editors have traditionally chosen their own methods for managing the
+documents they edit but preserves the need for contributors to understand their
+obligations with respect to IETF processes.
 
 
 ## Repositories
