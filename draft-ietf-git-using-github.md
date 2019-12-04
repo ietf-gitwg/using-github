@@ -786,7 +786,7 @@ consensus means that there is no confusion about the status of issues.
 # Continuous Integration
 
 Various third-party services offer the ability to run tests and other work when
-changes are made to a document.
+changes are made to a repository.
 
 One common practice is to use these continuous integration services to build a
 text or HTML version of a document.  This is then published to GitHub Pages,
