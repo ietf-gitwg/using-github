@@ -65,8 +65,8 @@ This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
 use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  This
 document aims to establish norms that reduce the variation in usage patterns
-between different Working Groups and to avoid issues that have been encountered
-in the past.
+between different Working Groups and to help avoid issues that have been
+encountered in the past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that support the practices described in this
