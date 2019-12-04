@@ -653,21 +653,21 @@ manage issues without any formal process significance being attached to those
 issues.
 
 
-### Design/Editorial Labelling {#label-design}
+### Editorial/Design Labelling {#label-design}
 
 The most important distinction about an issue is whether it is substantive.  The
-labels of `design` and `editorial` are used to represent this distinction.
+labels of `editorial` and `design` are used to represent this distinction.
+
+An issue labeled as `editorial` has no substantive effect on a document, except
+to the extent that addressing the issue might make understanding the
+specification easier.  Resolution of `editorial` issues can be left to the
+discretion of editors.
 
 An issue labeled as `design` has or might have a substantive effect on a
 document.  For protocol specifications, a `design` issue is one that might
 affect implementations or interoperability requirements.  Addressing a `design`
 issue ultimately requires Working Group consensus, even if the resolution is to
 make no change.
-
-An issue labeled as `editorial` has no substantive effect on a document, except
-to the extent that addressing the issue might make understanding the
-specification easier.  Resolution of `editorial` issues can be left to the
-discretion of editors.
 
 This distinction can be applied to all types of document.  For instance, a
 `design` issue for an Informational document might be raised to discuss
