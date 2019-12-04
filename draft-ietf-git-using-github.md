@@ -206,7 +206,7 @@ need.  A link to the CONTRIBUTING file from the README is advised.
 In addition to Working Group policies, notices on repositories MUST include
 citations for BCPs 78 and 79 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and
 other IETF contribution policies.  A copy or reference to the [IETF Note
-Well](https://www.ietf.org/about/note-well/) is appropriate.
+Well](https://www.ietf.org/about/note-well/) is ideal.
 
 
 # Deciding to Use GitHub
