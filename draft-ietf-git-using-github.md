@@ -200,7 +200,7 @@ interact with the GitHub repository.
 
 GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
 SHOULD be used in preference to the README for information that new contributors
-need.  A link to the CONTRIBUTING file from the README is advised.
+need.  The README SHOULD contain a link to the CONTRIBUTING file.
 
 In addition to Working Group policies, notices on repositories MUST include
 citations for BCPs 78 and 79 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and
