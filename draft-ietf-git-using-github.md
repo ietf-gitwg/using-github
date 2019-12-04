@@ -422,7 +422,8 @@ record of actions taken.
 
 For significant changes, leaving a pull request open until discussion of the
 issue within the Working Group concludes allows the pull request to track the
-discussion and properly capture the outcome of discussions.
+discussion and properly capture the outcome of discussions.  Pull requests can
+be updated as discussions continue or in response to feedback.
 
 Groups of editors could adopt a practice of having one editor create a pull
 request and another merge it.  This ensures that changes are reviewed by
