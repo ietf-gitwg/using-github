@@ -105,9 +105,9 @@ in the community to participate.
 Git is not the only version control system available, nor is GitHub the only
 possible choice for hosting.  There are other services that host revision
 control repositories and provide similar additional features to GitHub.  For
-instance, [BitBucket](https://bitbucket.org/), or
-[GitLab](https://about.gitlab.com/) provide a similar feature set.  In
-addition to a hosted service, software for custom installations exists.
+instance, [BitBucket](https://bitbucket.org/) and
+[GitLab](https://about.gitlab.com/) provide similar feature sets.  In addition
+to a hosted service, software for custom installations exists.
 
 This document concentrates primarily on GitHub as it has a large and active
 community of contributors.  As a result, some content might not be applicable to
