@@ -78,10 +78,11 @@ document.
 Version control systems are a critical component of software engineering and are
 quite useful also for document editing.
 
-Git is a distributed version control system.  Each instance of a repository
-contains a number of revisions.  Each revision stores the complete state of a
-set of files.  Users are able to create new revisions in their copy of a
-repository and share revisions between copies of repositories.
+Git is a distributed version control system that can operate without a central
+service.  Each instance of a repository contains a number of revisions.  Each
+revision stores the complete state of a set of files.  Users are able to create
+new revisions in their copy of a repository and share revisions between copies
+of repositories.
 
 
 ## GitHub
