@@ -836,11 +836,10 @@ contributions, which will ultimately improve the quality of your document.
 
 # GitHub Limitations {#shame}
 
-At the time of writing, github.com is not reachable using IPv6.  This is an
-affront to all that the IETF stands for and a slap in the face to all the people
-who worked so hard to design and deploy the latest version of the Internet
-Protocol.  While we can collectively be ashamed and disappointed that this is
-the situation, that doesn't necessarily make the service any less useful.
+At the time of writing, github.com is not reachable using IPv6.  The IETF and
+its contributors have worked hard to design and deploy the latest version of the
+Internet Protocol, and we are disappointed that this is the situation.
+Nonetheless, the service remains useful for the IETF's work.
 
 
 # Security Considerations
