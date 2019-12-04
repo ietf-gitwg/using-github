@@ -276,8 +276,8 @@ Internet-Draft is published, repositories SHOULD be made public.
 
 The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
-status (that is, draft-ietf-\<wg>-... indicates that the document was adopted),
-or through a prominent notice (such as in the README).
+status (that is, draft-ietf-\<wgname>-... indicates that the document was
+adopted), or through a prominent notice (such as in the README).
 
 Experience has shown that maintaining separate repositories for independent
 documents is most manageable.  This allows the work in that repository to be
