@@ -50,7 +50,7 @@ objectives.  GitHub provides tools that can be helpful in editing documents.
 Use of this service has proven to reduce the time that Working Groups need to
 produce documents and to improve the quality of the final result.
 
-The use of source control improves traceability and visibility of changes.
+The use of version control improves traceability and visibility of changes.
 Issue tracking can be used to manage open issues and provide a record of their
 resolution.  Pull requests allow for better engagement on technical and
 editorial changes, and encourage contributions from a larger set of
