@@ -47,8 +47,8 @@ Source for this draft and an issue tracker can be found at
 The IETF has an open and transparent process for developing standards.  The use
 of GitHub or similar tools, when used as part of this process, can have several
 objectives.  GitHub provides tools that can be helpful in editing documents.
-Use of this service has proven to reduce the time that Working Groups need to
-produce documents and to improve the quality of the final result.
+Use of this service has been found to reduce the time that Working Groups need
+to produce documents and to improve the quality of the final result.
 
 The use of version control improves traceability and visibility of changes.
 Issue tracking can be used to manage open issues and provide a record of their
@@ -134,7 +134,7 @@ that they edit on behalf of a Working Group that has not explicitly adopted
 GitHub.
 
 For both sets of users, this document aims to provide some amount of advice on
-practices that have proven to be effective.
+practices that have been effective.
 
 This document only aims to address use of GitHub in developing documents.
 Working Groups could choose to use the tool to aid in managing their charter or
@@ -319,8 +319,8 @@ tasks to individuals outside of the editor team.
 
 In addition to the canonical XML format {{?RFC7991}}, document editors might
 choose to use a different input form for editing documents, such as Markdown.
-Markdown-based formats have proven to be more accessible for new contributors,
-though ultimately decisions about format is left to document editors.
+Markdown-based formats are more accessible for new contributors, though
+ultimately decisions about format is left to document editors.
 
 Formats that are not text-based SHOULD NOT be used, as these are ill-disposed
 to the sorts of interaction that revision control enables.
@@ -777,9 +777,9 @@ especially during early stages of development of a document.  Any decisions are
 ultimately confirmed through review, and ultimately, through Working Group Last
 Call (see Section 7.4 of {{!RFC2418}}).
 
-The use of issues and labels has proven to be effective in managing contentious
-issues.  Explicitly labeling closed issues to explicitly identify those with
-formal consensus means that there is no confusion about the status of issues.
+The use of issues and labels has been effective in managing contentious issues.
+Explicitly labeling closed issues to explicitly identify those with formal
+consensus means that there is no confusion about the status of issues.
 
 
 # Continuous Integration
