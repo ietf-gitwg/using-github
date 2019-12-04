@@ -305,8 +305,8 @@ Working group chairs MAY also grant other individuals write access for other
 reasons, such as maintaining supporting code or build configurations.  Working
 group chairs, as administrators or owners of the organization might also have
 write access to repositories.  Users other than document editors, including
-chairs, SHOULD NOT write to Working Group documents unless with prior
-coordination with document editors.
+chairs, SHOULD NOT write to Working Group documents without prior coordination
+with document editors.
 
 Working groups MAY create a team for regular contributors that is only given
 read access to a repository. This does not confer additional privileges on these
