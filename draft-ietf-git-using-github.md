@@ -468,9 +468,6 @@ produced by a notification tool like
 tool has been used effectively in several Working Groups, though it requires
 server infrastructure.
 
-A Working Group that uses GitHub MAY provide either facility at the request of
-the chairs.
-
 
 # Typical Working Group Policies {#modes}
 
