@@ -815,28 +815,26 @@ Document editors are primarily responsible for maintaining documents.  Taking on
 a few additional tasks can greatly improve the process for the Working Group.
 
 Using GitHub means that it is more likely that a contribution is made by users
-who aren't very familiar with the work.  If a duplicate issue is raised, point
-the user to the existing issue before closing the issue.  If a contributor seems
-rude in a comment, be courteous in response.
+who aren't very familiar with the work.  Pull requests from new contributors can
+contain errors or omissions.  Duplicate issues are commonplace.  Proposed
+changes might have grammatical errors or they might diverge from existing style.
+If a change is generally sound, rather than rejecting the pull request or
+requesting changes, editors could instead accept the change and then make any
+necessary corrections.
 
-Pull requests from new contributors can contain errors or omissions.  Some
-contributors won't natively speak English, so changes might have grammatical
-errors.  If a change is generally sound, rather than rejecting the pull request
-or requesting changes, accept the change and then make any minor corrections
-yourself.
+Editors SHOULD NOT close a pull request or issue without first understanding why
+the item was created.  Editors and chairs SHOULD try to explain every action
+clearly and concisely.  Even if a contributor seems rude, being courteous in response is
+always best.
 
-Never close a pull request or issue without first understanding why it was made
-and then explaining why you aren't accepting it.  If you are uncertain, ask a
-chair for guidance.
-
-If a contributor makes a comment that raises what you believe to be a new issue,
-create an issue for them.  If the issue has an obvious solution, consider
-creating a pull request.  It doesn't matter what venue the issue was raised in
-(e.g., email, issue discussion, a pull request review); capturing issues quickly ensures
-that problems become visible and can be tracked.
+If a contributor makes a comment that raises what a new issue, editors can
+create an issue or - if there is an obvious solution - a pull request.  It
+doesn't matter what venue the issue was raised in (e.g., email, issue
+discussion, a pull request review); capturing issues quickly ensures that
+problems become visible and can be tracked.
 
 This takes a little more effort, but these simple steps can help encourage
-contributions, which will ultimately improve the quality of your document.
+contributions, which will ultimately improve the quality of documents.
 
 
 # GitHub Limitations {#shame}
