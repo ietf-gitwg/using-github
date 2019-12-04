@@ -89,7 +89,7 @@ of repositories.
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
-accessible on the open Internet (see {{shame}}), albeit currently only via IPv4.
+accessible on the open Internet, albeit currently only via IPv4.
 
 GitHub provides a simplified and integrated interface to not only git, but also
 provides basic user management, an issue tracker, associated wikis, project
@@ -835,15 +835,6 @@ problems become visible and can be tracked.
 
 This takes a little more effort, but these simple steps can help encourage
 contributions, which will ultimately improve the quality of documents.
-
-
-# GitHub Limitations {#shame}
-
-At the time of writing, github.com is not reachable using IPv6.  This is an
-affront to all that the IETF stands for and a slap in the face to all the people
-who worked so hard to design and deploy the latest version of the Internet
-Protocol.  While we can collectively be ashamed and disappointed that this is
-the situation, that doesn't necessarily make the service any less useful.
 
 
 # Security Considerations
