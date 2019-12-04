@@ -1072,6 +1072,7 @@ the master. This proved to be too much effort in the context of this draft.
 
 
 # Acknowledgments
+{:numbered="false"}
 
 This work wouldn't have been possible without the hard work of those people who
 have trialled use of GitHub at the IETF.  Alia Atlas contributed significant
