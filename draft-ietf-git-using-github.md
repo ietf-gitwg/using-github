@@ -1069,7 +1069,8 @@ the master. This proved to be too much effort in the context of this draft.
 
 This work wouldn't have been possible without the hard work of those people who
 have trialled use of GitHub at the IETF.  Alia Atlas contributed significant
-text to an earlier version of this document.
+text to an earlier version of this document.  Tommy Pauly, Rich Salz, and
+Christopher Wood all provided significant input.
 
 The experiences of the CORE WG in {{core}} were contributed by Carsten Bormann.
 The experiences of the QUIC WG in {{quic}} were contributed by Lars Eggert.
