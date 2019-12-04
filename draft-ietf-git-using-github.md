@@ -747,13 +747,13 @@ The work that occurs on GitHub could be part of the consensus process, but the
 ultimate decision on consensus regarding a document is made by the chairs
 {{!RFC2026}}.
 
-Monitoring activity on GitHub can require a greater time commitment than
-following a mailing list.  This is because there is an increased volume of
-activity to follow.  Participants who wish to limit this time commitment might
-follow GitHub activity selectively, either by following only specific issues or
-by occasionally reviewing the state of the document.  Other participants might
-not use GitHub at all.  Chairs are reminded that assessing consensus based on
-GitHub content alone cannot be assumed to reach all interested participants.
+GitHub facilitates more involved interactions, which can result in a much higher
+level of activity than a typical Working Group mailing list.  Participants who
+wish to limit their time commitment might follow GitHub activity selectively,
+either by following only specific issues or by occasionally reviewing the state
+of the document.  Other participants might not use GitHub at all.  Chairs are
+reminded that assessing consensus based on GitHub content alone cannot be
+assumed to reach all interested participants.
 
 Chairs MUST consider input from all discussion venues when assessing consensus
 including GitHub, mailing lists, and in-person meetings.  Each venue has
