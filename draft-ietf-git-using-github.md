@@ -203,9 +203,7 @@ SHOULD be used in preference to the README for information that new contributors
 need.  The README SHOULD contain a link to the CONTRIBUTING file.
 
 In addition to Working Group policies, notices on repositories MUST include
-citations for BCPs 78 and 79 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and
-other IETF contribution policies.  A copy or reference to the [IETF Note
-Well](https://www.ietf.org/about/note-well/) is appropriate.
+citations for the [IETF Note Well](https://www.ietf.org/about/note-well/).
 
 
 # Deciding to Use GitHub
@@ -253,10 +251,10 @@ and not unjustifiably constraining progress.
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
 such public repository MUST follow the guidelines in BCPs 78 and 79
-({{!COPYRIGHT}}, {{!IPR}}) and bear notices to that effect.  This recognizes
-that editors have traditionally chosen their own methods for managing the
-documents they edit but preserves the need for contributors to understand their
-obligations with respect to IETF processes.
+({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and bear notices to that effect.
+This recognizes that editors have traditionally chosen their own methods for
+managing the documents they edit but preserves the need for contributors to
+understand their obligations with respect to IETF processes.
 
 
 ## Repositories
