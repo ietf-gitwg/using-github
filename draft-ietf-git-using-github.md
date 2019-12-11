@@ -180,7 +180,7 @@ Details about creating organizations adhering to these guidelines can be found
 in {{!GIT-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 
-## Communicating Policies
+## Communicating Policies {#notices}
 
 Each Working Group MAY set its own policy as to whether and how it uses GitHub.
 It is important that occasional participants in the WG and others accustomed to
@@ -250,11 +250,10 @@ and not unjustifiably constraining progress.
 
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
-such public repository MUST follow the guidelines in BCPs 78 and 79
-({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and bear notices to that effect.
-This recognizes that editors have traditionally chosen their own methods for
-managing the documents they edit but preserves the need for contributors to
-understand their obligations with respect to IETF processes.
+such public repository MUST follow the IETF Note Well and bear notices; see
+{{notices}}.  This recognizes that editors have traditionally chosen their own
+methods for managing the documents they edit but preserves the need for
+contributors to understand their obligations with respect to IETF processes.
 
 
 ## Repositories
