@@ -181,7 +181,7 @@ Details about creating organizations adhering to these guidelines can be found
 in {{!GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 
-## Communicating Policies
+## Communicating Policies {#notices}
 
 Each Working Group MAY set its own policy as to whether and how it uses GitHub.
 It is important that occasional participants in the WG and others accustomed to
@@ -201,13 +201,10 @@ interact with the GitHub repository.
 
 GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
 SHOULD be used in preference to the README for information that new contributors
-need.  A link to the CONTRIBUTING file from the README is advised.
+need.  The README SHOULD contain a link to the CONTRIBUTING file.
 
 In addition to Working Group policies, notices on repositories MUST include
-citations for BCPs 78 and 79 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and
-other IETF contribution policies.  A copy or reference to the [IETF Note
-Well](https://www.ietf.org/about/note-well/) is ideal.
-
+citations for the [IETF Note Well](https://www.ietf.org/about/note-well/).
 
 # Deciding to Use GitHub
 
@@ -253,11 +250,10 @@ effective.
 
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
-such public repository MUST follow the guidelines in BCPs 78 and 79
-({{!COPYRIGHT}}, {{!IPR}}) and bear notices to that effect.  This recognizes
-that editors have traditionally chosen their own methods for managing the
-documents they edit but preserves the need for contributors to understand their
-obligations with respect to IETF processes.
+such public repository MUST follow the IETF Note Well and bear notices; see
+{{notices}}.  This recognizes that editors have traditionally chosen their own
+methods for managing the documents they edit but preserves the need for
+contributors to understand their obligations with respect to IETF processes.
 
 
 ## Repositories
