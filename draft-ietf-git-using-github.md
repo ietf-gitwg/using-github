@@ -47,10 +47,10 @@ Source for this draft and an issue tracker can be found at
 The IETF has an open and transparent process for developing standards.  The use
 of GitHub or similar tools, when used as part of this process, can have several
 objectives.  GitHub provides tools that can be helpful in editing documents.
-Use of this service has proven to reduce the time that Working Groups need to
-produce documents and to improve the quality of the final result.
+Use of this service has been found to reduce the time that Working Groups need
+to produce documents and to improve the quality of the final result.
 
-The use of source control improves traceability and visibility of changes.
+The use of version control improves traceability and visibility of changes.
 Issue tracking can be used to manage open issues and provide a record of their
 resolution.  Pull requests allow for better engagement on technical and
 editorial changes, and encourage contributions from a larger set of
@@ -65,8 +65,8 @@ This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
 use GitHub within the framework established by RFC 2418 {{?RFC2418}}.  This
 document aims to establish norms that reduce the variation in usage patterns
-between different Working Groups and to avoid issues that have been encountered
-in the past.
+between different Working Groups and to help avoid issues that have been
+encountered in the past.
 
 A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that support the practices described in this
@@ -78,17 +78,18 @@ document.
 Version control systems are a critical component of software engineering and are
 quite useful also for document editing.
 
-Git is a distributed version control system.  Each instance of a repository
-contains a number of revisions.  Each revision stores the complete state of a
-set of files.  Users are able to create new revisions in their copy of a
-repository and share revisions between copies of repositories.
+Git is a distributed version control system that can operate without a central
+service.  Each instance of a repository contains a number of revisions.  Each
+revision stores the complete state of a set of files.  Users are able to create
+new revisions in their copy of a repository and share revisions between copies
+of repositories.
 
 
 ## GitHub
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
-accessible on the open Internet (see {{shame}}), albeit currently only via IPv4.
+accessible on the open Internet, albeit currently only via IPv4.
 
 GitHub provides a simplified and integrated interface to not only git, but also
 provides basic user management, an issue tracker, associated wikis, project
@@ -105,9 +106,9 @@ in the community to participate.
 Git is not the only version control system available, nor is GitHub the only
 possible choice for hosting.  There are other services that host revision
 control repositories and provide similar additional features to GitHub.  For
-instance, [BitBucket](https://bitbucket.org/), or
-[GitLab](https://about.gitlab.com/) provide a similar feature set.  In
-addition to a hosted service, software for custom installations exists.
+instance, [BitBucket](https://bitbucket.org/) and
+[GitLab](https://about.gitlab.com/) provide similar feature sets.  In addition
+to a hosted service, software for custom installations exists.
 
 This document concentrates primarily on GitHub as it has a large and active
 community of contributors.  As a result, some content might not be applicable to
@@ -133,7 +134,7 @@ that they edit on behalf of a Working Group that has not explicitly adopted
 GitHub.
 
 For both sets of users, this document aims to provide some amount of advice on
-practices that have proven to be effective.
+practices that have been effective.
 
 This document only aims to address use of GitHub in developing documents.
 Working Groups could choose to use the tool to aid in managing their charter or
@@ -177,7 +178,7 @@ does not also include the ability to push to all repositories and ownership does
 not grant any other significant privileges.
 
 Details about creating organizations adhering to these guidelines can be found
-in {{!GIT-CONFIG=I-D.ietf-git-github-wg-configuration}}.
+in {{!GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 
 ## Communicating Policies
@@ -188,10 +189,24 @@ IETF tools be able to determine this and easily find the policy and GitHub
 organization.
 
 A simple example of how to do this is to include a link to the GitHub
-organization on the WG Charter page in the datatracker under More Info.
-Similarly, if there are multiple mailing list options, links to those mailing
-lists should be given.  An example of this is at
-https://datatracker.ietf.org/wg/quic/charter/.
+organization on the WG Charter page in the datatracker.  Similarly, if there are
+multiple mailing list options, links to those mailing lists should be given.
+
+Repositories MUST include a copy or reference to the policy that applies to
+managing any documents they contain.  Updating the README or CONTRIBUTING file
+in the repository with details of the process ensures that the process is
+recorded in a stable location other than the mailing list archive.  This also
+makes Working Group policies available to casual contributors who might only
+interact with the GitHub repository.
+
+GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
+SHOULD be used in preference to the README for information that new contributors
+need.  A link to the CONTRIBUTING file from the README is advised.
+
+In addition to Working Group policies, notices on repositories MUST include
+citations for BCPs 78 and 79 ({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}) and
+other IETF contribution policies.  A copy or reference to the [IETF Note
+Well](https://www.ietf.org/about/note-well/) is ideal.
 
 
 # Deciding to Use GitHub
@@ -204,21 +219,12 @@ consensus call to determine if the proposed policy and use is acceptable.
 Chairs MUST involve Area Directors in any decision to use GitHub for anything
 more than managing drafts.
 
-While a document editor can still use GitHub independently for documents that
-they edit, even if the Working Group does not expressly choose to use GitHub,
-  any such public repository MUST follow the guidelines in BCPs 78 and 79
-({{!COPYRIGHT=RFC5378}}, {{!IPR=RFC8179}}).  This recognizes that editors have
-traditionally chosen their own methods for managing the documents they edit but
-preserves the need for transparent contributions with awareness of IPR
-considerations.
-
 
 ## What to Use GitHub For {#usage}
 
 Working Group Chairs decide what GitHub features the Working Group will rely
 upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
-
 
 Working Group Chairs that decide to use GitHub MUST inform their Working Groups
 of their decision on the Working Group mailing list.  An email detailing how the
@@ -227,17 +233,6 @@ occasionally remind new contributors of these guidelines.
 
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
-
-Repositories MUST include a copy or reference to the policy that applies to
-managing any documents they contain.  Updating the README or CONTRIBUTING file
-in the repository with details of the process ensures that the process is
-recorded in a stable location other than the mailing list archive.  This also
-makes Working Group policies available to casual contributors who might only
-interact with the GitHub repository.
-
-GitHub prominently links to the CONTRIBUTING file on certain pages.  This file
-SHOULD be used in preference to the README for information that new contributors
-need.  A link to the CONTRIBUTING file from the README is advised.
 
 The set of GitHub features ({{features}}) that the Working Group relies upon
 need to be clearly documented in policies.  This document provides some guidance
@@ -253,8 +248,16 @@ Working Group policies need to be set with the goal of improving transparency,
 participation, and ultimately the quality of the consensus behind documents.  At
 times, it might be appropriate to impose some limitations on what document
 editors are able to do in order to serve these goals.  Chairs SHOULD
-periodically consult with document editors to ensure that policies are effective
-and not unjustifiably constraining progress.
+periodically consult with document editors to ensure that policies are
+effective.
+
+A document editor can still use GitHub independently for documents that they
+edit, even if the Working Group does not expressly choose to use GitHub.  Any
+such public repository MUST follow the guidelines in BCPs 78 and 79
+({{!COPYRIGHT}}, {{!IPR}}) and bear notices to that effect.  This recognizes
+that editors have traditionally chosen their own methods for managing the
+documents they edit but preserves the need for contributors to understand their
+obligations with respect to IETF processes.
 
 
 ## Repositories
@@ -273,8 +276,8 @@ Internet-Draft is published, repositories SHOULD be made public.
 
 The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
-status (that is, draft-ietf-\<wg>-... indicates that the document was adopted),
-or through a prominent notice (such as in the README).
+status (that is, draft-ietf-\<wgname>-... indicates that the document was
+adopted), or through a prominent notice (such as in the README).
 
 Experience has shown that maintaining separate repositories for independent
 documents is most manageable.  This allows the work in that repository to be
@@ -302,8 +305,8 @@ Working group chairs MAY also grant other individuals write access for other
 reasons, such as maintaining supporting code or build configurations.  Working
 group chairs, as administrators or owners of the organization might also have
 write access to repositories.  Users other than document editors, including
-chairs, SHOULD NOT write to Working Group documents unless with prior
-coordination with document editors.
+chairs, SHOULD NOT write to Working Group documents without prior coordination
+with document editors.
 
 Working groups MAY create a team for regular contributors that is only given
 read access to a repository. This does not confer additional privileges on these
@@ -316,8 +319,8 @@ tasks to individuals outside of the editor team.
 
 In addition to the canonical XML format {{?RFC7991}}, document editors might
 choose to use a different input form for editing documents, such as Markdown.
-Markdown-based formats have proven to be more accessible for new contributors,
-though ultimately decisions about format is left to document editors.
+Markdown-based formats are more accessible for new contributors, though
+ultimately decisions about format is left to document editors.
 
 Formats that are not text-based SHOULD NOT be used, as these are ill-disposed
 to the sorts of interaction that revision control enables.
@@ -419,7 +422,8 @@ record of actions taken.
 
 For significant changes, leaving a pull request open until discussion of the
 issue within the Working Group concludes allows the pull request to track the
-discussion and properly capture the outcome of discussions.
+discussion and properly capture the outcome of discussions.  Pull requests can
+be updated as discussions continue or in response to feedback.
 
 Groups of editors could adopt a practice of having one editor create a pull
 request and another merge it.  This ensures that changes are reviewed by
@@ -529,7 +533,8 @@ As mailing lists remain the primary venue for discussion of substantive matters,
 this mode and the document management only modes remain those most compatible
 with existing work practices for Working Groups.  Participants in a Working
 Group that operates under either model can reasonably be expected to receive all
-relevant communication about the work of the group from the mailing list.
+relevant communication about the work of the group from the Working Group
+mailing list.
 
 Though the mailing list is used for making decisions, the issue tracker can
 still be a useful record of the state of issues.  It is often useful if chairs
@@ -648,21 +653,21 @@ manage issues without any formal process significance being attached to those
 issues.
 
 
-### Design/Editorial Labelling {#label-design}
+### Editorial/Design Labelling {#label-design}
 
 The most important distinction about an issue is whether it is substantive.  The
-labels of `design` and `editorial` are used to represent this distinction.
+labels of `editorial` and `design` are used to represent this distinction.
+
+An issue labeled as `editorial` has no substantive effect on a document, except
+to the extent that addressing the issue might make understanding the
+specification easier.  Resolution of `editorial` issues can be left to the
+discretion of editors.
 
 An issue labeled as `design` has or might have a substantive effect on a
 document.  For protocol specifications, a `design` issue is one that might
 affect implementations or interoperability requirements.  Addressing a `design`
 issue ultimately requires Working Group consensus, even if the resolution is to
 make no change.
-
-An issue labeled as `editorial` has no substantive effect on a document, except
-to the extent that addressing the issue might make understanding the
-specification easier.  Resolution of `editorial` issues can be left to the
-discretion of editors.
 
 This distinction can be applied to all types of document.  For instance, a
 `design` issue for an Informational document might be raised to discuss
@@ -773,15 +778,15 @@ especially during early stages of development of a document.  Any decisions are
 ultimately confirmed through review, and ultimately, through Working Group Last
 Call (see Section 7.4 of {{!RFC2418}}).
 
-The use of issues and labels has proven to be effective in managing contentious
-issues.  Explicitly labeling closed issues to explicitly identify those with
-formal consensus means that there is no confusion about the status of issues.
+The use of issues and labels has been effective in managing contentious issues.
+Explicitly labeling closed issues to explicitly identify those with formal
+consensus means that there is no confusion about the status of issues.
 
 
 # Continuous Integration
 
 Various third-party services offer the ability to run tests and other work when
-changes are made to a document.
+changes are made to a repository.
 
 One common practice is to use these continuous integration services to build a
 text or HTML version of a document.  This is then published to GitHub Pages,
@@ -810,37 +815,26 @@ Document editors are primarily responsible for maintaining documents.  Taking on
 a few additional tasks can greatly improve the process for the Working Group.
 
 Using GitHub means that it is more likely that a contribution is made by users
-who aren't very familiar with the work.  If a duplicate issue is raised, point
-the user to the existing issue before closing the issue.  If a contributor seems
-rude in a comment, be courteous in response.
+who aren't very familiar with the work.  Pull requests from new contributors can
+contain errors or omissions.  Duplicate issues are commonplace.  Proposed
+changes might have grammatical errors or they might diverge from existing style.
+If a change is generally sound, rather than rejecting the pull request or
+requesting changes, editors could instead accept the change and then make any
+necessary corrections.
 
-Pull requests from new contributors can contain errors or omissions.  Some
-contributors won't natively speak English, so changes might have grammatical
-errors.  If a change is generally sound, rather than rejecting the pull request
-or requesting changes, accept the change and then make any minor corrections
-yourself.
+Editors SHOULD NOT close a pull request or issue without first understanding why
+the item was created.  Editors and chairs SHOULD try to explain every action
+clearly and concisely.  Even if a contributor seems rude, being courteous in response is
+always best.
 
-Never close a pull request or issue without first understanding why it was made
-and then explaining why you aren't accepting it.  If you are uncertain, ask a
-chair for guidance.
-
-If a contributor makes a comment that raises what you believe to be a new issue,
-create an issue for them.  If the issue has an obvious solution, consider
-creating a pull request.  It doesn't matter what venue the issue was raised in
-(e.g., email, issue discussion, a pull request review); capturing issues quickly ensures
-that problems become visible and can be tracked.
+If a contributor makes a comment that raises what a new issue, editors can
+create an issue or - if there is an obvious solution - a pull request.  It
+doesn't matter what venue the issue was raised in (e.g., email, issue
+discussion, a pull request review); capturing issues quickly ensures that
+problems become visible and can be tracked.
 
 This takes a little more effort, but these simple steps can help encourage
-contributions, which will ultimately improve the quality of your document.
-
-
-# GitHub Limitations {#shame}
-
-At the time of writing, github.com is not reachable using IPv6.  This is an
-affront to all that the IETF stands for and a slap in the face to all the people
-who worked so hard to design and deploy the latest version of the Internet
-Protocol.  While we can collectively be ashamed and disappointed that this is
-the situation, that doesn't necessarily make the service any less useful.
+contributions, which will ultimately improve the quality of documents.
 
 
 # Security Considerations
@@ -1076,7 +1070,8 @@ the master. This proved to be too much effort in the context of this draft.
 
 This work wouldn't have been possible without the hard work of those people who
 have trialled use of GitHub at the IETF.  Alia Atlas contributed significant
-text to an earlier version of this document.
+text to an earlier version of this document.  Tommy Pauly, Rich Salz, and
+Christopher Wood all provided significant input.
 
 The experiences of the CORE WG in {{core}} were contributed by Carsten Bormann.
 The experiences of the QUIC WG in {{quic}} were contributed by Lars Eggert.
