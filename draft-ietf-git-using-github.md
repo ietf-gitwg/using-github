@@ -76,7 +76,7 @@ document.
 ## Distributed Version Control Systems
 
 Version control systems are a critical component of software engineering and are
-quite useful also for document editing.
+also quite useful for document editing.
 
 Git is a distributed version control system that can operate without a central
 service.  Each instance of a repository contains a number of revisions.  Each
@@ -292,19 +292,19 @@ write access to a larger repository is more difficult ({{editors}}).
 
 ## Editors and Contributors {#editors}
 
-Working group chairs MUST give document editors write access to document
+Working Group chairs MUST give document editors write access to document
 repositories.  This can be done by creating teams with write access and
 allocating editors to those teams, or by making editors collaborators on the
 repository.
 
-Working group chairs MAY also grant other individuals write access for other
+Working Group chairs MAY also grant other individuals write access for other
 reasons, such as maintaining supporting code or build configurations.  Working
-group chairs, as administrators or owners of the organization might also have
+Group chairs, as administrators or owners of the organization might also have
 write access to repositories.  Users other than document editors, including
 chairs, SHOULD NOT write to Working Group documents without prior coordination
 with document editors.
 
-Working groups MAY create a team for regular contributors that is only given
+Working Groups MAY create a team for regular contributors that is only given
 read access to a repository. This does not confer additional privileges on these
 contributors, it instead allows for issues and pull requests to be assigned to
 those people.  This can be used to manage the assignment of editorial or review
@@ -435,7 +435,7 @@ some issues.
 Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
-don't track discussion closely.
+do not track discussion closely.
 
 For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.
@@ -443,9 +443,9 @@ comments for substantial technical discussion of issues.
 
 ### Merging Pull Requests
 
-Working groups MUST determine who is permitted to merge pull requests.  Document
+Working Groups MUST determine who is permitted to merge pull requests.  Document
 editors SHOULD be permitted to merge pull requests at their discretion.  This
-requires that editors exercise some judgment.  Working group chairs MAY
+requires that editors exercise some judgment.  Working Group chairs MAY
 occasionally identify a pull request and request that editors withhold merging
 until Working Group consensus has been assessed.
 
@@ -727,7 +727,7 @@ Editors SHOULD create a new Internet-Draft submission two weeks prior to every
 session, which includes IETF meetings, other in-person meetings, and telephone
 or video conferences (see Section 7.1 of {{?RFC2418}}).  Though discussion could
 use the current version of a document from version control, participants in a
-session can't be expected to monitor changes to documents in real-time; a
+session cannot be expected to monitor changes to documents in real-time; a
 published Internet-Draft ensures that there is a common, stable state that is
 known to all participants.
 
@@ -738,7 +738,7 @@ information about where to discuss the draft.
 Revisions used to generate documents that are submitted as Internet-Drafts
 SHOULD be tagged in repositories to provide a record of submissions.
 
-Working group chairs MAY request the creation of an Internet-Draft at any time,
+Working Group chairs MAY request the creation of an Internet-Draft at any time,
 in consultation with document editors.
 
 
@@ -808,7 +808,7 @@ Document editors are primarily responsible for maintaining documents.  Taking on
 a few additional tasks can greatly improve the process for the Working Group.
 
 Using GitHub means that it is more likely that a contribution is made by users
-who aren't very familiar with the work.  Pull requests from new contributors can
+who are not very familiar with the work.  Pull requests from new contributors can
 contain errors or omissions.  Duplicate issues are commonplace.  Proposed
 changes might have grammatical errors or they might diverge from existing style.
 If a change is generally sound, rather than rejecting the pull request or
@@ -822,7 +822,7 @@ always best.
 
 If a contributor makes a comment that raises what a new issue, editors can
 create an issue or - if there is an obvious solution - a pull request.  It
-doesn't matter what venue the issue was raised in (e.g., email, issue
+does not matter what venue the issue was raised in (e.g., email, issue
 discussion, a pull request review); capturing issues quickly ensures that
 problems become visible and can be tracked.
 
@@ -864,7 +864,7 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-This work wouldn't have been possible without the hard work of those people who
+This work would not have been possible without the hard work of those people who
 have trialled use of GitHub at the IETF.  Alia Atlas contributed significant
 text to an earlier version of this document.  Tommy Pauly, Rich Salz, and
 Christopher Wood all provided significant input.
