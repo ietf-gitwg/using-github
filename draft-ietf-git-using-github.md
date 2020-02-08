@@ -72,6 +72,8 @@ A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that support the practices described in this
 document.
 
+Although similar, guidance for IRTF Research Groups is out of scope for this document.
+However, such groups may draw inspiration for GitHub use from the contents herein.
 
 ## Distributed Version Control Systems
 
@@ -161,7 +163,8 @@ transparency.
 Organizations are a way of forming groups of contributors on GitHub.
 Each Working Group SHOULD create a new organization for the Working Group.
 A Working Group organization SHOULD be named consistently so that it can be
-found.  For instance, the name could be ietf-\<wgname> or ietf-\<wgname>-wg.
+found.  For instance, the name could be ietf-wg-\<wgname>, as recommended in
+{{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 A single organization SHOULD NOT be used for all IETF activity, or all activity
 within an area. Large organizations create too much overhead for general
@@ -400,7 +403,8 @@ changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
 Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository.  A pull request
+committing directly to the "master" branch of the repository. See {{mature-documents}}
+for discussion on what constitutes a substantial change. A pull request
 creates an artifact that records the reasons for changes and provides other
 contributors with an opportunity to review the change. Pull requests that
 address substantive issues SHOULD mention the issue they address in the opening
@@ -596,7 +600,7 @@ for the entirety of a document lifecycle.  Once a document is more stable and
 mature, it is likely appropriate to move to a more tightly controlled process.
 
 
-### Managing Mature Documents
+### Managing Mature Documents {#mature-documents}
 
 As a document matures, it becomes more important to understand not just that the
 document as a whole retains the support of the Working Group, but that changes
@@ -839,9 +843,9 @@ its services would be seriously affected.
 Widespread use of git reduces the exposure to a system failure because the
 primary repository is replicated in multiple locations.  This includes hosted
 web pages; the content of web pages is maintained as a branch in the main
-repository.  Maintaining a mirror of a repository that is hosted on GitHub is
-relatively simple and might be considered as a way to provide a backup for the
-primary repository.
+repository.  As specified in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
+maintaining a mirror of a repository hosted on GitHub provides IETF-hosted backups
+for WG repositories.
 
 However, other information maintained on GitHub is more vulnerable to loss.
 This includes issues and discussion on those issues, discussion and reviews of
