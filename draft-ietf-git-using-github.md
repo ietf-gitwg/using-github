@@ -45,8 +45,8 @@ Source for this draft and an issue tracker can be found at
 # Introduction
 
 The IETF has an open and transparent process for developing standards.  The use
-of GitHub or similar tools, when used as part of this process, can have several
-objectives.  GitHub provides tools that can be helpful in editing documents.
+of [GitHub](https://github.com/) or similar tools, when used as part of this process,
+can have several objectives.  GitHub provides tools that can be helpful in editing documents.
 Use of this service has been found to reduce the time that Working Groups need
 to produce documents and to improve the quality of the final result.
 
@@ -80,7 +80,7 @@ However, such groups may draw inspiration for GitHub use from the contents herei
 Version control systems are a critical component of software engineering and are
 also quite useful for document editing.
 
-Git is a distributed version control system that can operate without a central
+[Git](https://git-scm.com) is a distributed version control system that can operate without a central
 service.  Each instance of a repository contains a number of revisions.  Each
 revision stores the complete state of a set of files.  Users are able to create
 new revisions in their copy of a repository and share revisions between copies
@@ -124,7 +124,7 @@ This document aims to describe how a Working Group might best apply GitHub to
 their work.  The intent is to allow each Working Group considerable flexibility
 in how they use GitHub.
 
-This document does require that policies for use of GitHub are agreed and
+This document requires that policies for use of GitHub are agreed and
 clearly communicated within the Working Group (see {{policy}}).  The remainder
 of the document contains guidelines and advice on how to construct a workable
 policy.
@@ -212,7 +212,7 @@ citations for the [IETF Note Well](https://www.ietf.org/about/note-well/).
 # Deciding to Use GitHub
 
 Working Group Chairs are responsible for determining how to best accomplish
-the Charter in an open and transparent fashion.  The Working Group Chairs are
+the charter objectives in an open and transparent fashion.  The Working Group Chairs are
 responsible for determining if there is interest in using GitHub and making a
 consensus call to determine if the proposed policy and use is acceptable.
 
@@ -226,7 +226,7 @@ Working Group Chairs decide what GitHub features the Working Group will rely
 upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
 
-Working Group Chairs that decide to use GitHub MUST inform their Working Groups
+Working Group Chairs who decide to use GitHub MUST inform their Working Groups
 of their decision on the Working Group mailing list.  An email detailing how the
 Working Group intends to use GitHub is sufficient, though it might be helpful to
 occasionally remind new contributors of these guidelines.
@@ -377,8 +377,8 @@ issues.  The user that opens an issue is also able to close the issue.  Chairs
 MUST provide guidance on who is permitted to close an issue and under what
 conditions.
 
-Restrictions on closing issues are generally not advisable until a document has
-reached a certain degree of maturity.
+Restrictions on who can close an issue and under what circumstances are generally
+not advisable until a document has reached a certain degree of maturity.
 
 
 ### Reopening Issues
@@ -427,7 +427,7 @@ be updated as discussions continue or in response to feedback.
 
 Groups of editors could adopt a practice of having one editor create a pull
 request and another merge it.  This ensures that changes are reviewed by
-editors.  Editors are given discretion in how they manage changes.
+editors.  Editors are given discretion in how they manage changes amongst themselves.
 
 
 ### Discussion on Pull Requests
@@ -742,8 +742,8 @@ information about where to discuss the draft.
 Revisions used to generate documents that are submitted as Internet-Drafts
 SHOULD be tagged in repositories to provide a record of submissions.
 
-Working Group chairs MAY request the creation of an Internet-Draft at any time,
-in consultation with document editors.
+Working Group chairs MAY request a revision of an Internet-Draft being managed
+on Github at any time, in consultation with document editors.
 
 
 # Assessing Consensus
@@ -761,8 +761,8 @@ reminded that assessing consensus based on GitHub content alone cannot be
 assumed to reach all interested participants.
 
 Chairs MUST consider input from all discussion venues when assessing consensus
-including GitHub, mailing lists, and in-person meetings.  Each venue has
-different selection biases that might need to be considered.
+including GitHub, mailing lists, interim meetings, and IETF meetings. Each venue
+has different selection biases that might need to be considered.
 
 A Working Group chair MUST consult the Working Group mailing list for any issue
 that is potentially contentious.  Relying on input provided through GitHub alone
@@ -776,7 +776,7 @@ ultimately confirmed through review, and ultimately, through Working Group Last
 Call (see Section 7.4 of {{!RFC2418}}).
 
 The use of issues and labels has been effective in managing contentious issues.
-Explicitly labeling closed issues to explicitly identify those with formal
+Explicitly labeling closed issues to identify those with formal
 consensus means that there is no confusion about the status of issues.
 
 
@@ -799,7 +799,7 @@ errors.  The most basic check is whether the source file can be transformed
 successfully into a valid Internet-Draft.  For example, this might include
 checking that XML source is syntactically correct.
 
-For a document that use formal languages as part of the specification, such as schema
+For a document that uses formal languages as part of the specification, such as schema
 or source code, a continuous integration system might also be used to validate
 any formal language that the document contains.  Tests for any source code that
 the document contains might be run, or examples might be checked for
@@ -824,7 +824,7 @@ the item was created.  Editors and chairs SHOULD try to explain every action
 clearly and concisely.  Even if a contributor seems rude, being courteous in response is
 always best.
 
-If a contributor makes a comment that raises what a new issue, editors can
+If a contributor makes a comment that raises a new issue, editors can
 create an issue or - if there is an obvious solution - a pull request.  It
 does not matter what venue the issue was raised in (e.g., email, issue
 discussion, a pull request review); capturing issues quickly ensures that
