@@ -209,12 +209,13 @@ need.  The README SHOULD contain a link to the CONTRIBUTING file.
 In addition to Working Group policies, notices on repositories MUST include
 citations for the [IETF Note Well](https://www.ietf.org/about/note-well/).
 
+
 # Deciding to Use GitHub
 
-Working Group Chairs are responsible for determining how to best accomplish
-the charter objectives in an open and transparent fashion.  The Working Group Chairs are
-responsible for determining if there is interest in using GitHub and making a
-consensus call to determine if the proposed policy and use is acceptable.
+Working Group Chairs are responsible for determining how to best accomplish the
+charter objectives in an open and transparent fashion.  The Working Group Chairs
+are responsible for determining if there is interest in using GitHub and making
+a consensus call to determine if the proposed policy and use is acceptable.
 
 Chairs MUST involve Area Directors in any decision to use GitHub for anything
 more than managing drafts.
