@@ -232,7 +232,7 @@ of their decision on the Working Group mailing list.  An email detailing how the
 Working Group intends to use GitHub is sufficient, though it might be helpful to
 occasionally remind new contributors of these guidelines.  A choice to use
 GitHub is functionally equivalent to the formation of a design team (see Section
-6.5 of {{!RFC2418}}) with open participation.
+6.5 of {{!RFC2418}}) provided that the work uses a public repository.
 
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
