@@ -232,12 +232,6 @@ of their decision on the Working Group mailing list.  An email detailing how the
 Working Group intends to use GitHub is sufficient, though it might be helpful to
 occasionally remind new contributors of these guidelines.
 
-A choice to use GitHub is similar to the formation of a design team (see Section
-6.5 of {{!RFC2418}}) provided that the work uses a public repository.  That is,
-the output of any activity using GitHub needs to be taken to the Working Group
-mailing list and subject to approval, rejection, or modification by the Working
-Group as with any other input.
-
 Working Group Chairs are responsible for ensuring that any policy they adopt is
 enforced and maintained.
 
@@ -264,6 +258,10 @@ such public repository MUST follow the IETF Note Well and bear notices; see
 {{notices}}.  This recognizes that editors have traditionally chosen their own
 methods for managing the documents they edit but preserves the need for
 contributors to understand their obligations with respect to IETF processes.
+
+Work done in GitHub has no special status.  The output of any activity using
+GitHub needs to be taken to the Working Group and is subject to approval,
+rejection, or modification by the Working Group as with any other input.
 
 
 ## Repositories
