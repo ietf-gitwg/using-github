@@ -531,12 +531,12 @@ discussions to spontaneously develop in the issue tracker.  This requires a
 degree of discipline from chairs and editors to ensure that any substantive
 matters are taken to the mailing list.
 
-As mailing lists remain the primary venue for discussion of substantive matters,
-this mode and the document management only modes remain those most compatible
-with existing work practices for Working Groups.  Participants in a Working
-Group that operates under either model can reasonably be expected to receive all
-relevant communication about the work of the group from the Working Group
-mailing list.
+Retaining mailing lists as the primary venue for discussion of substantive
+matters ensures that this mode - along with the document management mode - is
+most compatible with existing work practices for Working Groups.  Participants
+in a Working Group that operates under either model can reasonably be expected
+to receive all relevant communication about the work of the group from the
+Working Group mailing list.
 
 Though the mailing list is used for making decisions, the issue tracker can
 still be a useful record of the state of issues.  It is often useful if chairs
