@@ -522,9 +522,9 @@ GitHub is kept to a minimum.  Only editorial matters can be resolved using the
 issue tracker.
 
 Chairs and editors are given discretion in determining what issues are
-substantive.  As documents mature, it is generally prudent to err more toward
-consulting the mailing list where there is doubt.  As with other Working Group
-decisions, chairs are the arbiters in case of dispute.
+substantive.  As documents mature, it is generally prudent to prefer consulting
+the mailing list where there is doubt.  As with other Working Group decisions,
+chairs are the arbiters in case of dispute.
 
 A recurrent problem with this mode of interaction is the tendency for
 discussions to spontaneously develop in the issue tracker.  This requires a
