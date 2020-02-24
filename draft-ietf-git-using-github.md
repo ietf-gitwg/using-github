@@ -697,9 +697,9 @@ For resolved issues, a `has-consensus` label might be used by chairs to mark
 issues for which formal Working Group decisions have been made (Section 6.1 of
 {{!RFC2418}}).
 
-A `v2` or `next-version` label might be used to mark and thereby save issues for
-a future version of or extension to a protocol, particularly where a resolution
-is made to take no action.
+A `future` or `next-version` label might be used to mark and thereby save
+issues for a future version of or extension to a protocol, particularly where a
+resolution is made to take no action.
 
 
 ### Component Labelling
