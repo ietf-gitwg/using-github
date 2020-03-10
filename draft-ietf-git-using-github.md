@@ -445,8 +445,8 @@ editors.  Editors are given discretion in how they manage changes amongst themse
 ### Discussion on Pull Requests
 
 In addition to the features that pull requests share with issues, users can also
-review the changes in a pull request.  This is a valuable feature, but it has
-some issues.
+review the changes in a pull request.  This is a valuable feature, but presents
+some challenges.
 
 Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
