@@ -604,7 +604,7 @@ Changes made by editors under this process do not completely lack oversight.
 GitHub and git provide tools for ensuring that changes are tracked and can be
 audited.  Within the usual Working Group process it is expected that
 Internet-Drafts will receive regular review. Finally, process checkpoints like
-Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provides additional
+Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provide additional
 safeguards against abuse.
 
 Working Groups are advised against allowing editors this degree of flexibility
