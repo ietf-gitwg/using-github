@@ -392,10 +392,16 @@ Issues that have reached a resolution that has Working Group consensus MUST NOT
 be reopened unless new information is presented.
 
 For long-running work items, new contributors often raise issues that have
-already been resolved. Chairs need to assess whether the arguments offered
-represent new information or not.  This can require some discussion to determine
-accurately.  Resolved issues MUST remain closed unless there is consensus to
-reopen an issue.
+already been resolved. Determining whether arguments presented in favor of
+reopening an issue represents new information might require some discussion in
+the Working Group. Where there was rough consensus regarding the resolution of a
+contentious issue, this could lead to some temptation to restart the debate.
+
+Chairs are empowered to exercise discretion in determining whether to reopen
+issues.  For more difficult matters, the chairs MAY insist that the Working
+Group reach consensus on whether new an issue should be reopened.  Note however
+that any product of this process still needs to have the support of rough
+consensus in the Working Group, which could justify reopening issues.
 
 
 ## Pull Requests
