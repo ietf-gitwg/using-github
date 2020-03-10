@@ -733,8 +733,8 @@ processes.  For example,
 
 # Internet-Draft Publication
 
-During the development of a document, individual revisions of a document can be
-built and formally submitted as an Internet-Draft.  This creates a stable
+During the development of a document, individual revisions of the document can
+be built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
 audience.  Documents submitted as Internet-Drafts are not expected to address
 all open issues or merge outstanding pull requests.
