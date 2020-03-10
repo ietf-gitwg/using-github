@@ -186,8 +186,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    GitHub is a service operated at https://github.com/
    (https://github.com/).  GitHub provides centralized storage for git
-   repositories.  GitHub is freely accessible on the open Internet,
-   albeit currently only via IPv4.
+   repositories.  GitHub is freely accessible on the open Internet.
 
    GitHub provides a simplified and integrated interface to git, and
    also provides basic user management, an issue tracker, associated
@@ -214,6 +213,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    not be applicable to other similar services.  A Working Group that
    decides to adopt an alternative tool or service can still benefit
    from the general guidance in this document.
+
 
 
 
