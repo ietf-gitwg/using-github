@@ -217,8 +217,9 @@ charter objectives in an open and transparent fashion.  The Working Group Chairs
 are responsible for determining if there is interest in using GitHub and making
 a consensus call to determine if the proposed policy and use is acceptable.
 
-Chairs MUST involve Area Directors in any decision to use GitHub for anything
-more than managing drafts.
+Chairs SHOULD involve Area Directors in any decision to use GitHub, especially
+where substantive discussion of issues is permitted as described in
+{{mode-discuss}}.
 
 
 ## What to Use GitHub For {#usage}
@@ -501,7 +502,7 @@ Working Groups can adjust these policies to suit their needs, but are advised to
 avoid gratuitous changes for the sake of consistency across the IETF as a whole.
 
 
-## Document Management Mode
+## Document Management Mode {#mode-doc}
 
 In this mode of interaction, GitHub repositories are used to manage changes to
 documents, but the bulk of the work is conducted using email, face-to-face
@@ -515,7 +516,7 @@ maintain issues and pull requests for their own benefit, but these have no
 formal standing in the Working Group process.
 
 
-## Issue Tracking Mode
+## Issue Tracking Mode {#mode-track}
 
 In addition to managing documents, the Working Group might choose to use GitHub
 for tracking outstanding issues.  In this mode of interaction, all substantive
@@ -550,7 +551,7 @@ or editors record details of decisions in issue comments when closing issues as
 resolved.
 
 
-## Issue Discussion Mode
+## Issue Discussion Mode {#mode-discuss}
 
 This GitHub interaction mode differs from the other modes in that discussion
 relating to substantive technical matters is allowed to occur on GitHub issues.
