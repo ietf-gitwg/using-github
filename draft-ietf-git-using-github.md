@@ -91,7 +91,7 @@ of repositories.
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
-accessible on the open Internet, albeit currently only via IPv4.
+accessible on the open Internet.
 
 GitHub provides a simplified and integrated interface to git, and also provides
 basic user management, an issue tracker, associated wikis, project hosting, and
