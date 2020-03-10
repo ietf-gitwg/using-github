@@ -407,7 +407,7 @@ consensus in the Working Group, which could justify reopening issues.
 
 ## Pull Requests
 
-Pull requests are the GitHub feature that allow users to request changes to a
+A pull request is a GitHub feature that allows a user to request a change to a
 repository.  A user does not need to have write access to a repository to create
 a pull request.  A user can create a "fork", or copy, of any public repository.
 The user has write access to their own fork, allowing them to make local
