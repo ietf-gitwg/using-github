@@ -583,10 +583,10 @@ As a more involved process, adopting this mode can require changes in policies
 as documents become more mature.  It is possible to use different processes for
 different documents in the Working Group.
 
-Working Group chairs SHOULD confirm that the Working Group has consensus to
-adopt any process.  In particular, the introduction of a more tightly-controlled
-process can have the effect of privileging positions already captured in
-documents, which might disadvantage alternative viewpoints.
+Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.
 
 
 ### Early Design Phases
@@ -630,9 +630,9 @@ issues as they see fit.
 As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.
 
-Gaining Working Group consensus about the resolution of issues can be done in
-the abstract, with editors being permitted to capture the outcome of discussions
-as they see fit.
+Chairs are able to declare Working Group consensus about the resolution of
+issues in the abstract, allowing editors discretion on how to capture the
+decisions in documents.
 
 More mature documents require not only consensus, but consensus about specific
 text.  All substantive changes to documents that have passed WGLC SHOULD be
