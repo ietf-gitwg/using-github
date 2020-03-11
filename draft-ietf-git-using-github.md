@@ -593,7 +593,8 @@ announce the decision to the Working Group.  In many cases, documents that are
 adopted by a Working Group are already sufficiently mature that a looser process
 is not beneficial.  The primary reason to grant editors more discretionary power
 is to improve the speed with which changes can be made.  The risk is that design
-changes might not always reflect the consensus of the Working Group.
+changes might not always reflect the consensus of the Working Group or that the
+need for consensus on an issue is not identified.
 
 Changes made by editors under this process do not completely lack oversight.
 GitHub and git provide tools for ensuring that changes are tracked and can be
@@ -616,7 +617,7 @@ are not made without wider consultation.
 Chairs might choose to manage the process of deciding which issues are
 substantive.  For instance, chairs might reserve the ability to use the `design`
 label to new issues (see {{label-design}}) and to close issues marked as `design`.
-Chairs should always allow document editors to identify and address editorial
+Chairs SHOULD always allow document editors to identify and address editorial
 issues as they see fit.
 
 As documents mature further, explicit confirmation of technical decisions with
