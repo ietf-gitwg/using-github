@@ -444,7 +444,7 @@ some issues.
 Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
-do not track discussion closely.
+do not track discussions closely.
 
 For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.
