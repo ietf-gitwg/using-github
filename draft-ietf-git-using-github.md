@@ -239,7 +239,7 @@ The set of GitHub features ({{features}}) that the Working Group relies upon
 need to be clearly documented in policies.  This document provides some guidance
 on potential policies and how those might be applied.
 
-Features that the Working Group does not rely upon SHOULD be made available to
+Features that the Working Group does not rely upon can be made available to
 document editors.  Editors are then able to use these features for their own
 purposes.  For example, though the Working Group might not formally use issues
 to track items that require further discussion in order to reach consensus,
@@ -248,7 +248,7 @@ keeping the issue tracker available to editors can be valuable.
 Working Group policies need to be set with the goal of improving transparency,
 participation, and ultimately the quality of the consensus behind documents.  At
 times, it might be appropriate to impose some limitations on what document
-editors are able to do in order to serve these goals.  Chairs SHOULD
+editors are able to do in order to serve these goals.  Chairs are encourage to
 periodically consult with document editors to ensure that policies are
 effective.
 
