@@ -380,7 +380,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    transparency, participation, and ultimately the quality of the
    consensus behind documents.  At times, it might be appropriate to
    impose some limitations on what document editors are able to do in
-   order to serve these goals.  Chairs are encourage to periodically
+   order to serve these goals.  Chairs are encouraged to periodically
    consult with document editors to ensure that policies are effective.
 
    A document editor can still use GitHub independently for documents
