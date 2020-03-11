@@ -23,6 +23,13 @@ author:
    email: barbara.stark@att.com
 
 informative:
+  GLOSSARY:
+    title: "GitHub glossary"
+    date: 2020-03
+    target: "https://help.github.com/en/github/getting-started-with-github/github-glossary"
+    author:
+      -
+        organization: GitHub
 
 --- abstract
 
@@ -150,6 +157,9 @@ out of scope for this document.
 The words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY"
 are used in this document. It's not shouting; when they are capitalized,
 they have the special meaning defined in BCP 14 {{!RFC2119}} {{!RFC8174}}.
+
+This document uses a lot of terms related to git and GitHub; see {{GLOSSARY}}
+for information on these terms.
 
 
 # Administrative Policies {#policy}
