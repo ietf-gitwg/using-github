@@ -191,7 +191,7 @@ does not also include the ability to push to all repositories and ownership does
 not grant any other significant privileges.
 
 Details about creating organizations adhering to these guidelines can be found
-in {{!GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
+in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 
 ## Communicating Policies {#notices}
