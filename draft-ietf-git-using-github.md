@@ -248,7 +248,7 @@ keeping the issue tracker available to editors can be valuable.
 Working Group policies need to be set with the goal of improving transparency,
 participation, and ultimately the quality of the consensus behind documents.  At
 times, it might be appropriate to impose some limitations on what document
-editors are able to do in order to serve these goals.  Chairs are encourage to
+editors are able to do in order to serve these goals.  Chairs are encouraged to
 periodically consult with document editors to ensure that policies are
 effective.
 
