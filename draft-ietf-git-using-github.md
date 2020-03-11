@@ -26,8 +26,8 @@ informative:
 
 --- abstract
 
-This document describes best practices for Working Groups that use GitHub for
-their work.
+This document describes best practices for Working Groups that choose to use
+GitHub for their work.
 
 
 --- note_Note_to_Readers
