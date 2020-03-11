@@ -494,6 +494,13 @@ models.
 
 Working Groups can adjust these policies to suit their needs, but are advised to
 avoid gratuitous changes for the sake of consistency across the IETF as a whole.
+It is possible to use different processes for different documents in the Working
+Group.
+
+Working Group chairs SHOULD confirm that the Working Group has consensus to
+adopt any process.  In particular, the introduction of a more tightly-controlled
+process can have the effect of privileging positions already captured in
+documents, which might disadvantage alternative viewpoints.
 
 
 ## Document Management Mode
@@ -571,13 +578,7 @@ mailing list, along lines similar to the design team process (see Section 6.5 of
 {{RFC2418}}).
 
 As a more involved process, adopting this mode can require changes in policies
-as documents become more mature.  It is possible to use different processes for
-different documents in the Working Group.
-
-Working Group chairs SHOULD confirm that the Working Group has consensus to
-adopt any process.  In particular, the introduction of a more tightly-controlled
-process can have the effect of privileging positions already captured in
-documents, which might disadvantage alternative viewpoints.
+as documents become more mature.
 
 
 ### Early Design Phases
