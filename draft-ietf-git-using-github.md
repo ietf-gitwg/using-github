@@ -413,7 +413,8 @@ than committing directly to the "master" branch of the repository. See
 pull request creates an artifact that records the reasons for changes and
 provides other contributors with an opportunity to review the change. Ideally,
 pull requests that address substantive issues mention the issue they address in
-the opening comment.
+the opening comment.  A Working Group policy could require that pull requests
+are used in this fashion.
 
 Note:
 
