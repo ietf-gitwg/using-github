@@ -171,9 +171,9 @@ within an area. Large organizations create too much overhead for general
 management tasks, particularly when there is a need to maintain membership.
 
 Each organization requires owners.  The owner team for a Working Group
-repository MUST include responsible Area Directors.  Area Directors MAY also
-designate a delegate that becomes an owner and Working Group chairs MAY also be
-owners.
+repository MUST include responsible Area Directors and SHOULD include the IETF
+Secretariat.  Area Directors MAY also designate a delegate that becomes an owner
+and Working Group chairs MAY also be owners.
 
 A team with administrator access SHOULD be created for the Working Group Chairs
 and any Working Group Secretary.  Administrator access is preferable, since this
