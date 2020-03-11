@@ -628,9 +628,10 @@ the abstract, with editors being permitted to capture the outcome of discussions
 as they see fit.
 
 More mature documents require not only consensus, but consensus about specific
-text.  All substantive changes to documents that have passed WGLC SHOULD be
-proposed as pull requests, and MUST be discussed on the mailing list, and MUST
-have chairs explicitly confirm consensus.  Chairs MAY institute this stricter
+text.  Ideally, substantive changes to documents that have passed WGLC are
+proposed as pull requests, and MUST be discussed on the mailing list. Having
+chairs explicitly confirm consensus on changes ensures that previous consensus
+decisions are not overturned without cause.  Chairs MAY institute this stricter
 process prior to WGLC.
 
 Note:
