@@ -80,7 +80,7 @@ However, such groups may draw inspiration for GitHub use from the contents herei
 Version control systems are a critical component of software engineering and are
 also quite useful for document editing.
 
-[Git](https://git-scm.com) is a distributed version control system that can operate without a central
+[Git](https://git-scm.com/) is a distributed version control system that can operate without a central
 service.  Each instance of a repository contains a number of revisions.  Each
 revision stores the complete state of a set of files.  Users are able to create
 new revisions in their copy of a repository and share revisions between copies
@@ -89,7 +89,7 @@ of repositories.
 
 ## GitHub
 
-GitHub is a service operated at [https://github.com/](https://github.com/).
+GitHub is a service operated at <https://github.com/>.
 GitHub provides centralized storage for git repositories.  GitHub is freely
 accessible on the open Internet, albeit currently only via IPv4.
 
