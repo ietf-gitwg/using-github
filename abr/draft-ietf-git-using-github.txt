@@ -401,13 +401,12 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    new repositories for adopted Working Group items, or they might
    create repositories for individual documents on request.
 
-   All repositories for Working Group documents within the Working Group
-   organization MUST be public.  Maintaining private repositories for
-   Working Group documents is not recommended without specific cause.
-   For instance, a document that details a security vulnerability might
-   be kept private prior to its initial publication as an Internet-
-   Draft.  Once an Internet-Draft is published, repositories SHOULD be
-   made public.
+   Maintaining private repositories for Working Group products is not
+   recommended without specific cause.  For instance, a document that
+   details a security vulnerability might be kept private prior to its
+   initial publication as an Internet-Draft.  Once an Internet-Draft is
+   published, repositories for Working Group documents MUST be made
+   public.
 
    The adoption status of any document MUST be clear from the contents
    of the repository.  This can be achieved by having the name of the
@@ -442,6 +441,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    for other reasons, such as maintaining supporting code or build
    configurations.  Working Group chairs, as administrators or owners of
    the organization might also have write access to repositories.  Users
+   other than document editors, including chairs, SHOULD NOT write to
 
 
 
@@ -450,7 +450,6 @@ Thomson & Stark         Expires 13 September 2020               [Page 8]
 Internet-Draft            GitHub Usage Guidance               March 2020
 
 
-   other than document editors, including chairs, SHOULD NOT write to
    Working Group documents without prior coordination with document
    editors.
 
@@ -498,6 +497,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    A Working Group policy MAY require that all substantive changes be
    tracked using issues.  Suggested policies for the use of the GitHub
    issue tracker are the primary subject of Section 5.
+
 
 
 
