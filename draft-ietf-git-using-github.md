@@ -630,7 +630,7 @@ issues as they see fit.
 As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.
 
-Chairs are able to declare Working Group consensus about the resolution of
+Chairs can declare Working Group consensus about the resolution of
 issues in the abstract, allowing editors discretion on how to capture the
 decisions in documents.
 
