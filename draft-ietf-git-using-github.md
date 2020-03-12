@@ -272,11 +272,11 @@ for adopted Working Group items, or they might create repositories for
 individual documents on request.
 
 All repositories for Working Group documents within the Working Group
-organization MUST be public.  Repositories for private documents MAY be
-kept private, but only where there is a specific reason for doing so.  For
-instance, a document that details a security vulnerability might be kept
-private prior to its initial publication as an Internet-Draft. Once an
-Internet-Draft is published, repositories SHOULD be made public.
+organization MUST be public.  Maintaining private repositories for Working Group
+documents is not recommended without specific cause.  For instance, a document
+that details a security vulnerability might be kept private prior to its initial
+publication as an Internet-Draft. Once an Internet-Draft is published,
+repositories SHOULD be made public.
 
 The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
