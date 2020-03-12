@@ -34,10 +34,10 @@ their work.
 
 Discussion of this document takes place on the GitHub@ietf mailing list
 (ietf-and-github@ietf.org), which is archived at
-<https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github>.
+[](https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github).
 
 Source for this draft and an issue tracker can be found at
-<https://github.com/ietf-gitwg/using-github>.
+[](https://github.com/ietf-gitwg/using-github).
 
 
 --- middle
@@ -89,7 +89,7 @@ of repositories.
 
 ## GitHub
 
-GitHub is a service operated at <https://github.com/>.
+GitHub is a service operated at [](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
 accessible on the open Internet, albeit currently only via IPv4.
 
