@@ -59,7 +59,8 @@ specification.
 
 The main purpose of this document is providing guidelines for how Working Groups
 might integrate the capabilities provided by GitHub into their processes for
-developing Internet-Drafts.
+developing Internet-Drafts. The choice of whether to use GitHub or whether to
+adopt these practices if they do is at the discretion of the Working Group.
 
 This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
