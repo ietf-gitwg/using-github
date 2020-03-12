@@ -5,8 +5,8 @@
 Network                                                       M. Thomson
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                          B. Stark
-Expires: 12 September 2020                                          AT&T
-                                                           11 March 2020
+Expires: 13 September 2020                                          AT&T
+                                                           12 March 2020
 
 
                   Working Group GitHub Usage Guidance
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 September 2020.
+   This Internet-Draft will expire on 13 September 2020.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 1]
+Thomson & Stark         Expires 13 September 2020               [Page 1]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 2]
+Thomson & Stark         Expires 13 September 2020               [Page 2]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -142,7 +142,9 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    The main purpose of this document is providing guidelines for how
    Working Groups might integrate the capabilities provided by GitHub
-   into their processes for developing Internet-Drafts.
+   into their processes for developing Internet-Drafts.  The choice of
+   whether to use GitHub or whether to adopt these practices if they do
+   is at the discretion of the Working Group.
 
    This document is meant as a supplement to existing Working Group
    practices.  It provides guidance to Working Group chairs and
@@ -163,9 +165,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-
-
-Thomson & Stark         Expires 12 September 2020               [Page 3]
+Thomson & Stark         Expires 13 September 2020               [Page 3]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -221,7 +221,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 4]
+Thomson & Stark         Expires 13 September 2020               [Page 4]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -277,7 +277,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 5]
+Thomson & Stark         Expires 13 September 2020               [Page 5]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -333,7 +333,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 6]
+Thomson & Stark         Expires 13 September 2020               [Page 6]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -389,7 +389,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 7]
+Thomson & Stark         Expires 13 September 2020               [Page 7]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -445,7 +445,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 8]
+Thomson & Stark         Expires 13 September 2020               [Page 8]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -501,7 +501,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020               [Page 9]
+Thomson & Stark         Expires 13 September 2020               [Page 9]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -557,7 +557,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 10]
+Thomson & Stark         Expires 13 September 2020              [Page 10]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -613,7 +613,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 11]
+Thomson & Stark         Expires 13 September 2020              [Page 11]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -669,7 +669,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 12]
+Thomson & Stark         Expires 13 September 2020              [Page 12]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -725,7 +725,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 13]
+Thomson & Stark         Expires 13 September 2020              [Page 13]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -781,7 +781,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 14]
+Thomson & Stark         Expires 13 September 2020              [Page 14]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -837,7 +837,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 15]
+Thomson & Stark         Expires 13 September 2020              [Page 15]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -893,7 +893,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 16]
+Thomson & Stark         Expires 13 September 2020              [Page 16]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -949,7 +949,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 17]
+Thomson & Stark         Expires 13 September 2020              [Page 17]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1005,7 +1005,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 18]
+Thomson & Stark         Expires 13 September 2020              [Page 18]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1061,7 +1061,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 19]
+Thomson & Stark         Expires 13 September 2020              [Page 19]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1117,7 +1117,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 20]
+Thomson & Stark         Expires 13 September 2020              [Page 20]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1173,7 +1173,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 21]
+Thomson & Stark         Expires 13 September 2020              [Page 21]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1229,4 +1229,4 @@ Authors' Addresses
 
 
 
-Thomson & Stark         Expires 12 September 2020              [Page 22]
+Thomson & Stark         Expires 13 September 2020              [Page 22]
