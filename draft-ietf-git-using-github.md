@@ -100,10 +100,11 @@ provides basic user management, an issue tracker, associated wikis, project
 hosting, and other features.
 
 There are a large number of projects at GitHub and a very large community of
-contributors.  One way in which some IETF Working Groups have benefited is
-through increased numbers of reviews and associated issues, along with other
-improvements that come from broader participation by facilitating those
-in the community to participate.
+contributors.  One way in which some IETF Working Groups have benefited from use
+of the service is through increased numbers of reviews and associated issues,
+along with other improvements that come from broader participation by
+facilitating those in the community to participate.
+
 
 ## Other Services
 
