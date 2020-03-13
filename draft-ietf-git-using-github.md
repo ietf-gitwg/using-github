@@ -770,9 +770,10 @@ of the document.  Other participants might not use GitHub at all.  Chairs are
 reminded that assessing consensus based on GitHub content alone cannot be
 assumed to reach all interested participants.
 
-Chairs MUST consider input from all discussion venues when assessing consensus
-including GitHub, mailing lists, interim meetings, and IETF meetings. Each venue
-has different selection biases that might need to be considered.
+As described in {{!RFC2418}}, chairs consider input from all discussion venues
+when assessing consensus. These include mailing lists, IETF meetings, and
+interim meetings in addition to discussion on GitHub. Each venue has different
+selection biases that might need to be considered.
 
 A Working Group chair MUST consult the Working Group mailing list for any issue
 that is potentially contentious.  Relying on input provided through GitHub alone
