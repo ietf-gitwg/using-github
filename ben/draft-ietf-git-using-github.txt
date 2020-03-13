@@ -157,8 +157,8 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Although the operation of IRTF Research Groups can be similar in
    function to Working Groups, this document only directly addresses the
-   needs Working Groups.  However, other groups may draw inspiration for
-   GitHub use from the contents herein.
+   needs of Working Groups.  However, other groups may draw inspiration
+   for GitHub use from the contents herein.
 
 
 
@@ -704,7 +704,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Under this mode, issues and pull requests can be opened by anyone,
    but anything deemed substantive MUST be resolved exclusively on the
-   mailing list.  Discussion on GitHub is kept to a recording the state
+   mailing list.  Discussion on GitHub is limited to recording the state
    of issues.  Only editorial matters can be resolved using the issue
    tracker.
 
