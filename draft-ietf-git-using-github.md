@@ -514,14 +514,15 @@ formal standing in the Working Group process.
 ## Issue Tracking Mode
 
 In addition to managing documents, the Working Group might choose to use GitHub
-for tracking outstanding issues.  In this mode of interaction, all substantive
-technical discussions are tracked as issues in the issue tracker.  However,
-discussion of any substantial matters is always conducted on mailing lists.
+for tracking outstanding issues.  In this mode of interaction, a record of the
+existence of substantive technical discussions is tracked using issues in the
+issue tracker.  However, discussion of any substantial matters is always
+conducted on mailing lists.
 
 Under this mode, issues and pull requests can be opened by anyone, but anything
 deemed substantive MUST be resolved exclusively on the mailing list.  Discussion on
-GitHub is kept to a minimum.  Only editorial matters can be resolved using the
-issue tracker.
+GitHub is kept to a recording the state of issues.  Only editorial matters can
+be resolved using the issue tracker.
 
 Chairs and editors are given discretion in determining what issues are
 substantive.  As documents mature, it is generally prudent to prefer consulting
