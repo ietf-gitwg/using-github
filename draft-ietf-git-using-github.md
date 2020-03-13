@@ -195,7 +195,8 @@ organization.
 
 A simple example of how to do this is to include a link to the GitHub
 organization on the WG Charter page in the datatracker.  Similarly, if there are
-multiple mailing list options, links to those mailing lists should be given.
+additional resources, such as additional mailing lists, links to those resources
+could also be added.
 
 Repositories MUST include a copy or reference to the policy that applies to
 managing any documents they contain.  Updating the README or CONTRIBUTING file
