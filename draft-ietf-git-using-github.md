@@ -73,7 +73,7 @@ describes administrative processes that support the practices described in this
 document.
 
 Although the operation of IRTF Research Groups can be similar in function to
-Working Groups, this document only directly addresses the needs Working Groups.
+Working Groups, this document only directly addresses the needs of Working Groups.
 However, other groups may draw inspiration for GitHub use from the contents
 herein.
 
@@ -521,7 +521,7 @@ conducted on mailing lists.
 
 Under this mode, issues and pull requests can be opened by anyone, but anything
 deemed substantive MUST be resolved exclusively on the mailing list.  Discussion on
-GitHub is kept to a recording the state of issues.  Only editorial matters can
+GitHub is limited to recording the state of issues.  Only editorial matters can
 be resolved using the issue tracker.
 
 Chairs and editors are given discretion in determining what issues are
