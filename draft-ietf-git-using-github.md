@@ -867,6 +867,10 @@ chairs and area directors is relevant in maintaining the integrity of the
 content that GitHub hosts.  Backups allow for recovery of content, and regular
 submissions as Internet-Drafts ensure that work is not lost completely.
 
+A compromise of GitHub does not pose a significant threat to Working Group
+operations as it is expected that most data, aside from individual credentials,
+is made public.
+
 
 # IANA Considerations
 
