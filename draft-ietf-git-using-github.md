@@ -852,14 +852,15 @@ its services would be seriously affected.
 Widespread use of git reduces the exposure to a system failure because the
 primary repository is replicated in multiple locations.  This includes hosted
 web pages; the content of web pages is maintained as a branch in the main
-repository.  As specified in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
-maintaining a mirror of a repository hosted on GitHub provides IETF-hosted backups
-for WG repositories.
+repository.
 
 However, other information maintained on GitHub is more vulnerable to loss.
 This includes issues and discussion on those issues, discussion and reviews of
 commits and pull requests, and any content hosted on the wiki.  Tools exist for
 extracting this information for backup.
+
+As specified in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}, backup
+copies of repositories and other important data SHOULD be maintained.
 
 The potential for malicious actions by compromised or malcontent editors,
 chairs and area directors is relevant in maintaining the integrity of the
