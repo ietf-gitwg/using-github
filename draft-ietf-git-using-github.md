@@ -615,7 +615,7 @@ As a document matures, it becomes more important to understand not just that the
 document as a whole retains the support of the Working Group, but that changes
 are not made without wider consultation.
 
-Chairs might choose to manage the process of deciding which issues are
+Chairs MAY choose to manage the process of deciding which issues are
 substantive.  For instance, chairs might reserve the ability to use the `design`
 label to new issues (see {{label-design}}) and to close issues marked as `design`.
 Chairs SHOULD always allow document editors to identify and address editorial
