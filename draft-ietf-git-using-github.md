@@ -606,7 +606,7 @@ provides additional safeguards against abuse.
 
 Working Groups are advised against allowing editors this degree of flexibility
 for the entirety of a document lifecycle.  Once a document is more stable and
-mature, it is likely appropriate to move to a more tightly controlled process.
+mature, it could be useful to move to a more tightly controlled process.
 
 
 ### Managing Mature Documents {#mature-documents}
