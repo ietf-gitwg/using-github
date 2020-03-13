@@ -781,8 +781,8 @@ the widest possible audience ensures a higher quality document.
 
 If permitted, GitHub will be used for technical discussion and decisions,
 especially during early stages of development of a document.  Any decisions are
-confirmed through review, and ultimately, through Working Group Last Call (see
-Section 7.4 of {{!RFC2418}}).
+confirmed through review within the Working Group, and ultimately, through
+Working Group Last Call; see Section 7.4 of {{!RFC2418}}.
 
 The use of issues and labels has been effective in managing contentious issues.
 Explicitly labeling closed issues to identify those with formal
