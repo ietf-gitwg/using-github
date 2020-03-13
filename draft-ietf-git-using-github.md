@@ -72,8 +72,10 @@ A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that support the practices described in this
 document.
 
-Although similar, guidance for IRTF Research Groups is out of scope for this document.
-However, such groups may draw inspiration for GitHub use from the contents herein.
+Although the operation of IRTF Research Groups can be similar in function to
+Working Groups, this document only directly addresses the needs Working Groups.
+However, other groups may draw inspiration for GitHub use from the contents
+herein.
 
 ## Distributed Version Control Systems
 
