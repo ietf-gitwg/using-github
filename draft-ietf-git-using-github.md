@@ -592,16 +592,17 @@ Chairs need to explicitly decide that this sort of process is needed and
 announce the decision to the Working Group.  In many cases, documents that are
 adopted by a Working Group are already sufficiently mature that a looser process
 is not beneficial.  The primary reason to grant editors more discretionary power
-is to improve the speed with which changes can be made.  The risk is that design
-changes might not always reflect the consensus of the Working Group or that the
-need for consensus on an issue is not identified.
+is to improve the speed with which changes can be made.  The risk is from
+integrating changes including substantive decisions that don't reflect the
+consensus of the Working Group or that the need for consensus on an issue is not
+identified.
 
-Changes made by editors under this process do not completely lack oversight.
-GitHub and git provide tools for ensuring that changes are tracked and can be
-audited.  Within the usual Working Group process it is expected that
-Internet-Drafts will receive regular review. Finally, process checkpoints like
-Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provides additional
-safeguards against abuse.
+Changes made by editors under this process do not lack options for identifying
+and correcting problems.  GitHub and git provide tools for ensuring that changes
+are tracked and can be audited.  Within the usual Working Group process it is
+expected that Internet-Drafts will receive regular review. Finally, process
+checkpoints like Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}})
+provides additional safeguards against abuse.
 
 Working Groups are advised against allowing editors this degree of flexibility
 for the entirety of a document lifecycle.  Once a document is more stable and
