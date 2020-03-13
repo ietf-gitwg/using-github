@@ -171,7 +171,7 @@ found.  For instance, the name could be ietf-wg-\<wgname>, as recommended in
 
 A single organization SHOULD NOT be used for all IETF activity, or all activity
 within an area. Large organizations create too much overhead for general
-management tasks, particularly when there is a need to maintain membership.
+management tasks.
 
 Each organization requires owners.  The owner team for a Working Group
 repository MUST include responsible Area Directors.  Area Directors MAY also
