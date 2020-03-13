@@ -178,10 +178,9 @@ a Working Group repository MUST include responsible Area Directors.  Area
 Directors MAY also designate a delegate that becomes an owner and Working Group
 chairs MAY also be owners.
 
-A team with administrator access SHOULD be created for the Working Group Chairs
-and any Working Group Secretary.  Administrator access is preferable, since this
-does not also include the ability to push to all repositories and ownership does
-not grant any other significant privileges.
+Within an organization, members can be grouped into teams.  A team with "Admin"
+access to repositories SHOULD be created for the Working Group Chairs and any
+Working Group Secretary.
 
 Details about creating organizations adhering to these guidelines can be found
 in {{!GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
