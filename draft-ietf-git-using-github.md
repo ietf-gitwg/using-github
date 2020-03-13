@@ -564,7 +564,8 @@ issues always benefit from list discussion.
 Decisions about Working Group consensus MUST always be confirmed using the
 Working Group mailing list.  However, depending on the maturity of documents,
 this might be a more lightweight interaction, such as sending an email
-confirmation for a set of resolutions made using GitHub.
+confirmation for an initial set of resolutions arising from discussions on
+the issue tracker.
 
 Using the mailing list to resolve difficult or controversial issues is strongly
 encouraged.  In those cases, the issue tracker might be used to more fully
