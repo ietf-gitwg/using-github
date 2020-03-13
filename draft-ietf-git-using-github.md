@@ -249,11 +249,10 @@ to track items that require further discussion in order to reach consensus,
 keeping the issue tracker available to editors can be valuable.
 
 Working Group policies need to be set with the goal of improving transparency,
-participation, and ultimately the quality of the consensus behind documents.  At
-times, it might be appropriate to impose some limitations on what document
-editors are able to do in order to serve these goals.  Chairs SHOULD
-periodically consult with document editors to ensure that policies are
-effective.
+participation, and ultimately the quality of documents.  At times, it might be
+appropriate to impose some limitations on what document editors are able to do
+in order to serve these goals.  Chairs SHOULD periodically consult with document
+editors to ensure that policies are effective.
 
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
@@ -372,10 +371,10 @@ into a document.
 Labels can be used to identify particular categories of issues or to mark
 specific issues for discussion at an upcoming session.
 
-If labels are a core part of Working Group process, chairs MUST communicate any
-process to the Working Group.  This includes the semantics of labels, and who
-can apply and remove these labels.  {{labels}} describes some basic strategies
-that might be adopted to manage decision-making processes.
+Chairs communicate any process that specifically relates to the use of labels to
+the Working Group.  This includes the semantics of labels, and who can apply and
+remove these labels.  {{labels}} describes some basic strategies that might be
+adopted to manage decision-making processes.
 
 
 ### Closing Issues
