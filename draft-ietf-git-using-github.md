@@ -198,7 +198,7 @@ organization on the WG Charter page in the datatracker.  Similarly, if there are
 additional resources, such as additional mailing lists, links to those resources
 could also be added.
 
-Repositories MUST include a copy or reference to the policy that applies to
+Repositories MUST include a copy of or reference to the policy that applies to
 managing any documents they contain.  Updating the README or CONTRIBUTING file
 in the repository with details of the process ensures that the process is
 recorded in a stable location other than the mailing list archive.  This also
