@@ -26,8 +26,8 @@ informative:
 
 --- abstract
 
-This document describes best practices for Working Groups that use GitHub for
-their work.
+This document describes best practices for Working Groups that choose to use
+GitHub for their work.
 
 
 --- note_Note_to_Readers
@@ -59,7 +59,8 @@ specification.
 
 The main purpose of this document is providing guidelines for how Working Groups
 might integrate the capabilities provided by GitHub into their processes for
-developing Internet-Drafts.
+developing Internet-Drafts. The choices of whether to use GitHub and whether to
+adopt these practices if they do is at the discretion of the Working Group.
 
 This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
@@ -91,17 +92,16 @@ of repositories.
 
 GitHub is a service operated at [https://github.com/](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
-accessible on the open Internet, albeit currently only via IPv4.
+accessible on the open Internet.
 
-GitHub provides a simplified and integrated interface to not only git, but also
-provides basic user management, an issue tracker, associated wikis, project
-hosting, and other features.
+GitHub provides a simplified and integrated interface to git, and also provides
+basic user management, an issue tracker, associated wikis, project hosting, and
+other features.
 
 There are a large number of projects at GitHub and a very large community of
 contributors.  One way in which some IETF Working Groups have benefited is
 through increased numbers of reviews and associated issues, along with other
-improvements that come from broader participation by facilitating those
-in the community to participate.
+improvements that come from facilitating participation by a broader community.
 
 ## Other Services
 
@@ -147,9 +147,10 @@ out of scope for this document.
 
 ## Notational Conventions
 
-The words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY"
-are used in this document. It's not shouting; when they are capitalized,
-they have the special meaning defined in BCP 14 {{!RFC2119}} {{!RFC8174}}.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted as described in BCP 14 {{!RFC2119}} {{!RFC8174}}
+when, and only when, they appear in all capitals, as shown here.
 
 
 # Administrative Policies {#policy}
@@ -217,8 +218,9 @@ charter objectives in an open and transparent fashion.  The Working Group Chairs
 are responsible for determining if there is interest in using GitHub and making
 a consensus call to determine if the proposed policy and use is acceptable.
 
-Chairs MUST involve Area Directors in any decision to use GitHub for anything
-more than managing drafts.
+Chairs SHOULD involve Area Directors in any decision to use GitHub, especially
+where substantive discussion of issues is permitted as described in
+{{mode-discuss}}.
 
 
 ## What to Use GitHub For {#usage}
@@ -392,15 +394,21 @@ Issues that have reached a resolution that has Working Group consensus MUST NOT
 be reopened unless new information is presented.
 
 For long-running work items, new contributors often raise issues that have
-already been resolved. Chairs need to assess whether the arguments offered
-represent new information or not.  This can require some discussion to determine
-accurately.  Resolved issues MUST remain closed unless there is consensus to
-reopen an issue.
+already been resolved. Moreover, there could be temptation to reopen contentious
+issues resolved with rough consensus. Determining whether arguments presented in
+favor of reopening an issue represents new information might require some
+discussion in the Working Group.
+
+Chairs are empowered to exercise discretion in determining whether to reopen
+issues.  For more difficult matters, the chairs MAY insist that the Working
+Group reach consensus on whether an issue should be reopened.  Note however that
+any product of this process still needs to have the support of rough consensus
+in the Working Group, which could justify reopening issues.
 
 
 ## Pull Requests
 
-Pull requests are the GitHub feature that allow users to request changes to a
+A pull request is a GitHub feature that allows a user to request a change to a
 repository.  A user does not need to have write access to a repository to create
 a pull request.  A user can create a "fork", or copy, of any public repository.
 The user has write access to their own fork, allowing them to make local
@@ -439,8 +447,8 @@ editors.  Editors are given discretion in how they manage changes amongst themse
 ### Discussion on Pull Requests
 
 In addition to the features that pull requests share with issues, users can also
-review the changes in a pull request.  This is a valuable feature, but it has
-some issues.
+review the changes in a pull request.  This is a valuable feature, but presents
+some challenges.
 
 Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
@@ -478,6 +486,11 @@ produced by a notification tool like
 tool has been used effectively in several Working Groups, though it requires
 server infrastructure.
 
+Additionally, clear reporting about the changes that were included in each
+revision of an Internet-Draft helps ensure that contributors can
+follow activity.  This might be achieved by requesting that editors provide a
+change log that captures substantive changes to the document in each revision.
+
 
 # Typical Working Group Policies {#modes}
 
@@ -503,7 +516,7 @@ process can have the effect of privileging positions already captured in
 documents, which might disadvantage alternative viewpoints.
 
 
-## Document Management Mode
+## Document Management Mode {#mode-doc}
 
 In this mode of interaction, GitHub repositories are used to manage changes to
 documents, but the bulk of the work is conducted using email, face-to-face
@@ -517,7 +530,7 @@ maintain issues and pull requests for their own benefit, but these have no
 formal standing in the Working Group process.
 
 
-## Issue Tracking Mode
+## Issue Tracking Mode {#mode-track}
 
 In addition to managing documents, the Working Group might choose to use GitHub
 for tracking outstanding issues.  In this mode of interaction, all substantive
@@ -552,7 +565,7 @@ or editors record details of decisions in issue comments when closing issues as
 resolved.
 
 
-## Issue Discussion Mode
+## Issue Discussion Mode {#mode-discuss}
 
 This GitHub interaction mode differs from the other modes in that discussion
 relating to substantive technical matters is allowed to occur on GitHub issues.
@@ -602,7 +615,7 @@ and correcting problems.  GitHub and git provide tools for ensuring that changes
 are tracked and can be audited.  Within the usual Working Group process it is
 expected that Internet-Drafts will receive regular review. Finally, process
 checkpoints like Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}})
-provides additional safeguards against abuse.
+provide additional safeguards against abuse.
 
 Working Groups are advised against allowing editors this degree of flexibility
 for the entirety of a document lifecycle.  Once a document is more stable and
@@ -731,8 +744,8 @@ processes.  For example,
 
 # Internet-Draft Publication
 
-During the development of a document, individual revisions of a document can be
-built and formally submitted as an Internet-Draft.  This creates a stable
+During the development of a document, individual revisions of the document can
+be built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
 audience.  Documents submitted as Internet-Drafts are not expected to address
 all open issues or merge outstanding pull requests.
