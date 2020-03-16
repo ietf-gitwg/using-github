@@ -1199,6 +1199,8 @@ out of scope for this document.<a href="#section-1.4-5" class="pilcrow">¶</a></
 "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
 document are to be interpreted as described in BCP 14 <span>[<a href="#RFC2119" class="xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="xref">RFC8174</a>]</span>
 when, and only when, they appear in all capitals, as shown here.<a href="#section-1.5-1" class="pilcrow">¶</a></p>
+<p id="section-1.5-2">This document uses a lot of terms related to git and GitHub; see <span>[<a href="#GLOSSARY" class="xref">GLOSSARY</a>]</span>
+for information on these terms.<a href="#section-1.5-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1508,7 +1510,7 @@ some challenges.<a href="#section-4.2.1-1" class="pilcrow">¶</a></p>
 <p id="section-4.2.1-2">Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
-do not track discussion closely.<a href="#section-4.2.1-2" class="pilcrow">¶</a></p>
+do not track discussions closely.<a href="#section-4.2.1-2" class="pilcrow">¶</a></p>
 <p id="section-4.2.1-3">For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.<a href="#section-4.2.1-3" class="pilcrow">¶</a></p>
 </section>
@@ -1645,10 +1647,10 @@ mailing list, along lines similar to the design team process (see Section 6.5 of
 <p id="section-5.3-5">As a more involved process, adopting this mode can require changes in policies
 as documents become more mature.  It is possible to use different processes for
 different documents in the Working Group.<a href="#section-5.3-5" class="pilcrow">¶</a></p>
-<p id="section-5.3-6">Working Group chairs SHOULD confirm that the Working Group has consensus to
-adopt any process.  In particular, the introduction of a more tightly-controlled
-process can have the effect of privileging positions already captured in
-documents, which might disadvantage alternative viewpoints.<a href="#section-5.3-6" class="pilcrow">¶</a></p>
+<p id="section-5.3-6">Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.<a href="#section-5.3-6" class="pilcrow">¶</a></p>
 <div id="early-design-phases">
 <section id="section-5.3.1">
           <h4 id="name-early-design-phases">
@@ -1690,9 +1692,9 @@ Chairs should always allow document editors to identify and address editorial
 issues as they see fit.<a href="#section-5.3.2-2" class="pilcrow">¶</a></p>
 <p id="section-5.3.2-3">As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.<a href="#section-5.3.2-3" class="pilcrow">¶</a></p>
-<p id="section-5.3.2-4">Gaining Working Group consensus about the resolution of issues can be done in
-the abstract, with editors being permitted to capture the outcome of discussions
-as they see fit.<a href="#section-5.3.2-4" class="pilcrow">¶</a></p>
+<p id="section-5.3.2-4">Chairs can declare Working Group consensus about the resolution of
+issues in the abstract, allowing editors discretion on how to capture the
+decisions in documents.<a href="#section-5.3.2-4" class="pilcrow">¶</a></p>
 <p id="section-5.3.2-5">More mature documents require not only consensus, but consensus about specific
 text.  All substantive changes to documents that have passed WGLC SHOULD be
 proposed as pull requests, and MUST be discussed on the mailing list, and MUST
@@ -1959,9 +1961,6 @@ submissions as Internet-Drafts ensure that work is not lost completely.<a href="
 <a href="#section-12.1" class="section-number selfRef">12.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
-<dt id="GH-CONFIG">[GH-CONFIG]</dt>
-<dd>
-<span class="refAuthor">Cooper, A.</span><span class="refAuthor"> and P. Hoffman</span>, <span class="refTitle">"Working Group GitHub Administration"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-git-github-wg-configuration-06</span>, <time datetime="2020-02-13">13 February 2020</time>, <span>&lt;<a href="http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt">http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt</a>&gt;</span>. </dd>
 <dt id="RFC2026">[RFC2026]</dt>
 <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"The Internet Standards Process -- Revision 3"</span>, <span class="seriesInfo">BCP 9</span>, <span class="seriesInfo">RFC 2026</span>, <span class="seriesInfo">DOI 10.17487/RFC2026</span>, <time datetime="1996-10">October 1996</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc2026">https://www.rfc-editor.org/info/rfc2026</a>&gt;</span>. </dd>
@@ -1981,6 +1980,12 @@ submissions as Internet-Drafts ensure that work is not lost completely.<a href="
 <a href="#section-12.2" class="section-number selfRef">12.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
+<dt id="GH-CONFIG">[GH-CONFIG]</dt>
+<dd>
+<span class="refAuthor">Cooper, A.</span><span class="refAuthor"> and P. Hoffman</span>, <span class="refTitle">"Working Group GitHub Administration"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-git-github-wg-configuration-06</span>, <time datetime="2020-02-13">13 February 2020</time>, <span>&lt;<a href="http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt">http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt</a>&gt;</span>. </dd>
+<dt id="GLOSSARY">[GLOSSARY]</dt>
+<dd>
+<span class="refAuthor">GitHub</span>, <span class="refTitle">"GitHub glossary"</span>, <time datetime="2020-03">March 2020</time>, <span>&lt;<a href="https://help.github.com/en/github/getting-started-with-github/github-glossary">https://help.github.com/en/github/getting-started-with-github/github-glossary</a>&gt;</span>. </dd>
 <dt id="RFC7991">[RFC7991]</dt>
 <dd>
 <span class="refAuthor">Hoffman, P.</span>, <span class="refTitle">"The "xml2rfc" Version 3 Vocabulary"</span>, <span class="seriesInfo">RFC 7991</span>, <span class="seriesInfo">DOI 10.17487/RFC7991</span>, <time datetime="2016-12">December 2016</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc7991">https://www.rfc-editor.org/info/rfc7991</a>&gt;</span>. </dd>
