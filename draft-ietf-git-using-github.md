@@ -80,8 +80,10 @@ A companion document, {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
 describes administrative processes that support the practices described in this
 document.
 
-Although similar, guidance for IRTF Research Groups is out of scope for this document.
-However, such groups may draw inspiration for GitHub use from the contents herein.
+Although the operation of IRTF Research Groups can be similar in function to
+Working Groups, this document only directly addresses the needs of Working Groups.
+However, other groups may draw inspiration for GitHub use from the contents
+herein.
 
 ## Distributed Version Control Systems
 
@@ -106,9 +108,11 @@ basic user management, an issue tracker, associated wikis, project hosting, and
 other features.
 
 There are a large number of projects at GitHub and a very large community of
-contributors.  One way in which some IETF Working Groups have benefited is
-through increased numbers of reviews and associated issues, along with other
-improvements that come from facilitating participation by a broader community.
+contributors.  One way in which some IETF Working Groups have benefited from use
+of the service is through increased numbers of reviews and associated issues,
+along with other improvements that come from facilitating participation by a
+broader community.
+
 
 ## Other Services
 
@@ -179,17 +183,16 @@ instance, the name could be ietf-wg-\<wgname>, as recommended in
 
 A single organization SHOULD NOT be used for all IETF activity, or all activity
 within an area. Large organizations create too much overhead for general
-management tasks, particularly when there is a need to maintain membership.
+management tasks.
 
-Each organization requires owners.  The owner team for a Working Group
-repository MUST include responsible Area Directors.  Area Directors MAY also
-designate a delegate that becomes an owner and Working Group chairs MAY also be
-owners.
+GitHub requires that each organization have at least one owner.  The owners for
+a Working Group repository MUST include responsible Area Directors.  Area
+Directors MAY also designate a delegate that becomes an owner. Working Group
+chairs MAY also be owners.
 
-A team with administrator access SHOULD be created for the Working Group Chairs
-and any Working Group Secretary.  Administrator access is preferable, since this
-does not also include the ability to push to all repositories and ownership does
-not grant any other significant privileges.
+Within an organization, members can be grouped into teams.  A team with "Admin"
+access to repositories SHOULD be created for the Working Group Chairs and any
+Working Group Secretary.
 
 Details about creating organizations adhering to these guidelines can be found
 in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
@@ -204,9 +207,10 @@ organization.
 
 A simple example of how to do this is to include a link to the GitHub
 organization on the WG Charter page in the datatracker.  Similarly, if there are
-multiple mailing list options, links to those mailing lists should be given.
+additional resources, such as mailing lists, links to those resources
+could also be added.
 
-Repositories MUST include a copy or reference to the policy that applies to
+Repositories MUST include a copy of or reference to the policy that applies to
 managing any documents they contain.  Updating the README or CONTRIBUTING file
 in the repository with details of the process ensures that the process is
 recorded in a stable location other than the mailing list archive.  This also
@@ -258,11 +262,10 @@ to track items that require further discussion in order to reach consensus,
 keeping the issue tracker available to editors can be valuable.
 
 Working Group policies need to be set with the goal of improving transparency,
-participation, and ultimately the quality of the consensus behind documents.  At
-times, it might be appropriate to impose some limitations on what document
-editors are able to do in order to serve these goals.  Chairs SHOULD
-periodically consult with document editors and the Working Group to ensure that
-policies are effective.
+participation, and ultimately the quality of documents.  At times, it might be
+appropriate to impose some limitations on what document editors are able to do
+in order to serve these goals.  Chairs SHOULD periodically consult with document
+editors and the Working Group to ensure that policies are effective.
 
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
@@ -380,10 +383,10 @@ into a document.
 Labels can be used to identify particular categories of issues or to mark
 specific issues for discussion at an upcoming session.
 
-If labels are a core part of Working Group process, chairs MUST communicate any
-process to the Working Group.  This includes the semantics of labels, and who
-can apply and remove these labels.  {{labels}} describes some basic strategies
-that might be adopted to manage decision-making processes.
+Chairs communicate any process that specifically relates to the use of labels to
+the Working Group.  This includes the semantics of labels, and who can apply and
+remove these labels.  {{labels}} describes some basic strategies that might be
+adopted to manage decision-making processes.
 
 
 ### Closing Issues
@@ -535,14 +538,15 @@ formal standing in the Working Group process.
 ## Issue Tracking Mode {#mode-track}
 
 In addition to managing documents, the Working Group might choose to use GitHub
-for tracking outstanding issues.  In this mode of interaction, all substantive
-technical discussions are tracked as issues in the issue tracker.  However,
-discussion of any substantial matters is always conducted on mailing lists.
+for tracking outstanding issues.  In this mode of interaction, a record of the
+existence of substantive technical discussions is tracked using issues in the
+issue tracker.  However, discussion of any substantial matters is always
+conducted on mailing lists.
 
 Under this mode, issues and pull requests can be opened by anyone, but anything
 deemed substantive MUST be resolved exclusively on the mailing list.  Discussion on
-GitHub is kept to a minimum.  Only editorial matters can be resolved using the
-issue tracker.
+GitHub is limited to recording the state of issues.  Only editorial matters can
+be resolved using the issue tracker.
 
 Chairs and editors are given discretion in determining what issues are
 substantive.  As documents mature, it is generally prudent to prefer consulting
@@ -584,7 +588,8 @@ issues always benefit from list discussion.
 Decisions about Working Group consensus MUST always be confirmed using the
 Working Group mailing list.  However, depending on the maturity of documents,
 this might be a more lightweight interaction, such as sending an email
-confirmation for a set of resolutions made using GitHub.
+confirmation for an initial set of resolutions arising from discussions on
+the issue tracker.
 
 Using the mailing list to resolve difficult or controversial issues is strongly
 encouraged.  In those cases, the issue tracker might be used to more fully
@@ -800,8 +805,8 @@ the widest possible audience ensures a higher quality document.
 
 If permitted, GitHub will be used for technical discussion and decisions,
 especially during early stages of development of a document.  Any decisions are
-ultimately confirmed through review, and ultimately, through Working Group Last
-Call (see Section 7.4 of {{!RFC2418}}).
+confirmed through review within the Working Group, and ultimately, through
+Working Group Last Call; see Section 7.4 of {{!RFC2418}}.
 
 The use of issues and labels has been effective in managing contentious issues.
 Explicitly labeling closed issues to identify those with formal
@@ -871,19 +876,28 @@ its services would be seriously affected.
 Widespread use of git reduces the exposure to a system failure because the
 primary repository is replicated in multiple locations.  This includes hosted
 web pages; the content of web pages is maintained as a branch in the main
-repository.  As specified in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}},
-maintaining a mirror of a repository hosted on GitHub provides IETF-hosted backups
-for WG repositories.
+repository.
 
 However, other information maintained on GitHub is more vulnerable to loss.
 This includes issues and discussion on those issues, discussion and reviews of
 commits and pull requests, and any content hosted on the wiki.  Tools exist for
 extracting this information for backup.
 
+As specified in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}, backup
+copies of repositories and other important data SHOULD be maintained.
+
 The potential for malicious actions by compromised or malcontent editors,
 chairs and area directors is relevant in maintaining the integrity of the
 content that GitHub hosts.  Backups allow for recovery of content, and regular
 submissions as Internet-Drafts ensure that work is not lost completely.
+
+A compromise of GitHub does not pose a significant threat to Working Group
+operations as it is expected that most data, aside from individual credentials,
+is made public.
+
+Compromise of credentials could mean loss of control for repositories and
+organizations.  Owners and administrators SHOULD use current best practices for
+protection of credentials, such as multi-factor authentication.
 
 
 # IANA Considerations
