@@ -871,6 +871,10 @@ A compromise of GitHub does not pose a significant threat to Working Group
 operations as it is expected that most data, aside from individual credentials,
 is made public.
 
+Compromise of credentials could mean loss of control for repositories and
+organizations.  Owners and administrators SHOULD use current best practices for
+protection of credentials, such as multi-factor authentication.
+
 
 # IANA Considerations
 
