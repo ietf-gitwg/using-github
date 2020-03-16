@@ -2,7 +2,7 @@
 title: Working Group GitHub Usage Guidance
 abbrev: GitHub Usage Guidance
 docname: draft-ietf-git-using-github-latest
-category: bcp
+category: info
 area: General
 workgroup: Network
 ipr: trust200902
@@ -33,7 +33,7 @@ informative:
 
 --- abstract
 
-This document describes best practices for Working Groups that choose to use
+This document provides a set of guidelines for Working Groups that choose to use
 GitHub for their work.
 
 
