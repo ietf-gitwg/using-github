@@ -1138,6 +1138,11 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Group operations as it is expected that most data, aside from
    individual credentials, is made public.
 
+   Compromise of credentials could mean loss of control for repositories
+   and organizations.  Owners and administrators SHOULD use current best
+   practices for protection of credentials, such as multi-factor
+   authentication.
+
 11.  IANA Considerations
 
    This document has no IANA actions.
@@ -1166,17 +1171,16 @@ Internet-Draft            GitHub Usage Guidance               March 2020
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/info/rfc2418>.
 
-   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
-              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/info/rfc8174>.
-
-
 
 
 Thomson & Stark         Expires 17 September 2020              [Page 21]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/info/rfc8174>.
 
 12.2.  Informative References
 
@@ -1204,10 +1208,6 @@ Authors' Addresses
    AT&T
 
    Email: barbara.stark@att.com
-
-
-
-
 
 
 
