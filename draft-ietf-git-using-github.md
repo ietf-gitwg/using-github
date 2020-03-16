@@ -23,6 +23,13 @@ author:
    email: barbara.stark@att.com
 
 informative:
+  GLOSSARY:
+    title: "GitHub glossary"
+    date: 2020-03
+    target: "https://help.github.com/en/github/getting-started-with-github/github-glossary"
+    author:
+      -
+        organization: GitHub
 
 --- abstract
 
@@ -152,6 +159,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 document are to be interpreted as described in BCP 14 {{!RFC2119}} {{!RFC8174}}
 when, and only when, they appear in all capitals, as shown here.
 
+This document uses a lot of terms related to git and GitHub; see {{GLOSSARY}}
+for information on these terms.
+
 
 # Administrative Policies {#policy}
 
@@ -182,7 +192,7 @@ does not also include the ability to push to all repositories and ownership does
 not grant any other significant privileges.
 
 Details about creating organizations adhering to these guidelines can be found
-in {{!GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
+in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 
 ## Communicating Policies {#notices}
@@ -452,7 +462,7 @@ some challenges.
 Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
-do not track discussion closely.
+do not track discussions closely.
 
 For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.
@@ -586,10 +596,10 @@ As a more involved process, adopting this mode can require changes in policies
 as documents become more mature.  It is possible to use different processes for
 different documents in the Working Group.
 
-Working Group chairs SHOULD confirm that the Working Group has consensus to
-adopt any process.  In particular, the introduction of a more tightly-controlled
-process can have the effect of privileging positions already captured in
-documents, which might disadvantage alternative viewpoints.
+Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.
 
 
 ### Early Design Phases
@@ -633,9 +643,9 @@ issues as they see fit.
 As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.
 
-Gaining Working Group consensus about the resolution of issues can be done in
-the abstract, with editors being permitted to capture the outcome of discussions
-as they see fit.
+Chairs can declare Working Group consensus about the resolution of
+issues in the abstract, allowing editors discretion on how to capture the
+decisions in documents.
 
 More mature documents require not only consensus, but consensus about specific
 text.  All substantive changes to documents that have passed WGLC SHOULD be
