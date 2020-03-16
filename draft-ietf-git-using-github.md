@@ -478,6 +478,11 @@ produced by a notification tool like
 tool has been used effectively in several Working Groups, though it requires
 server infrastructure.
 
+Additionally, clear reporting about the changes that were included in each
+revision of an Internet-Draft helps ensure that contributors can
+follow activity.  This might be achieved by requesting that editors provide a
+change log that captures substantive changes to the document in each revision.
+
 
 # Typical Working Group Policies {#modes}
 
