@@ -4,7 +4,7 @@
 
 Network                                                       M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Best Current Practice                          B. Stark
+Intended status: Informational                                  B. Stark
 Expires: 17 September 2020                                          AT&T
                                                            16 March 2020
 
@@ -14,8 +14,8 @@ Expires: 17 September 2020                                          AT&T
 
 Abstract
 
-   This document describes best practices for Working Groups that choose
-   to use GitHub for their work.
+   This document provides a set of guidelines for Working Groups that
+   choose to use GitHub for their work.
 
 Note to Readers
 
