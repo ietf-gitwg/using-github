@@ -261,8 +261,8 @@ Working Group policies need to be set with the goal of improving transparency,
 participation, and ultimately the quality of the consensus behind documents.  At
 times, it might be appropriate to impose some limitations on what document
 editors are able to do in order to serve these goals.  Chairs SHOULD
-periodically consult with document editors to ensure that policies are
-effective.
+periodically consult with document editors and the Working Group to ensure that
+policies are effective.
 
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
