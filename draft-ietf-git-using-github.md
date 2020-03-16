@@ -26,8 +26,8 @@ informative:
 
 --- abstract
 
-This document describes best practices for Working Groups that use GitHub for
-their work.
+This document describes best practices for Working Groups that choose to use
+GitHub for their work.
 
 
 --- note_Note_to_Readers
@@ -59,7 +59,8 @@ specification.
 
 The main purpose of this document is providing guidelines for how Working Groups
 might integrate the capabilities provided by GitHub into their processes for
-developing Internet-Drafts.
+developing Internet-Drafts. The choices of whether to use GitHub and whether to
+adopt these practices if they do is at the discretion of the Working Group.
 
 This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
