@@ -41,10 +41,10 @@ GitHub for their work.
 
 Discussion of this document takes place on the GitHub@ietf mailing list
 (ietf-and-github@ietf.org), which is archived at
-<https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github>.
+[](https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github).
 
 Source for this draft and an issue tracker can be found at
-<https://github.com/ietf-gitwg/using-github>.
+[](https://github.com/ietf-gitwg/using-github).
 
 
 --- middle
@@ -88,7 +88,7 @@ However, such groups may draw inspiration for GitHub use from the contents herei
 Version control systems are a critical component of software engineering and are
 also quite useful for document editing.
 
-[Git](https://git-scm.com) is a distributed version control system that can operate without a central
+[Git](https://git-scm.com/) is a distributed version control system that can operate without a central
 service.  Each instance of a repository contains a number of revisions.  Each
 revision stores the complete state of a set of files.  Users are able to create
 new revisions in their copy of a repository and share revisions between copies
@@ -97,7 +97,7 @@ of repositories.
 
 ## GitHub
 
-GitHub is a service operated at [https://github.com/](https://github.com/).
+GitHub is a service operated at [](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
 accessible on the open Internet.
 
@@ -283,12 +283,11 @@ discretion of the chairs.  Chairs could decide to only create new repositories
 for adopted Working Group items, or they might create repositories for
 individual documents on request.
 
-All repositories for Working Group documents within the Working Group
-organization MUST be public.  Repositories for private documents MAY be
-kept private, but only where there is a specific reason for doing so.  For
-instance, a document that details a security vulnerability might be kept
-private prior to its initial publication as an Internet-Draft. Once an
-Internet-Draft is published, repositories SHOULD be made public.
+Maintaining private repositories for Working Group products is not recommended
+without specific cause.  For instance, a document that details a security
+vulnerability might be kept private prior to its initial publication as an
+Internet-Draft. Once an Internet-Draft is published, repositories for Working
+Group documents MUST be made public.
 
 The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
