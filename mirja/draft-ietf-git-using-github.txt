@@ -21,13 +21,10 @@ Note to Readers
 
    Discussion of this document takes place on the GitHub@ietf mailing
    list (ietf-and-github@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github
-   (https://mailarchive.ietf.org/arch/search?email_list=ietf-and-
-   github).
+   https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/ietf-gitwg/using-github (https://github.com/ietf-
-   gitwg/using-github).
+   https://github.com/ietf-gitwg/using-github.
 
 Status of This Memo
 
@@ -51,6 +48,9 @@ Copyright Notice
    Copyright (c) 2020 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+
 
 
 Thomson & Stark         Expires 17 September 2020               [Page 1]
@@ -58,8 +58,6 @@ Thomson & Stark         Expires 17 September 2020               [Page 1]
 Internet-Draft            GitHub Usage Guidance               March 2020
 
 
-   This document is subject to BCP 78 and the IETF Trust's Legal
-   Provisions Relating to IETF Documents (https://trustee.ietf.org/
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.  Code Components
@@ -76,36 +74,38 @@ Table of Contents
      1.4.  Document Goals  . . . . . . . . . . . . . . . . . . . . .   5
      1.5.  Notational Conventions  . . . . . . . . . . . . . . . . .   5
    2.  Administrative Policies . . . . . . . . . . . . . . . . . . .   5
-     2.1.  Organizations . . . . . . . . . . . . . . . . . . . . . .   5
+     2.1.  Organizations . . . . . . . . . . . . . . . . . . . . . .   6
      2.2.  Communicating Policies  . . . . . . . . . . . . . . . . .   6
    3.  Deciding to Use GitHub  . . . . . . . . . . . . . . . . . . .   7
      3.1.  What to Use GitHub For  . . . . . . . . . . . . . . . . .   7
      3.2.  Repositories  . . . . . . . . . . . . . . . . . . . . . .   8
      3.3.  Editors and Contributors  . . . . . . . . . . . . . . . .   9
      3.4.  Document Formats  . . . . . . . . . . . . . . . . . . . .   9
-   4.  Contribution Methods  . . . . . . . . . . . . . . . . . . . .   9
-     4.1.  Issue Tracker . . . . . . . . . . . . . . . . . . . . . .   9
+   4.  Contribution Methods  . . . . . . . . . . . . . . . . . . . .  10
+     4.1.  Issue Tracker . . . . . . . . . . . . . . . . . . . . . .  10
        4.1.1.  Issue Labels  . . . . . . . . . . . . . . . . . . . .  10
-       4.1.2.  Closing Issues  . . . . . . . . . . . . . . . . . . .  10
-       4.1.3.  Reopening Issues  . . . . . . . . . . . . . . . . . .  10
+       4.1.2.  Closing Issues  . . . . . . . . . . . . . . . . . . .  11
+       4.1.3.  Reopening Issues  . . . . . . . . . . . . . . . . . .  11
      4.2.  Pull Requests . . . . . . . . . . . . . . . . . . . . . .  11
        4.2.1.  Discussion on Pull Requests . . . . . . . . . . . . .  12
        4.2.2.  Merging Pull Requests . . . . . . . . . . . . . . . .  12
-     4.3.  Monitoring Activity . . . . . . . . . . . . . . . . . . .  12
+     4.3.  Monitoring Activity . . . . . . . . . . . . . . . . . . .  13
    5.  Typical Working Group Policies  . . . . . . . . . . . . . . .  13
-     5.1.  Document Management Mode  . . . . . . . . . . . . . . . .  13
+     5.1.  Document Management Mode  . . . . . . . . . . . . . . . .  14
      5.2.  Issue Tracking Mode . . . . . . . . . . . . . . . . . . .  14
-     5.3.  Issue Discussion Mode . . . . . . . . . . . . . . . . . .  14
+     5.3.  Issue Discussion Mode . . . . . . . . . . . . . . . . . .  15
        5.3.1.  Early Design Phases . . . . . . . . . . . . . . . . .  15
        5.3.2.  Managing Mature Documents . . . . . . . . . . . . . .  16
-     5.4.  Issue Labelling Schemes . . . . . . . . . . . . . . . . .  16
+     5.4.  Issue Labelling Schemes . . . . . . . . . . . . . . . . .  17
        5.4.1.  Editorial/Design Labelling  . . . . . . . . . . . . .  17
        5.4.2.  Decision Labelling  . . . . . . . . . . . . . . . . .  17
        5.4.3.  Component Labelling . . . . . . . . . . . . . . . . .  18
        5.4.4.  Other Labels  . . . . . . . . . . . . . . . . . . . .  18
-   6.  Internet-Draft Publication  . . . . . . . . . . . . . . . . .  18
+   6.  Internet-Draft Publication  . . . . . . . . . . . . . . . . .  19
    7.  Assessing Consensus . . . . . . . . . . . . . . . . . . . . .  19
    8.  Continuous Integration  . . . . . . . . . . . . . . . . . . .  20
+   9.  Advice to Editors . . . . . . . . . . . . . . . . . . . . . .  21
+   10. Security Considerations . . . . . . . . . . . . . . . . . . .  21
 
 
 
@@ -114,14 +114,12 @@ Thomson & Stark         Expires 17 September 2020               [Page 2]
 Internet-Draft            GitHub Usage Guidance               March 2020
 
 
-   9.  Advice to Editors . . . . . . . . . . . . . . . . . . . . . .  20
-   10. Security Considerations . . . . . . . . . . . . . . . . . . .  21
-   11. IANA Considerations . . . . . . . . . . . . . . . . . . . . .  21
-   12. References  . . . . . . . . . . . . . . . . . . . . . . . . .  21
-     12.1.  Normative References . . . . . . . . . . . . . . . . . .  21
+   11. IANA Considerations . . . . . . . . . . . . . . . . . . . . .  22
+   12. References  . . . . . . . . . . . . . . . . . . . . . . . . .  22
+     12.1.  Normative References . . . . . . . . . . . . . . . . . .  22
      12.2.  Informative References . . . . . . . . . . . . . . . . .  22
-   Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . .  22
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  22
+   Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . .  23
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  23
 
 1.  Introduction
 
@@ -129,9 +127,9 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    standards.  The use of GitHub (https://github.com/) or similar tools,
    when used as part of this process, can have several objectives.
    GitHub provides tools that can be helpful in editing documents.  Use
-   of this service has been found to reduce the time that Working Groups
-   need to produce documents and to improve the quality of the final
-   result.
+   of this service has been found to reduce the time that a Working
+   Group needs to produce documents and to improve the quality of the
+   final result.
 
    The use of version control improves traceability and visibility of
    changes.  Issue tracking can be used to manage open issues and
@@ -140,8 +138,8 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    contributions from a larger set of contributors.  Using GitHub can
    also broaden the community of contributors for a specification.
 
-   The main purpose of this document is providing guidelines for how
-   Working Groups might integrate the capabilities provided by GitHub
+   The main purpose of this document is providing guidelines for how a
+   Working Group might integrate the capabilities provided by GitHub
    into their processes for developing Internet-Drafts.  The choices of
    whether to use GitHub and whether to adopt these practices if they do
    is at the discretion of the Working Group.
@@ -165,6 +163,8 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
+
+
 Thomson & Stark         Expires 17 September 2020               [Page 3]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
@@ -175,7 +175,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Version control systems are a critical component of software
    engineering and are also quite useful for document editing.
 
-   Git (https://git-scm.com) is a distributed version control system
+   Git (https://git-scm.com/) is a distributed version control system
    that can operate without a central service.  Each instance of a
    repository contains a number of revisions.  Each revision stores the
    complete state of a set of files.  Users are able to create new
@@ -184,9 +184,9 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 1.2.  GitHub
 
-   GitHub is a service operated at https://github.com/
-   (https://github.com/).  GitHub provides centralized storage for git
-   repositories.  GitHub is freely accessible on the open Internet.
+   GitHub is a service operated at https://github.com/. GitHub provides
+   centralized storage for git repositories.  GitHub is freely
+   accessible on the open Internet.
 
    GitHub provides a simplified and integrated interface to git, and
    also provides basic user management, an issue tracker, associated
@@ -237,7 +237,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    remainder of the document contains guidelines and advice on how to
    construct a workable policy.
 
-   The requirements here apply to the case where Working Groups decide
+   The requirements here apply to the case where a Working Group decides
    to use GitHub as a primary means of interaction.  Individuals can set
    their own policies when using GitHub for managing their own drafts,
    or for managing drafts that they edit on behalf of a Working Group
@@ -247,7 +247,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    advice on practices that have been effective.
 
    This document only aims to address use of GitHub in developing
-   documents.  Working Groups could choose to use the tool to aid in
+   documents.  A Working Group could choose to use the tool to aid in
    managing their charter or session materials such as agendas, minutes,
    and presentations.  Though the advice here might apply more broadly,
    using GitHub to manage other material is out of scope for this
@@ -261,18 +261,18 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
+   This document uses a lot of terms related to git and GitHub; see
+   [GLOSSARY] for information on these terms.
+
 2.  Administrative Policies
 
    The following administrative rules provide the necessary oversight
    and transparency.
 
-2.1.  Organizations
 
-   Organizations are a way of forming groups of contributors on GitHub.
-   Each Working Group SHOULD create a new organization for the Working
-   Group.  A Working Group organization SHOULD be named consistently so
-   that it can be found.  For instance, the name could be ietf-
-   wg-<wgname>, as recommended in [GH-CONFIG].
+
+
+
 
 
 
@@ -281,6 +281,14 @@ Thomson & Stark         Expires 17 September 2020               [Page 5]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
+
+2.1.  Organizations
+
+   Organizations are a way of forming groups of contributors on GitHub.
+   The Working Group SHOULD create a new organization for its work.  A
+   Working Group organization SHOULD be named consistently so that it
+   can be found.  For instance, the name could be ietf-wg-<wgname>, as
+   recommended in [GH-CONFIG].
 
    A single organization SHOULD NOT be used for all IETF activity, or
    all activity within an area.  Large organizations create too much
@@ -321,14 +329,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    available to casual contributors who might only interact with the
    GitHub repository.
 
-   GitHub prominently links to the CONTRIBUTING file on certain pages.
-   This file SHOULD be used in preference to the README for information
-   that new contributors need.  The README SHOULD contain a link to the
-   CONTRIBUTING file.
-
-   In addition to Working Group policies, notices on repositories MUST
-   include citations for the IETF Note Well (https://www.ietf.org/about/
-   note-well/).
 
 
 
@@ -337,6 +337,15 @@ Thomson & Stark         Expires 17 September 2020               [Page 6]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
+
+   GitHub prominently links to the CONTRIBUTING file on certain pages.
+   This file SHOULD be used in preference to the README for information
+   that new contributors need.  The README SHOULD contain a link to the
+   CONTRIBUTING file.
+
+   In addition to Working Group policies, notices on repositories MUST
+   include citations for the IETF Note Well (https://www.ietf.org/about/
+   note-well/).
 
 3.  Deciding to Use GitHub
 
@@ -356,11 +365,11 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    will rely upon.  Section 4 contains a more thorough discussion on the
    different features that can be used.
 
-   Working Group Chairs who decide to use GitHub MUST inform their
-   Working Groups of their decision on the Working Group mailing list.
-   An email detailing how the Working Group intends to use GitHub is
-   sufficient, though it might be helpful to occasionally remind new
-   contributors of these guidelines.
+   Working Group Chairs who decide to use GitHub MUST inform the Working
+   Group of their decision on the Working Group mailing list.  An email
+   detailing how the Working Group intends to use GitHub is sufficient,
+   though it might be helpful to occasionally remind new contributors of
+   these guidelines.
 
    Working Group Chairs are responsible for ensuring that any policy
    they adopt is enforced and maintained.
@@ -377,15 +386,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    further discussion in order to reach consensus, keeping the issue
    tracker available to editors can be valuable.
 
-   Working Group policies need to be set with the goal of improving
-   transparency, participation, and ultimately the quality of the
-   consensus behind documents.  At times, it might be appropriate to
-   impose some limitations on what document editors are able to do in
-   order to serve these goals.  Chairs SHOULD periodically consult with
-   document editors to ensure that policies are effective.
-
-   A document editor can still use GitHub independently for documents
-   that they edit, even if the Working Group does not expressly choose
 
 
 
@@ -394,6 +394,16 @@ Thomson & Stark         Expires 17 September 2020               [Page 7]
 Internet-Draft            GitHub Usage Guidance               March 2020
 
 
+   Working Group policies need to be set with the goal of improving
+   transparency, participation, and ultimately the quality of the
+   consensus behind documents.  At times, it might be appropriate to
+   impose some limitations on what document editors are able to do in
+   order to serve these goals.  Chairs SHOULD periodically consult with
+   document editors and the Working Group to ensure that policies are
+   effective.
+
+   A document editor can still use GitHub independently for documents
+   that they edit, even if the Working Group does not expressly choose
    to use GitHub.  Any such public repository MUST follow the IETF Note
    Well and bear notices; see Section 2.2.  This recognizes that editors
    have traditionally chosen their own methods for managing the
@@ -412,13 +422,12 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    new repositories for adopted Working Group items, or they might
    create repositories for individual documents on request.
 
-   All repositories for Working Group documents within the Working Group
-   organization MUST be public.  Repositories for private documents MAY
-   be kept private, but only where there is a specific reason for doing
-   so.  For instance, a document that details a security vulnerability
-   might be kept private prior to its initial publication as an
-   Internet-Draft.  Once an Internet-Draft is published, repositories
-   SHOULD be made public.
+   Maintaining private repositories for Working Group products is not
+   recommended without specific cause.  For instance, a document that
+   details a security vulnerability might be kept private prior to its
+   initial publication as an Internet-Draft.  Once an Internet-Draft is
+   published, repositories for Working Group documents MUST be made
+   public.
 
    The adoption status of any document MUST be clear from the contents
    of the repository.  This can be achieved by having the name of the
@@ -432,6 +441,15 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Closely related documents, such as those that together address a
    single milestone, might be placed in a single repository.  This
+
+
+
+
+Thomson & Stark         Expires 17 September 2020               [Page 8]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    allows editors to more easily manage changes and issues that affect
    multiple documents.
 
@@ -441,14 +459,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    that they affect.  Also, because editors all have write access to the
    repository, managing the set of people with write access to a larger
    repository is more difficult (Section 3.3).
-
-
-
-
-Thomson & Stark         Expires 17 September 2020               [Page 8]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
 
 3.3.  Editors and Contributors
 
@@ -465,7 +475,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Working Group documents without prior coordination with document
    editors.
 
-   Working Groups MAY create a team for regular contributors that is
+   A Working Group MAY create a team for regular contributors that is
    only given read access to a repository.  This does not confer
    additional privileges on these contributors, it instead allows for
    issues and pull requests to be assigned to those people.  This can be
@@ -483,6 +493,19 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Formats that are not text-based SHOULD NOT be used, as these are ill-
    disposed to the sorts of interaction that revision control enables.
 
+
+
+
+
+
+
+
+
+Thomson & Stark         Expires 17 September 2020               [Page 9]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
 4.  Contribution Methods
 
    Contributions to documents come in many forms.  GitHub provides a
@@ -498,14 +521,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Issues can be given arbitrary labels, assigned to contributors, and
    assembled into milestones.  The issue tracker is integrated into the
-
-
-
-Thomson & Stark         Expires 17 September 2020               [Page 9]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    repository; an issue can be closed using a special marker in a commit
    message.
 
@@ -535,6 +550,18 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Section 5.4 describes some basic strategies that might be adopted to
    manage decision-making processes.
 
+
+
+
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 10]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
 4.1.2.  Closing Issues
 
    Editors have write access to repositories, which also allows them to
@@ -554,14 +581,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    For long-running work items, new contributors often raise issues that
    have already been resolved.  Moreover, there could be temptation to
    reopen contentious issues resolved with rough consensus.  Determining
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 10]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    whether arguments presented in favor of reopening an issue represents
    new information might require some discussion in the Working Group.
 
@@ -592,6 +611,13 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    opening comment.  A Working Group policy could require that pull
    requests are used in this fashion.
 
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 11]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    Note:  This document assumes that there is a unified effort on a
       document, all concentrated on a git "master" branch.  More
       advanced usage of git is not in the scope of this document.
@@ -611,13 +637,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    reviewed by editors.  Editors are given discretion in how they manage
    changes amongst themselves.
 
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 11]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
 4.2.1.  Discussion on Pull Requests
 
    In addition to the features that pull requests share with issues,
@@ -628,14 +647,14 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    lines of the proposed change.  Such comments can be hard or
    impossible to find if changes are subsequently made to the pull
    request.  This is problematic for contributors who do not track
-   discussion closely.
+   discussions closely.
 
    For this reason, Working Group chairs SHOULD discourage the use of
    inline comments for substantial technical discussion of issues.
 
 4.2.2.  Merging Pull Requests
 
-   Working Groups MUST determine who is permitted to merge pull
+   A Working Group MUST determine who is permitted to merge pull
    requests.  Document editors SHOULD be permitted to merge pull
    requests at their discretion.  This requires that editors exercise
    some judgment.  Working Group chairs MAY occasionally identify a pull
@@ -646,6 +665,14 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    not need to be a perfect reflection of Working Group consensus at
    every point in time.  Document editors need some flexibility in how
    they manage a document.
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 12]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
 
 4.3.  Monitoring Activity
 
@@ -665,15 +692,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Additionally, clear reporting about the changes that were included in
    each revision of an Internet-Draft helps ensure that contributors can
    follow activity.  This might be achieved by requesting that editors
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 12]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    provide a change log that captures substantive changes to the
    document in each revision.
 
@@ -690,16 +708,27 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    differ primarily in how discussion of substantive matters is managed.
    Most of the advice in this document applies equally to all models.
 
-   Working Groups can adjust these policies to suit their needs, but are
-   advised to avoid gratuitous changes for the sake of consistency
+   A Working Group can adjust these policies to suit their needs, but
+   are advised to avoid gratuitous changes for the sake of consistency
    across the IETF as a whole.  It is possible to use different
    processes for different documents in the Working Group.
 
-   Working Group chairs SHOULD confirm that the Working Group has
-   consensus to adopt any process.  In particular, the introduction of a
-   more tightly-controlled process can have the effect of privileging
-   positions already captured in documents, which might disadvantage
-   alternative viewpoints.
+   Working Group chairs are responsible for confirming that the Working
+   Group has consensus to adopt any process.  In particular, the
+   introduction of a more tightly-controlled process can have the effect
+   of privileging positions already captured in documents, which might
+   disadvantage alternative viewpoints.
+
+
+
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 13]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
 
 5.1.  Document Management Mode
 
@@ -715,20 +744,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    editors.  Editors might maintain issues and pull requests for their
    own benefit, but these have no formal standing in the Working Group
    process.
-
-
-
-
-
-
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 13]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
 
 5.2.  Issue Tracking Mode
 
@@ -762,6 +777,15 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    communication about the work of the group from the Working Group
    mailing list.
 
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 14]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    Though the mailing list is used for making decisions, the issue
    tracker can still be a useful record of the state of issues.  It is
    often useful if chairs or editors record details of decisions in
@@ -776,15 +800,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    conduct substantive discussions on the issue tracker.  In some cases,
    this can include making some decisions without involving the Working
    Group mailing list.
-
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 14]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
 
    A Working Group mailing list remains a critical venue for decision
    making, even where issue discussion occurs elsewhere.  Working Group
@@ -819,6 +834,14 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    documents that are adopted by a Working Group are already
    sufficiently mature that a looser process is not beneficial.  The
    primary reason to grant editors more discretionary power is to
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 15]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    improve the speed with which changes can be made.  The risk is from
    integrating changes including substantive decisions that don't
    reflect the consensus of the Working Group or that the need for
@@ -834,14 +857,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Working Groups are advised against allowing editors this degree of
    flexibility for the entirety of a document lifecycle.  Once a
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 15]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    document is more stable and mature, it could be useful to move to a
    more tightly controlled process.
 
@@ -860,9 +875,9 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    As documents mature further, explicit confirmation of technical
    decisions with the Working Group mailing list becomes more important.
 
-   Gaining Working Group consensus about the resolution of issues can be
-   done in the abstract, with editors being permitted to capture the
-   outcome of discussions as they see fit.
+   Chairs can declare Working Group consensus about the resolution of
+   issues in the abstract, allowing editors discretion on how to capture
+   the decisions in documents.
 
    More mature documents require not only consensus, but consensus about
    specific text.  Ideally, substantive changes to documents that have
@@ -875,6 +890,14 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    Note:  It is generally sufficient to trust editors to manage
       adherence with these policies, aided by the transparency provided
       by the version control system.  There are tools that can be used
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 16]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
       to more tightly control access to repositories, but they can be
       overly constraining.
 
@@ -885,18 +908,9 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    they might be applied.
 
    A design/editorial split (see Section 5.4.1) is useful in all cases
-   that the issue tracking capability is used.  Working Groups that only
-   use GitHub for issue tracking might find that distinction sufficient
-   for their needs.
-
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 16]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
+   that the issue tracking capability is used.  A Working Groups that
+   only uses GitHub for issue tracking might find that distinction
+   sufficient for their needs.
 
    Working Groups or editors might use additional labels as they choose.
    Any label that is used as part of a process requires that the process
@@ -933,6 +947,13 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    status of issues.  In particular, labelling of issues can be used to
    help in managing Working Group decisions.
 
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 17]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    For documents that are less mature, issues with resolutions but no
    specific proposals for changes to text might be marked "editor-ready"
    as a way of signaling that there is consensus about an approach, but
@@ -944,15 +965,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    as might be the case for more mature documents, a "proposal-ready"
    label might be used by editors to mark issues that they believe to
    have acceptable resolutions.
-
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 17]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
 
    For resolved issues, a "has-consensus" label might be used by chairs
    to mark issues for which formal Working Group decisions have been
@@ -984,6 +996,20 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    *  A "parked" label might be used to indicate issues that do not
       require immediate Working Group attention.
 
+
+
+
+
+
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 18]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
 6.  Internet-Draft Publication
 
    During the development of a document, individual revisions of the
@@ -993,22 +1019,14 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    as Internet-Drafts are not expected to address all open issues or
    merge outstanding pull requests.
 
-   Editors SHOULD create a new Internet-Draft submission two weeks prior
-   to every session, which includes IETF meetings, other in-person
-   meetings, and telephone or video conferences (see Section 7.1 of
-   [RFC2418]).  Though discussion could use the current version of a
-   document from version control, participants in a session cannot be
-   expected to monitor changes to documents in real-time; a published
+   Section 7.1 of [RFC2418] recommends that editors create a new
+   Internet-Draft submission two weeks prior to every session, which
+   includes IETF meetings, other in-person meetings, and telephone or
+   video conferences.  Though discussion could use the current version
+   of a document from version control, participants in a session cannot
+   be expected to monitor changes to documents in real-time; a published
    Internet-Draft ensures that there is a common, stable state that is
    known to all participants.
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 18]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
 
    Internet-Drafts that use a GitHub repository SHOULD include a notice
    that includes a reference to the repository.  This notice might also
@@ -1040,6 +1058,14 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    As described in [RFC2418], chairs consider input from all discussion
    venues when assessing consensus.  These include mailing lists, IETF
    meetings, and interim meetings in addition to discussion on GitHub.
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 19]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    Each venue has different selection biases that might need to be
    considered.
 
@@ -1058,14 +1084,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    The use of issues and labels has been effective in managing
    contentious issues.  Explicitly labeling closed issues to identify
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 19]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    those with formal consensus means that there is no confusion about
    the status of issues.
 
@@ -1097,6 +1115,13 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    document contains might be run, or examples might be checked for
    correctness.
 
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 20]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
 9.  Advice to Editors
 
    Document editors are primarily responsible for maintaining documents.
@@ -1114,14 +1139,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Editors SHOULD NOT close a pull request or issue without first
    understanding why the item was created.  Editors and chairs SHOULD
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 20]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    try to explain every action clearly and concisely.  Even if a
    contributor seems rude, being courteous in response is always best.
 
@@ -1152,6 +1169,15 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    However, other information maintained on GitHub is more vulnerable to
    loss.  This includes issues and discussion on those issues,
    discussion and reviews of commits and pull requests, and any content
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 21]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
+
    hosted on the wiki.  Tools exist for extracting this information for
    backup.
 
@@ -1168,22 +1194,6 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 12.  References
 
 12.1.  Normative References
-
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 21]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
-   [GH-CONFIG]
-              Cooper, A. and P. Hoffman, "Working Group GitHub
-              Administration", Work in Progress, Internet-Draft, draft-
-              ietf-git-github-wg-configuration-06, 13 February 2020,
-              <http://www.ietf.org/internet-drafts/draft-ietf-git-
-              github-wg-configuration-06.txt>.
 
    [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
@@ -1203,6 +1213,26 @@ Internet-Draft            GitHub Usage Guidance               March 2020
               May 2017, <https://www.rfc-editor.org/info/rfc8174>.
 
 12.2.  Informative References
+
+   [GH-CONFIG]
+              Cooper, A. and P. Hoffman, "Working Group GitHub
+              Administration", Work in Progress, Internet-Draft, draft-
+              ietf-git-github-wg-configuration-06, 13 February 2020,
+              <http://www.ietf.org/internet-drafts/draft-ietf-git-
+              github-wg-configuration-06.txt>.
+
+   [GLOSSARY] GitHub, "GitHub glossary", March 2020,
+              <https://help.github.com/en/github/getting-started-with-
+              github/github-glossary>.
+
+
+
+
+
+Thomson & Stark         Expires 17 September 2020              [Page 22]
+
+Internet-Draft            GitHub Usage Guidance               March 2020
+
 
    [RFC7991]  Hoffman, P., "The "xml2rfc" Version 3 Vocabulary",
               RFC 7991, DOI 10.17487/RFC7991, December 2016,
@@ -1225,39 +1255,9 @@ Authors' Addresses
 
 
    Barbara Stark
-
-
-
-
-Thomson & Stark         Expires 17 September 2020              [Page 22]
-
-Internet-Draft            GitHub Usage Guidance               March 2020
-
-
    AT&T
 
    Email: barbara.stark@att.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
