@@ -23,6 +23,13 @@ author:
    email: barbara.stark@att.com
 
 informative:
+  GLOSSARY:
+    title: "GitHub glossary"
+    date: 2020-03
+    target: "https://help.github.com/en/github/getting-started-with-github/github-glossary"
+    author:
+      -
+        organization: GitHub
 
 --- abstract
 
@@ -34,10 +41,10 @@ GitHub for their work.
 
 Discussion of this document takes place on the GitHub@ietf mailing list
 (ietf-and-github@ietf.org), which is archived at
-<https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github>.
+[](https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github).
 
 Source for this draft and an issue tracker can be found at
-<https://github.com/ietf-gitwg/using-github>.
+[](https://github.com/ietf-gitwg/using-github).
 
 
 --- middle
@@ -59,7 +66,8 @@ specification.
 
 The main purpose of this document is providing guidelines for how Working Groups
 might integrate the capabilities provided by GitHub into their processes for
-developing Internet-Drafts.
+developing Internet-Drafts. The choices of whether to use GitHub and whether to
+adopt these practices if they do is at the discretion of the Working Group.
 
 This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
@@ -80,7 +88,7 @@ However, such groups may draw inspiration for GitHub use from the contents herei
 Version control systems are a critical component of software engineering and are
 also quite useful for document editing.
 
-[Git](https://git-scm.com) is a distributed version control system that can operate without a central
+[Git](https://git-scm.com/) is a distributed version control system that can operate without a central
 service.  Each instance of a repository contains a number of revisions.  Each
 revision stores the complete state of a set of files.  Users are able to create
 new revisions in their copy of a repository and share revisions between copies
@@ -89,19 +97,18 @@ of repositories.
 
 ## GitHub
 
-GitHub is a service operated at [https://github.com/](https://github.com/).
+GitHub is a service operated at [](https://github.com/).
 GitHub provides centralized storage for git repositories.  GitHub is freely
-accessible on the open Internet, albeit currently only via IPv4.
+accessible on the open Internet.
 
-GitHub provides a simplified and integrated interface to not only git, but also
-provides basic user management, an issue tracker, associated wikis, project
-hosting, and other features.
+GitHub provides a simplified and integrated interface to git, and also provides
+basic user management, an issue tracker, associated wikis, project hosting, and
+other features.
 
 There are a large number of projects at GitHub and a very large community of
 contributors.  One way in which some IETF Working Groups have benefited is
 through increased numbers of reviews and associated issues, along with other
-improvements that come from broader participation by facilitating those
-in the community to participate.
+improvements that come from facilitating participation by a broader community.
 
 ## Other Services
 
@@ -147,9 +154,13 @@ out of scope for this document.
 
 ## Notational Conventions
 
-The words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY"
-are used in this document. It's not shouting; when they are capitalized,
-they have the special meaning defined in BCP 14 {{!RFC2119}} {{!RFC8174}}.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted as described in BCP 14 {{!RFC2119}} {{!RFC8174}}
+when, and only when, they appear in all capitals, as shown here.
+
+This document uses a lot of terms related to git and GitHub; see {{GLOSSARY}}
+for information on these terms.
 
 
 # Administrative Policies {#policy}
@@ -181,7 +192,7 @@ does not also include the ability to push to all repositories and ownership does
 not grant any other significant privileges.
 
 Details about creating organizations adhering to these guidelines can be found
-in {{!GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
+in {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 
 ## Communicating Policies {#notices}
@@ -217,8 +228,9 @@ charter objectives in an open and transparent fashion.  The Working Group Chairs
 are responsible for determining if there is interest in using GitHub and making
 a consensus call to determine if the proposed policy and use is acceptable.
 
-Chairs MUST involve Area Directors in any decision to use GitHub for anything
-more than managing drafts.
+Chairs SHOULD involve Area Directors in any decision to use GitHub, especially
+where substantive discussion of issues is permitted as described in
+{{mode-discuss}}.
 
 
 ## What to Use GitHub For {#usage}
@@ -271,12 +283,11 @@ discretion of the chairs.  Chairs could decide to only create new repositories
 for adopted Working Group items, or they might create repositories for
 individual documents on request.
 
-All repositories for Working Group documents within the Working Group
-organization MUST be public.  Repositories for private documents MAY be
-kept private, but only where there is a specific reason for doing so.  For
-instance, a document that details a security vulnerability might be kept
-private prior to its initial publication as an Internet-Draft. Once an
-Internet-Draft is published, repositories SHOULD be made public.
+Maintaining private repositories for Working Group products is not recommended
+without specific cause.  For instance, a document that details a security
+vulnerability might be kept private prior to its initial publication as an
+Internet-Draft. Once an Internet-Draft is published, repositories for Working
+Group documents MUST be made public.
 
 The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
@@ -392,15 +403,21 @@ Issues that have reached a resolution that has Working Group consensus MUST NOT
 be reopened unless new information is presented.
 
 For long-running work items, new contributors often raise issues that have
-already been resolved. Chairs need to assess whether the arguments offered
-represent new information or not.  This can require some discussion to determine
-accurately.  Resolved issues MUST remain closed unless there is consensus to
-reopen an issue.
+already been resolved. Moreover, there could be temptation to reopen contentious
+issues resolved with rough consensus. Determining whether arguments presented in
+favor of reopening an issue represents new information might require some
+discussion in the Working Group.
+
+Chairs are empowered to exercise discretion in determining whether to reopen
+issues.  For more difficult matters, the chairs MAY insist that the Working
+Group reach consensus on whether an issue should be reopened.  Note however that
+any product of this process still needs to have the support of rough consensus
+in the Working Group, which could justify reopening issues.
 
 
 ## Pull Requests
 
-Pull requests are the GitHub feature that allow users to request changes to a
+A pull request is a GitHub feature that allows a user to request a change to a
 repository.  A user does not need to have write access to a repository to create
 a pull request.  A user can create a "fork", or copy, of any public repository.
 The user has write access to their own fork, allowing them to make local
@@ -438,13 +455,13 @@ editors.  Editors are given discretion in how they manage changes amongst themse
 ### Discussion on Pull Requests
 
 In addition to the features that pull requests share with issues, users can also
-review the changes in a pull request.  This is a valuable feature, but it has
-some issues.
+review the changes in a pull request.  This is a valuable feature, but presents
+some challenges.
 
 Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
-do not track discussion closely.
+do not track discussions closely.
 
 For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.
@@ -477,6 +494,11 @@ produced by a notification tool like
 tool has been used effectively in several Working Groups, though it requires
 server infrastructure.
 
+Additionally, clear reporting about the changes that were included in each
+revision of an Internet-Draft helps ensure that contributors can
+follow activity.  This might be achieved by requesting that editors provide a
+change log that captures substantive changes to the document in each revision.
+
 
 # Typical Working Group Policies {#modes}
 
@@ -495,7 +517,7 @@ Working Groups can adjust these policies to suit their needs, but are advised to
 avoid gratuitous changes for the sake of consistency across the IETF as a whole.
 
 
-## Document Management Mode
+## Document Management Mode {#mode-doc}
 
 In this mode of interaction, GitHub repositories are used to manage changes to
 documents, but the bulk of the work is conducted using email, face-to-face
@@ -509,7 +531,7 @@ maintain issues and pull requests for their own benefit, but these have no
 formal standing in the Working Group process.
 
 
-## Issue Tracking Mode
+## Issue Tracking Mode {#mode-track}
 
 In addition to managing documents, the Working Group might choose to use GitHub
 for tracking outstanding issues.  In this mode of interaction, all substantive
@@ -544,7 +566,7 @@ or editors record details of decisions in issue comments when closing issues as
 resolved.
 
 
-## Issue Discussion Mode
+## Issue Discussion Mode {#mode-discuss}
 
 This GitHub interaction mode differs from the other modes in that discussion
 relating to substantive technical matters is allowed to occur on GitHub issues.
@@ -573,10 +595,10 @@ As a more involved process, adopting this mode can require changes in policies
 as documents become more mature.  It is possible to use different processes for
 different documents in the Working Group.
 
-Working Group chairs SHOULD confirm that the Working Group has consensus to
-adopt any process.  In particular, the introduction of a more tightly-controlled
-process can have the effect of privileging positions already captured in
-documents, which might disadvantage alternative viewpoints.
+Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.
 
 
 ### Early Design Phases
@@ -597,7 +619,7 @@ Changes made by editors under this process do not completely lack oversight.
 GitHub and git provide tools for ensuring that changes are tracked and can be
 audited.  Within the usual Working Group process it is expected that
 Internet-Drafts will receive regular review. Finally, process checkpoints like
-Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provides additional
+Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provide additional
 safeguards against abuse.
 
 Working Groups are advised against allowing editors this degree of flexibility
@@ -620,9 +642,9 @@ issues as they see fit.
 As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.
 
-Gaining Working Group consensus about the resolution of issues can be done in
-the abstract, with editors being permitted to capture the outcome of discussions
-as they see fit.
+Chairs can declare Working Group consensus about the resolution of
+issues in the abstract, allowing editors discretion on how to capture the
+decisions in documents.
 
 More mature documents require not only consensus, but consensus about specific
 text.  All substantive changes to documents that have passed WGLC SHOULD be
@@ -726,15 +748,15 @@ processes.  For example,
 
 # Internet-Draft Publication
 
-During the development of a document, individual revisions of a document can be
-built and formally submitted as an Internet-Draft.  This creates a stable
+During the development of a document, individual revisions of the document can
+be built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
 audience.  Documents submitted as Internet-Drafts are not expected to address
 all open issues or merge outstanding pull requests.
 
-Editors SHOULD create a new Internet-Draft submission two weeks prior to every
-session, which includes IETF meetings, other in-person meetings, and telephone
-or video conferences (see Section 7.1 of {{?RFC2418}}).  Though discussion could
+Section 7.1 of {{?RFC2418}} recommends that editors create a new Internet-Draft
+submission two weeks prior to every session, which includes IETF meetings, other
+in-person meetings, and telephone or video conferences.  Though discussion could
 use the current version of a document from version control, participants in a
 session cannot be expected to monitor changes to documents in real-time; a
 published Internet-Draft ensures that there is a common, stable state that is
