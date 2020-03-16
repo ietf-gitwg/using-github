@@ -54,7 +54,7 @@ Source for this draft and an issue tracker can be found at
 The IETF has an open and transparent process for developing standards.  The use
 of [GitHub](https://github.com/) or similar tools, when used as part of this process,
 can have several objectives.  GitHub provides tools that can be helpful in editing documents.
-Use of this service has been found to reduce the time that Working Groups need
+Use of this service has been found to reduce the time that a Working Group needs
 to produce documents and to improve the quality of the final result.
 
 The use of version control improves traceability and visibility of changes.
@@ -64,7 +64,7 @@ editorial changes, and encourage contributions from a larger set of
 contributors.  Using GitHub can also broaden the community of contributors for a
 specification.
 
-The main purpose of this document is providing guidelines for how Working Groups
+The main purpose of this document is providing guidelines for how a Working Group
 might integrate the capabilities provided by GitHub into their processes for
 developing Internet-Drafts. The choices of whether to use GitHub and whether to
 adopt these practices if they do is at the discretion of the Working Group.
@@ -136,7 +136,7 @@ clearly communicated within the Working Group (see {{policy}}).  The remainder
 of the document contains guidelines and advice on how to construct a workable
 policy.
 
-The requirements here apply to the case where Working Groups decide to use
+The requirements here apply to the case where a Working Group decides to use
 GitHub as a primary means of interaction.  Individuals can set their own
 policies when using GitHub for managing their own drafts, or for managing drafts
 that they edit on behalf of a Working Group that has not explicitly adopted
@@ -146,7 +146,7 @@ For both sets of users, this document aims to provide some amount of advice on
 practices that have been effective.
 
 This document only aims to address use of GitHub in developing documents.
-Working Groups could choose to use the tool to aid in managing their charter or
+A Working Group could choose to use the tool to aid in managing their charter or
 session materials such as agendas, minutes, and presentations.  Though the
 advice here might apply more broadly, using GitHub to manage other material is
 out of scope for this document.
@@ -172,9 +172,9 @@ transparency.
 ## Organizations
 
 Organizations are a way of forming groups of contributors on GitHub.
-Each Working Group SHOULD create a new organization for the Working Group.
-A Working Group organization SHOULD be named consistently so that it can be
-found.  For instance, the name could be ietf-wg-\<wgname>, as recommended in
+The Working Group SHOULD create a new organization for its work.  A Working
+Group organization SHOULD be named consistently so that it can be found.  For
+instance, the name could be ietf-wg-\<wgname>, as recommended in
 {{?GH-CONFIG=I-D.ietf-git-github-wg-configuration}}.
 
 A single organization SHOULD NOT be used for all IETF activity, or all activity
@@ -239,7 +239,7 @@ Working Group Chairs decide what GitHub features the Working Group will rely
 upon.  {{features}} contains a more thorough discussion on the different
 features that can be used.
 
-Working Group Chairs who decide to use GitHub MUST inform their Working Groups
+Working Group Chairs who decide to use GitHub MUST inform the Working Group
 of their decision on the Working Group mailing list.  An email detailing how the
 Working Group intends to use GitHub is sufficient, though it might be helpful to
 occasionally remind new contributors of these guidelines.
@@ -323,7 +323,7 @@ write access to repositories.  Users other than document editors, including
 chairs, SHOULD NOT write to Working Group documents without prior coordination
 with document editors.
 
-Working Groups MAY create a team for regular contributors that is only given
+A Working Group MAY create a team for regular contributors that is only given
 read access to a repository. This does not confer additional privileges on these
 contributors, it instead allows for issues and pull requests to be assigned to
 those people.  This can be used to manage the assignment of editorial or review
@@ -469,9 +469,9 @@ comments for substantial technical discussion of issues.
 
 ### Merging Pull Requests
 
-Working Groups MUST determine who is permitted to merge pull requests.  Document
-editors SHOULD be permitted to merge pull requests at their discretion.  This
-requires that editors exercise some judgment.  Working Group chairs MAY
+A Working Group MUST determine who is permitted to merge pull requests.
+Document editors SHOULD be permitted to merge pull requests at their discretion.
+This requires that editors exercise some judgment.  Working Group chairs MAY
 occasionally identify a pull request and request that editors withhold merging
 until Working Group consensus has been assessed.
 
@@ -513,8 +513,9 @@ described.  These approaches differ primarily in how discussion of substantive
 matters is managed.  Most of the advice in this document applies equally to all
 models.
 
-Working Groups can adjust these policies to suit their needs, but are advised to
-avoid gratuitous changes for the sake of consistency across the IETF as a whole.
+A Working Group can adjust these policies to suit their needs, but are advised
+to avoid gratuitous changes for the sake of consistency across the IETF as a
+whole.
 
 
 ## Document Management Mode {#mode-doc}
@@ -667,7 +668,7 @@ successfully.  This section outlines these strategies and how they might be
 applied.
 
 A design/editorial split (see {{label-design}}) is useful in all cases that the
-issue tracking capability is used.  Working Groups that only use GitHub for
+issue tracking capability is used.  A Working Groups that only uses GitHub for
 issue tracking might find that distinction sufficient for their needs.
 
 Working Groups or editors might use additional labels as they choose.  Any label
