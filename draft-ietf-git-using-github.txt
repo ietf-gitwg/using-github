@@ -1019,12 +1019,12 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    as Internet-Drafts are not expected to address all open issues or
    merge outstanding pull requests.
 
-   Editors SHOULD create a new Internet-Draft submission two weeks prior
-   to every session, which includes IETF meetings, other in-person
-   meetings, and telephone or video conferences (see Section 7.1 of
-   [RFC2418]).  Though discussion could use the current version of a
-   document from version control, participants in a session cannot be
-   expected to monitor changes to documents in real-time; a published
+   Section 7.1 of [RFC2418] recommends that editors create a new
+   Internet-Draft submission two weeks prior to every session, which
+   includes IETF meetings, other in-person meetings, and telephone or
+   video conferences.  Though discussion could use the current version
+   of a document from version control, participants in a session cannot
+   be expected to monitor changes to documents in real-time; a published
    Internet-Draft ensures that there is a common, stable state that is
    known to all participants.
 
