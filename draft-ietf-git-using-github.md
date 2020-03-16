@@ -175,7 +175,7 @@ management tasks.
 
 GitHub requires that each organization have at least one owner.  The owners for
 a Working Group repository MUST include responsible Area Directors.  Area
-Directors MAY also designate a delegate that becomes an owner and Working Group
+Directors MAY also designate a delegate that becomes an owner. Working Group
 chairs MAY also be owners.
 
 Within an organization, members can be grouped into teams.  A team with "Admin"
@@ -195,7 +195,7 @@ organization.
 
 A simple example of how to do this is to include a link to the GitHub
 organization on the WG Charter page in the datatracker.  Similarly, if there are
-additional resources, such as additional mailing lists, links to those resources
+additional resources, such as mailing lists, links to those resources
 could also be added.
 
 Repositories MUST include a copy of or reference to the policy that applies to
