@@ -830,7 +830,7 @@ table.left {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Thomson &amp; Stark</td>
-<td class="center">Expires 14 September 2020</td>
+<td class="center">Expires 17 September 2020</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -843,12 +843,12 @@ table.left {
 <dd class="internet-draft">draft-ietf-git-using-github-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2020-03-13" class="published">13 March 2020</time>
+<time datetime="2020-03-16" class="published">16 March 2020</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2020-09-14">14 September 2020</time></dd>
+<dd class="expires"><time datetime="2020-09-17">17 September 2020</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -874,9 +874,9 @@ GitHub for their work.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
       </h2>
 <p id="section-note.1-1">Discussion of this document takes place on the GitHub@ietf mailing list
 (ietf-and-github@ietf.org), which is archived at
-<a href="https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github">https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github</a>.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
+<span><a href="https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github">https://mailarchive.ietf.org/arch/search?email_list=ietf-and-github</a></span>.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
 <p id="section-note.1-2">Source for this draft and an issue tracker can be found at
-<a href="https://github.com/ietf-gitwg/using-github">https://github.com/ietf-gitwg/using-github</a>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+<span><a href="https://github.com/ietf-gitwg/using-github">https://github.com/ietf-gitwg/using-github</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
 </section>
 <div id="status-of-memo">
 <section id="section-boilerplate.1">
@@ -897,7 +897,7 @@ GitHub for their work.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 14 September 2020.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 17 September 2020.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1103,7 +1103,8 @@ contributors.  Using GitHub can also broaden the community of contributors for a
 specification.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3">The main purpose of this document is providing guidelines for how Working Groups
 might integrate the capabilities provided by GitHub into their processes for
-developing Internet-Drafts.<a href="#section-1-3" class="pilcrow">¶</a></p>
+developing Internet-Drafts. The choices of whether to use GitHub and whether to
+adopt these practices if they do is at the discretion of the Working Group.<a href="#section-1-3" class="pilcrow">¶</a></p>
 <p id="section-1-4">This document is meant as a supplement to existing Working Group practices.  It
 provides guidance to Working Group chairs and participants on how they can best
 use GitHub within the framework established by RFC 2418 <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>.  This
@@ -1122,7 +1123,7 @@ However, such groups may draw inspiration for GitHub use from the contents herei
         </h3>
 <p id="section-1.1-1">Version control systems are a critical component of software engineering and are
 also quite useful for document editing.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
-<p id="section-1.1-2"><a href="https://git-scm.com">Git</a> is a distributed version control system that can operate without a central
+<p id="section-1.1-2"><a href="https://git-scm.com/">Git</a> is a distributed version control system that can operate without a central
 service.  Each instance of a repository contains a number of revisions.  Each
 revision stores the complete state of a set of files.  Users are able to create
 new revisions in their copy of a repository and share revisions between copies
@@ -1134,17 +1135,16 @@ of repositories.<a href="#section-1.1-2" class="pilcrow">¶</a></p>
         <h3 id="name-github">
 <a href="#section-1.2" class="section-number selfRef">1.2. </a><a href="#name-github" class="section-name selfRef">GitHub</a>
         </h3>
-<p id="section-1.2-1">GitHub is a service operated at <a href="https://github.com/">https://github.com/</a>.
+<p id="section-1.2-1">GitHub is a service operated at <span><a href="https://github.com/">https://github.com/</a></span>.
 GitHub provides centralized storage for git repositories.  GitHub is freely
-accessible on the open Internet, albeit currently only via IPv4.<a href="#section-1.2-1" class="pilcrow">¶</a></p>
-<p id="section-1.2-2">GitHub provides a simplified and integrated interface to not only git, but also
-provides basic user management, an issue tracker, associated wikis, project
-hosting, and other features.<a href="#section-1.2-2" class="pilcrow">¶</a></p>
+accessible on the open Internet.<a href="#section-1.2-1" class="pilcrow">¶</a></p>
+<p id="section-1.2-2">GitHub provides a simplified and integrated interface to git, and also provides
+basic user management, an issue tracker, associated wikis, project hosting, and
+other features.<a href="#section-1.2-2" class="pilcrow">¶</a></p>
 <p id="section-1.2-3">There are a large number of projects at GitHub and a very large community of
 contributors.  One way in which some IETF Working Groups have benefited is
 through increased numbers of reviews and associated issues, along with other
-improvements that come from broader participation by facilitating those
-in the community to participate.<a href="#section-1.2-3" class="pilcrow">¶</a></p>
+improvements that come from facilitating participation by a broader community.<a href="#section-1.2-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="other-services">
@@ -1195,9 +1195,12 @@ out of scope for this document.<a href="#section-1.4-5" class="pilcrow">¶</a></
         <h3 id="name-notational-conventions">
 <a href="#section-1.5" class="section-number selfRef">1.5. </a><a href="#name-notational-conventions" class="section-name selfRef">Notational Conventions</a>
         </h3>
-<p id="section-1.5-1">The words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY"
-are used in this document. It's not shouting; when they are capitalized,
-they have the special meaning defined in BCP 14 <span>[<a href="#RFC2119" class="xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="xref">RFC8174</a>]</span>.<a href="#section-1.5-1" class="pilcrow">¶</a></p>
+<p id="section-1.5-1">The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted as described in BCP 14 <span>[<a href="#RFC2119" class="xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="xref">RFC8174</a>]</span>
+when, and only when, they appear in all capitals, as shown here.<a href="#section-1.5-1" class="pilcrow">¶</a></p>
+<p id="section-1.5-2">This document uses a lot of terms related to git and GitHub; see <span>[<a href="#GLOSSARY" class="xref">GLOSSARY</a>]</span>
+for information on these terms.<a href="#section-1.5-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1270,8 +1273,9 @@ citations for the <a href="https://www.ietf.org/about/note-well/">IETF Note Well
 charter objectives in an open and transparent fashion.  The Working Group Chairs
 are responsible for determining if there is interest in using GitHub and making
 a consensus call to determine if the proposed policy and use is acceptable.<a href="#section-3-1" class="pilcrow">¶</a></p>
-<p id="section-3-2">Chairs MUST involve Area Directors in any decision to use GitHub for anything
-more than managing drafts.<a href="#section-3-2" class="pilcrow">¶</a></p>
+<p id="section-3-2">Chairs SHOULD involve Area Directors in any decision to use GitHub, especially
+where substantive discussion of issues is permitted as described in
+<a href="#mode-discuss" class="xref">Section 5.3</a>.<a href="#section-3-2" class="pilcrow">¶</a></p>
 <div id="usage">
 <section id="section-3.1">
         <h3 id="name-what-to-use-github-for">
@@ -1320,12 +1324,11 @@ rejection, or modification by the Working Group as with any other input.<a href=
 discretion of the chairs.  Chairs could decide to only create new repositories
 for adopted Working Group items, or they might create repositories for
 individual documents on request.<a href="#section-3.2-1" class="pilcrow">¶</a></p>
-<p id="section-3.2-2">All repositories for Working Group documents within the Working Group
-organization MUST be public.  Repositories for private documents MAY be
-kept private, but only where there is a specific reason for doing so.  For
-instance, a document that details a security vulnerability might be kept
-private prior to its initial publication as an Internet-Draft. Once an
-Internet-Draft is published, repositories SHOULD be made public.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
+<p id="section-3.2-2">Maintaining private repositories for Working Group products is not recommended
+without specific cause.  For instance, a document that details a security
+vulnerability might be kept private prior to its initial publication as an
+Internet-Draft. Once an Internet-Draft is published, repositories for Working
+Group documents MUST be made public.<a href="#section-3.2-2" class="pilcrow">¶</a></p>
 <p id="section-3.2-3">The adoption status of any document MUST be clear from the contents of the
 repository.  This can be achieved by having the name of the document reflect
 status (that is, draft-ietf-&lt;wgname&gt;-... indicates that the document was
@@ -1446,10 +1449,15 @@ not advisable until a document has reached a certain degree of maturity.<a href=
 <p id="section-4.1.3-1">Issues that have reached a resolution that has Working Group consensus MUST NOT
 be reopened unless new information is presented.<a href="#section-4.1.3-1" class="pilcrow">¶</a></p>
 <p id="section-4.1.3-2">For long-running work items, new contributors often raise issues that have
-already been resolved. Chairs need to assess whether the arguments offered
-represent new information or not.  This can require some discussion to determine
-accurately.  Resolved issues MUST remain closed unless there is consensus to
-reopen an issue.<a href="#section-4.1.3-2" class="pilcrow">¶</a></p>
+already been resolved. Moreover, there could be temptation to reopen contentious
+issues resolved with rough consensus. Determining whether arguments presented in
+favor of reopening an issue represents new information might require some
+discussion in the Working Group.<a href="#section-4.1.3-2" class="pilcrow">¶</a></p>
+<p id="section-4.1.3-3">Chairs are empowered to exercise discretion in determining whether to reopen
+issues.  For more difficult matters, the chairs MAY insist that the Working
+Group reach consensus on whether an issue should be reopened.  Note however that
+any product of this process still needs to have the support of rough consensus
+in the Working Group, which could justify reopening issues.<a href="#section-4.1.3-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1459,7 +1467,7 @@ reopen an issue.<a href="#section-4.1.3-2" class="pilcrow">¶</a></p>
         <h3 id="name-pull-requests">
 <a href="#section-4.2" class="section-number selfRef">4.2. </a><a href="#name-pull-requests" class="section-name selfRef">Pull Requests</a>
         </h3>
-<p id="section-4.2-1">Pull requests are the GitHub feature that allow users to request changes to a
+<p id="section-4.2-1">A pull request is a GitHub feature that allows a user to request a change to a
 repository.  A user does not need to have write access to a repository to create
 a pull request.  A user can create a "fork", or copy, of any public repository.
 The user has write access to their own fork, allowing them to make local
@@ -1496,12 +1504,12 @@ editors.  Editors are given discretion in how they manage changes amongst themse
 <a href="#section-4.2.1" class="section-number selfRef">4.2.1. </a><a href="#name-discussion-on-pull-requests" class="section-name selfRef">Discussion on Pull Requests</a>
           </h4>
 <p id="section-4.2.1-1">In addition to the features that pull requests share with issues, users can also
-review the changes in a pull request.  This is a valuable feature, but it has
-some issues.<a href="#section-4.2.1-1" class="pilcrow">¶</a></p>
+review the changes in a pull request.  This is a valuable feature, but presents
+some challenges.<a href="#section-4.2.1-1" class="pilcrow">¶</a></p>
 <p id="section-4.2.1-2">Comments in a review other than a summary are attached to specific lines of the
 proposed change.  Such comments can be hard or impossible to find if changes are
 subsequently made to the pull request.  This is problematic for contributors who
-do not track discussion closely.<a href="#section-4.2.1-2" class="pilcrow">¶</a></p>
+do not track discussions closely.<a href="#section-4.2.1-2" class="pilcrow">¶</a></p>
 <p id="section-4.2.1-3">For this reason, Working Group chairs SHOULD discourage the use of inline
 comments for substantial technical discussion of issues.<a href="#section-4.2.1-3" class="pilcrow">¶</a></p>
 </section>
@@ -1538,6 +1546,10 @@ produced by a notification tool like
 <a href="https://github.com/dontcallmedom/github-notify-ml">github-notify-ml</a>.  This
 tool has been used effectively in several Working Groups, though it requires
 server infrastructure.<a href="#section-4.3-2" class="pilcrow">¶</a></p>
+<p id="section-4.3-3">Additionally, clear reporting about the changes that were included in each
+revision of an Internet-Draft helps ensure that contributors can
+follow activity.  This might be achieved by requesting that editors provide a
+change log that captures substantive changes to the document in each revision.<a href="#section-4.3-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1558,7 +1570,7 @@ matters is managed.  Most of the advice in this document applies equally to all
 models.<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">Working Groups can adjust these policies to suit their needs, but are advised to
 avoid gratuitous changes for the sake of consistency across the IETF as a whole.<a href="#section-5-3" class="pilcrow">¶</a></p>
-<div id="document-management-mode">
+<div id="mode-doc">
 <section id="section-5.1">
         <h3 id="name-document-management-mode">
 <a href="#section-5.1" class="section-number selfRef">5.1. </a><a href="#name-document-management-mode" class="section-name selfRef">Document Management Mode</a>
@@ -1574,7 +1586,7 @@ maintain issues and pull requests for their own benefit, but these have no
 formal standing in the Working Group process.<a href="#section-5.1-2" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="issue-tracking-mode">
+<div id="mode-track">
 <section id="section-5.2">
         <h3 id="name-issue-tracking-mode">
 <a href="#section-5.2" class="section-number selfRef">5.2. </a><a href="#name-issue-tracking-mode" class="section-name selfRef">Issue Tracking Mode</a>
@@ -1607,7 +1619,7 @@ or editors record details of decisions in issue comments when closing issues as
 resolved.<a href="#section-5.2-6" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="issue-discussion-mode">
+<div id="mode-discuss">
 <section id="section-5.3">
         <h3 id="name-issue-discussion-mode">
 <a href="#section-5.3" class="section-number selfRef">5.3. </a><a href="#name-issue-discussion-mode" class="section-name selfRef">Issue Discussion Mode</a>
@@ -1634,10 +1646,10 @@ mailing list, along lines similar to the design team process (see Section 6.5 of
 <p id="section-5.3-5">As a more involved process, adopting this mode can require changes in policies
 as documents become more mature.  It is possible to use different processes for
 different documents in the Working Group.<a href="#section-5.3-5" class="pilcrow">¶</a></p>
-<p id="section-5.3-6">Working Group chairs SHOULD confirm that the Working Group has consensus to
-adopt any process.  In particular, the introduction of a more tightly-controlled
-process can have the effect of privileging positions already captured in
-documents, which might disadvantage alternative viewpoints.<a href="#section-5.3-6" class="pilcrow">¶</a></p>
+<p id="section-5.3-6">Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.<a href="#section-5.3-6" class="pilcrow">¶</a></p>
 <div id="early-design-phases">
 <section id="section-5.3.1">
           <h4 id="name-early-design-phases">
@@ -1657,7 +1669,7 @@ changes might not always reflect the consensus of the Working Group.<a href="#se
 GitHub and git provide tools for ensuring that changes are tracked and can be
 audited.  Within the usual Working Group process it is expected that
 Internet-Drafts will receive regular review. Finally, process checkpoints like
-Working Group Last Call (WGLC; Section 7.4 of <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>) provides additional
+Working Group Last Call (WGLC; Section 7.4 of <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>) provide additional
 safeguards against abuse.<a href="#section-5.3.1-3" class="pilcrow">¶</a></p>
 <p id="section-5.3.1-4">Working Groups are advised against allowing editors this degree of flexibility
 for the entirety of a document lifecycle.  Once a document is more stable and
@@ -1679,9 +1691,9 @@ Chairs should always allow document editors to identify and address editorial
 issues as they see fit.<a href="#section-5.3.2-2" class="pilcrow">¶</a></p>
 <p id="section-5.3.2-3">As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.<a href="#section-5.3.2-3" class="pilcrow">¶</a></p>
-<p id="section-5.3.2-4">Gaining Working Group consensus about the resolution of issues can be done in
-the abstract, with editors being permitted to capture the outcome of discussions
-as they see fit.<a href="#section-5.3.2-4" class="pilcrow">¶</a></p>
+<p id="section-5.3.2-4">Chairs can declare Working Group consensus about the resolution of
+issues in the abstract, allowing editors discretion on how to capture the
+decisions in documents.<a href="#section-5.3.2-4" class="pilcrow">¶</a></p>
 <p id="section-5.3.2-5">More mature documents require not only consensus, but consensus about specific
 text.  All substantive changes to documents that have passed WGLC SHOULD be
 proposed as pull requests, and MUST be discussed on the mailing list, and MUST
@@ -1801,14 +1813,14 @@ immediate Working Group attention.<a href="#section-5.4.4-2.3" class="pilcrow">�
       <h2 id="name-internet-draft-publication">
 <a href="#section-6" class="section-number selfRef">6. </a><a href="#name-internet-draft-publication" class="section-name selfRef">Internet-Draft Publication</a>
       </h2>
-<p id="section-6-1">During the development of a document, individual revisions of a document can be
-built and formally submitted as an Internet-Draft.  This creates a stable
+<p id="section-6-1">During the development of a document, individual revisions of the document can
+be built and formally submitted as an Internet-Draft.  This creates a stable
 snapshot and makes the content of the in-progress document available to a wider
 audience.  Documents submitted as Internet-Drafts are not expected to address
 all open issues or merge outstanding pull requests.<a href="#section-6-1" class="pilcrow">¶</a></p>
-<p id="section-6-2">Editors SHOULD create a new Internet-Draft submission two weeks prior to every
-session, which includes IETF meetings, other in-person meetings, and telephone
-or video conferences (see Section 7.1 of <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>).  Though discussion could
+<p id="section-6-2">Section 7.1 of <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span> recommends that editors create a new Internet-Draft
+submission two weeks prior to every session, which includes IETF meetings, other
+in-person meetings, and telephone or video conferences.  Though discussion could
 use the current version of a document from version control, participants in a
 session cannot be expected to monitor changes to documents in real-time; a
 published Internet-Draft ensures that there is a common, stable state that is
@@ -1948,9 +1960,6 @@ submissions as Internet-Drafts ensure that work is not lost completely.<a href="
 <a href="#section-12.1" class="section-number selfRef">12.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
-<dt id="GH-CONFIG">[GH-CONFIG]</dt>
-<dd>
-<span class="refAuthor">Cooper, A.</span><span class="refAuthor"> and P. Hoffman</span>, <span class="refTitle">"Working Group GitHub Administration"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-git-github-wg-configuration-06</span>, <time datetime="2020-02-13">13 February 2020</time>, <span>&lt;<a href="http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt">http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt</a>&gt;</span>. </dd>
 <dt id="RFC2026">[RFC2026]</dt>
 <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"The Internet Standards Process -- Revision 3"</span>, <span class="seriesInfo">BCP 9</span>, <span class="seriesInfo">RFC 2026</span>, <span class="seriesInfo">DOI 10.17487/RFC2026</span>, <time datetime="1996-10">October 1996</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc2026">https://www.rfc-editor.org/info/rfc2026</a>&gt;</span>. </dd>
@@ -1970,6 +1979,12 @@ submissions as Internet-Drafts ensure that work is not lost completely.<a href="
 <a href="#section-12.2" class="section-number selfRef">12.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
+<dt id="GH-CONFIG">[GH-CONFIG]</dt>
+<dd>
+<span class="refAuthor">Cooper, A.</span><span class="refAuthor"> and P. Hoffman</span>, <span class="refTitle">"Working Group GitHub Administration"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-git-github-wg-configuration-06</span>, <time datetime="2020-02-13">13 February 2020</time>, <span>&lt;<a href="http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt">http://www.ietf.org/internet-drafts/draft-ietf-git-github-wg-configuration-06.txt</a>&gt;</span>. </dd>
+<dt id="GLOSSARY">[GLOSSARY]</dt>
+<dd>
+<span class="refAuthor">GitHub</span>, <span class="refTitle">"GitHub glossary"</span>, <time datetime="2020-03">March 2020</time>, <span>&lt;<a href="https://help.github.com/en/github/getting-started-with-github/github-glossary">https://help.github.com/en/github/getting-started-with-github/github-glossary</a>&gt;</span>. </dd>
 <dt id="RFC7991">[RFC7991]</dt>
 <dd>
 <span class="refAuthor">Hoffman, P.</span>, <span class="refTitle">"The "xml2rfc" Version 3 Vocabulary"</span>, <span class="seriesInfo">RFC 7991</span>, <span class="seriesInfo">DOI 10.17487/RFC7991</span>, <time datetime="2016-12">December 2016</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc7991">https://www.rfc-editor.org/info/rfc7991</a>&gt;</span>. </dd>
