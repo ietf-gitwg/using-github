@@ -427,13 +427,14 @@ The user has write access to their own fork, allowing them to make local
 changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.
 
-Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository. See {{mature-documents}}
-for discussion on what constitutes a substantial change. A pull request
-creates an artifact that records the reasons for changes and provides other
-contributors with an opportunity to review the change. Pull requests that
-address substantive issues SHOULD mention the issue they address in the opening
-comment.
+Editors are encouraged to make pull requests for all substantial changes rather
+than committing directly to the "master" branch of the repository. See
+{{mature-documents}} for discussion on what constitutes a substantial change. A
+pull request creates an artifact that records the reasons for changes and
+provides other contributors with an opportunity to review the change. Ideally,
+pull requests that address substantive issues mention the issue they address in
+the opening comment.  A Working Group policy could require that pull requests
+are used in this fashion.
 
 Note:
 
@@ -518,7 +519,13 @@ models.
 
 A Working Group can adjust these policies to suit their needs, but are advised
 to avoid gratuitous changes for the sake of consistency across the IETF as a
-whole.
+whole.  It is possible to use different processes for different documents in the
+Working Group.
+
+Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.
 
 
 ## Document Management Mode {#mode-doc}
@@ -598,13 +605,7 @@ mailing list, along lines similar to the design team process (see Section 6.5 of
 {{RFC2418}}).
 
 As a more involved process, adopting this mode can require changes in policies
-as documents become more mature.  It is possible to use different processes for
-different documents in the Working Group.
-
-Working Group chairs are responsible for confirming that the Working Group has
-consensus to adopt any process.  In particular, the introduction of a more
-tightly-controlled process can have the effect of privileging positions already
-captured in documents, which might disadvantage alternative viewpoints.
+as documents become more mature.
 
 
 ### Early Design Phases
@@ -618,19 +619,21 @@ Chairs need to explicitly decide that this sort of process is needed and
 announce the decision to the Working Group.  In many cases, documents that are
 adopted by a Working Group are already sufficiently mature that a looser process
 is not beneficial.  The primary reason to grant editors more discretionary power
-is to improve the speed with which changes can be made.  The risk is that design
-changes might not always reflect the consensus of the Working Group.
+is to improve the speed with which changes can be made.  The risk is from
+integrating changes including substantive decisions that don't reflect the
+consensus of the Working Group or that the need for consensus on an issue is not
+identified.
 
-Changes made by editors under this process do not completely lack oversight.
-GitHub and git provide tools for ensuring that changes are tracked and can be
-audited.  Within the usual Working Group process it is expected that
-Internet-Drafts will receive regular review. Finally, process checkpoints like
-Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}}) provide additional
-safeguards against abuse.
+Changes made by editors under this process do not lack options for identifying
+and correcting problems.  GitHub and git provide tools for ensuring that changes
+are tracked and can be audited.  Within the usual Working Group process it is
+expected that Internet-Drafts will receive regular review. Finally, process
+checkpoints like Working Group Last Call (WGLC; Section 7.4 of {{!RFC2418}})
+provide additional safeguards against abuse.
 
 Working Groups are advised against allowing editors this degree of flexibility
 for the entirety of a document lifecycle.  Once a document is more stable and
-mature, it is likely appropriate to move to a more tightly controlled process.
+mature, it could be useful to move to a more tightly controlled process.
 
 
 ### Managing Mature Documents {#mature-documents}
@@ -639,10 +642,10 @@ As a document matures, it becomes more important to understand not just that the
 document as a whole retains the support of the Working Group, but that changes
 are not made without wider consultation.
 
-Chairs might choose to manage the process of deciding which issues are
+Chairs MAY choose to manage the process of deciding which issues are
 substantive.  For instance, chairs might reserve the ability to use the `design`
 label to new issues (see {{label-design}}) and to close issues marked as `design`.
-Chairs should always allow document editors to identify and address editorial
+Chairs SHOULD always allow document editors to identify and address editorial
 issues as they see fit.
 
 As documents mature further, explicit confirmation of technical decisions with
@@ -653,9 +656,10 @@ issues in the abstract, allowing editors discretion on how to capture the
 decisions in documents.
 
 More mature documents require not only consensus, but consensus about specific
-text.  All substantive changes to documents that have passed WGLC SHOULD be
-proposed as pull requests, and MUST be discussed on the mailing list, and MUST
-have chairs explicitly confirm consensus.  Chairs MAY institute this stricter
+text.  Ideally, substantive changes to documents that have passed WGLC are
+proposed as pull requests, and MUST be discussed on the mailing list. Having
+chairs explicitly confirm consensus on changes ensures that previous consensus
+decisions are not overturned without cause.  Chairs MAY institute this stricter
 process prior to WGLC.
 
 Note:
@@ -793,9 +797,10 @@ of the document.  Other participants might not use GitHub at all.  Chairs are
 reminded that assessing consensus based on GitHub content alone cannot be
 assumed to reach all interested participants.
 
-Chairs MUST consider input from all discussion venues when assessing consensus
-including GitHub, mailing lists, interim meetings, and IETF meetings. Each venue
-has different selection biases that might need to be considered.
+As described in {{!RFC2418}}, chairs consider input from all discussion venues
+when assessing consensus. These include mailing lists, IETF meetings, and
+interim meetings in addition to discussion on GitHub. Each venue has different
+selection biases that might need to be considered.
 
 A Working Group chair MUST consult the Working Group mailing list for any issue
 that is potentially contentious.  Relying on input provided through GitHub alone
