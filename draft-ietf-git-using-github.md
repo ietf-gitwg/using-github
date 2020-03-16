@@ -186,7 +186,8 @@ within an area. Large organizations create too much overhead for general
 management tasks.
 
 GitHub requires that each organization have at least one owner.  The owners for
-a Working Group repository MUST include responsible Area Directors.  Area
+a Working Group repository MUST include responsible Area Directors and SHOULD
+include Area Directors from the area and the IETF Secretariat.  Area
 Directors MAY also designate a delegate that becomes an owner. Working Group
 chairs MAY also be owners.
 
@@ -255,7 +256,7 @@ The set of GitHub features ({{features}}) that the Working Group relies upon
 need to be clearly documented in policies.  This document provides some guidance
 on potential policies and how those might be applied.
 
-Features that the Working Group does not rely upon SHOULD be made available to
+Features that the Working Group does not rely upon can be made available to
 document editors.  Editors are then able to use these features for their own
 purposes.  For example, though the Working Group might not formally use issues
 to track items that require further discussion in order to reach consensus,
@@ -264,8 +265,9 @@ keeping the issue tracker available to editors can be valuable.
 Working Group policies need to be set with the goal of improving transparency,
 participation, and ultimately the quality of documents.  At times, it might be
 appropriate to impose some limitations on what document editors are able to do
-in order to serve these goals.  Chairs SHOULD periodically consult with document
-editors and the Working Group to ensure that policies are effective.
+in order to serve these goals.  Chairs are encouraged to periodically consult
+with document editors and the Working Group to ensure that policies are
+effective.
 
 A document editor can still use GitHub independently for documents that they
 edit, even if the Working Group does not expressly choose to use GitHub.  Any
