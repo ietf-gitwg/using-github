@@ -1475,13 +1475,14 @@ a pull request.  A user can create a "fork", or copy, of any public repository.
 The user has write access to their own fork, allowing them to make local
 changes.  A pull request asks the owner of a repository to merge a specific set
 of changes from a fork (or any branch) into their copy.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
-<p id="section-4.2-2">Editors SHOULD make pull requests for all substantial changes rather than
-committing directly to the "master" branch of the repository. See <a href="#mature-documents" class="xref">Section 5.3.2</a>
-for discussion on what constitutes a substantial change. A pull request
-creates an artifact that records the reasons for changes and provides other
-contributors with an opportunity to review the change. Pull requests that
-address substantive issues SHOULD mention the issue they address in the opening
-comment.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
+<p id="section-4.2-2">Editors are encouraged to make pull requests for all substantial changes rather
+than committing directly to the "master" branch of the repository. See
+<a href="#mature-documents" class="xref">Section 5.3.2</a> for discussion on what constitutes a substantial change. A
+pull request creates an artifact that records the reasons for changes and
+provides other contributors with an opportunity to review the change. Ideally,
+pull requests that address substantive issues mention the issue they address in
+the opening comment.  A Working Group policy could require that pull requests
+are used in this fashion.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
 <dl class="dlParallel" id="section-4.2-3">
           <dt id="section-4.2-3.1">Note:</dt>
 <dd id="section-4.2-3.2">
@@ -1572,7 +1573,12 @@ matters is managed.  Most of the advice in this document applies equally to all
 models.<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">A Working Group can adjust these policies to suit their needs, but are advised
 to avoid gratuitous changes for the sake of consistency across the IETF as a
-whole.<a href="#section-5-3" class="pilcrow">¶</a></p>
+whole.  It is possible to use different processes for different documents in the
+Working Group.<a href="#section-5-3" class="pilcrow">¶</a></p>
+<p id="section-5-4">Working Group chairs are responsible for confirming that the Working Group has
+consensus to adopt any process.  In particular, the introduction of a more
+tightly-controlled process can have the effect of privileging positions already
+captured in documents, which might disadvantage alternative viewpoints.<a href="#section-5-4" class="pilcrow">¶</a></p>
 <div id="mode-doc">
 <section id="section-5.1">
         <h3 id="name-document-management-mode">
@@ -1649,12 +1655,7 @@ develop an understanding of problems before initiating a discussion on the
 mailing list, along lines similar to the design team process (see Section 6.5 of
 <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>).<a href="#section-5.3-4" class="pilcrow">¶</a></p>
 <p id="section-5.3-5">As a more involved process, adopting this mode can require changes in policies
-as documents become more mature.  It is possible to use different processes for
-different documents in the Working Group.<a href="#section-5.3-5" class="pilcrow">¶</a></p>
-<p id="section-5.3-6">Working Group chairs are responsible for confirming that the Working Group has
-consensus to adopt any process.  In particular, the introduction of a more
-tightly-controlled process can have the effect of privileging positions already
-captured in documents, which might disadvantage alternative viewpoints.<a href="#section-5.3-6" class="pilcrow">¶</a></p>
+as documents become more mature.<a href="#section-5.3-5" class="pilcrow">¶</a></p>
 <div id="early-design-phases">
 <section id="section-5.3.1">
           <h4 id="name-early-design-phases">
@@ -1668,17 +1669,19 @@ editors feel necessary.<a href="#section-5.3.1-1" class="pilcrow">¶</a></p>
 announce the decision to the Working Group.  In many cases, documents that are
 adopted by a Working Group are already sufficiently mature that a looser process
 is not beneficial.  The primary reason to grant editors more discretionary power
-is to improve the speed with which changes can be made.  The risk is that design
-changes might not always reflect the consensus of the Working Group.<a href="#section-5.3.1-2" class="pilcrow">¶</a></p>
-<p id="section-5.3.1-3">Changes made by editors under this process do not completely lack oversight.
-GitHub and git provide tools for ensuring that changes are tracked and can be
-audited.  Within the usual Working Group process it is expected that
-Internet-Drafts will receive regular review. Finally, process checkpoints like
-Working Group Last Call (WGLC; Section 7.4 of <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>) provide additional
-safeguards against abuse.<a href="#section-5.3.1-3" class="pilcrow">¶</a></p>
+is to improve the speed with which changes can be made.  The risk is from
+integrating changes including substantive decisions that don't reflect the
+consensus of the Working Group or that the need for consensus on an issue is not
+identified.<a href="#section-5.3.1-2" class="pilcrow">¶</a></p>
+<p id="section-5.3.1-3">Changes made by editors under this process do not lack options for identifying
+and correcting problems.  GitHub and git provide tools for ensuring that changes
+are tracked and can be audited.  Within the usual Working Group process it is
+expected that Internet-Drafts will receive regular review. Finally, process
+checkpoints like Working Group Last Call (WGLC; Section 7.4 of <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>)
+provide additional safeguards against abuse.<a href="#section-5.3.1-3" class="pilcrow">¶</a></p>
 <p id="section-5.3.1-4">Working Groups are advised against allowing editors this degree of flexibility
 for the entirety of a document lifecycle.  Once a document is more stable and
-mature, it is likely appropriate to move to a more tightly controlled process.<a href="#section-5.3.1-4" class="pilcrow">¶</a></p>
+mature, it could be useful to move to a more tightly controlled process.<a href="#section-5.3.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="mature-documents">
@@ -1689,10 +1692,10 @@ mature, it is likely appropriate to move to a more tightly controlled process.<a
 <p id="section-5.3.2-1">As a document matures, it becomes more important to understand not just that the
 document as a whole retains the support of the Working Group, but that changes
 are not made without wider consultation.<a href="#section-5.3.2-1" class="pilcrow">¶</a></p>
-<p id="section-5.3.2-2">Chairs might choose to manage the process of deciding which issues are
+<p id="section-5.3.2-2">Chairs MAY choose to manage the process of deciding which issues are
 substantive.  For instance, chairs might reserve the ability to use the <code>design</code>
 label to new issues (see <a href="#label-design" class="xref">Section 5.4.1</a>) and to close issues marked as <code>design</code>.
-Chairs should always allow document editors to identify and address editorial
+Chairs SHOULD always allow document editors to identify and address editorial
 issues as they see fit.<a href="#section-5.3.2-2" class="pilcrow">¶</a></p>
 <p id="section-5.3.2-3">As documents mature further, explicit confirmation of technical decisions with
 the Working Group mailing list becomes more important.<a href="#section-5.3.2-3" class="pilcrow">¶</a></p>
@@ -1700,9 +1703,10 @@ the Working Group mailing list becomes more important.<a href="#section-5.3.2-3"
 issues in the abstract, allowing editors discretion on how to capture the
 decisions in documents.<a href="#section-5.3.2-4" class="pilcrow">¶</a></p>
 <p id="section-5.3.2-5">More mature documents require not only consensus, but consensus about specific
-text.  All substantive changes to documents that have passed WGLC SHOULD be
-proposed as pull requests, and MUST be discussed on the mailing list, and MUST
-have chairs explicitly confirm consensus.  Chairs MAY institute this stricter
+text.  Ideally, substantive changes to documents that have passed WGLC are
+proposed as pull requests, and MUST be discussed on the mailing list. Having
+chairs explicitly confirm consensus on changes ensures that previous consensus
+decisions are not overturned without cause.  Chairs MAY institute this stricter
 process prior to WGLC.<a href="#section-5.3.2-5" class="pilcrow">¶</a></p>
 <dl class="dlParallel" id="section-5.3.2-6">
             <dt id="section-5.3.2-6.1">Note:</dt>
@@ -1854,9 +1858,10 @@ either by following only specific issues or by occasionally reviewing the state
 of the document.  Other participants might not use GitHub at all.  Chairs are
 reminded that assessing consensus based on GitHub content alone cannot be
 assumed to reach all interested participants.<a href="#section-7-2" class="pilcrow">¶</a></p>
-<p id="section-7-3">Chairs MUST consider input from all discussion venues when assessing consensus
-including GitHub, mailing lists, interim meetings, and IETF meetings. Each venue
-has different selection biases that might need to be considered.<a href="#section-7-3" class="pilcrow">¶</a></p>
+<p id="section-7-3">As described in <span>[<a href="#RFC2418" class="xref">RFC2418</a>]</span>, chairs consider input from all discussion venues
+when assessing consensus. These include mailing lists, IETF meetings, and
+interim meetings in addition to discussion on GitHub. Each venue has different
+selection biases that might need to be considered.<a href="#section-7-3" class="pilcrow">¶</a></p>
 <p id="section-7-4">A Working Group chair MUST consult the Working Group mailing list for any issue
 that is potentially contentious.  Relying on input provided through GitHub alone
 might result in gaining input from a narrower set of participants.  This
