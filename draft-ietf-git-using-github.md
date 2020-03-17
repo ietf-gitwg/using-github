@@ -902,8 +902,9 @@ operations as it is expected that most data, aside from individual credentials,
 is made public.
 
 Compromise of credentials could mean loss of control for repositories and
-organizations.  Owners and administrators SHOULD use current best practices for
-protection of credentials, such as multi-factor authentication.
+organizations.  All contributors, especially those with commit or admin
+privileges SHOULD use current best practices for protection of credentials, such
+as multi-factor authentication.
 
 
 # IANA Considerations
