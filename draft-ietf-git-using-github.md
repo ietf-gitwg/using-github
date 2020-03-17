@@ -189,7 +189,7 @@ GitHub requires that each organization have at least one owner.  The owners for
 a Working Group repository MUST include responsible Area Directors and the IETF
 Secretariat.  Working Group chairs and Area Directors in the area SHOULD also be
 included as owners.  Area Directors MAY also designate a delegate that becomes
-an owner.
+an owner.  An organization MUST have at least 2 owners.
 
 Within an organization, members can be grouped into teams.  A team with "Admin"
 access to repositories SHOULD be created for the Working Group Chairs and any
