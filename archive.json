@@ -1,0 +1,2299 @@
+{
+  "magic": "B8n2c@e8kvfx",
+  "timestamp": "2020-03-18T21:10:36.076053+00:00",
+  "repo": "ietf-gitwg/using-github",
+  "labels": [
+    {
+      "name": "bug",
+      "description": null,
+      "color": "ee0701"
+    },
+    {
+      "name": "duplicate",
+      "description": null,
+      "color": "cccccc"
+    },
+    {
+      "name": "enhancement",
+      "description": null,
+      "color": "84b6eb"
+    },
+    {
+      "name": "help wanted",
+      "description": null,
+      "color": "128A0C"
+    },
+    {
+      "name": "invalid",
+      "description": null,
+      "color": "e6e6e6"
+    },
+    {
+      "name": "question",
+      "description": null,
+      "color": "cc317c"
+    },
+    {
+      "name": "wontfix",
+      "description": null,
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 4,
+      "id": "MDU6SXNzdWUyMzE1MDgwMTk=",
+      "title": "Single IETF org",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/4",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I've been privately lobbied to use a single organization.  There are arguments around IPR notices and control that might make this advisable.  For instance, the W3C process for using GitHub is far more advanced in this regard.\r\n\r\nIn particular, W3C repositories all have an integrated application that checks that contributors have made the appropriate contribution agreements.  I don't see why this process wouldn't scale out to multiple organizations if the service were available, but we would need to have some discussion about integrating that.  (I also don't know how much manual intervention is needed to identify \"non-substantial\" contributions, which are somehow exempt from this process.)",
+      "createdAt": "2017-05-26T02:14:45Z",
+      "updatedAt": "2019-10-10T00:51:47Z",
+      "closedAt": "2019-10-10T00:51:47Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "There's some contention about the level to which secretariat involvement in the operation of an organization is necessary.  The sense I got from WG chairs is that they feel that chairs+AD is sufficient, and burdening the secretariat with more responsibilities wouldn't necessarily improve anything.  We'd probably want to understand what the secretariat responsibilities were with respect to operation of an organization.",
+          "createdAt": "2018-08-06T01:27:46Z",
+          "updatedAt": "2018-08-06T01:27:46Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "For the record, I'm strongly -1 on this. Having an organisation with hundreds or thousands of repos is asking for confusion. Also, note that the W3C uses many drafts-per-repo, which I believe there are Strong Feelings against in the IETF.\r\n\r\nOf course, it's possible to build tools to make prettier / more sane views of this data; the W3C has done that. That's a significant investment, however, and still requires a fair amount of coordination (e.g., the W3C has a [file format](https://github.com/w3c/spec-dashboard) for its repos that lets them scrape information from them).\r\n\r\nHowever, such a mechanism could easily be used across multiple organisations; all we'd need would be a list of orgs to run it against, and that doesn't seem onerous. \r\n",
+          "createdAt": "2019-04-11T05:04:53Z",
+          "updatedAt": "2019-04-11T05:04:53Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "My sense of the pre-working group discussion was that this was ruled out.  Let's see if the chairs concur.",
+          "createdAt": "2019-04-11T23:49:47Z",
+          "updatedAt": "2019-04-11T23:49:47Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The feedback on this point was very clear to me.  I'm closing this.",
+          "createdAt": "2019-10-10T00:51:47Z",
+          "updatedAt": "2019-10-10T00:51:47Z"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "MDU6SXNzdWU0MTA1ODkyMTU=",
+      "title": "Document procedures for dealing with disruptive behaviour",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/5",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Here we can probably extensively rely on existing policies for mailing list interactions, but it does need to be written down.",
+      "createdAt": "2019-02-15T03:28:19Z",
+      "updatedAt": "2019-11-19T08:21:21Z",
+      "closedAt": "2019-11-19T08:21:21Z",
+      "comments": [
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Discussed in Singapore; do nothing.",
+          "createdAt": "2019-11-19T08:21:21Z",
+          "updatedAt": "2019-11-19T08:21:21Z"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "MDU6SXNzdWU0MTA1ODk4NzI=",
+      "title": "Interactions with 2026 and 2418",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/6",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "How this fits into existing processes is something that needs more thorough investigation if we're publishing an RFC on this.",
+      "createdAt": "2019-02-15T03:31:38Z",
+      "updatedAt": "2019-11-19T08:21:05Z",
+      "closedAt": "2019-11-19T08:21:05Z",
+      "comments": [
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Discussed in Singapore; no objections, merged, and closing.",
+          "createdAt": "2019-11-19T08:21:05Z",
+          "updatedAt": "2019-11-19T08:21:05Z"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "MDU6SXNzdWU0MjAyMTc1MzM=",
+      "title": "More on technical decision making and venues",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/8",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The draft has some text on assessing consensus, which includes managing the venue for discussion.  The practice here has evolved a little and so the text should be expanded to reflect that.\r\n\r\nThe current view is that drafts in early stages can operate with a fair amount of independence in the sense that technical decisions can be made without consulting the list.  That keeps things running smoothly, because you don't want the overhead of list involvement for every tiny technical change.\r\n\r\nAs the draft already says issues that become contentious need to go to the list.  But the draft says SHOULD rather than MUST, which needs to be corrected.\r\n\r\nAs documents become more mature, it makes sense to change the model so that the list is involved in more of the decision-making.  For example, QUIC has taken the line that ALL technical changes need to go to the list, which is fairly hard-line.  The goals there were two-fold: reduce the rate of change, and to ensure that the list is involved in all decisions.  The first has been very effective.  It's hard to say whether a hard cutoff like this has been effective, but the general principle is sound.",
+      "createdAt": "2019-03-12T21:38:08Z",
+      "updatedAt": "2019-10-10T00:47:34Z",
+      "closedAt": "2019-10-10T00:47:34Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I think these could be couched as suggested workflows, rather than best practices; it's very situational. The most important thing is to clearly document the workflow in use, and consistently use it; having some templates help (as there are a lot of factors to consider).",
+          "createdAt": "2019-04-11T05:15:32Z",
+          "updatedAt": "2019-04-11T05:15:32Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closing this on the basis of #15.",
+          "createdAt": "2019-10-10T00:47:34Z",
+          "updatedAt": "2019-10-10T00:47:34Z"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "MDU6SXNzdWU0MzE4MjkyOTM=",
+      "title": "Document header containing important links",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/9",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "In the git-using WG's I've participated in, it's been proven useful to add a note at the top of drafts in development that link to the draft's repo, issues list, and datatracker status page.\r\n\r\nThis makes it easier for readers to find important resources.",
+      "createdAt": "2019-04-11T04:50:43Z",
+      "updatedAt": "2019-10-10T00:50:43Z",
+      "closedAt": "2019-10-10T00:50:43Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I agree that this is useful.  It would be good to have a standard form for this information so that the information can be mechanically inserted.\r\n\r\nIs this issue better raised on this draft or for the other draft that focuses more on the mechanics of the interactions?",
+          "createdAt": "2019-04-26T04:42:30Z",
+          "updatedAt": "2019-04-26T04:42:30Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closed in favour of ietf-gitwg/draft-ietf-git-github-wg-configuration#5.",
+          "createdAt": "2019-10-10T00:50:43Z",
+          "updatedAt": "2019-10-10T00:50:43Z"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "MDU6SXNzdWU0MzE4MzM0ODE=",
+      "title": "Organisation Ownership",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/10",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "> Each organization requires owners. The owner team for a working group repository MUST include responsible Area Directors. Area Directors MAY also designate a delegate that becomes an owner and working group chairs MAY also be owners.\r\n\r\nUnfortunately, GitHub now only gives the choice between Owners being able to create repos, and all members being able to create repos (see [here](https://help.github.com/en/articles/restricting-repository-creation-in-your-organization)). I don't think the latter is workable (we've already had instances when some WG members strongly wanted to create a WG repo for their personal drafts), so this means that the Chairs MUST be owners, unless they're comfortable with allowing anyone in the org to create a repo.\r\n\r\nThis choice probably needs to be explained explicitly, with description of the options and the affected settings.\r\n\r\n> A team with administrator access SHOULD be created for the Working Group Chairs and any Working Group Secretary. Administrator access is preferable, since this does not also include the ability to push to all repositories and ownership does not grant any other significant privileges.\r\n\r\nThere is no longer any such thing as an \"admin team\" on GitHub; that was [phased out](https://help.github.com/en/articles/migrating-your-previous-admin-teams-to-the-improved-organization-permissions). Instead, you'd need to create a separate 'Chairs' team and then assign it admin permissions on each repo.\r\n\r\nIn practice, Chairs need the ability to push to all repositories, to do things like update READMEs, etc. So I think being owners is appropriate (and it avoids a lot of busy work for the AD in terms of setting things up).\r\n",
+      "createdAt": "2019-04-11T05:13:48Z",
+      "updatedAt": "2019-10-10T00:51:02Z",
+      "closedAt": "2019-10-10T00:51:02Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> GitHub now only gives the choice between Owners being able to create repos, and all members being able to create repos \r\n\r\nI think that you are confusing the technical safeguards on the process from the practical ones.\r\n\r\nGiving members (i.e., editors) the ability to create repos is necessary to migrate newly adopted drafts into the org.  Having the chairs create a repo and then have it populated is an awful solution.  So I think that we need this capability and we simply need to explain that creating a repo is not acceptable.\r\n\r\n> There is no longer any such thing as an \"admin team\" on GitHub\r\n\r\nThe text says \"team with administrator access\".  Is that unclear?\r\n\r\n> I think being owners is appropriate (and it avoids a lot of busy work for the AD in terms of setting things up)\r\n\r\nPart of the point of the working group is to feed requirements into tools.  One of those tools we've already discussed is an automated setup process.  So I don't think busy work is necessary.\r\n\r\nThat said, I have no issue with chairs having commit access to repos.  Like with members creating repos, we'll know when they abuse that power.",
+          "createdAt": "2019-04-11T23:56:00Z",
+          "updatedAt": "2019-04-11T23:56:00Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> I think that you are confusing the technical safeguards on the process from the practical ones.\r\n\r\nI tried to read the document and apply it to GitHub. If that ends me up in a confused state, perhaps the document isn't communicating clearly.\r\n\r\n> Giving members (i.e., editors) the ability to create repos is necessary to migrate newly adopted drafts into the org. Having the chairs create a repo and then have it populated is an awful solution. \r\n\r\nThis is not how httpwg or quicwg works, so I'm surprised to hear you say that; you haven't brought it up before AFAIK.\r\n\r\n> So I think that we need this capability and we simply need to explain that creating a repo is not acceptable.\r\n\r\nSorry, what do you mean here?\r\n\r\n",
+          "createdAt": "2019-04-12T09:02:13Z",
+          "updatedAt": "2019-04-12T09:02:13Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "> This is not how httpwg or quicwg works, so I'm surprised to hear you say that; you haven't brought it up before AFAIK.\r\n\r\nWell, those are both weird.  httpwg has a single repo, which means that it is very hard to import existing work.  quicwg is not operating in a mode where adoption is common.  But everywhere else I've been it is common for things to move from individual to WG drafts on a semi-regular basis.  Moving repos is the method I've been [advocating for](https://github.com/martinthomson/i-d-template/blob/master/doc/ADOPTING.md#best-option---transfer-the-repository) for a while.\r\n\r\nI see your point about teams.  That needs to be clearer.",
+          "createdAt": "2019-04-24T07:51:23Z",
+          "updatedAt": "2019-04-24T07:51:23Z"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "MDU6SXNzdWU0NDQxNzU2MjQ=",
+      "title": "broken links",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/11",
+      "state": "CLOSED",
+      "author": "gregbo",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "using-github/CONTRIBUTING.md has several broken links:\r\n\r\n- https://mailarchive.ietf.org/arch/browse/github/ (should be https://mailarchive.ietf.org/arch/browse/ietf-and-github/)\r\n\r\n- https://www.ietf.org/mailman/listinfo/github (should be https://www.ietf.org/mailman/listinfo/ietf-and-github)\r\n\r\n- https://datatracker.ietf.org/wg/github/documents/ (should be https://datatracker.ietf.org/wg/git/documents/)\r\n\r\nI corrected the same problem with https://github.com/gregbo/draft-iab-internet-consolidation/blob/patch-1/CONTRIBUTING.md a few days ago.  I'm not completely familiar with the tools that are used to generate these pages, but from what I have seen, there needs to be a configuration option that allows the names of the mailing list, working group, and source of related documents to differ.  Can you change i-d-template/template/CONTRIBUTING.md so WG_NAME is configurable, but defaults to the working group name?",
+      "createdAt": "2019-05-14T23:54:05Z",
+      "updatedAt": "2019-08-16T06:04:36Z",
+      "closedAt": "2019-08-16T06:04:01Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks for the report @gregbo.  The tool that generates the files relies a lot on conventions, which breaks down occasionally and requires this sort of manual fixing.",
+          "createdAt": "2019-08-16T06:04:36Z",
+          "updatedAt": "2019-08-16T06:04:36Z"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "MDU6SXNzdWU0NzEyOTc1MDY=",
+      "title": "Add note on \"comment considered\" issue tag",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/13",
+      "state": "CLOSED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Filing after discussion with Paul Hoffman. The main idea is that this gives folks a way to convey to readers that an issue or message was read by an editor, chair, etc. In contrast, one cannot distinguish a lack of response between an editor or chair having not read it or having read it and choosing not to act on it.",
+      "createdAt": "2019-07-22T20:08:12Z",
+      "updatedAt": "2019-10-05T11:18:41Z",
+      "closedAt": "2019-10-05T11:18:41Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "(Assuming this refers to labels and not tags...)\r\n\r\nI don't think that this sort of signal is useful.  If someone is lacking feedback, things can be taken to mailing lists.\r\n\r\nIt is often useful for bigger projects to have labels for triaging issues, which might as a side-effect indicate that things have been read, but that isn't their primary purpose.  For instance, in QUIC we have a design/editorial distinction that is conveyed with labels, and also a label for which document the issue applies to.\r\n\r\nThe most valuable label I've seen recently is a 'has-consensus' label, which QUIC has attached to issues where the working group has explicitly considered the issue and reached a conclusion.  I think that's been useful, but it's probably less useful from the outside because most of those issues are closed at about the same time the label goes on.",
+          "createdAt": "2019-08-16T06:01:36Z",
+          "updatedAt": "2019-08-16T06:01:36Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "> If someone is lacking feedback, things can be taken to mailing lists.\r\n\r\nThe complaint that led to this issue was that taking it to the list might turn up nothing. \r\n\r\nIn any case, an issue that's not yet been triaged (and labelled) is indistinguishable from a message on a list that received zero responses. Adding a label to indicate that something's been considered might only then be useful if there's no other appropriate label. In QUIC's case, triage requires slapping on a design or editorial label (or some other thing), for example. I imagine there might be groups where that sort of triage classification isn't a thing, and for them, this might be useful. \r\n\r\nAs with all of this stuff, YMMV. I suggest we not add anything here absent a concrete PR.",
+          "createdAt": "2019-08-16T17:07:17Z",
+          "updatedAt": "2019-08-16T17:07:25Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Closing since there's been no PR!",
+          "createdAt": "2019-10-05T11:18:41Z",
+          "updatedAt": "2019-10-05T11:18:41Z"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "MDU6SXNzdWU1MDI5NTE1NDQ=",
+      "title": "Suggest that repositories include links to rendered and rfcdiff versions",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/19",
+      "state": "CLOSED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "This was brought up on the list. Martin's tooling already sets up READMEs with these links, so we might just add a note documenting what's done.",
+      "createdAt": "2019-10-05T11:27:09Z",
+      "updatedAt": "2019-10-10T17:52:23Z",
+      "closedAt": "2019-10-10T17:52:23Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Is this something more appropriate for ietf-gitwg/draft-ietf-git-github-wg-configuration?  This is more of a process document than something documenting tools and how things are set up.",
+          "createdAt": "2019-10-10T00:52:51Z",
+          "updatedAt": "2019-10-10T00:52:51Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Yeah, probably. I'll file it over there!",
+          "createdAt": "2019-10-10T17:52:18Z",
+          "updatedAt": "2019-10-10T17:52:18Z"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "MDU6SXNzdWU1MTAxMzM0Mzc=",
+      "title": "Need more discussion of turning off features",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/20",
+      "state": "CLOSED",
+      "author": "paulehoffman",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Section 3.1 talks about turning off GitHub features not being used by the WG, but it doesn't say how to do that in the UI. I ask this because I cannot see a way to prevent issues or PRs just by wandering through the GUI.",
+      "createdAt": "2019-10-21T17:15:58Z",
+      "updatedAt": "2019-11-18T00:41:27Z",
+      "closedAt": "2019-11-18T00:41:27Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "This isn't something that I'd want to publish.  The way that features are configured is too tightly coupled to UX decisions that GitHub might remake and any point.\r\n\r\nIn fact, I might prefer not to include the offending text at all.  Disabling features can be a useful way to slim down the options presented to users (which can help new users), but it can also be fairly hostile to new contributors.  For instance, if the working group disables issues because they aren't using them, it sounds reasonable, but new contributors might then be dissuaded from opening a genuine issue.  Working groups might be better served by informally letting contributors know how to best provide their input.",
+          "createdAt": "2019-10-22T02:21:55Z",
+          "updatedAt": "2019-10-22T02:21:55Z"
+        },
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'm happy with either the current text plus \"At the time this is written, to turn of $x do $y\" or removing the suggestion.",
+          "createdAt": "2019-10-22T14:38:36Z",
+          "updatedAt": "2019-10-22T14:38:36Z"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "id": "MDU6SXNzdWU1MTAxMzc5MTk=",
+      "title": "Descrbie why creating pull requests is better than pushing to master",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/22",
+      "state": "CLOSED",
+      "author": "paulehoffman",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Section 4.2 says \"Editors SHOULD make pull requests for all substantial changes rather than committing directly to the \"master\" branch of the repository.\" Adding a short explanation will help make this more likely to happen.",
+      "createdAt": "2019-10-21T17:22:16Z",
+      "updatedAt": "2019-10-22T23:31:19Z",
+      "closedAt": "2019-10-22T23:31:19Z",
+      "comments": []
+    },
+    {
+      "number": 23,
+      "id": "MDU6SXNzdWU1MTAxMzk0MjY=",
+      "title": "Can one prevent comments on PRs?",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/23",
+      "state": "CLOSED",
+      "author": "paulehoffman",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Section 4.2.1 explains why comments in PRs can make WG discussion difficult. Can one prevent comments on PRs? If so, the steps for how to do that should be added to this section.",
+      "createdAt": "2019-10-21T17:24:07Z",
+      "updatedAt": "2019-10-22T14:37:20Z",
+      "closedAt": "2019-10-22T14:37:20Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The problem here is that comments on PRs are invaluable for resolving editorial issues.  For instance, almost every PR in QUIC has comments about spelling and grammar.  There are also minor comments (this says X but it now needs to consider Y; you deleted this but it is important).  And these are all hugely valuable forms of feedback, without which I don't think that pull requests would be useful.\r\n\r\nThe problem is when this spirals out of control.  A major discussion of an issue can spawn from one of these discussions.  Learning how to identify that line is hard.  I think that the best we can do is add a caution.\r\n\r\n",
+          "createdAt": "2019-10-22T02:28:23Z",
+          "updatedAt": "2019-10-22T02:28:23Z"
+        },
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "\"You might be able to, but it is not advised\" seems reasonable.",
+          "createdAt": "2019-10-22T14:37:20Z",
+          "updatedAt": "2019-10-22T14:37:20Z"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "id": "MDU6SXNzdWU1MTY5NTAwMzY=",
+      "title": "Assume lighter control to start with",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/27",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Most of the operating modes assume that editors are given considerable latitude in how repositories are managed.  This is good up until the point that the Working Group starts to formally rely on things that are in the respository.\r\n\r\nThe document sort of prevaricates about this point, including strong admonitions that suggest rules be formalized for every aspect of usage.  Instead, I think that it would be better if the document said - up-front - that editors are to be given control **unless** the Working Group starts to formally depend on a particular function (like issue opening/closing, labels, pull requests, whatever...).  At that point, it is the chair's responsibility to identify what the WG depends on and to clearly articulate the policies around that usage.",
+      "createdAt": "2019-11-04T04:03:04Z",
+      "updatedAt": "2019-11-18T00:41:28Z",
+      "closedAt": "2019-11-18T00:41:28Z",
+      "comments": []
+    },
+    {
+      "number": 29,
+      "id": "MDU6SXNzdWU1MTkxMjE4Mjc=",
+      "title": "Discuss use of GitHub for managing charter, sessions",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/29",
+      "state": "CLOSED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Some working groups use GitHub to manage changes to charters or other working group materials, like agendas and presentations for sessions.  I'd suggest that no great amount of detail is needed because these aren't the primary focus of the document, but it probably should include at least a passing mention of these uses and acknowledge that they are permitted.",
+      "createdAt": "2019-11-07T08:44:06Z",
+      "updatedAt": "2019-11-19T08:42:11Z",
+      "closedAt": "2019-11-19T08:42:10Z",
+      "comments": [
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Discussed in Singapore; MT to add text. ",
+          "createdAt": "2019-11-19T08:20:45Z",
+          "updatedAt": "2019-11-19T08:20:45Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closed in #30.",
+          "createdAt": "2019-11-19T08:42:10Z",
+          "updatedAt": "2019-11-19T08:42:10Z"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "id": "MDU6SXNzdWU1MjQ4NDc3MjI=",
+      "title": "Suggest that repositories include links to rendered and rfcdiff versions",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/31",
+      "state": "CLOSED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "See https://github.com/ietf-gitwg/draft-ietf-git-github-wg-configuration/issues/6.",
+      "createdAt": "2019-11-19T08:22:24Z",
+      "updatedAt": "2019-11-19T08:43:02Z",
+      "closedAt": "2019-11-19T08:43:01Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Closed in recent version.",
+          "createdAt": "2019-11-19T08:43:01Z",
+          "updatedAt": "2019-11-19T08:43:01Z"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "id": "MDU6SXNzdWU1MjQ4NDgxNzU=",
+      "title": "Document header containing important links",
+      "url": "https://github.com/ietf-gitwg/using-github/issues/32",
+      "state": "CLOSED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Discussed in Singapore; add text describing this practice.\r\n\r\nSee https://github.com/ietf-gitwg/draft-ietf-git-github-wg-configuration/issues/5.",
+      "createdAt": "2019-11-19T08:23:27Z",
+      "updatedAt": "2019-11-19T08:43:43Z",
+      "closedAt": "2019-11-19T08:43:43Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Addressed in recently submitted draft.",
+          "createdAt": "2019-11-19T08:43:43Z",
+          "updatedAt": "2019-11-19T08:43:43Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "MDExOlB1bGxSZXF1ZXN0MTA2ODAyMDIz",
+      "title": "Update draft-thomson-github-bcp.md",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/1",
+      "state": "MERGED",
+      "author": "akatlas",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Added various text to intro, pulled out IETF-wide considerations from WG considerations",
+      "createdAt": "2017-02-17T20:01:05Z",
+      "updatedAt": "2017-02-17T20:01:25Z",
+      "closedAt": "2017-02-17T20:01:19Z",
+      "mergedAt": "2017-02-17T20:01:19Z",
+      "mergedBy": "akatlas",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "MDExOlB1bGxSZXF1ZXN0MTA4MjkzMjAz",
+      "title": "Add WG experiences",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/2",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Add WG experiences from the (now dead) https://github.com/larseggert/github-bcp. Some contributions by @cabo.",
+      "createdAt": "2017-02-28T09:49:42Z",
+      "updatedAt": "2017-02-28T10:25:51Z",
+      "closedAt": "2017-02-28T10:25:51Z",
+      "mergedAt": "2017-02-28T10:25:51Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "MDExOlB1bGxSZXF1ZXN0MTIyNTYwMzY4",
+      "title": "An editorial pass for -01",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/3",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "@akatlas, I've taken a look at the feedback we received.\r\n\r\nI added an applicability statement to cover some of the concerns about how this was being too broadly prescriptive.\r\n\r\nI downplayed the GitLab thing, restricting that to a section on \"other services\".",
+      "createdAt": "2017-05-26T02:10:59Z",
+      "updatedAt": "2019-03-12T21:23:24Z",
+      "closedAt": "2018-07-06T07:57:30Z",
+      "mergedAt": "2018-07-06T07:57:30Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "MDExOlB1bGxSZXF1ZXN0MjUzMjk4NjU3",
+      "title": "Confirmation of decisions made off-list happens in WGLC",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/7",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-02-15T03:39:02Z",
+      "updatedAt": "2019-10-10T00:46:29Z",
+      "closedAt": "2019-10-10T00:46:13Z",
+      "mergedAt": "2019-10-10T00:46:13Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjg2NzYxNzM5",
+          "commit": {
+            "abbreviatedOid": "d0d452b"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2019-09-11T12:44:49Z",
+          "updatedAt": "2019-09-11T12:44:49Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mjg0MzAwOTI1",
+      "title": "Remove administrative information redundant with draft-ietf-git-github-wg-configuration",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/12",
+      "state": "MERGED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "I was tempted to remove the entire section on administrative policies, though left it as is. @martinthomson, what do you think?",
+      "createdAt": "2019-06-01T22:09:24Z",
+      "updatedAt": "2019-06-04T15:41:42Z",
+      "closedAt": "2019-06-04T01:21:46Z",
+      "mergedAt": "2019-06-04T01:21:46Z",
+      "mergedBy": "martinthomson",
+      "comments": [
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "> I was thinking of being a little more aggressive about removing some of the text\r\n\r\nYeah, I figured it best to start small. Let me know if you need anything else before merging!",
+          "createdAt": "2019-06-03T19:11:08Z",
+          "updatedAt": "2019-06-03T19:11:08Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@chris-wood, Interesting that the circle CI build ran on the merge, but not the PR.  I didn't see any build failures reported before it merged, but I just got the email reporting a missed reference.\r\n\r\nMaybe there are some tweaks you need to apply over there as owner of the org.",
+          "createdAt": "2019-06-04T01:34:34Z",
+          "updatedAt": "2019-06-04T01:34:34Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "> Maybe there are some tweaks you need to apply over there as owner of the org.\r\n\r\nYeah, I'll fix it. Thanks for letting me know!\r\n",
+          "createdAt": "2019-06-04T15:41:42Z",
+          "updatedAt": "2019-06-04T15:41:42Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MjQ0NjY4NDI0",
+          "commit": {
+            "abbreviatedOid": "d388c68"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "I was thinking of being a little more aggressive about removing some of the text, with matching PRs for the other work, but this works.",
+          "createdAt": "2019-06-03T03:23:22Z",
+          "updatedAt": "2019-06-03T03:24:17Z",
+          "comments": [
+            {
+              "originalPosition": 40,
+              "body": "```suggestion\r\nin {{!GIT-CONFIG=I-D.ietf-git-github-wg-configuration}}.\r\n```",
+              "createdAt": "2019-06-03T03:23:22Z",
+              "updatedAt": "2019-06-03T19:10:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzA3OTQ5NTc4",
+      "title": "Recommend md",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/14",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-08-16T05:55:48Z",
+      "updatedAt": "2020-03-16T04:29:33Z",
+      "closedAt": "2019-09-11T12:44:28Z",
+      "mergedAt": "2019-09-11T12:44:28Z",
+      "mergedBy": "chris-wood",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjg2NzYxMTIw",
+          "commit": {
+            "abbreviatedOid": "511c751"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2019-09-11T12:43:47Z",
+          "updatedAt": "2019-09-11T12:43:47Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzA3OTg4MDc0",
+      "title": "Modes of interaction",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/15",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-08-16T08:29:19Z",
+      "updatedAt": "2020-03-16T04:29:34Z",
+      "closedAt": "2019-09-14T02:37:47Z",
+      "mergedAt": "2019-09-14T02:37:47Z",
+      "mergedBy": "chris-wood",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@mnot, does this all seem reasonable?  (If you would prefer to defer reviewing until we push a draft, that's OK.)",
+          "createdAt": "2019-08-19T04:05:42Z",
+          "updatedAt": "2019-08-19T04:05:42Z"
+        },
+        {
+          "author": "bhstark2",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'm thinking maybe there needs to be a heavy, medium and light. This text describes medium and heavy -- not light. I'll start writing what I think is light today. The main problem is y'all are coming at this from the perspective of people with considerable GitHub expertise and comfort-level. I'm coming at it from a perspective of \"I've no clue what I'm doing; it's all magic.\" Where there is one person like me, there are many.",
+          "createdAt": "2019-08-20T16:14:01Z",
+          "updatedAt": "2019-08-20T16:14:01Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Sounds good.  I am probably incapable of seeing what a truly light option looks like.",
+          "createdAt": "2019-08-21T03:13:44Z",
+          "updatedAt": "2019-08-21T03:13:44Z"
+        },
+        {
+          "author": "bhstark2",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Since proposing text to extend what's in an un-merged PR is something I'm really not comfortable with doing, I'll just paste here what I was thinking about ultra-light.\r\n\r\n## Ultra-light\r\n\r\nThere are varying levels of GitHub expertise in IETF. It cannot be assumed that ADs, chairs, authors or contributors have an existing login to GitHub or have ever used it. For some WGs, it may make sense to start with an ultra-light approach to using GitHub. This would allow draft authors to make use of basic GitHub functionality and allow WG chairs to get some initial experience (if this is the level they are at in their GitHub journey). Independent of experience or knowledge, this approach may also be useful for a WG happy with its current way of doing work, that would like to make use of GitHub as a very simple tool to enhance existing methods of collaboration.\r\n\r\nGitHub can be used in an \"ultra-light\" manner by setting it up primarily for use by draft authors. They can use issues and comments to discuss the draft among themselves, and they can use it to provide WG members with a preview \"Editor's Copy\" to confirm on-list comments have been adequately resolved (prior to submitting to Datatracker).\r\n\r\nAll WG discussion happens on the email list.\r\n\r\nUsing GitHub in this manner is simplest if each draft has its own repository.\r\n\r\nThe repository can be set up with the authors as a team with Write access. They can decide among themselves how they want to work. All other GitHub members have Read access. The WG is informed of the existence of the repository, but told that all issues are to be discussed on the list. \r\n\r\nThe authors can choose to make full use of the available tools for automating processes, or manually perform Datatracker submissions and GitHub pages. If the draft is written using XML, it is even possible to avoid installing any tools. The on-line version of xml2rfc can be used to check the draft, and the GitHub UI can be used to upload draft versions. For users of Microsoft Windows, it is also possible to use [Git for Windows](https://gitforwindows.org/) to interact with GitHub for for all aspects of ultra-light interaction.",
+          "createdAt": "2019-08-29T12:53:09Z",
+          "updatedAt": "2019-08-29T12:53:09Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "@bhstark2 the proposed \"Ultra Light\" profile seems mostly the same as what Martin provides. I would remove all content regarding document editing and submission (last paragraph), as it does not pertain to the purpose of this WG document. I might also move the contents of your first paragraph to the \"Typical Working Group Policies\" section in Martin's change. That's where information about choosing which mode is right seems best fit. \r\n\r\n@martinthomson, what do you think?\r\n@paulehoffman, please have a look.",
+          "createdAt": "2019-08-30T04:09:52Z",
+          "updatedAt": "2019-08-30T04:09:52Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "In looking at this, I realize that there is a progressive thing at play more than we have a discrete \"modes\" of engagement.\r\n\r\nAt the lightest end, we have people who just throw stuff up on GitHub as some place stable to keep some files.  And that can progress to having issue tracking there for editor convenience, all the way to having the working group actively relying on the tracker.  As people get more familiar with how things work, then you see more demand and use.  I'm wondering whether we should try to shave this down further and try to describe how the progression might work, recognizing that every group will have its own sweet spot on that and that is OK.",
+          "createdAt": "2019-08-30T04:24:33Z",
+          "updatedAt": "2019-08-30T04:24:33Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "> I'm wondering whether we should try to shave this down further and try to describe how the progression might work, recognizing that every group will have its own sweet spot on that and that is OK.\r\n\r\nIn principle, I think this is a fine idea. GitHub usage is certainly a spectrum, and defining that spectrum will be challenging. Maybe we can describe this concept loosely in the {{modes}} introduction to start?",
+          "createdAt": "2019-08-30T13:03:51Z",
+          "updatedAt": "2019-08-30T13:03:51Z"
+        },
+        {
+          "author": "coopdanger",
+          "authorAssociation": "NONE",
+          "body": "> @bhstark2 the proposed \"Ultra Light\" profile seems mostly the same as what Martin provides. I would remove all content regarding document editing and submission (last paragraph), as it does not pertain to the purpose of this WG document. I might also move the contents of your first paragraph to the \"Typical Working Group Policies\" section in Martin's change. That's where information about choosing which mode is right seems best fit.\r\n> \r\n> @martinthomson, what do you think?\r\n> @paulehoffman, please have a look.\r\n\r\nPerhaps the main difference between what Barbara is suggesting and what Martin wrote is the expectation about issue discussion and resolution. I think the \"ultra-light\" description assumes no one will be opening issues aside from document editors, in which case the bit about having to be vigilant to return issue discussion to the list doesn't really apply because the editors are just using the issue tracker for their own purposes. One further step in the progression is when WG participants start opening issues themselves, at which point someone needs to be responsible for directing discussion to the venue the WG has chosen (issues vs. mailing list). Maybe this could be reflected in the description of the spectrum.",
+          "createdAt": "2019-09-09T14:59:38Z",
+          "updatedAt": "2019-09-09T14:59:38Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "> One further step in the progression is when WG participants start opening issues themselves, at which point someone needs to be responsible for directing discussion to the venue the WG has chosen (issues vs. mailing list). Maybe this could be reflected in the description of the spectrum.\r\n\r\nThat seems reasonable to me. I do worry of us trying to enumerate each option in the spectrum, though, as there are undoubtedly many GitHub knobs to turn!",
+          "createdAt": "2019-09-09T15:02:20Z",
+          "updatedAt": "2019-09-09T15:02:20Z"
+        },
+        {
+          "author": "coopdanger",
+          "authorAssociation": "NONE",
+          "body": "> > One further step in the progression is when WG participants start opening issues themselves, at which point someone needs to be responsible for directing discussion to the venue the WG has chosen (issues vs. mailing list). Maybe this could be reflected in the description of the spectrum.\r\n> \r\n> That seems reasonable to me. I do worry of us trying to enumerate each option in the spectrum, though, as there are undoubtedly many GitHub knobs to turn!\r\n\r\nAgreed, just focusing on the key differences in how a WG can engage with GitHub is sufficient. I do think this question of who is expected to file issues is one of them.",
+          "createdAt": "2019-09-09T15:06:10Z",
+          "updatedAt": "2019-09-09T15:06:10Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks for all demonstrating how hard it is to avoid discussing things on pull requests :)\r\n\r\nSeriously though, that was very useful feedback.  I've tweaked this section to move it to three processes, with the third being considerably more complex.  I hope that is clearer now.",
+          "createdAt": "2019-09-10T07:36:30Z",
+          "updatedAt": "2019-09-10T07:36:30Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "@mnot can you please have a look at the latest changes? I think this is ready to go.",
+          "createdAt": "2019-09-11T12:58:39Z",
+          "updatedAt": "2019-09-11T12:58:39Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Also requesting review from @coopdanger, @britram, @rsalz, @MikeBishop, and @ekr, if you have time. :-)",
+          "createdAt": "2019-09-11T13:00:50Z",
+          "updatedAt": "2019-09-11T13:00:50Z"
+        },
+        {
+          "author": "richsalz",
+          "authorAssociation": "NONE",
+          "body": "This looks good to me.  \"Modes\" is an excellent way of talking/thinking about the styles of interaction, and much less \"opinionated\" (?) than light/heavy/xxl.\r\n",
+          "createdAt": "2019-09-13T19:16:31Z",
+          "updatedAt": "2019-09-13T19:16:31Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjc2Mzg2MzA5",
+          "commit": {
+            "abbreviatedOid": "e625ade"
+          },
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "Seems like a good start. I suspect all of this is going to evolve, but no harm in writing it down.",
+          "createdAt": "2019-08-19T07:41:20Z",
+          "updatedAt": "2019-08-19T07:45:53Z",
+          "comments": [
+            {
+              "originalPosition": 92,
+              "body": "This is going to be cause a lot of ire. I'd suggest at least parenthetically saying that those decisions are confirmed on the list. I know it's said below, but people will read this out of context (or just complain before reading onwards).",
+              "createdAt": "2019-08-19T07:41:20Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            },
+            {
+              "originalPosition": 268,
+              "body": "We use a `discusss` flag for http-core to identify issues to talk about F2F.",
+              "createdAt": "2019-08-19T07:45:28Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjc2OTA2NzIz",
+          "commit": {
+            "abbreviatedOid": "8433d0b"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-08-20T02:46:26Z",
+          "updatedAt": "2019-08-20T02:46:27Z",
+          "comments": [
+            {
+              "originalPosition": 268,
+              "body": "I considered that, but I think that it just falls into the \"other other\"  bucket.  We use the project boards in QUIC for doing the same thing.  I wasn't even sure about including `parked` here.",
+              "createdAt": "2019-08-20T02:46:26Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MjgxODE4NTMz",
+          "commit": {
+            "abbreviatedOid": "8433d0b"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "LGTM! I think we can land the light changes from Barbara in a separate PR.",
+          "createdAt": "2019-08-30T03:55:54Z",
+          "updatedAt": "2019-08-30T04:05:34Z",
+          "comments": [
+            {
+              "originalPosition": 77,
+              "body": "```suggestion\r\ndeemed substantive MUST be resolved exclusively on the mailing list.  Discussion on\r\n```",
+              "createdAt": "2019-08-30T03:55:55Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjg1NzA3MTYw",
+          "commit": {
+            "abbreviatedOid": "003d1e5"
+          },
+          "author": "josephlhall",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-09-09T18:42:48Z",
+          "updatedAt": "2019-09-09T18:42:48Z",
+          "comments": [
+            {
+              "originalPosition": 134,
+              "body": "the above paragraph lost me... it's just a bit circuituous. I'm not sure it's needed, but if so, I'd suggest making it very simple (\"It is possible to use a different process for each active document in the same Working Group.\").",
+              "createdAt": "2019-09-09T18:42:48Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjg1NzEwNDYw",
+          "commit": {
+            "abbreviatedOid": "003d1e5"
+          },
+          "author": "josephlhall",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-09-09T18:48:42Z",
+          "updatedAt": "2019-09-09T18:48:42Z",
+          "comments": [
+            {
+              "originalPosition": 191,
+              "body": "Doesn't it seem sufficient to have chairs confirm consensus and not necessarily require pull requests? (E.g., have an editor make changes directly to HEAD... or is there a rationale for PRs that I can't read between the lines to see here?). I'm just saying making that a MUST means lots of PRs that may not have to have been? Or maybe post-WGLC we definitely want PRs?",
+              "createdAt": "2019-09-09T18:48:42Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjg1NzEyMTQ0",
+          "commit": {
+            "abbreviatedOid": "003d1e5"
+          },
+          "author": "josephlhall",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-09-09T18:51:44Z",
+          "updatedAt": "2019-09-09T18:51:44Z",
+          "comments": [
+            {
+              "originalPosition": 236,
+              "body": "Hmmm, \"usually affecting an implementation or interop\" (above) seems pretty different from \"discussing important concepts\". Maybe the right distinction for an informational document is a substantive change is `design` (something that changes the meaning of the document). I may be over-thinking this.",
+              "createdAt": "2019-09-09T18:51:44Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjg1OTUyODI0",
+          "commit": {
+            "abbreviatedOid": "003d1e5"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-09-10T07:28:05Z",
+          "updatedAt": "2019-09-10T07:28:05Z",
+          "comments": [
+            {
+              "originalPosition": 236,
+              "body": "Over-thinking or not, it's still quite helpful.",
+              "createdAt": "2019-09-10T07:28:05Z",
+              "updatedAt": "2019-09-10T07:36:05Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MjkyNDk5NDg3",
+          "commit": {
+            "abbreviatedOid": "eff799c"
+          },
+          "author": "MikeBishop",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "Overall, I think this is a good way to frame it.",
+          "createdAt": "2019-09-24T15:12:37Z",
+          "updatedAt": "2019-09-24T15:14:52Z",
+          "comments": [
+            {
+              "originalPosition": 236,
+              "body": "For a protocol spec, anything that breaks compat is design.  For an Informational spec, anything that changes what a reader might choose to do with the information is a design change.  Discussing new topics or changing position on a topic would therefore be a design change, in my mind.  But I agree, there's less of a bright line in a document that doesn't eventually lead to bits on the wire.",
+              "createdAt": "2019-09-24T15:12:37Z",
+              "updatedAt": "2019-09-24T15:14:52Z"
+            },
+            {
+              "originalPosition": 278,
+              "body": "We might want to suggest that labeling of this sort be at the editors' discretion.",
+              "createdAt": "2019-09-24T15:14:05Z",
+              "updatedAt": "2019-09-24T15:14:52Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MjkyNTA1MDc4",
+          "commit": {
+            "abbreviatedOid": "eff799c"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-09-24T15:19:54Z",
+          "updatedAt": "2019-09-24T15:19:54Z",
+          "comments": [
+            {
+              "originalPosition": 278,
+              "body": "@MikeBishop, could you file an issue or (better) create a PR?",
+              "createdAt": "2019-09-24T15:19:54Z",
+              "updatedAt": "2019-09-24T15:19:54Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzA5MjM4NTIx",
+      "title": "Editorial nits",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/16",
+      "state": "MERGED",
+      "author": "bhstark2",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-08-20T21:29:47Z",
+      "updatedAt": "2019-08-26T03:00:42Z",
+      "closedAt": "2019-08-21T03:12:43Z",
+      "mergedAt": "2019-08-21T03:12:43Z",
+      "mergedBy": "martinthomson",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "A good start.  Would you like to open another PR adding yourself as an author?",
+          "createdAt": "2019-08-21T03:12:39Z",
+          "updatedAt": "2019-08-21T03:12:39Z"
+        },
+        {
+          "author": "bhstark2",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Let me know if what I created (experiences + author) needs to be something different. This is a very scary world for me.\n\nUltra light description is next.\nBarbara\n\nOn Aug 20, 2019, at 11:12 PM, Martin Thomson <notifications@github.com<mailto:notifications@github.com>> wrote:\n\n\nA good start. Would you like to open another PR adding yourself as an author?\n\n\u2014\nYou are receiving this because you authored the thread.\nReply to this email directly, view it on GitHub<https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_ietf-2Dgitwg_using-2Dgithub_pull_16-3Femail-5Fsource-3Dnotifications-26email-5Ftoken-3DADCMIXWT6FPAFEQXOBMAKVTQFSXCTA5CNFSM4IN5FF7KYY3PNVWWK3TUL52HS4DFVREXG43VMVBW63LNMVXHJKTDN5WW2ZLOORPWSZGOD4YJIWA-23issuecomment-2D523277400&d=DwMCaQ&c=LFYZ-o9_HUMeMTSQicvjIg&r=LoGzhC-8sc8SY8Tq4vrfog&m=BcWCnF8A-fo6ww7PKD8jhfB7zeQMdlRyGQtc7RNwF6s&s=mYTWM05H2Z5G83huXspQA6ROEUrgs4CMCrtFhnfwROE&e=>, or mute the thread<https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_notifications_unsubscribe-2Dauth_ADCMIXXP5BN5HSGDPIH7SNDQFSXCTANCNFSM4IN5FF7A&d=DwMCaQ&c=LFYZ-o9_HUMeMTSQicvjIg&r=LoGzhC-8sc8SY8Tq4vrfog&m=BcWCnF8A-fo6ww7PKD8jhfB7zeQMdlRyGQtc7RNwF6s&s=eIORbgu6IiZFtBbUIQGPtCFSUuTlWKJJn9LjNo8eBak&e=>.\n",
+          "createdAt": "2019-08-26T03:00:42Z",
+          "updatedAt": "2019-08-26T03:00:42Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 17,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzEyMDc1OTgx",
+      "title": "Added author and experiences",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/17",
+      "state": "MERGED",
+      "author": "bhstark2",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-08-28T23:29:18Z",
+      "updatedAt": "2019-09-11T12:43:27Z",
+      "closedAt": "2019-09-11T12:43:27Z",
+      "mergedAt": "2019-09-11T12:43:27Z",
+      "mergedBy": "chris-wood",
+      "comments": [
+        {
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "body": "Thanks, @bhstark2! This text looks great.",
+          "createdAt": "2019-09-11T12:43:23Z",
+          "updatedAt": "2019-09-11T12:43:23Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MjgxMTc2MzQ0",
+          "commit": {
+            "abbreviatedOid": "4fd9864"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Thanks for doing this.  This is good input.  It's very easy to miss how difficult it is to operate these things.\r\n\r\nAs an aside, if you ever find that you need help, I'm happy to help people get started.  I know that doesn't scale, but I'm hoping that I might be able to teach people to teach others.",
+          "createdAt": "2019-08-29T01:10:52Z",
+          "updatedAt": "2019-08-29T01:14:06Z",
+          "comments": [
+            {
+              "originalPosition": 40,
+              "body": "```suggestion\r\nauthors have collaborated on GitHub in this new repository, but the WG has\r\n```",
+              "createdAt": "2019-08-29T01:10:53Z",
+              "updatedAt": "2019-08-29T12:03:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzI0ODg1MDI2",
+      "title": "Fix document nits",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/18",
+      "state": "MERGED",
+      "author": "tfpauly",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "tfpauly"
+      ],
+      "labels": [],
+      "body": "Fix a few nits from review:\r\n- Make the use of Working Group capitalization consistent (if you want it the other way that's fine too)\r\n- Update BCP 14 reference\r\n- Various typos/editorial nits\r\n- The one content-based changed is changing the requirement for all working group document repositories to be public, to clarify that this is for repositories that are managed by the WG organization. The sentence previously seemed to also include a requirement on working group documents for working groups not officially using GitHub; I don't think we can make a requirement for people who happen to use a private GitHub repo to manage a working group document that's not officially using GitHub.",
+      "createdAt": "2019-10-04T23:54:49Z",
+      "updatedAt": "2019-10-10T00:43:51Z",
+      "closedAt": "2019-10-10T00:43:47Z",
+      "mergedAt": "2019-10-10T00:43:47Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mjk3NzYwODc0",
+          "commit": {
+            "abbreviatedOid": "4a4e4d4"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "LGTM -- thanks!",
+          "createdAt": "2019-10-04T23:57:42Z",
+          "updatedAt": "2019-10-04T23:57:42Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzMwNTU0MTk5",
+      "title": "Capitalize Markdown",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/21",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-10-21T17:19:05Z",
+      "updatedAt": "2020-03-16T04:29:35Z",
+      "closedAt": "2019-10-22T02:22:09Z",
+      "mergedAt": "2019-10-22T02:22:09Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 24,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzMwNzMzMzg2",
+      "title": "Brian Carpenter's feedback on 2019-10-13",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/24",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This has two commits:\r\n\r\n1. Unpack \"session\" a little more to make it clear that this isn't just IETF meetings.\r\n\r\n2. Explain that participation on GitHub isn't the only possible input, and the effect that this has on assessing WG consensus.",
+      "createdAt": "2019-10-21T22:57:28Z",
+      "updatedAt": "2019-10-22T23:31:38Z",
+      "closedAt": "2019-10-22T23:31:34Z",
+      "mergedAt": "2019-10-22T23:31:34Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 25,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzMwNzc2NTQz",
+      "title": "Provide more reasons to create a PR",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/25",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #22.",
+      "createdAt": "2019-10-22T02:24:42Z",
+      "updatedAt": "2019-10-22T23:31:22Z",
+      "closedAt": "2019-10-22T23:31:19Z",
+      "mergedAt": "2019-10-22T23:31:19Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 26,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzMxMDI5Mjg5",
+      "title": "Editors can always use issues and PRs",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/26",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "But the working group doesn't depend on those in any way.",
+      "createdAt": "2019-10-22T14:36:19Z",
+      "updatedAt": "2019-10-22T23:31:55Z",
+      "closedAt": "2019-10-22T23:31:52Z",
+      "mergedAt": "2019-10-22T23:31:52Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 28,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzM3ODYxNzI4",
+      "title": "Upend advice about use of features",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/28",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Two changes, two issues, but really this is the one idea.\r\n\r\nThe previous draft said that features not used could be disabled.  This is bad advice because that might be denying editors access to tools that would make their task easier.\r\n\r\nThe new advice says that editors can use features that the working group doesn't rely on.  It also says that chairs should consult editors to ensure that policies aren't adversely affecting them.",
+      "createdAt": "2019-11-07T05:26:31Z",
+      "updatedAt": "2019-11-18T00:41:50Z",
+      "closedAt": "2019-11-18T00:41:26Z",
+      "mergedAt": "2019-11-18T00:41:26Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 30,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzM4MzM5NTIw",
+      "title": "Limit scope to documents",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/30",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "For #6, but not all of it.",
+      "createdAt": "2019-11-08T03:18:10Z",
+      "updatedAt": "2019-11-18T06:51:54Z",
+      "closedAt": "2019-11-18T01:07:49Z",
+      "mergedAt": "2019-11-18T01:07:49Z",
+      "mergedBy": "paulehoffman",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 33,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ4Njc3NjIw",
+      "title": "Clean up text about notices",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/33",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This consolidates text about notices in the \"communicating policies\"\r\nsection, which seems most appropriate.",
+      "createdAt": "2019-12-04T03:34:49Z",
+      "updatedAt": "2020-03-16T04:29:25Z",
+      "closedAt": "2019-12-16T17:37:49Z",
+      "mergedAt": "2019-12-16T17:37:49Z",
+      "mergedBy": "chris-wood",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI2NTkwNjY2",
+          "commit": {
+            "abbreviatedOid": "2b3a2c9"
+          },
+          "author": "richsalz",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-04T03:59:14Z",
+          "updatedAt": "2019-12-04T15:58:07Z",
+          "comments": [
+            {
+              "originalPosition": 25,
+              "body": "also appropriate?  Or do you mean this is an appropriate way to meet the 78/79 requirements?",
+              "createdAt": "2019-12-04T03:59:14Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI3MjY4MjAz",
+          "commit": {
+            "abbreviatedOid": "2b3a2c9"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-05T01:57:03Z",
+          "updatedAt": "2019-12-05T01:57:04Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "Could we instead just mandate a reference to the note well? I think the IETF Code of Conduct and Anti-Harassment Procedures are at least as import as Copyrights and IPR, and singling out some parts of the Note Well doesn't make sense to me.",
+              "createdAt": "2019-12-05T01:57:04Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwMDk1MjQz",
+          "commit": {
+            "abbreviatedOid": "2b3a2c9"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-10T19:40:39Z",
+          "updatedAt": "2019-12-10T19:40:39Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "I like this suggestion!",
+              "createdAt": "2019-12-10T19:40:39Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwMjcxOTgy",
+          "commit": {
+            "abbreviatedOid": "197b412"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-11T02:51:54Z",
+          "updatedAt": "2019-12-11T02:51:55Z",
+          "comments": [
+            {
+              "originalPosition": 23,
+              "body": "I agree.  It also simplifies this text more, so double win.",
+              "createdAt": "2019-12-11T02:51:55Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwMjgzMjgx",
+          "commit": {
+            "abbreviatedOid": "197b412"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-11T03:42:04Z",
+          "updatedAt": "2019-12-11T03:42:05Z",
+          "comments": [
+            {
+              "originalPosition": 75,
+              "body": "can we also replace these with the note well?",
+              "createdAt": "2019-12-11T03:42:05Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwMjg3NjE2",
+          "commit": {
+            "abbreviatedOid": "197b412"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-11T04:02:56Z",
+          "updatedAt": "2019-12-11T04:02:56Z",
+          "comments": [
+            {
+              "originalPosition": 75,
+              "body": "I honestly don't know.",
+              "createdAt": "2019-12-11T04:02:56Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwMjg5ODIy",
+          "commit": {
+            "abbreviatedOid": "197b412"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2019-12-11T04:13:52Z",
+          "updatedAt": "2019-12-11T04:13:53Z",
+          "comments": [
+            {
+              "originalPosition": 75,
+              "body": "In that case, can we require a link to the Note Well on top of what's already required?",
+              "createdAt": "2019-12-11T04:13:53Z",
+              "updatedAt": "2019-12-16T17:37:26Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwNzIxNDk5",
+          "commit": {
+            "abbreviatedOid": "82ae9eb"
+          },
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "Thanks!",
+          "createdAt": "2019-12-11T17:40:18Z",
+          "updatedAt": "2019-12-11T17:40:18Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ4Njk1MTM5",
+      "title": "WGLC fixups from Rich Salz",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/34",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-12-04T05:00:43Z",
+      "updatedAt": "2020-03-16T04:29:26Z",
+      "closedAt": "2019-12-16T17:35:17Z",
+      "mergedAt": "2019-12-16T17:35:17Z",
+      "mergedBy": "chris-wood",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzMwMDk0MDA2",
+          "commit": {
+            "abbreviatedOid": "63851da"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2019-12-10T19:38:39Z",
+          "updatedAt": "2019-12-10T19:38:39Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ4Njk2MjA2",
+      "title": "Remove anecdotes from appendices",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/35",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-12-04T05:05:55Z",
+      "updatedAt": "2020-03-16T04:29:31Z",
+      "closedAt": "2019-12-16T17:36:26Z",
+      "mergedAt": "2019-12-16T17:36:26Z",
+      "mergedBy": "chris-wood",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 36,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ4NzAyMzgw",
+      "title": "Mike Bishop's WGLC feedback",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/36",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2019-12-04T05:32:24Z",
+      "updatedAt": "2020-03-16T04:29:27Z",
+      "closedAt": "2019-12-16T17:35:32Z",
+      "mergedAt": "2019-12-16T17:35:32Z",
+      "mergedBy": "chris-wood",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 37,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ5MDU4MjQ1",
+      "title": "Reduce hyperbolic language",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/37",
+      "state": "CLOSED",
+      "author": "MikeBishop",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Section 10 remains a bit over the top.  Every WGLC feedback has remarked on it to some extent.  I don't support putting \"IETF Consensus\" over the current text, so here's more tactful text.",
+      "createdAt": "2019-12-04T19:37:43Z",
+      "updatedAt": "2019-12-04T22:02:08Z",
+      "closedAt": "2019-12-04T22:02:08Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "comments": [
+        {
+          "author": "MikeBishop",
+          "authorAssociation": "NONE",
+          "body": "Section is removed by #34, so this PR is superfluous.",
+          "createdAt": "2019-12-04T22:02:08Z",
+          "updatedAt": "2019-12-04T22:02:08Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzI3MTc3NTU2",
+          "commit": {
+            "abbreviatedOid": "78fcaf6"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "I'm surprised that this lasted as long as it did.  I think that the IPv4 piece earlier covers this well enough.  #34 removes the section entirely.",
+          "createdAt": "2019-12-04T21:49:29Z",
+          "updatedAt": "2019-12-04T21:49:29Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzY0OTcyNTMy",
+      "title": "Apply editorial fixes.",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/38",
+      "state": "MERGED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "This change collects some editorial fixes identified during my shepherd review.",
+      "createdAt": "2020-01-20T19:23:08Z",
+      "updatedAt": "2020-01-20T22:20:44Z",
+      "closedAt": "2020-01-20T22:20:40Z",
+      "mergedAt": "2020-01-20T22:20:40Z",
+      "mergedBy": "martinthomson",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Thanks!",
+          "createdAt": "2020-01-20T22:20:44Z",
+          "updatedAt": "2020-01-20T22:20:44Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 39,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzcyNzYzODI2",
+      "title": "Address nits from Alissa.",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/39",
+      "state": "MERGED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "See https://mailarchive.ietf.org/arch/msg/ietf-and-github/IJP6U_OlzbsiXKKniPVnbOhc6dQ.\r\n\r\ncc @coopdanger",
+      "createdAt": "2020-02-08T22:09:32Z",
+      "updatedAt": "2020-02-09T21:44:01Z",
+      "closedAt": "2020-02-09T21:44:01Z",
+      "mergedAt": "2020-02-09T21:44:01Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 40,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzcyNzY1NDgw",
+      "title": "Apply updates from AD review.",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/40",
+      "state": "CLOSED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "See https://mailarchive.ietf.org/arch/msg/ietf-and-github/IJP6U_OlzbsiXKKniPVnbOhc6dQ.\r\n\r\ncc @coopdanger.\r\n\r\n",
+      "createdAt": "2020-02-08T22:31:02Z",
+      "updatedAt": "2020-02-08T22:31:44Z",
+      "closedAt": "2020-02-08T22:31:41Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 41,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzcyNzY1NjQ2",
+      "title": "Apply updates from AD review.",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/41",
+      "state": "MERGED",
+      "author": "chris-wood",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "See https://mailarchive.ietf.org/arch/msg/ietf-and-github/IJP6U_OlzbsiXKKniPVnbOhc6dQ.\r\n\r\ncc @coopdanger.",
+      "createdAt": "2020-02-08T22:33:22Z",
+      "updatedAt": "2020-02-09T21:39:14Z",
+      "closedAt": "2020-02-09T21:39:14Z",
+      "mergedAt": "2020-02-09T21:39:13Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 42,
+      "id": "MDExOlB1bGxSZXF1ZXN0MzczMzU2NDM0",
+      "title": "A more prominent note about design teams",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/42",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This is the way we've been treating this, so let's acknowledge that.",
+      "createdAt": "2020-02-10T21:14:42Z",
+      "updatedAt": "2020-03-16T04:29:25Z",
+      "closedAt": "2020-02-16T21:02:56Z",
+      "mergedAt": "2020-02-16T21:02:56Z",
+      "mergedBy": "martinthomson",
+      "comments": [
+        {
+          "author": "ekr",
+          "authorAssociation": "NONE",
+          "body": "As I noted on the list, I don't think this is correct. I proposed alternate text.",
+          "createdAt": "2020-02-14T13:32:37Z",
+          "updatedAt": "2020-02-14T13:32:37Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzU2MzE1NDQw",
+          "commit": {
+            "abbreviatedOid": "a70014d"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-02-10T22:34:47Z",
+          "updatedAt": "2020-02-10T22:34:47Z",
+          "comments": []
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzU4NTk2NTcz",
+          "commit": {
+            "abbreviatedOid": "7d6c02c"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "Still LGTM. :-)",
+          "createdAt": "2020-02-13T22:25:24Z",
+          "updatedAt": "2020-02-13T22:25:24Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg1OTQ0ODA4",
+      "title": "Barry's AD review",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/43",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Please pay special attention to b872e53  and e74ba45 when reviewing this.",
+      "createdAt": "2020-03-10T05:27:51Z",
+      "updatedAt": "2020-03-16T03:49:58Z",
+      "closedAt": "2020-03-16T03:49:55Z",
+      "mergedAt": "2020-03-16T03:49:55Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMTA2OTAx",
+          "commit": {
+            "abbreviatedOid": "63da867"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "LGTM with some proposed simplifying text. ",
+          "createdAt": "2020-03-11T20:36:22Z",
+          "updatedAt": "2020-03-11T20:36:45Z",
+          "comments": [
+            {
+              "originalPosition": 66,
+              "body": "```suggestion\r\nalready been resolved. Moreover, there could be temptation to reopen contentious \r\nissues resolved with rough consensus. Determining whether arguments presented \r\nin favor of reopening an issue represents new information might require some discussion \r\nin the Working Group. However, chairs are empowered to exercise discretion in determining \r\nwhether to reopen issues.  For more difficult matters, the chairs MAY insist that the Working\r\nGroup reach consensus on whether new an issue should be reopened.  Note however \r\nthat any product of this process still needs to have the support of rough consensus in \r\nthe Working Group, which could justify reopening issues.\r\n```",
+              "createdAt": "2020-03-11T20:36:23Z",
+              "updatedAt": "2020-03-12T01:32:41Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjE2MDU1",
+          "commit": {
+            "abbreviatedOid": "b6629fa"
+          },
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-12T00:47:44Z",
+          "updatedAt": "2020-03-12T00:47:45Z",
+          "comments": [
+            {
+              "originalPosition": 62,
+              "body": "whether a new new issue?",
+              "createdAt": "2020-03-12T00:47:44Z",
+              "updatedAt": "2020-03-12T01:32:41Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2NTA0MTcy",
+      "title": "Rob's AD review comments",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/44",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-11T06:17:01Z",
+      "updatedAt": "2020-03-16T04:26:48Z",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMTA4Mzk2",
+          "commit": {
+            "abbreviatedOid": "7b55110"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-11T20:38:51Z",
+          "updatedAt": "2020-03-11T20:38:55Z",
+          "comments": [
+            {
+              "originalPosition": 27,
+              "body": "```suggestion\r\neditors are able to do in order to serve these goals.  Chairs are encouraged to\r\n```",
+              "createdAt": "2020-03-11T20:38:51Z",
+              "updatedAt": "2020-03-16T04:26:48Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2NTEzNjQ0",
+      "title": "Mirja's AD review",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/45",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-11T06:49:46Z",
+      "updatedAt": "2020-03-16T04:24:26Z",
+      "closedAt": "2020-03-16T04:24:23Z",
+      "mergedAt": "2020-03-16T04:24:23Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMTEwMzgw",
+          "commit": {
+            "abbreviatedOid": "4daefba"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-11T20:42:01Z",
+          "updatedAt": "2020-03-11T20:42:01Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2OTYwODkx",
+      "title": "Choice matters.  A lot.",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/46",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-11T23:05:21Z",
+      "updatedAt": "2020-03-16T03:49:20Z",
+      "closedAt": "2020-03-16T03:49:17Z",
+      "mergedAt": "2020-03-16T03:49:17Z",
+      "mergedBy": "martinthomson",
+      "comments": [
+        {
+          "author": "wkumari",
+          "authorAssociation": "NONE",
+          "body": "I agreed to change from DISCUSS to Abstain if this change was made - email thread for the curious / archives: https://mailarchive.ietf.org/arch/msg/ietf-and-github/vnXiskU2VGIx8VenEP34GWGfOwM/\r\n\r\nA PR is close enough to integrated for me... ",
+          "createdAt": "2020-03-12T00:29:05Z",
+          "updatedAt": "2020-03-12T00:29:05Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@wkumari I'm curious why this change is adequate; it's effectively just a rewording. It doesn't address the issue of the group choosing to adopt *the policies.*",
+          "createdAt": "2020-03-12T00:50:11Z",
+          "updatedAt": "2020-03-12T00:50:11Z"
+        },
+        {
+          "author": "wkumari",
+          "authorAssociation": "NONE",
+          "body": "@mnot: Yes, it is just a rewording -- but (for me at least) it made it enough clearer that this was optional (WGs can choose to use GH, not WGs are expected to use GH) that I was willing to move to Abstain instead. \r\n\r\nThe WG has consensus, and the charter sent us down the \"GH FTW!\" path - it isn't appropriate for me to block this just because *I* don't like it / think there is a better way of using RCS tooling / GH.  The process was followed, and the document is valuable - I don't like the tone, I don't like the implication, but it now falls into the \"Well, that's just, like, your opinion, man...\" territory.\r\n(There isn't a technical objection, nor do I think it is specifically *dangerous* to the IETF / IETF stream, so...)",
+          "createdAt": "2020-03-12T13:50:10Z",
+          "updatedAt": "2020-03-12T13:50:10Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@wkumari - OK. This is made moot by the other changes that Martin made to the draft, but to be clear, I don't think that's a good line of argumentation.\r\n\r\nThe WG was charted to an explicit scope - that WGs had to opt into the practices it documented. If it _were_ producing a document that exceeded that scope (which is arguably did before the recent change referenced above), saying that the WG \"has consensus\" to violate its charter is meaningless, and letting that stand is damaging.\r\n\r\nThat's because charters allow people to decide whether or not they're going to follow a WG. If a WG can violate its charter and justify that with \"but we had consensus to do so\", charters are meaningless, and the check that requiring IETF consensus places upon WGs is seriously diminished.",
+          "createdAt": "2020-03-12T22:05:31Z",
+          "updatedAt": "2020-03-12T22:05:31Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjMyMzU0",
+          "commit": {
+            "abbreviatedOid": "f33575e"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-12T01:52:08Z",
+          "updatedAt": "2020-03-12T01:52:08Z",
+          "comments": []
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MDM5MDM0",
+          "commit": {
+            "abbreviatedOid": "f33575e"
+          },
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T04:05:01Z",
+          "updatedAt": "2020-03-13T04:05:02Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\r\ndeveloping Internet-Drafts. The choices of whether to use GitHub and whether to\r\n```",
+              "createdAt": "2020-03-13T04:05:01Z",
+              "updatedAt": "2020-03-13T10:44:42Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2OTYzODQ2",
+      "title": "Alvaro's AD review comments",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/47",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-11T23:16:04Z",
+      "updatedAt": "2020-03-16T04:18:39Z",
+      "closedAt": "2020-03-16T04:17:57Z",
+      "mergedAt": "2020-03-16T04:17:57Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjMyNzYy",
+          "commit": {
+            "abbreviatedOid": "d330406"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-12T01:53:44Z",
+          "updatedAt": "2020-03-12T01:56:30Z",
+          "comments": [
+            {
+              "originalPosition": 64,
+              "body": "```suggestion\r\nChairs can declare Working Group consensus about the resolution of\r\n```",
+              "createdAt": "2020-03-12T01:53:44Z",
+              "updatedAt": "2020-03-12T02:03:27Z"
+            },
+            {
+              "originalPosition": 7,
+              "body": "Are we concerned about this link not aging well? (I wonder if we should, in parallel, try to move the contents of https://ietf-gitwg.github.io to some place more stable and under control of the IETF.)",
+              "createdAt": "2020-03-12T01:56:28Z",
+              "updatedAt": "2020-03-12T02:03:27Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjM1NDYx",
+          "commit": {
+            "abbreviatedOid": "aef0613"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-12T02:04:11Z",
+          "updatedAt": "2020-03-12T02:04:11Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Yeah, but I'm not sure that our own copy of this is guaranteed to be any better.  The GitHub link is nice in the sense that it concentrates on terminology. ",
+              "createdAt": "2020-03-12T02:04:11Z",
+              "updatedAt": "2020-03-12T02:04:11Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjM1NzAx",
+          "commit": {
+            "abbreviatedOid": "aef0613"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-12T02:05:13Z",
+          "updatedAt": "2020-03-12T02:05:14Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Yep, no argument there. It certainly has better content.",
+              "createdAt": "2020-03-12T02:05:14Z",
+              "updatedAt": "2020-03-12T02:05:14Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2OTg0NTE1",
+      "title": "Session documents",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/48",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Don't use 2119 language, just point at 2418",
+      "createdAt": "2020-03-12T00:42:13Z",
+      "updatedAt": "2020-03-16T04:18:41Z",
+      "closedAt": "2020-03-16T04:18:07Z",
+      "mergedAt": "2020-03-16T04:18:07Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjMzNTQw",
+          "commit": {
+            "abbreviatedOid": "712a7fc"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-12T01:56:51Z",
+          "updatedAt": "2020-03-12T01:56:51Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2OTg4NDg0",
+      "title": "More care about private repositories",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/49",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "From Adam's AD review",
+      "createdAt": "2020-03-12T01:01:48Z",
+      "updatedAt": "2020-03-16T04:18:44Z",
+      "closedAt": "2020-03-16T04:18:18Z",
+      "mergedAt": "2020-03-16T04:18:18Z",
+      "mergedBy": "martinthomson",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Note that the URL fixes here are ineffective.  The source is:\r\n\r\n```\r\nGitHub is a service operated at <https://github.com/>.\r\n```\r\nThe resulting XML is:\r\n```\r\n<eref target=\"https://github.com/\">https://github.com/</eref>\r\n```\r\nThe HTML shows a nice clickable link.  xml2rfc produces text output of \"https://github.com/ (https://github.com/)\".  Perhaps this is a case where a small tweak to xml2rfc is in order.",
+          "createdAt": "2020-03-12T01:06:44Z",
+          "updatedAt": "2020-03-12T01:06:44Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzczMjM0NTEy",
+          "commit": {
+            "abbreviatedOid": "1fa7962"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "Nice relaxation of the text. ",
+          "createdAt": "2020-03-12T02:00:21Z",
+          "updatedAt": "2020-03-12T02:00:21Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3NTM4Nzcy",
+      "title": "Change logs are good",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/50",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on feedback from Suresh in AD review",
+      "createdAt": "2020-03-13T00:51:57Z",
+      "updatedAt": "2020-03-16T04:28:33Z",
+      "closedAt": "2020-03-16T03:49:38Z",
+      "mergedAt": "2020-03-16T03:49:38Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzA1ODQz",
+          "commit": {
+            "abbreviatedOid": "1828cb1"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T13:39:12Z",
+          "updatedAt": "2020-03-13T13:39:13Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nrevision of an Internet-Draft helps ensure that contributors can\r\n```",
+              "createdAt": "2020-03-13T13:39:12Z",
+              "updatedAt": "2020-03-16T03:00:23Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzA2MTgz",
+          "commit": {
+            "abbreviatedOid": "1828cb1"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-13T13:39:40Z",
+          "updatedAt": "2020-03-13T13:39:40Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3NTQwNTEw",
+      "title": "The code is more what you\u2019d call \u2018guidelines\u2019 than actual rules.",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/51",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-13T00:58:53Z",
+      "updatedAt": "2020-03-16T04:29:05Z",
+      "closedAt": "2020-03-16T04:24:16Z",
+      "mergedAt": "2020-03-16T04:24:16Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 52,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3NTY1NTg2",
+      "title": "Ben's AD review comments",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/52",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-13T02:54:33Z",
+      "updatedAt": "2020-03-16T04:24:11Z",
+      "closedAt": "2020-03-16T04:24:08Z",
+      "mergedAt": "2020-03-16T04:24:08Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MDM4NTk1",
+          "commit": {
+            "abbreviatedOid": "0e0e9dc"
+          },
+          "author": "kaduk",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T04:03:09Z",
+          "updatedAt": "2020-03-13T04:06:41Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "```suggestion\r\nWorking Groups, this document only directly addresses the needs of Working Groups.\r\n```",
+              "createdAt": "2020-03-13T04:03:09Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            },
+            {
+              "originalPosition": 48,
+              "body": "I can understand that there's not a huge need to mention the details of Administrator privilege in these guidelines.",
+              "createdAt": "2020-03-13T04:04:46Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            },
+            {
+              "originalPosition": 115,
+              "body": "```suggestion\r\nGitHub is limited to recording the state of issues.  Only editorial matters can\r\n```",
+              "createdAt": "2020-03-13T04:06:09Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MjAzMzc0",
+          "commit": {
+            "abbreviatedOid": "0e0e9dc"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T10:45:39Z",
+          "updatedAt": "2020-03-13T10:45:49Z",
+          "comments": [
+            {
+              "originalPosition": 48,
+              "body": "Well, the point was that this was flat wrong, based on an outdated authorization model.",
+              "createdAt": "2020-03-13T10:45:39Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzY1NDQw",
+          "commit": {
+            "abbreviatedOid": "71add31"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T14:54:31Z",
+          "updatedAt": "2020-03-13T14:54:32Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\nDirectors MAY also designate a delegate that becomes an owner. Working Group\r\n```",
+              "createdAt": "2020-03-13T14:54:32Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzY3OTM3",
+          "commit": {
+            "abbreviatedOid": "8eeb3c9"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T14:57:29Z",
+          "updatedAt": "2020-03-13T14:57:30Z",
+          "comments": [
+            {
+              "originalPosition": 48,
+              "body": "Should we mention that the model (as is now documented) is also subject to change?",
+              "createdAt": "2020-03-13T14:57:30Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzY4MzIx",
+          "commit": {
+            "abbreviatedOid": "709589f"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-03-13T14:57:58Z",
+          "updatedAt": "2020-03-13T14:57:58Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nadditional resources, such as mailing lists, links to those resources\r\n```",
+              "createdAt": "2020-03-13T14:57:58Z",
+              "updatedAt": "2020-03-16T04:23:59Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzY5NzUz",
+          "commit": {
+            "abbreviatedOid": "153183a"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-13T14:59:44Z",
+          "updatedAt": "2020-03-13T14:59:44Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3NTY3OTU2",
+      "title": "Consultation is good",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/53",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on Francesca's review feedback expand those with whom chairs are encouraged to consult periodically.",
+      "createdAt": "2020-03-13T03:06:28Z",
+      "updatedAt": "2020-03-16T04:19:49Z",
+      "closedAt": "2020-03-16T04:19:31Z",
+      "mergedAt": "2020-03-16T04:19:31Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3Mzc0MzA2Nzg0",
+          "commit": {
+            "abbreviatedOid": "6bf8f7c"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-03-13T13:40:35Z",
+          "updatedAt": "2020-03-13T13:40:35Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg4ODk0Mjg1",
+      "title": "Avoid use of plurals where possible",
+      "url": "https://github.com/ietf-gitwg/using-github/pull/54",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-03-16T00:37:57Z",
+      "updatedAt": "2020-03-16T04:19:47Z",
+      "closedAt": "2020-03-16T04:19:43Z",
+      "mergedAt": "2020-03-16T04:19:43Z",
+      "mergedBy": "martinthomson",
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
