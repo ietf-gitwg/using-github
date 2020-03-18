@@ -5,8 +5,8 @@
 Network                                                       M. Thomson
 Internet-Draft                                                   Mozilla
 Intended status: Informational                                  B. Stark
-Expires: 17 September 2020                                          AT&T
-                                                           16 March 2020
+Expires: 19 September 2020                                          AT&T
+                                                           18 March 2020
 
 
                   Working Group GitHub Usage Guidance
@@ -41,7 +41,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 September 2020.
+   This Internet-Draft will expire on 19 September 2020.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 1]
+Thomson & Stark         Expires 19 September 2020               [Page 1]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 2]
+Thomson & Stark         Expires 19 September 2020               [Page 2]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -165,7 +165,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 3]
+Thomson & Stark         Expires 19 September 2020               [Page 3]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -221,7 +221,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 4]
+Thomson & Stark         Expires 19 September 2020               [Page 4]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -277,7 +277,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 5]
+Thomson & Stark         Expires 19 September 2020               [Page 5]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -296,8 +296,10 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    GitHub requires that each organization have at least one owner.  The
    owners for a Working Group repository MUST include responsible Area
-   Directors.  Area Directors MAY also designate a delegate that becomes
-   an owner.  Working Group chairs MAY also be owners.
+   Directors and the IETF Secretariat.  Working Group chairs and Area
+   Directors in the area SHOULD also be included as owners.  Area
+   Directors MAY also designate a delegate that becomes an owner.  An
+   organization MUST have at least 2 owners.
 
    Within an organization, members can be grouped into teams.  A team
    with "Admin" access to repositories SHOULD be created for the Working
@@ -328,15 +330,16 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    GitHub prominently links to the CONTRIBUTING file on certain pages.
    This file SHOULD be used in preference to the README for information
-   that new contributors need.  The README SHOULD contain a link to the
-   CONTRIBUTING file.
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 6]
+Thomson & Stark         Expires 19 September 2020               [Page 6]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
+
+   that new contributors need.  The README SHOULD contain a link to the
+   CONTRIBUTING file.
 
    In addition to Working Group policies, notices on repositories MUST
    include citations for the IETF Note Well (https://www.ietf.org/about/
@@ -374,7 +377,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    provides some guidance on potential policies and how those might be
    applied.
 
-   Features that the Working Group does not rely upon SHOULD be made
+   Features that the Working Group does not rely upon can be made
    available to document editors.  Editors are then able to use these
    features for their own purposes.  For example, though the Working
    Group might not formally use issues to track items that require
@@ -383,19 +386,18 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
    Working Group policies need to be set with the goal of improving
    transparency, participation, and ultimately the quality of documents.
-   At times, it might be appropriate to impose some limitations on what
-   document editors are able to do in order to serve these goals.
 
 
 
-
-Thomson & Stark         Expires 17 September 2020               [Page 7]
+Thomson & Stark         Expires 19 September 2020               [Page 7]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
 
-   Chairs SHOULD periodically consult with document editors and the
-   Working Group to ensure that policies are effective.
+   At times, it might be appropriate to impose some limitations on what
+   document editors are able to do in order to serve these goals.
+   Chairs are encouraged to periodically consult with document editors
+   to ensure that policies are effective.
 
    A document editor can still use GitHub independently for documents
    that they edit, even if the Working Group does not expressly choose
@@ -439,17 +441,18 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    allows editors to more easily manage changes and issues that affect
    multiple documents.
 
-   Maintaining multiple documents in the same repository can add
-   overhead that negatively affects individual documents.  For instance,
-   issues might require additional markings to identify the document
 
 
 
-Thomson & Stark         Expires 17 September 2020               [Page 8]
+
+Thomson & Stark         Expires 19 September 2020               [Page 8]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
 
+   Maintaining multiple documents in the same repository can add
+   overhead that negatively affects individual documents.  For instance,
+   issues might require additional markings to identify the document
    that they affect.  Also, because editors all have write access to the
    repository, managing the set of people with write access to a larger
    repository is more difficult (Section 3.3).
@@ -498,10 +501,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-
-
-
-Thomson & Stark         Expires 17 September 2020               [Page 9]
+Thomson & Stark         Expires 19 September 2020               [Page 9]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -557,7 +557,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 10]
+Thomson & Stark         Expires 19 September 2020              [Page 10]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -613,7 +613,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 11]
+Thomson & Stark         Expires 19 September 2020              [Page 11]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -669,7 +669,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 12]
+Thomson & Stark         Expires 19 September 2020              [Page 12]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -725,7 +725,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 13]
+Thomson & Stark         Expires 19 September 2020              [Page 13]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -781,7 +781,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 14]
+Thomson & Stark         Expires 19 September 2020              [Page 14]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -837,7 +837,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 15]
+Thomson & Stark         Expires 19 September 2020              [Page 15]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -893,7 +893,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 16]
+Thomson & Stark         Expires 19 September 2020              [Page 16]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -949,7 +949,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 17]
+Thomson & Stark         Expires 19 September 2020              [Page 17]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1005,7 +1005,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 18]
+Thomson & Stark         Expires 19 September 2020              [Page 18]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1061,7 +1061,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 19]
+Thomson & Stark         Expires 19 September 2020              [Page 19]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1117,7 +1117,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 20]
+Thomson & Stark         Expires 19 September 2020              [Page 20]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1173,7 +1173,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 21]
+Thomson & Stark         Expires 19 September 2020              [Page 21]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1183,9 +1183,9 @@ Internet-Draft            GitHub Usage Guidance               March 2020
    individual credentials, is made public.
 
    Compromise of credentials could mean loss of control for repositories
-   and organizations.  Owners and administrators SHOULD use current best
-   practices for protection of credentials, such as multi-factor
-   authentication.
+   and organizations.  All contributors, especially those with commit or
+   admin privileges SHOULD use current best practices for protection of
+   credentials, such as multi-factor authentication.
 
 11.  IANA Considerations
 
@@ -1229,7 +1229,7 @@ Internet-Draft            GitHub Usage Guidance               March 2020
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 22]
+Thomson & Stark         Expires 19 September 2020              [Page 22]
 
 Internet-Draft            GitHub Usage Guidance               March 2020
 
@@ -1285,4 +1285,4 @@ Authors' Addresses
 
 
 
-Thomson & Stark         Expires 17 September 2020              [Page 23]
+Thomson & Stark         Expires 19 September 2020              [Page 23]
